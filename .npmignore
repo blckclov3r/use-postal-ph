@@ -1,0 +1,7 @@
+.idea
+node_modules
+.env
+src
+img
+tsconfig.json
+tsup.config.ts
