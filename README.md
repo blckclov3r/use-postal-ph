@@ -4,9 +4,6 @@
     <a href="https://www.npmjs.com/package/use-postal-ph">
         <img src="https://img.shields.io/npm/v/use-postal-ph?style=flat-square&alt=use-postal-ph" alt="npm" />
     </a>
-    <a href="https://github.com/blckclov3r/use-postal-ph#readme">
-        <img src="https://img.shields.io/npm/l/use-postal-ph?style=flat-square" alt="License" />
-    </a>
     <a href="https://www.npmjs.com/package/use-postal-ph">
         <img src="https://img.shields.io/npm/dt/use-postal-ph.svg?style=flat-square" alt="Downloads" />
     </a>
@@ -14,8 +11,8 @@
 
 # use-postal-ph
 
-A JavaScript/TypeScript library for retrieving postal code, municipality, location, and region information in the
-Philippines.
+This JavaScript/TypeScript library helps you easily retrieve postal code, municipality, location, and region information
+in the Philippines.
 
 ## Installation
 
@@ -43,26 +40,26 @@ Now, you can use the various methods provided by the library to fetch postal cod
 information:
 
 ```javascript
-const postalPh = usePostalPh();
+const postalPH = usePostalPH();
 
 // Fetch a list of municipalities
-const municipalities = postalPh.fetchMunicipalities();
+const municipalities = postalPH.fetchMunicipalities();
 console.log(municipalities);
 
 // Fetch postal codes
-const postalCodes = postalPh.fetchPostCodes();
+const postalCodes = postalPH.fetchPostCodes();
 console.log(postalCodes);
 
 // Fetch locations
-const locations = postalPh.fetchLocations();
+const locations = postalPH.fetchLocations();
 console.log(locations);
 
 // Fetch regions
-const regions = postalPh.fetchRegions();
+const regions = postalPH.fetchRegions();
 console.log(regions);
 
 // Fetch all data lists
-const allData = postalPh.fetchDataLists();
+const allData = postalPH.fetchDataLists();
 console.log(allData);
 ```
 
@@ -70,27 +67,27 @@ You can also specify search criteria and limit the number of results returned:
 
 ```javascript
 // Fetch a list of municipalities starting with 'Manila' and limit the result to 10
-const municipalities = postalPh.fetchMunicipalities({search: 'Manila', limit: 10});
+const municipalities = postalPH.fetchMunicipalities({search: 'Manila', limit: 10});
 console.log(municipalities);
 
 // Fetch postal code for 6045
-const postalCodes = postalPh.fetchPostCodes({search: 6045});
+const postalCodes = postalPH.fetchPostCodes({search: 6045});
 console.log(postalCodes);
 
 // Fetch postal codes with a limit of 5
-const postalCodes = postalPh.fetchPostCodes({limit: 5});
+const postalCodes = postalPH.fetchPostCodes({limit: 5});
 console.log(postalCodes);
 
 // Fetch locations containing 'Cebu' and limit the result to 3
-const locations = postalPh.fetchLocations({search: 'Cebu', limit: 3});
+const locations = postalPH.fetchLocations({search: 'Cebu', limit: 3});
 console.log(locations);
 
 // Fetch regions starting with 'NCR' and limit the result to 8
-const regions = postalPh.fetchRegions({search: 'NCR', limit: 8});
+const regions = postalPH.fetchRegions({search: 'NCR', limit: 8});
 console.log(regions);
 
 // Fetch all data lists with a limit of 15
-const allData = postalPh.fetchDataLists(15);
+const allData = postalPH.fetchDataLists(15);
 console.log(allData);
 ```
 
