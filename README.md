@@ -1,10 +1,15 @@
-<div style="text-align:center; margin: 0 auto" align="center">
-
-![use-postal-ph](https://github-production-user-asset-6210df.s3.amazonaws.com/43292234/316257222-8fc4c819-5f85-4bc2-b504-143b4b95312a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240323%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240323T171142Z&X-Amz-Expires=300&X-Amz-Signature=877940709cea82dc420674c96ebabefa8c58936fdf316f55fe1b5d85dbe22108&X-Amz-SignedHeaders=host&actor_id=43292234&key_id=0&repo_id=773900796)
-[![npm](https://img.shields.io/npm/v/use-postal-ph?style=flat-square&alt=use-postal-ph)](https://www.npmjs.com/package/use-postal-ph)
-[![License](https://img.shields.io/npm/l/use-postal-ph?style=flat-square)](https://github.com/blckclov3r/use-postal-ph#readme)
-[![Downloads](https://img.shields.io/npm/dt/use-postal-ph.svg?style=flat-square)](https://www.npmjs.com/package/use-postal-ph)
-
+<div style="text-align: center;">
+    <img src="https://github.com/blckclov3r/use-postal-ph/blob/master/img/use-postal-ph.png?raw=true" alt="use-postal-ph" />
+    <br>
+    <a href="https://www.npmjs.com/package/use-postal-ph">
+        <img src="https://img.shields.io/npm/v/use-postal-ph?style=flat-square&alt=use-postal-ph" alt="npm" />
+    </a>
+    <a href="https://github.com/blckclov3r/use-postal-ph#readme">
+        <img src="https://img.shields.io/npm/l/use-postal-ph?style=flat-square" alt="License" />
+    </a>
+    <a href="https://www.npmjs.com/package/use-postal-ph">
+        <img src="https://img.shields.io/npm/dt/use-postal-ph.svg?style=flat-square" alt="Downloads" />
+    </a>
 </div>
 
 # use-postal-ph
