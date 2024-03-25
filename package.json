@@ -1,6 +1,6 @@
 {
   "name": "use-postal-ph",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A utility library for the Philippines provides postal code, municipality, location, and region info, compatible with JavaScript/Typescript environments. It works offline, no network needed.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
