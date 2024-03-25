@@ -1,13 +1,13 @@
 import initializePlaces from "./logic/initializePlaces";
 
-export default function usePostalPh() {
+const usePostalPH = () => {
     const {
         fetchMunicipalities,
         fetchPostCodes,
         fetchLocations,
         fetchRegions,
         fetchDataLists,
-    } = (initializePlaces() || {});
+    } = initializePlaces();
 
     return {
         fetchMunicipalities,
@@ -17,3 +17,4 @@ export default function usePostalPh() {
         fetchDataLists,
     };
 }
+export default usePostalPH;

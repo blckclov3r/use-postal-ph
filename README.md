@@ -1,23 +1,16 @@
-<div style="text-align:center;">
+<div style="text-align:center; margin: 0 auto" align="center">
 
 ![use-postal-ph](https://github-production-user-asset-6210df.s3.amazonaws.com/43292234/316257222-8fc4c819-5f85-4bc2-b504-143b4b95312a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240323%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240323T171142Z&X-Amz-Expires=300&X-Amz-Signature=877940709cea82dc420674c96ebabefa8c58936fdf316f55fe1b5d85dbe22108&X-Amz-SignedHeaders=host&actor_id=43292234&key_id=0&repo_id=773900796)
-[![npm](https://img.shields.io/npm/v/use-postal-ph?style=flat-square)](https://www.npmjs.com/package/use-postal-ph)
-[![License](https://img.shields.io/npm/l/use-postal-ph?style=flat-square)](https://github.com/blckclov3r/your-repo/blob/main/LICENSE)
+[![npm](https://img.shields.io/npm/v/use-postal-ph?style=flat-square&alt=use-postal-ph)](https://www.npmjs.com/package/use-postal-ph)
+[![License](https://img.shields.io/npm/l/use-postal-ph?style=flat-square)](https://github.com/blckclov3r/use-postal-ph#readme)
+[![Downloads](https://img.shields.io/npm/dt/use-postal-ph.svg?style=flat-square)](https://www.npmjs.com/package/use-postal-ph)
 
 </div>
 
+# use-postal-ph
 
-[npm-image]: https://img.shields.io/npm/v/use-postal-ph.svg
-
-[mit-license]: https://github.com/blckclov3r/use-postal-ph#readme
-
-[downloads-image]: https://img.shields.io/npm/dm/use-postal-ph.svg
-
-[downloads-url]: https://npmjs.org/package/use-postal-ph
-
-This library provides postal code, municipality, location, and region information for the Philippines. It ensures
-compatibility and versatility across various JavaScript/Typescript environments. Plus, it can be used offline since the
-data isn't fetched from the network.
+A JavaScript/TypeScript library for retrieving postal code, municipality, location, and region information in the
+Philippines.
 
 ## Installation
 
@@ -105,7 +98,7 @@ used:
     - Each object represents a place with the following properties:
         - `municipality`: The name of the municipality.
         - `location`: The specific district or neighborhood.
-        - `post_code`: The postal code.
+        - `post_code`: This represents the specific postal code assigned to the location.
         - `region`: The region where the place is located.
 
 - If the method returns an array of strings or numbers:
@@ -120,10 +113,48 @@ When using the library's methods, you have the option to include an object conta
 - **Limit**: Optionally restricts the number of results returned. Please note that the `limit` parameter doesn't apply
   to postal codes. It functions differently and cannot be used to restrict the results when searching for postal codes.
 
-## Contribution
+## ECMAScript Module (ESM) Entry Point
 
-Contributions are highly appreciated; simply fork the repository and create a pull request. Please be aware
-that while this library provides information, it may not be comprehensive.
+If you prefer not to install the package and want to include the ECMAScript module (ESM) entry point directly in your
+project, you can use the following script tag:
+
+- npm:
+  `https://unpkg.com/use-postal-ph@0.0.1/dist/index.mjs`
+
+- CDN (jsDelivr):
+  `https://cdn.jsdelivr.net/npm/use-postal-ph@0.0.1/dist/index.mjs`
+
+```html
+
+<script type="module">
+    import usePostalPH from 'https://unpkg.com/use-postal-ph@0.0.1/dist/index.mjs';
+
+    const {fetchDataLists, fetchLocations, fetchMunicipalities, fetchPostCodes, fetchRegions} = usePostalPH();
+    console.log(fetchPostCodes({search: "6045"}))
+</script>
+```
+
+This script imports the `fetchPostCodes` function from the `use-postal-ph` package and retrieves information for the
+postal code '6045'. It then logs the result to the console.
+
+```json
+{
+  "municipality": "Cebu",
+  "region": "VII",
+  "location": "Talisay",
+  "post_code": 6045
+}
+```
+
+## Contribution Guidelines
+
+Contributions are highly appreciated! To contribute, simply fork the repository, create a new branch for your changes,
+and submit a pull request. Please ensure your code adheres to the existing coding standards and conventions.
+
+## Note
+
+While this library provides information, it may not be comprehensive. Contributions to improve data completeness are
+welcome.
 
 ## License
 

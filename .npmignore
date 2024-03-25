@@ -5,3 +5,4 @@ src
 img
 tsconfig.json
 tsup.config.ts
+start.sh
