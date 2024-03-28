@@ -124,7 +124,7 @@ project, you can use the following script tag:
 ```html
 
 <script type="module">
-    import usePostalPH from 'https://unpkg.com/use-postal-ph@0.0.1/dist/index.mjs';
+    import usePostalPH from 'https://unpkg.com/use-postal-ph@1.0.0/dist/index.mjs';
 
     const {
         fetchDataLists,
