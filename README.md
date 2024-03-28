@@ -5,9 +5,10 @@ A utility library for the Philippines that provides postal code, municipality, l
 ![use-postal-ph](https://github.com/blckclov3r/use-postal-ph/blob/master/img/use-postal-ph.png?raw=true)
 
 [![npm version](https://img.shields.io/npm/v/use-postal-ph?style=flat-square&alt=use-postal-ph)](https://www.npmjs.com/package/use-postal-ph)
-[![Downloads](https://img.shields.io/npm/dt/use-postal-ph.svg?style=flat-square)](https://bundlephobia.com/result?p=use-postal-ph)
-[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![jsDocs.io](https://img.shields.io/badge/jsDocs.io-reference-blue)](https://github.com/blckclov3r/use-postal-ph?tab=MIT-1-ov-file)
+[![Bundlephobia](https://img.shields.io/bundlephobia/min/use-postal-ph)](https://bundlephobia.com/result?p=use-postal-ph)
+[![Downloads](https://img.shields.io/npm/dt/use-postal-ph.svg?style=flat-square)](https://www.npmjs.com/package/use-postal-ph)
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/blckclov3r/use-postal-ph?tab=MIT-1-ov-file)
+[![jsDocs.io](https://img.shields.io/badge/jsDocs.io-reference-blue)](https://www.jsdocs.io/package/use-postal-ph)
 
 ## Installation
 
