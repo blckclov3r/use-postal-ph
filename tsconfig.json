@@ -12,7 +12,8 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "outDir": "./dist",
-    "target": "ESNext"
+    "target": "ESNext",
+    "declaration": true
   },
   "include": [
     "src",

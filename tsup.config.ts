@@ -7,7 +7,6 @@ const config = defineConfig({
     clean: true,
     minify: "terser",
     treeshake: true,
-    splitting: true,
     terserOptions: {
         mangle: true,
         compress: true,

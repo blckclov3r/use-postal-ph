@@ -1,9 +1,15 @@
 import dataRegistry from "./dataRegistry";
-import {PlaceProps, SearchProps,} from "../types/places";
+import {PlaceListProps, PlaceProps, SearchProps} from "../types/places";
+
+/*
+ * Author: blckclov3r
+ * Email: blckclov3r@gmail.com
+ * GitHub: https://github.com/blckclov3r
+ */
 
 export default function initializePlaces() {
     const {fetchPlaces} = dataRegistry();
-    const data = ((fetchPlaces()?.data) || []);
+    const data = fetchPlaces()?.data || [];
     let municipalityList: string[] = [];
     let postCodeList: number[] = [];
     let locationList: string[] = [];
@@ -30,7 +36,13 @@ export default function initializePlaces() {
         if (!value || !key) return undefined;
         const pattern = value.toString().trim();
         const regex = new RegExp('^' + pattern, 'i');
-        return data.find((x) => regex.test(x[key]?.toString() || ''));
+        return data?.find((x) => regex.test(x[key]?.toString() || ''));
+    };
+
+    const createRegexPattern = (value: string | undefined, autoComplete: boolean = false) => {
+        const pattern = value?.toString().trim();
+        const regexPattern = autoComplete ? '^' + pattern?.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') : '^' + pattern?.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '$';
+        return new RegExp(regexPattern, 'i')
     };
 
     const filterData = <T>(
@@ -40,9 +52,7 @@ export default function initializePlaces() {
         autoComplete: boolean = false,
     ) => {
         if (!value || !key) return {data: [], count: 0};
-        const pattern = value.toString().trim();
-        const regexPattern = autoComplete ? '^' + pattern.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') : '^' + pattern.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '$';
-        const regex = new RegExp(regexPattern, 'i');
+        const regex = createRegexPattern(value.toString(), autoComplete);
         let filteredData = data.filter((x) => regex.test(x[key]?.toString() || ''));
         let count = filteredData.length;
         if (limit && limit > 0) {
@@ -52,10 +62,18 @@ export default function initializePlaces() {
         return {data: filteredData, count};
     };
 
-    const fetchDataLists = (limit?: number | undefined) => {
+    const fetchDataLists = ({municipality, post_code, region, location, limit}: Partial<PlaceListProps> = {}) => {
+        const newData = data?.filter(entry => {
+            const municipalityMatch = !municipality || createRegexPattern(municipality, true).test(entry.municipality || '');
+            const postCodeMatch = !post_code || createRegexPattern(post_code.toString(), true).test(entry.post_code?.toString() || '');
+            const regionMatch = !region || createRegexPattern(region, true).test(entry.region || '');
+            const locationMatch = !location || createRegexPattern(location, true).test(entry.location || '');
+            return municipalityMatch && postCodeMatch && regionMatch && locationMatch;
+        });
+        const limitedData = limit ? newData?.slice(0, limit) : newData;
         return {
-            data: limit ? data.slice(0, limit) : data,
-            count: limit ? data.slice(0, limit).length : data.length,
+            data: limitedData,
+            count: limitedData?.length,
         };
     };
 
@@ -66,7 +84,7 @@ export default function initializePlaces() {
             setUniqueArray(municipalityList, 'municipality', limit);
             return {
                 data: municipalityList.slice(0, limit),
-                count: limit ? municipalityList.slice(0, limit).length : municipalityList.length,
+                count: limit ? municipalityList?.slice(0, limit).length : municipalityList?.length,
             };
         }
     };
@@ -77,8 +95,8 @@ export default function initializePlaces() {
         } else {
             setUniqueArray(postCodeList, 'post_code', limit);
             return {
-                data: postCodeList.slice(0, limit),
-                count: limit ? postCodeList.slice(0, limit).length : postCodeList.length,
+                data: postCodeList?.slice(0, limit),
+                count: limit ? postCodeList?.slice(0, limit).length : postCodeList?.length,
             };
         }
     };
@@ -89,8 +107,8 @@ export default function initializePlaces() {
         } else {
             setUniqueArray(locationList, 'location');
             return {
-                data: locationList.slice(0, limit),
-                count: limit ? locationList.slice(0, limit).length : locationList.length,
+                data: locationList?.slice(0, limit),
+                count: limit ? locationList?.slice(0, limit).length : locationList?.length,
             };
         }
     };
@@ -102,7 +120,7 @@ export default function initializePlaces() {
             setUniqueArray(regionList, 'region');
             return {
                 data: regionList.slice(0, limit),
-                count: limit ? regionList.slice(0, limit).length : regionList.length,
+                count: limit ? regionList?.slice(0, limit).length : regionList?.length,
             };
         }
     };

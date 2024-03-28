@@ -1,13 +1,14 @@
 # use-postal-ph
 
-A utility library for the Philippines that provides postal code, municipality, location, and region information.
+This utility library is specifically designed for the Philippines, providing comprehensive information on postal codes,
+municipalities, locations, and regions. Moreover, searching within the library is case insensitive.
 
 ![use-postal-ph](https://github.com/blckclov3r/use-postal-ph/blob/master/img/use-postal-ph.png?raw=true)
 
 [![npm version](https://img.shields.io/npm/v/use-postal-ph?style=flat-square&alt=use-postal-ph)](https://www.npmjs.com/package/use-postal-ph)
 [![Bundlephobia](https://img.shields.io/bundlephobia/min/use-postal-ph)](https://bundlephobia.com/result?p=use-postal-ph)
 [![Downloads](https://img.shields.io/npm/dt/use-postal-ph.svg?style=flat-square)](https://www.npmjs.com/package/use-postal-ph)
-[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/blckclov3r/use-postal-ph?tab=MIT-1-ov-file)
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/blckclov3r)
 [![jsDocs.io](https://img.shields.io/badge/jsDocs.io-reference-blue)](https://www.jsdocs.io/package/use-postal-ph)
 
 ## Installation
@@ -85,6 +86,15 @@ console.log(regions);
 // Fetch all data lists with a limit of 15
 const allData = postalPH.fetchDataLists(15);
 console.log(allData);
+
+// Fetch data based on the search criteria and limit
+const result = postalPH.fetchDataLists({
+    post_code: 604,
+    location: "ta",
+    region: "VII",
+    municipality: "Cebu"
+});
+console.log(result);
 ```
 
 ## Return Values
@@ -116,15 +126,15 @@ When using the library's methods, you have the option to include an object conta
 If you prefer not to install the package and want to include the ECMAScript module (ESM) entry point directly in your
 project, you can use the following script tag:
 
-- npm: [`https://unpkg.com/use-postal-ph@1.0.0/dist/index.mjs`](https://unpkg.com/use-postal-ph@1.0.0/dist/index.mjs)
-
 - CDN (
-  jsDelivr): [`https://cdn.jsdelivr.net/npm/use-postal-ph@1.0.0/dist/index.mjs`](https://cdn.jsdelivr.net/npm/use-postal-ph@1.0.0/dist/index.mjs)
+  jsDelivr): [`https://cdn.jsdelivr.net/npm/use-postal-ph@1.0.4/dist/index.mjs`](https://cdn.jsdelivr.net/npm/use-postal-ph@1.0.4/dist/index.mjs)
+
+- npm: [`https://unpkg.com/use-postal-ph@1.0.4/dist/index.mjs`](https://unpkg.com/use-postal-ph@1.0.4/dist/index.mjs)
 
 ```html
 
 <script type="module">
-    import usePostalPH from 'https://unpkg.com/use-postal-ph@1.0.0/dist/index.mjs';
+    import usePostalPH from 'https://unpkg.com/use-postal-ph@1.0.4/dist/index.mjs';
 
     const {
         fetchDataLists,
@@ -151,6 +161,9 @@ postal code '6045'. It then logs the result to the console.
 ```
 
 ## Demo
+
+Explore the live demo to experience fetching and searching functionalities for municipalities, post codes, locations,
+and regions. Interact with the application to witness its efficiency and responsiveness in action.
 
 https://use-postal-ph.vercel.app
 
