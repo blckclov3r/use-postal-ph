@@ -7,12 +7,7 @@
     "strictNullChecks": true,
     "module": "CommonJS",
     "moduleResolution": "Node",
-    "declaration": true,
     "isolatedModules": true,
-    "lib": [
-      "ESNext",
-      "DOM"
-    ],
     "strictBindCallApply": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
