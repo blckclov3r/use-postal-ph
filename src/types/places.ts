@@ -3,10 +3,10 @@ export interface PlacesProps {
 }
 
 export interface PlaceProps {
-    municipality?: string | undefined;
-    location?: string | undefined;
-    post_code?: number | undefined;
-    region?: string | undefined;
+    municipality?: string;
+    location?: string;
+    post_code?: number;
+    region?: string;
 }
 
 export interface FilteredData<T> {
@@ -15,6 +15,6 @@ export interface FilteredData<T> {
 }
 
 export interface SearchProps {
-    search?: number | string | undefined;
-    limit?: number | undefined;
+    search?: number | string;
+    limit?: number;
 }

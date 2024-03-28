@@ -1,18 +1,13 @@
-<div style="text-align: center;">
-    <img src="https://github.com/blckclov3r/use-postal-ph/blob/master/img/use-postal-ph.png?raw=true" alt="use-postal-ph" />
-    <br>
-    <a href="https://www.npmjs.com/package/use-postal-ph">
-        <img src="https://img.shields.io/npm/v/use-postal-ph?style=flat-square&alt=use-postal-ph" alt="npm" />
-    </a>
-    <a href="https://www.npmjs.com/package/use-postal-ph">
-        <img src="https://img.shields.io/npm/dt/use-postal-ph.svg?style=flat-square" alt="Downloads" />
-    </a>
-</div>
-
 # use-postal-ph
 
-This JavaScript/TypeScript library helps you easily retrieve postal code, municipality, location, and region information
-in the Philippines.
+A utility library for the Philippines that provides postal code, municipality, location, and region information.
+
+![use-postal-ph](https://github.com/blckclov3r/use-postal-ph/blob/master/img/use-postal-ph.png?raw=true)
+
+[![npm version](https://img.shields.io/npm/v/use-postal-ph?style=flat-square&alt=use-postal-ph)](https://www.npmjs.com/package/use-postal-ph)
+[![Downloads](https://img.shields.io/npm/dt/use-postal-ph.svg?style=flat-square)](https://bundlephobia.com/result?p=use-postal-ph)
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![jsDocs.io](https://img.shields.io/badge/jsDocs.io-reference-blue)](https://github.com/blckclov3r/use-postal-ph?tab=MIT-1-ov-file)
 
 ## Installation
 
@@ -120,18 +115,24 @@ When using the library's methods, you have the option to include an object conta
 If you prefer not to install the package and want to include the ECMAScript module (ESM) entry point directly in your
 project, you can use the following script tag:
 
-- npm:
-  `https://unpkg.com/use-postal-ph@0.0.1/dist/index.mjs`
+- npm: [`https://unpkg.com/use-postal-ph@1.0.0/dist/index.mjs`](https://unpkg.com/use-postal-ph@1.0.0/dist/index.mjs)
 
-- CDN (jsDelivr):
-  `https://cdn.jsdelivr.net/npm/use-postal-ph@0.0.1/dist/index.mjs`
+- CDN (
+  jsDelivr): [`https://cdn.jsdelivr.net/npm/use-postal-ph@1.0.0/dist/index.mjs`](https://cdn.jsdelivr.net/npm/use-postal-ph@1.0.0/dist/index.mjs)
 
 ```html
 
 <script type="module">
     import usePostalPH from 'https://unpkg.com/use-postal-ph@0.0.1/dist/index.mjs';
 
-    const {fetchDataLists, fetchLocations, fetchMunicipalities, fetchPostCodes, fetchRegions} = usePostalPH();
+    const {
+        fetchDataLists,
+        fetchLocations,
+        fetchMunicipalities,
+        fetchPostCodes,
+        fetchRegions
+    } = usePostalPH();
+
     console.log(fetchPostCodes({search: "6045"}))
 </script>
 ```
@@ -150,14 +151,11 @@ postal code '6045'. It then logs the result to the console.
 
 ## Contribution Guidelines
 
-Contributions are highly appreciated! To contribute, simply fork the repository, create a new branch for your changes,
-and submit a pull request. Please ensure your code adheres to the existing coding standards and conventions.
-
-## Note
-
-While this library provides information, it may not be comprehensive. Contributions to improve data completeness are
+Contributions are highly appreciated! To contribute, fork the repository, create a new branch for your changes, and
+submit a pull request. Please ensure your code adheres to the existing coding standards and conventions. While this
+library provides information, it may not be comprehensive. Contributions aimed at improving data completeness are
 welcome.
 
 ## License
 
-MIT &copy; [blckclov3r](https://github.com/blckclov3r/use-postal-ph#readme)
+MIT &copy; [blckclov3r](https://github.com/blckclov3r/use-postal-ph?tab=MIT-1-ov-file)

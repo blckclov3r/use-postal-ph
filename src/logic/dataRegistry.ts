@@ -1,4 +1,4 @@
-import {PlaceProps, PlacesProps} from "../types/places";
+import {PlacesProps} from "../types/places";
 
 export default function () {
     const data = [
@@ -1010,51 +1010,61 @@ export default function () {
         },
         {
             "municipality": "Pasay City",
+            "region": "NCR",
             "location": "Domestic Airport PO",
             "post_code": 1301
         },
         {
             "municipality": "Pasay City",
+            "region": "NCR",
             "location": "Manila Bay (Reclamation)",
             "post_code": 1308
         },
         {
             "municipality": "Pasay City",
+            "region": "NCR",
             "location": "Pasay City CPO Malibay",
             "post_code": 1300
         },
         {
             "municipality": "Pasay City",
+            "region": "NCR",
             "location": "PICC (Reclamation Area)",
             "post_code": 1307
         },
         {
             "municipality": "Pasay City",
+            "region": "NCR",
             "location": "San Isidro",
             "post_code": 1306
         },
         {
             "municipality": "Pasay City",
+            "region": "NCR",
             "location": "San Jose",
             "post_code": 1305
         },
         {
             "municipality": "Pasay City",
+            "region": "NCR",
             "location": "San Rafael",
             "post_code": 1302
         },
         {
             "municipality": "Pasay City",
+            "region": "NCR",
             "location": "San Roque",
             "post_code": 1303
         },
         {
             "municipality": "Pasay City",
+            "region": "NCR",
             "location": "Santa Clara",
             "post_code": 1304
         },
         {
             "municipality": "Pasay City",
+            "region": "NCR",
             "location": "Villamor Airbase",
             "post_code": 1309
         },
@@ -12761,7 +12771,7 @@ export default function () {
             "location": "Tungawan",
             "post_code": 7018
         }
-    ] as PlaceProps[];
+    ];
     const fetchPlaces = (): PlacesProps => {
         return {data};
     };

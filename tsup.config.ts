@@ -5,7 +5,9 @@ const config = defineConfig({
     entry: ['./src/index.ts'],
     dts: true,
     clean: true,
-    minify: true,
+    minify: "terser",
+    treeshake: true,
+    splitting: true,
     terserOptions: {
         mangle: true,
         compress: true,

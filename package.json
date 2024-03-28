@@ -1,16 +1,16 @@
 {
   "name": "use-postal-ph",
   "version": "0.1.0",
-  "description": "A utility library for the Philippines provides postal code, municipality, location, and region info, compatible with JavaScript/Typescript environments. It works offline, no network needed.",
+  "description": "A utility library for the Philippines that provides postal code, municipality, location, and region information.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "homepage": "https://github.com/blckclov3r/use-postal-ph#readme",
-  "scripts": {
-    "build": "tsup src/index.ts --clean --treeshake --minify terser"
-  },
   "keywords": [
+    "use-postal",
+    "use-ph",
     "use-postal-ph",
+    "postal-ph",
     "postal",
     "postcode",
     "post-code",
@@ -21,14 +21,30 @@
     "philippines",
     "utility",
     "library",
-    "utility-library"
+    "utility-library",
+    "geolocation",
+    "offline",
+    "phil"
   ],
   "author": "blckclov3r",
   "license": "MIT",
+  "scripts": {
+    "build": "tsup src/index.ts --outDir dist --minify terser"
+  },
+  "repository": {
+    "url": "https://github.com/blckclov3r/use-postal-ph"
+  },
+  "bugs": {
+    "url": "https://github.com/blckclov3r/use-postal-ph/issues",
+    "email": "blckclov3r@gmail.com"
+  },
   "devDependencies": {
     "terser": "^5.29.2",
     "tsup": "^8.0.2",
     "typescript": "^5.4.3"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {}
 }
