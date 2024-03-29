@@ -11,13 +11,24 @@ municipalities, locations, and regions. Moreover, searching within the library i
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/blckclov3r)
 [![jsDocs.io](https://img.shields.io/badge/jsDocs.io-reference-blue)](https://www.jsdocs.io/package/use-postal-ph)
 
+## Contents
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [Return Values](#return-values)
+* [Query Options](#query-options)
+* [ECMAScript Module (ESM) Entry Point](#ecmascript-module-esm-entry-point)
+* [Demo](#demo)
+* [Contribution Guidelines](#contribution-guidelines)
+* [License](#license)
+
 ## Installation
 
 Install via NPM:
 
 ```bash
 npm install use-postal-ph
-````
+```
 
 Or via Yarn:
 
@@ -84,17 +95,17 @@ const regions = postalPH.fetchRegions({search: 'NCR', limit: 8});
 console.log(regions);
 
 // Fetch all data lists with a limit of 15
-const allData = postalPH.fetchDataLists(15);
-console.log(allData);
+const dataLimit = postalPH.fetchDataLists(15);
+console.log(dataLimit);
 
-// Fetch data based on the search criteria and limit
-const result = postalPH.fetchDataLists({
-    post_code: 604,
-    location: "ta",
+// Fetch data based on the search criteria
+const data = postalPH.fetchDataLists({
+    post_code: 6045,
+    location: "Talisay",
     region: "VII",
     municipality: "Cebu"
 });
-console.log(result);
+console.log(data);
 ```
 
 ## Return Values
@@ -127,14 +138,14 @@ If you prefer not to install the package and want to include the ECMAScript modu
 project, you can use the following script tag:
 
 - CDN (
-  jsDelivr): [`https://cdn.jsdelivr.net/npm/use-postal-ph@1.0.4/dist/index.mjs`](https://cdn.jsdelivr.net/npm/use-postal-ph@1.0.4/dist/index.mjs)
+  jsDelivr): [`https://cdn.jsdelivr.net/npm/use-postal-ph@1.0.6/dist/index.mjs`](https://cdn.jsdelivr.net/npm/use-postal-ph@1.0.6/dist/index.mjs)
 
-- npm: [`https://unpkg.com/use-postal-ph@1.0.4/dist/index.mjs`](https://unpkg.com/use-postal-ph@1.0.4/dist/index.mjs)
+- npm: [`https://unpkg.com/use-postal-ph@1.0.6/dist/index.mjs`](https://unpkg.com/use-postal-ph@1.0.6/dist/index.mjs)
 
 ```html
 
 <script type="module">
-    import usePostalPH from 'https://unpkg.com/use-postal-ph@1.0.4/dist/index.mjs';
+    import usePostalPH from 'https://unpkg.com/use-postal-ph@1.0.6/dist/index.mjs';
 
     const {
         fetchDataLists,
@@ -171,8 +182,8 @@ https://use-postal-ph.vercel.app
 
 Contributions are highly appreciated! To contribute, fork the repository, create a new branch for your changes, and
 submit a pull request. Please ensure your code adheres to the existing coding standards and conventions. While this
-library provides information, it may not be comprehensive. Contributions aimed at improving data completeness are
-welcome.
+library provides information, it may not be comprehensive. Contributions aimed at enhancing the comprehensiveness of the
+data are welcome.
 
 ## License
 

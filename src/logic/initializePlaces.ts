@@ -62,6 +62,18 @@ export default function initializePlaces() {
         return {data: filteredData, count};
     };
 
+    const setError = (name: string, error: unknown) => {
+        if (error instanceof Error) {
+            const errorMessage = `An error occurred in ${name}: ${error.message}`;
+            console.error(errorMessage);
+            throw new Error(errorMessage);
+        } else {
+            const unknownErrorMessage = `An unknown error occurred in ${name}: ${error}`;
+            console.error(unknownErrorMessage);
+            throw new Error('An unknown error occurred.');
+        }
+    }
+
     const fetchDataLists = ({municipality, post_code, region, location, limit}: Partial<PlaceListProps> = {}) => {
         const newData = data?.filter(entry => {
             const municipalityMatch = !municipality || createRegexPattern(municipality, true).test(entry.municipality || '');
@@ -78,50 +90,66 @@ export default function initializePlaces() {
     };
 
     const fetchMunicipalities = ({search, limit}: Partial<SearchProps> = {}) => {
-        if (search) {
-            return filterData('municipality', search, limit, true);
-        } else {
-            setUniqueArray(municipalityList, 'municipality', limit);
-            return {
-                data: municipalityList.slice(0, limit),
-                count: limit ? municipalityList?.slice(0, limit).length : municipalityList?.length,
-            };
+        try {
+            if (search) {
+                return filterData('municipality', search, limit, true);
+            } else {
+                setUniqueArray(municipalityList, 'municipality', limit);
+                return {
+                    data: municipalityList.slice(0, limit),
+                    count: limit ? municipalityList?.slice(0, limit)?.length : municipalityList?.length,
+                };
+            }
+        } catch (error) {
+            setError('municipality', error);
         }
     };
 
     const fetchPostCodes = ({search, limit}: Partial<SearchProps> = {}) => {
-        if (search) {
-            return findData('post_code', search);
-        } else {
-            setUniqueArray(postCodeList, 'post_code', limit);
-            return {
-                data: postCodeList?.slice(0, limit),
-                count: limit ? postCodeList?.slice(0, limit).length : postCodeList?.length,
-            };
+        try {
+            if (search) {
+                return findData('post_code', search);
+            } else {
+                setUniqueArray(postCodeList, 'post_code', limit);
+                return {
+                    data: postCodeList?.slice(0, limit),
+                    count: limit ? postCodeList?.slice(0, limit)?.length : postCodeList?.length,
+                };
+            }
+        } catch (error) {
+            setError('post_code', error);
         }
     };
 
     const fetchLocations = ({search, limit}: Partial<SearchProps> = {}) => {
-        if (search) {
-            return filterData('location', search, limit, true);
-        } else {
-            setUniqueArray(locationList, 'location');
-            return {
-                data: locationList?.slice(0, limit),
-                count: limit ? locationList?.slice(0, limit).length : locationList?.length,
-            };
+        try {
+            if (search) {
+                return filterData('location', search, limit, true);
+            } else {
+                setUniqueArray(locationList, 'location');
+                return {
+                    data: locationList?.slice(0, limit),
+                    count: limit ? locationList?.slice(0, limit)?.length : locationList?.length,
+                };
+            }
+        } catch (error) {
+            setError('location', error);
         }
     };
 
     const fetchRegions = ({search, limit}: Partial<SearchProps> = {}) => {
-        if (search) {
-            return filterData('region', search, limit, false);
-        } else {
-            setUniqueArray(regionList, 'region');
-            return {
-                data: regionList.slice(0, limit),
-                count: limit ? regionList?.slice(0, limit).length : regionList?.length,
-            };
+        try {
+            if (search) {
+                return filterData('region', search, limit, false);
+            } else {
+                setUniqueArray(regionList, 'region');
+                return {
+                    data: regionList.slice(0, limit),
+                    count: limit ? regionList?.slice(0, limit)?.length : regionList?.length,
+                };
+            }
+        } catch (error) {
+            setError('region', error);
         }
     };
 
