@@ -3508,41 +3508,49 @@ export default function () {
         },
         {
             "municipality": "Aurora",
+            "region": "CAR",
             "location": "Baler",
             "post_code": 3200
         },
         {
             "municipality": "Aurora",
+            "region": "CAR",
             "location": "Casiguran",
             "post_code": 3204
         },
         {
             "municipality": "Aurora",
+            "region": "CAR",
             "location": "Dilasag",
             "post_code": 3205
         },
         {
             "municipality": "Aurora",
+            "region": "CAR",
             "location": "Dinalungan",
             "post_code": 3206
         },
         {
             "municipality": "Aurora",
+            "region": "CAR",
             "location": "Dingalan",
             "post_code": 3207
         },
         {
             "municipality": "Aurora",
+            "region": "CAR",
             "location": "Dipaculao",
             "post_code": 3203
         },
         {
             "municipality": "Aurora",
+            "region": "CAR",
             "location": "Maria Aurora",
             "post_code": 3202
         },
         {
             "municipality": "Aurora",
+            "region": "CAR",
             "location": "San Luis",
             "post_code": 3201
         },

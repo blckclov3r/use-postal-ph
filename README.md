@@ -138,14 +138,14 @@ If you prefer not to install the package and want to include the ECMAScript modu
 project, you can use the following script tag:
 
 - CDN (
-  jsDelivr): [`https://cdn.jsdelivr.net/npm/use-postal-ph@1.0.6/dist/index.mjs`](https://cdn.jsdelivr.net/npm/use-postal-ph@1.0.6/dist/index.mjs)
+  jsDelivr): [`https://cdn.jsdelivr.net/npm/use-postal-ph@1.0.7/dist/index.mjs`](https://cdn.jsdelivr.net/npm/use-postal-ph@1.0.7/dist/index.mjs)
 
-- npm: [`https://unpkg.com/use-postal-ph@1.0.6/dist/index.mjs`](https://unpkg.com/use-postal-ph@1.0.6/dist/index.mjs)
+- npm: [`https://unpkg.com/use-postal-ph@1.0.7/dist/index.mjs`](https://unpkg.com/use-postal-ph@1.0.7/dist/index.mjs)
 
 ```html
 
 <script type="module">
-    import usePostalPH from 'https://unpkg.com/use-postal-ph@1.0.6/dist/index.mjs';
+    import usePostalPH from 'https://unpkg.com/use-postal-ph@1.0.7/dist/index.mjs';
 
     const {
         fetchDataLists,
