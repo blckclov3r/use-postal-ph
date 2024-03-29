@@ -118,11 +118,13 @@ export default function () {
         },
         {
             "municipality": "Caloocan City (North)",
+            "region": "NCR",
             "location": "Amparo Subdivision",
             "post_code": 1425
         },
         {
             "municipality": "Caloocan area (North)",
+            "region": "NCR",
             "location": "Bagong Silang",
             "post_code": 1428
         },
