@@ -6,10 +6,13 @@ const config = defineConfig({
     dts: true,
     clean: true,
     minify: "terser",
+    keepNames: true,
     treeshake: true,
+    splitting: false,
     terserOptions: {
         mangle: true,
         compress: true,
+        ecma: 2020,
     },
 });
 export default config;

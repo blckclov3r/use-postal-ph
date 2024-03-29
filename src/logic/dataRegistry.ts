@@ -1,7 +1,7 @@
-import {PlacesProps} from "../types/places";
+import {PlaceProps, PlacesProps} from "../types/places";
 
-export default function () {
-    const data = [
+export default function dataRegistry() {
+    const data: PlaceProps[] = [
         {
             "municipality": "Manila",
             "location": "Binondo",
@@ -1270,12 +1270,12 @@ export default function () {
         },
         {
             "municipality": "Pateros",
-            "location": "Aguho",
+            "region": "NCR", "location": "Aguho",
             "post_code": 1620
         },
         {
             "municipality": "Pateros",
-            "location": "Sta. Ana",
+            "region": "NCR", "location": "Sta. Ana",
             "post_code": 1621
         },
         {
@@ -2146,27 +2146,31 @@ export default function () {
             "municipality": "Quezon City",
             "region": "NCR",
             "location": "Villa Maria Clara",
-            "post_code": 1109
+            "post_code": 1109,
         },
         {
             "municipality": "San Juan City",
             "location": "Eisenhower-Crame",
-            "post_code": 1504
+            "post_code": 1504,
+            "region": "NCR"
         },
         {
             "municipality": "San Juan City",
             "location": "Greenhills North",
-            "post_code": 1503
+            "post_code": 1503,
+            "region": "NCR"
         },
         {
             "municipality": "San Juan City",
             "location": "Greenhills PO",
-            "post_code": 1502
+            "post_code": 1502,
+            "region": "NCR"
         },
         {
             "municipality": "San Juan City",
             "location": "San Juan CPO",
-            "post_code": 1500
+            "post_code": 1500,
+            "region": "NCR"
         },
         {
             "municipality": "Taguig City",
@@ -3634,107 +3638,107 @@ export default function () {
         },
         {
             "municipality": "Bataan",
-            "location": "Abucay",
+            "region": "III", "location": "Abucay",
             "post_code": 2114
         },
         {
             "municipality": "Bataan",
-            "location": "Cabcaben",
+            "region": "III", "location": "Cabcaben",
             "post_code": 2109
         },
         {
             "municipality": "Bataan",
-            "location": "Bagac",
+            "region": "III", "location": "Bagac",
             "post_code": 2107
         },
         {
             "municipality": "Bataan",
-            "location": "Balanga",
+            "region": "III", "location": "Balanga",
             "post_code": 2100
         },
         {
             "municipality": "Bataan",
-            "location": "Bataan Export Processing Zone",
+            "region": "III", "location": "Bataan Export Processing Zone",
             "post_code": 2106
         },
         {
             "municipality": "Bataan",
-            "location": "Dinalupihan",
+            "region": "III", "location": "Dinalupihan",
             "post_code": 2110
         },
         {
             "municipality": "Bataan",
-            "location": "Hermosa",
+            "region": "III", "location": "Hermosa",
             "post_code": 2111
         },
         {
             "municipality": "Bataan",
-            "location": "Lamao",
+            "region": "III", "location": "Lamao",
             "post_code": 2104
         },
         {
             "municipality": "Bataan",
-            "location": "Limay",
+            "region": "III", "location": "Limay",
             "post_code": 2103
         },
         {
             "municipality": "Bataan",
-            "location": "Mariveles",
+            "region": "III", "location": "Mariveles",
             "post_code": 2105
         },
         {
             "municipality": "Bataan",
-            "location": "Morong",
+            "region": "III", "location": "Morong",
             "post_code": 2108
         },
         {
             "municipality": "Bataan",
-            "location": "Orani",
+            "region": "III", "location": "Orani",
             "post_code": 2112
         },
         {
             "municipality": "Bataan",
-            "location": "Orion",
+            "region": "III", "location": "Orion",
             "post_code": 2102
         },
         {
             "municipality": "Bataan",
-            "location": "Pilar",
+            "region": "III", "location": "Pilar",
             "post_code": 2101
         },
         {
             "municipality": "Bataan",
-            "location": "Samal",
+            "region": "III", "location": "Samal",
             "post_code": 2113
         },
         {
             "municipality": "Batanes",
-            "location": "Basco",
+            "region": "II", "location": "Basco",
             "post_code": 3900
         },
         {
             "municipality": "Batanes",
-            "location": "Itbayat",
+            "region": "II", "location": "Itbayat",
             "post_code": 3905
         },
         {
             "municipality": "Batanes",
-            "location": "Ivana",
+            "region": "II", "location": "Ivana",
             "post_code": 3902
         },
         {
             "municipality": "Batanes",
-            "location": "Mahatao",
+            "region": "II", "location": "Mahatao",
             "post_code": 3901
         },
         {
             "municipality": "Batanes",
-            "location": "Sabtang",
+            "region": "II", "location": "Sabtang",
             "post_code": 3904
         },
         {
             "municipality": "Batanes",
-            "location": "Uyugan",
+            "region": "II", "location": "Uyugan",
             "post_code": 3903
         },
         {
@@ -5155,27 +5159,27 @@ export default function () {
         },
         {
             "municipality": "Camiguin",
-            "location": "Catarman",
+            "region": "X", "location": "Catarman",
             "post_code": 9104
         },
         {
             "municipality": "Camiguin",
-            "location": "Guinsiliban",
+            "region": "X", "location": "Guinsiliban",
             "post_code": 9102
         },
         {
             "municipality": "Camiguin",
-            "location": "Mahinog",
+            "region": "X", "location": "Mahinog",
             "post_code": 9101
         },
         {
             "municipality": "Camiguin",
-            "location": "Mambajao",
+            "region": "X", "location": "Mambajao",
             "post_code": 9100
         },
         {
             "municipality": "Camiguin",
-            "location": "Sagay",
+            "region": "X", "location": "Sagay",
             "post_code": 9103
         },
         {
@@ -6422,57 +6426,60 @@ export default function () {
         },
         {
             "municipality": "Ifugao",
+            "region": "CAR",
             "location": "Aguinaldo",
             "post_code": 3606
         },
         {
             "municipality": "Ifugao",
+            "region": "CAR",
             "location": "Asipulo",
             "post_code": 3610
         },
         {
             "municipality": "Ifugao",
+            "region": "CAR",
             "location": "Banaue",
             "post_code": 3601
         },
         {
             "municipality": "Ifugao",
-            "location": "Hingyon",
+            "region": "CAR", "location": "Hingyon",
             "post_code": 3607
         },
         {
             "municipality": "Ifugao",
-            "location": "Hungduan",
+            "region": "CAR", "location": "Hungduan",
             "post_code": 3603
         },
         {
             "municipality": "Ifugao",
-            "location": "Kiangan",
+            "region": "CAR", "location": "Kiangan",
             "post_code": 3604
         },
         {
             "municipality": "Ifugao",
-            "location": "Lagawe",
+            "region": "CAR", "location": "Lagawe",
             "post_code": 3600
         },
         {
             "municipality": "Ifugao",
-            "location": "Lamut",
+            "region": "CAR", "location": "Lamut",
             "post_code": 3605
         },
         {
             "municipality": "Ifugao",
-            "location": "Mayoyao",
+            "region": "CAR", "location": "Mayoyao",
             "post_code": 3602
         },
         {
             "municipality": "Ifugao",
-            "location": "Potia",
+            "region": "CAR", "location": "Potia",
             "post_code": 3608
         },
         {
             "municipality": "Ifugao",
-            "location": "Tinoc",
+            "region": "CAR", "location": "Tinoc",
             "post_code": 3609
         },
         {
@@ -11547,62 +11554,62 @@ export default function () {
         },
         {
             "municipality": "South Cotabato",
-            "location": "Banga",
+            "region": "XII", "location": "Banga",
             "post_code": 9511
         },
         {
             "municipality": "South Cotabato",
-            "location": "General Santos City",
+            "region": "XII", "location": "General Santos City",
             "post_code": 9500
         },
         {
             "municipality": "South Cotabato",
-            "location": "Koronadal",
+            "region": "XII", "location": "Koronadal",
             "post_code": 9506
         },
         {
             "municipality": "South Cotabato",
-            "location": "Lake Sebu",
+            "region": "XII", "location": "Lake Sebu",
             "post_code": 9518
         },
         {
             "municipality": "South Cotabato",
-            "location": "Norala",
+            "region": "XII", "location": "Norala",
             "post_code": 9508
         },
         {
             "municipality": "South Cotabato",
-            "location": "Polomolok",
+            "region": "XII", "location": "Polomolok",
             "post_code": 9504
         },
         {
             "municipality": "South Cotabato",
-            "location": "Sto. Niño",
+            "region": "XII", "location": "Sto. Niño",
             "post_code": 9509
         },
         {
             "municipality": "South Cotabato",
-            "location": "Surallah",
+            "region": "XII", "location": "Surallah",
             "post_code": 9512
         },
         {
             "municipality": "South Cotabato",
-            "location": "Tampakan",
+            "region": "XII", "location": "Tampakan",
             "post_code": 9507
         },
         {
             "municipality": "South Cotabato",
-            "location": "Tantangan",
+            "region": "XII", "location": "Tantangan",
             "post_code": 9510
         },
         {
             "municipality": "South Cotabato",
-            "location": "T'boli",
+            "region": "XII", "location": "T'boli",
             "post_code": 9513
         },
         {
             "municipality": "South Cotabato",
-            "location": "Tupi",
+            "region": "XII", "location": "Tupi",
             "post_code": 9505
         },
         {

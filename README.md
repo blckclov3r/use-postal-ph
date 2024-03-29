@@ -67,8 +67,8 @@ const regions = postalPH.fetchRegions();
 console.log(regions);
 
 // Fetch all data lists
-const allData = postalPH.fetchDataLists();
-console.log(allData);
+const dataLimit = postalPH.fetchDataLists();
+console.log(dataLimit);
 ```
 
 You can also specify search criteria and limit the number of results returned:
@@ -99,13 +99,13 @@ const dataLimit = postalPH.fetchDataLists(15);
 console.log(dataLimit);
 
 // Fetch data based on the search criteria
-const data = postalPH.fetchDataLists({
+const dataList = postalPH.fetchDataLists({
     post_code: 6045,
     location: "Talisay",
     region: "VII",
     municipality: "Cebu"
 });
-console.log(data);
+console.log(dataList);
 ```
 
 ## Return Values
@@ -138,14 +138,14 @@ If you prefer not to install the package and want to include the ECMAScript modu
 project, you can use the following script tag:
 
 - CDN (
-  jsDelivr): [`https://cdn.jsdelivr.net/npm/use-postal-ph@1.0.7/dist/index.mjs`](https://cdn.jsdelivr.net/npm/use-postal-ph@1.0.7/dist/index.mjs)
+  jsDelivr): [`https://cdn.jsdelivr.net/npm/use-postal-ph@1.0.8/dist/index.mjs`](https://cdn.jsdelivr.net/npm/use-postal-ph@1.0.8/dist/index.mjs)
 
-- npm: [`https://unpkg.com/use-postal-ph@1.0.7/dist/index.mjs`](https://unpkg.com/use-postal-ph@1.0.7/dist/index.mjs)
+- npm: [`https://unpkg.com/use-postal-ph@1.0.8/dist/index.mjs`](https://unpkg.com/use-postal-ph@1.0.8/dist/index.mjs)
 
 ```html
 
 <script type="module">
-    import usePostalPH from 'https://unpkg.com/use-postal-ph@1.0.7/dist/index.mjs';
+    import usePostalPH from 'https://unpkg.com/use-postal-ph@1.0.8/dist/index.mjs';
 
     const {
         fetchDataLists,
