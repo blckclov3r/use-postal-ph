@@ -3,7 +3,7 @@
 This utility library is specifically designed for the Philippines, providing comprehensive information on postal codes,
 municipalities, locations, and regions. Moreover, searching within the library is case insensitive.
 
-![use-postal-ph](https://github.com/blckclov3r/use-postal-ph/blob/master/img/use-postal-ph.png?raw=true)
+![use-postal-ph](https://raw.githubusercontent.com/blckclov3r/use-postal-ph/main/img/use-postal-ph.png)
 
 [![npm version](https://img.shields.io/npm/v/use-postal-ph?style=flat-square&alt=use-postal-ph)](https://www.npmjs.com/package/use-postal-ph)
 [![Bundlephobia](https://img.shields.io/bundlephobia/min/use-postal-ph)](https://bundlephobia.com/result?p=use-postal-ph)
