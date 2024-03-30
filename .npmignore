@@ -6,3 +6,5 @@ img
 tsconfig.json
 tsup.config.ts
 start.sh
+.yarnrc.yml
+.yarn
