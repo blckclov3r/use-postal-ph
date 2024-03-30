@@ -40,14 +40,13 @@ yarn add use-postal-ph
 
 First, import the `use-postal-ph` function:
 
-```javascript
+```typescript
 import usePostalPH from 'use-postal-ph';
 ```
 
-Now, you can use the various methods provided by the library to fetch postal code, municipality, location, and region
-information:
+You can now utilize the library's methods to retrieve postal code, municipality, location, and region information.
 
-```javascript
+```typescript
 const postalPH = usePostalPH();
 
 // Fetch a list of municipalities
@@ -73,7 +72,7 @@ console.log(dataLimit);
 
 You can also specify search criteria and limit the number of results returned:
 
-```javascript
+```typescript
 // Fetch a list of municipalities starting with 'Manila' and limit the result to 10
 const municipalities = postalPH.fetchMunicipalities({search: 'Manila', limit: 10});
 console.log(municipalities);
@@ -83,8 +82,8 @@ const postalCodes = postalPH.fetchPostCodes({search: 6045});
 console.log(postalCodes);
 
 // Fetch postal codes with a limit of 5
-const postalCodes = postalPH.fetchPostCodes({limit: 5});
-console.log(postalCodes);
+const postalCodesLimit = postalPH.fetchPostCodes({limit: 5});
+console.log(postalCodesLimit);
 
 // Fetch locations containing 'Cebu' and limit the result to 3
 const locations = postalPH.fetchLocations({search: 'Cebu', limit: 3});
@@ -106,6 +105,41 @@ const dataList = postalPH.fetchDataLists({
     municipality: "Cebu"
 });
 console.log(dataList);
+```
+
+## Importing Types
+
+You can also import specific types provided by use-postal-ph:
+
+```typescript
+import type {PlaceProps, SearchCriteriaProps, PlaceListCriteriaProps} from "use-postal-ph";
+```
+
+## Type Definitions
+
+Here are the type definitions provided by `use-postal-ph`:
+
+```typescript
+
+export type PlaceDataProps = {
+    data: PlaceProps[];
+};
+
+export type PlaceProps = {
+    municipality?: string;
+    location?: string;
+    post_code?: number | string;
+    region?: string;
+};
+
+export type SearchCriteriaProps = {
+    search?: number | string;
+    limit?: number;
+};
+
+export type PlaceListCriteriaProps = PlaceProps & {
+    limit?: number;
+};
 ```
 
 ## Return Values
@@ -145,14 +179,14 @@ If you prefer not to install the package and want to include the ECMAScript modu
 project, you can use the following script tag:
 
 - CDN (
-  jsDelivr): [`https://cdn.jsdelivr.net/npm/use-postal-ph@1.1.1/dist/index.mjs`](https://cdn.jsdelivr.net/npm/use-postal-ph@1.1.1/dist/index.mjs)
+  jsDelivr): [`https://cdn.jsdelivr.net/npm/use-postal-ph@1.1.2/dist/index.mjs`](https://cdn.jsdelivr.net/npm/use-postal-ph@1.1.2/dist/index.mjs)
 
-- npm: [`https://unpkg.com/use-postal-ph@1.1.1/dist/index.mjs`](https://unpkg.com/use-postal-ph@1.1.1/dist/index.mjs)
+- npm: [`https://unpkg.com/use-postal-ph@1.1.2/dist/index.mjs`](https://unpkg.com/use-postal-ph@1.1.2/dist/index.mjs)
 
 ```html
 
 <script type="module">
-    import usePostalPH from 'https://unpkg.com/use-postal-ph@1.1.1/dist/index.mjs';
+    import usePostalPH from 'https://unpkg.com/use-postal-ph@1.1.2/dist/index.mjs';
 
     const {
         fetchDataLists,

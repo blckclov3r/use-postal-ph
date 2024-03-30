@@ -1,4 +1,5 @@
 import geographicDataFetcher from "./logic/geographicDataFetcher";
+import {PlaceListCriteriaProps, PlaceProps, SearchCriteriaProps} from "./types/placeTypes";
 
 export default function usePostalPH() {
     const {
@@ -17,3 +18,5 @@ export default function usePostalPH() {
         fetchDataLists,
     };
 }
+
+export type {PlaceProps, SearchCriteriaProps, PlaceListCriteriaProps};
