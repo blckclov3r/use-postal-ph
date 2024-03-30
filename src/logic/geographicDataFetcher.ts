@@ -1,5 +1,5 @@
-import dataRegistry from "./dataRegistry";
-import {PlaceListProps, PlaceProps, SearchProps} from "../types/places";
+import placeDataArray from "./placeDataArray";
+import {PlaceListCriteriaProps, PlaceProps, SearchCriteriaProps} from "../types/placeTypes";
 
 /*
  * Author: blckclov3r
@@ -7,9 +7,9 @@ import {PlaceListProps, PlaceProps, SearchProps} from "../types/places";
  * GitHub: https://github.com/blckclov3r
  */
 
-export default function initializePlaces() {
-    const {fetchPlaces} = dataRegistry();
-    const data = fetchPlaces()?.data || [];
+export default function geographicDataFetcher() {
+    const {placeDataProvider} = placeDataArray();
+    const data = placeDataProvider ? placeDataProvider()?.data : [];
     let municipalityList: string[] = [];
     let postCodeList: number[] = [];
     let locationList: string[] = [];
@@ -40,9 +40,9 @@ export default function initializePlaces() {
     };
 
     const createRegexPattern = (value: string | undefined, autoComplete: boolean = false) => {
-        const pattern = value?.toString().trim();
+        const pattern = (value || '').toString().trim();
         const regexPattern = autoComplete ? '^' + pattern?.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') : '^' + pattern?.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '$';
-        return new RegExp(regexPattern, 'i')
+        return new RegExp(regexPattern, 'i');
     };
 
     const filterData = <T>(
@@ -66,15 +66,20 @@ export default function initializePlaces() {
         if (error instanceof Error) {
             const errorMessage = `An error occurred in ${name}: ${error.message}`;
             console.error(errorMessage);
-            throw new Error(errorMessage);
+            throw error; // Re-throw the error
         } else {
             const unknownErrorMessage = `An unknown error occurred in ${name}: ${error}`;
             console.error(unknownErrorMessage);
-            throw new Error('An unknown error occurred.');
         }
-    }
+    };
 
-    const fetchDataLists = ({municipality, post_code, region, location, limit}: Partial<PlaceListProps> = {}) => {
+    const fetchDataLists = ({
+                                municipality,
+                                post_code,
+                                region,
+                                location,
+                                limit
+                            }: PlaceListCriteriaProps = {}) => {
         const newData = data?.filter(entry => {
             const municipalityMatch = !municipality || createRegexPattern(municipality, true).test(entry.municipality || '');
             const postCodeMatch = !post_code || createRegexPattern(post_code.toString(), true).test(entry.post_code?.toString() || '');
@@ -89,7 +94,7 @@ export default function initializePlaces() {
         };
     };
 
-    const fetchMunicipalities = ({search, limit}: Partial<SearchProps> = {}) => {
+    const fetchMunicipalities = ({search, limit}: SearchCriteriaProps = {}) => {
         try {
             if (search) {
                 return filterData('municipality', search, limit, true);
@@ -105,7 +110,7 @@ export default function initializePlaces() {
         }
     };
 
-    const fetchPostCodes = ({search, limit}: Partial<SearchProps> = {}) => {
+    const fetchPostCodes = ({search, limit}: SearchCriteriaProps = {}) => {
         try {
             if (search) {
                 return findData('post_code', search);
@@ -121,7 +126,7 @@ export default function initializePlaces() {
         }
     };
 
-    const fetchLocations = ({search, limit}: Partial<SearchProps> = {}) => {
+    const fetchLocations = ({search, limit}: SearchCriteriaProps = {}) => {
         try {
             if (search) {
                 return filterData('location', search, limit, true);
@@ -137,7 +142,7 @@ export default function initializePlaces() {
         }
     };
 
-    const fetchRegions = ({search, limit}: Partial<SearchProps> = {}) => {
+    const fetchRegions = ({search, limit}: SearchCriteriaProps = {}) => {
         try {
             if (search) {
                 return filterData('region', search, limit, false);

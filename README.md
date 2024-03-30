@@ -114,10 +114,10 @@ When fetching data, the function returns either an array of objects or an array 
 used:
 
 - If the method returns an array of objects:
-    - Each object represents a place with the following properties:
+    - Each object represents a place and includes the following properties:
         - `municipality`: The name of the municipality.
         - `location`: The specific district or neighborhood.
-        - `post_code`: This represents the specific postal code assigned to the location.
+        - `post_code`: The specific postal code assigned to the location.
         - `region`: The region where the place is located.
 
 - If the method returns an array of strings or numbers:
@@ -125,12 +125,19 @@ used:
 
 ## Query Options
 
-When using the library's methods, you have the option to include an object containing two parameters:
+When using the library's methods, you have the option to include an object containing parameters for more specific
+queries:
 
-- **Search**: This parameter is used to find specific information. For postal codes, search directly for the code
-  itself.
-- **Limit**: Optionally restricts the number of results returned. Please note that the `limit` parameter doesn't apply
+- **search**: This parameter is used to find specific information. For postal codes, search directly for the code
+  itself. You can also search for municipalities, locations, and regions based on your query.
+- **limit**: Optionally restricts the number of results returned. Please note that the `limit` parameter doesn't apply
   to postal codes. It functions differently and cannot be used to restrict the results when searching for postal codes.
+
+
+- **municipality**: Search by the name of the municipality.
+- **post_code**: Search by the postal code.
+- **location**: Search by the specific district or neighborhood.
+- **region**: Search by the region where the place is located.
 
 ## ECMAScript Module (ESM) Entry Point
 
@@ -138,14 +145,14 @@ If you prefer not to install the package and want to include the ECMAScript modu
 project, you can use the following script tag:
 
 - CDN (
-  jsDelivr): [`https://cdn.jsdelivr.net/npm/use-postal-ph@1.0.8/dist/index.mjs`](https://cdn.jsdelivr.net/npm/use-postal-ph@1.0.8/dist/index.mjs)
+  jsDelivr): [`https://cdn.jsdelivr.net/npm/use-postal-ph@1.0.9/dist/index.mjs`](https://cdn.jsdelivr.net/npm/use-postal-ph@1.0.9/dist/index.mjs)
 
-- npm: [`https://unpkg.com/use-postal-ph@1.0.8/dist/index.mjs`](https://unpkg.com/use-postal-ph@1.0.8/dist/index.mjs)
+- npm: [`https://unpkg.com/use-postal-ph@1.0.9/dist/index.mjs`](https://unpkg.com/use-postal-ph@1.0.9/dist/index.mjs)
 
 ```html
 
 <script type="module">
-    import usePostalPH from 'https://unpkg.com/use-postal-ph@1.0.8/dist/index.mjs';
+    import usePostalPH from 'https://unpkg.com/use-postal-ph@1.0.9/dist/index.mjs';
 
     const {
         fetchDataLists,

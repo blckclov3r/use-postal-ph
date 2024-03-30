@@ -1,6 +1,6 @@
 import {defineConfig} from 'tsup';
 
-const config = defineConfig({
+export default defineConfig({
     format: ['cjs', 'esm'],
     entry: ['./src/index.ts'],
     dts: true,
@@ -9,10 +9,11 @@ const config = defineConfig({
     keepNames: true,
     treeshake: true,
     splitting: false,
+    target: 'es5',
+    outDir: './dist',
     terserOptions: {
         mangle: true,
         compress: true,
-        ecma: 2020,
+        ecma: 5,
     },
 });
-export default config;

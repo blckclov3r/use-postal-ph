@@ -12,8 +12,11 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "outDir": "./dist",
-    "target": "ESNext",
-    "declaration": true
+    "target": "ES5",
+    "lib": [
+      "ES2016",
+      "DOM"
+    ]
   },
   "include": [
     "src",

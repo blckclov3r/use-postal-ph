@@ -1,6 +1,12 @@
-import {PlaceProps, PlacesProps} from "../types/places";
+import {PlaceDataProps, PlaceProps} from "../types/placeTypes";
 
-export default function dataRegistry() {
+/*
+ * Author: blckclov3r
+ * Email: blckclov3r@gmail.com
+ * GitHub: https://github.com/blckclov3r
+ */
+
+export default function placeDataArray() {
     const data: PlaceProps[] = [
         {
             "municipality": "Manila",
@@ -12789,8 +12795,8 @@ export default function dataRegistry() {
             "post_code": 7018
         }
     ];
-    const fetchPlaces = (): PlacesProps => {
+    const placeDataProvider = (): PlaceDataProps => {
         return {data};
     };
-    return {fetchPlaces};
+    return {placeDataProvider};
 }

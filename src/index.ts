@@ -1,13 +1,20 @@
-import initializePlaces from "./logic/initializePlaces";
+import geographicDataFetcher from "./logic/geographicDataFetcher";
 
-const usePostalPH = () => {
+export default function usePostalPH() {
+    const geographicData = geographicDataFetcher();
+
+    if (!geographicData) {
+        console.error("geographicDataFetcher returned null or undefined");
+        return {};
+    }
+
     const {
         fetchMunicipalities,
         fetchPostCodes,
         fetchLocations,
         fetchRegions,
         fetchDataLists,
-    } = initializePlaces();
+    } = geographicData
 
     return {
         fetchMunicipalities,
@@ -17,4 +24,5 @@ const usePostalPH = () => {
         fetchDataLists,
     };
 }
-export default usePostalPH;
+
+usePostalPH();

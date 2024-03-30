@@ -1,6 +1,6 @@
 {
   "name": "use-postal-ph",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "This utility library is specifically designed for the Philippines, providing comprehensive information on postal codes,\nmunicipalities, locations, and regions. Moreover, searching within the library is case insensitive.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -29,23 +29,20 @@
   ],
   "author": "blckclov3r",
   "license": "MIT",
-  "scripts": {
-    "build": "tsup"
-  },
   "repository": {
-    "url": "https://github.com/blckclov3r/use-postal-ph"
+    "url": "git+https://github.com/blckclov3r/use-postal-ph.git"
   },
   "bugs": {
     "url": "https://github.com/blckclov3r/use-postal-ph/issues",
     "email": "blckclov3r@gmail.com"
   },
   "devDependencies": {
+    "@swc/core": "^1.4.11",
     "terser": "^5.29.2",
     "tsup": "^8.0.2",
     "typescript": "^5.4.3"
   },
   "publishConfig": {
     "access": "public"
-  },
-  "dependencies": {}
+  }
 }
