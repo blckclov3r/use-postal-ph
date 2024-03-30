@@ -1,6 +1,6 @@
 {
   "name": "use-postal-ph",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "This utility library is specifically designed for the Philippines, providing comprehensive information on postal codes,\nmunicipalities, locations, and regions. Moreover, searching within the library is case insensitive.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

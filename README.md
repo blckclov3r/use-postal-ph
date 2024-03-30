@@ -15,10 +15,11 @@ municipalities, locations, and regions. Moreover, searching within the library i
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [Return Values](#return-values)
+* [Demo](#demo)
+* [Importing Types](#importing-types)
+* [Type Definitions](#type-definitions)
 * [Query Options](#query-options)
 * [ECMAScript Module (ESM) Entry Point](#ecmascript-module-esm-entry-point)
-* [Demo](#demo)
 * [Contribution Guidelines](#contribution-guidelines)
 * [License](#license)
 
@@ -107,6 +108,13 @@ const dataList = postalPH.fetchDataLists({
 console.log(dataList);
 ```
 
+## Demo
+
+Explore the live demo to experience fetching and searching functionalities for municipalities, post codes, locations,
+and regions. Interact with the application to witness its efficiency and responsiveness in action.
+
+https://use-postal-ph.vercel.app
+
 ## Importing Types
 
 You can also import specific types provided by use-postal-ph:
@@ -142,21 +150,6 @@ export type PlaceListCriteriaProps = PlaceProps & {
 };
 ```
 
-## Return Values
-
-When fetching data, the function returns either an array of objects or an array of strings, depending on the method
-used:
-
-- If the method returns an array of objects:
-    - Each object represents a place and includes the following properties:
-        - `municipality`: The name of the municipality.
-        - `location`: The specific district or neighborhood.
-        - `post_code`: The specific postal code assigned to the location.
-        - `region`: The region where the place is located.
-
-- If the method returns an array of strings or numbers:
-    - Each string or number represents a specific piece of information, such as a postal code, location, or region.
-
 ## Query Options
 
 When using the library's methods, you have the option to include an object containing parameters for more specific
@@ -179,14 +172,14 @@ If you prefer not to install the package and want to include the ECMAScript modu
 project, you can use the following script tag:
 
 - CDN (
-  jsDelivr): [`https://cdn.jsdelivr.net/npm/use-postal-ph@1.1.2/dist/index.mjs`](https://cdn.jsdelivr.net/npm/use-postal-ph@1.1.2/dist/index.mjs)
+  jsDelivr): [`https://cdn.jsdelivr.net/npm/use-postal-ph@1.1.3/dist/index.mjs`](https://cdn.jsdelivr.net/npm/use-postal-ph@1.1.3/dist/index.mjs)
 
-- npm: [`https://unpkg.com/use-postal-ph@1.1.2/dist/index.mjs`](https://unpkg.com/use-postal-ph@1.1.2/dist/index.mjs)
+- npm: [`https://unpkg.com/use-postal-ph@1.1.3/dist/index.mjs`](https://unpkg.com/use-postal-ph@1.1.3/dist/index.mjs)
 
 ```html
 
 <script type="module">
-    import usePostalPH from 'https://unpkg.com/use-postal-ph@1.1.2/dist/index.mjs';
+    import usePostalPH from 'https://unpkg.com/use-postal-ph@1.1.3/dist/index.mjs';
 
     const {
         fetchDataLists,
@@ -211,13 +204,6 @@ postal code '6045'. It then logs the result to the console.
   "post_code": 6045
 }
 ```
-
-## Demo
-
-Explore the live demo to experience fetching and searching functionalities for municipalities, post codes, locations,
-and regions. Interact with the application to witness its efficiency and responsiveness in action.
-
-https://use-postal-ph.vercel.app
 
 ## Contribution Guidelines
 
