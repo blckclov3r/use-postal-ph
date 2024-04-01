@@ -21,6 +21,7 @@ municipalities, locations, and regions. Moreover, searching within the library i
 * [Query Options](#query-options)
 * [ECMAScript Module (ESM) Entry Point](#ecmascript-module-esm-entry-point)
 * [Contribution Guidelines](#contribution-guidelines)
+* [References](#references)
 * [License](#license)
 
 ## Installation
@@ -211,6 +212,14 @@ Contributions are highly appreciated! To contribute, fork the repository, create
 submit a pull request. Please ensure your code adheres to the existing coding standards and conventions. While this
 library provides information, it may not be comprehensive. Contributions aimed at enhancing the comprehensiveness of the
 data are welcome.
+
+## References
+
+The data used in this library is sourced from the following:
+
+- [Wikipedia - Regions of the Philippines](http://en.wikipedia.org/wiki/Regions_of_the_Philippines)
+- [Wikipedia - Provinces of the Philippines](http://en.wikipedia.org/wiki/Provinces_of_the_Philippines)
+- [Wikipedia - List of Cities and Municipalities in the Philippines](http://en.wikipedia.org/wiki/List_of_cities_and_municipalities_in_the_Philippines)
 
 ## License
 
