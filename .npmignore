@@ -8,3 +8,4 @@ tsup.config.ts
 start.sh
 .yarnrc.yml
 .yarn
+pnpm-lock.yaml

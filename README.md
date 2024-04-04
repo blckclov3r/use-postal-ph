@@ -172,14 +172,14 @@ If you prefer not to install the package and want to include the ECMAScript modu
 project, you can use the following script tag:
 
 - CDN (
-  jsDelivr): [`https://cdn.jsdelivr.net/npm/use-postal-ph@1.1.4/dist/index.mjs`](https://cdn.jsdelivr.net/npm/use-postal-ph@1.1.4/dist/index.mjs)
+  jsDelivr): [`https://cdn.jsdelivr.net/npm/use-postal-ph@1.1.5/dist/index.mjs`](https://cdn.jsdelivr.net/npm/use-postal-ph@1.1.5/dist/index.mjs)
 
-- npm: [`https://unpkg.com/use-postal-ph@1.1.4/dist/index.mjs`](https://unpkg.com/use-postal-ph@1.1.4/dist/index.mjs)
+- npm: [`https://unpkg.com/use-postal-ph@1.1.5/dist/index.mjs`](https://unpkg.com/use-postal-ph@1.1.5/dist/index.mjs)
 
 ```html
 
 <script type="module">
-    import usePostalPH from 'https://unpkg.com/use-postal-ph@1.1.4/dist/index.mjs';
+    import usePostalPH from 'https://unpkg.com/use-postal-ph@1.1.5/dist/index.mjs';
 
     const {
         fetchDataLists,
@@ -198,9 +198,9 @@ postal code '6045'. It then logs the result to the console.
 
 ```json
 {
-  "municipality": "Cebu",
+  "location": "Cebu",
   "region": "VII",
-  "location": "Talisay",
+  "municipality": "Talisay",
   "post_code": 6045
 }
 ```
@@ -211,6 +211,14 @@ Contributions are highly appreciated! To contribute, fork the repository, create
 submit a pull request. Please ensure your code adheres to the existing coding standards and conventions. While this
 library provides information, it may not be comprehensive. Contributions aimed at enhancing the comprehensiveness of the
 data are welcome.
+
+## References
+
+The data used in this library is sourced from the following:
+
+- [Wikipedia - Regions of the Philippines](http://en.wikipedia.org/wiki/Regions_of_the_Philippines)
+- [Wikipedia - Provinces of the Philippines](http://en.wikipedia.org/wiki/Provinces_of_the_Philippines)
+- [Wikipedia - List of Cities and Municipalities in the Philippines](http://en.wikipedia.org/wiki/List_of_cities_and_municipalities_in_the_Philippines)
 
 ## License
 
