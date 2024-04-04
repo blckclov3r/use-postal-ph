@@ -173,14 +173,14 @@ If you prefer not to install the package and want to include the ECMAScript modu
 project, you can use the following script tag:
 
 - CDN (
-  jsDelivr): [`https://cdn.jsdelivr.net/npm/use-postal-ph@1.1.4/dist/index.mjs`](https://cdn.jsdelivr.net/npm/use-postal-ph@1.1.4/dist/index.mjs)
+  jsDelivr): [`https://cdn.jsdelivr.net/npm/use-postal-ph@1.1.5/dist/index.mjs`](https://cdn.jsdelivr.net/npm/use-postal-ph@1.1.5/dist/index.mjs)
 
-- npm: [`https://unpkg.com/use-postal-ph@1.1.4/dist/index.mjs`](https://unpkg.com/use-postal-ph@1.1.4/dist/index.mjs)
+- npm: [`https://unpkg.com/use-postal-ph@1.1.5/dist/index.mjs`](https://unpkg.com/use-postal-ph@1.1.5/dist/index.mjs)
 
 ```html
 
 <script type="module">
-    import usePostalPH from 'https://unpkg.com/use-postal-ph@1.1.4/dist/index.mjs';
+    import usePostalPH from 'https://unpkg.com/use-postal-ph@1.1.5/dist/index.mjs';
 
     const {
         fetchDataLists,
@@ -199,9 +199,9 @@ postal code '6045'. It then logs the result to the console.
 
 ```json
 {
-  "municipality": "Cebu",
+  "location": "Cebu",
   "region": "VII",
-  "location": "Talisay",
+  "municipality": "Talisay",
   "post_code": 6045
 }
 ```

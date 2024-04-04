@@ -41,7 +41,7 @@ export default function geographicDataFetcher() {
 
     const createRegexPattern = (value: string | undefined, autoComplete: boolean = false) => {
         const pattern = (value || '').toString().trim();
-        const regexPattern = autoComplete ? '^' + pattern?.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') : '^' + pattern?.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '$';
+        const regexPattern = autoComplete ? '^' + pattern?.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/n|ñ/gi, '[nñ]') : '^' + pattern?.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/n|ñ/gi, '[nñ]') + '$';
         return new RegExp(regexPattern, 'i');
     };
 
@@ -82,7 +82,7 @@ export default function geographicDataFetcher() {
                             }: PlaceListCriteriaProps = {}) => {
         const newData = data?.filter(entry => {
             const municipalityMatch = !municipality || createRegexPattern(municipality, true).test(entry.municipality || '');
-            const postCodeMatch = !post_code || createRegexPattern(post_code.toString(), true).test(entry.post_code?.toString() || '');
+            const postCodeMatch = !post_code || (entry.post_code && entry.post_code.toString().startsWith(post_code.toString()));
             const regionMatch = !region || createRegexPattern(region, true).test(entry.region || '');
             const locationMatch = !location || createRegexPattern(location, true).test(entry.location || '');
             return municipalityMatch && postCodeMatch && regionMatch && locationMatch;
