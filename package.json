@@ -37,12 +37,22 @@
     "email": "blckclov3r@gmail.com"
   },
   "devDependencies": {
+    "@playwright/test": "^1.43.0",
     "@swc/core": "^1.4.11",
+    "@types/node": "^20.12.7",
     "terser": "^5.29.2",
     "tsup": "^8.0.2",
     "typescript": "^5.4.3"
   },
   "publishConfig": {
     "access": "public"
+  },
+  "scripts": {
+    "test": "yarn playwright test",
+    "test-headed": "yarn playwright test --headed",
+    "test-web": "yarn playwright test --ui web",
+    "codegen": "yarn playwright codegen",
+    "debug-web": "yarn playwright test web --debug",
+    "report": "playwright show-report"
   }
 }
