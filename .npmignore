@@ -9,3 +9,7 @@ start.sh
 .yarnrc.yml
 .yarn
 pnpm-lock.yaml
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
