@@ -9,7 +9,7 @@ import {PlaceListCriteriaProps, PlaceProps, SearchCriteriaProps} from "../types/
 
 export default function geographicDataFetcher() {
     const {placeDataProvider} = placeDataArray();
-    const data = placeDataProvider ? placeDataProvider()?.data : [];
+    const data = placeDataProvider ? placeDataProvider().data : [];
     let municipalityList: string[] = [];
     let postCodeList: number[] = [];
     let locationList: string[] = [];
@@ -36,12 +36,12 @@ export default function geographicDataFetcher() {
         if (!value || !key) return undefined;
         const pattern = value.toString().trim();
         const regex = new RegExp('^' + pattern, 'i');
-        return data?.find((x) => regex.test(x[key]?.toString() || ''));
+        return data.find((x) => regex.test(x[key]?.toString() || ''));
     };
 
     const createRegexPattern = (value: string | undefined, autoComplete: boolean = false) => {
         const pattern = (value || '').toString().trim();
-        const regexPattern = autoComplete ? '^' + pattern?.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/n|ñ/gi, '[nñ]') : '^' + pattern?.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/n|ñ/gi, '[nñ]') + '$';
+        const regexPattern = autoComplete ? '^' + pattern?.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/n|ñ/gi, '[nñ]') : '^' + pattern?.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/[nñ]/gi, '[nñ]') + '$';
         return new RegExp(regexPattern, 'i');
     };
 
@@ -80,17 +80,17 @@ export default function geographicDataFetcher() {
                                 location,
                                 limit
                             }: PlaceListCriteriaProps = {}) => {
-        const newData = data?.filter(entry => {
+        const newData = data.filter(entry => {
             const municipalityMatch = !municipality || createRegexPattern(municipality, true).test(entry.municipality || '');
             const postCodeMatch = !post_code || (entry.post_code && entry.post_code.toString().startsWith(post_code.toString()));
             const regionMatch = !region || createRegexPattern(region, true).test(entry.region || '');
             const locationMatch = !location || createRegexPattern(location, true).test(entry.location || '');
             return municipalityMatch && postCodeMatch && regionMatch && locationMatch;
         });
-        const limitedData = limit ? newData?.slice(0, limit) : newData;
+        const limitedData = limit ? newData.slice(0, limit) : newData;
         return {
             data: limitedData,
-            count: limitedData?.length,
+            count: limitedData.length,
         };
     };
 
@@ -117,7 +117,7 @@ export default function geographicDataFetcher() {
             } else {
                 setUniqueArray(postCodeList, 'post_code', limit);
                 return {
-                    data: postCodeList?.slice(0, limit),
+                    data: postCodeList.slice(0, limit),
                     count: limit ? postCodeList?.slice(0, limit)?.length : postCodeList?.length,
                 };
             }
@@ -133,7 +133,7 @@ export default function geographicDataFetcher() {
             } else {
                 setUniqueArray(locationList, 'location');
                 return {
-                    data: locationList?.slice(0, limit),
+                    data: locationList.slice(0, limit),
                     count: limit ? locationList?.slice(0, limit)?.length : locationList?.length,
                 };
             }

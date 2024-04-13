@@ -30,30 +30,32 @@ async function clearInput(page: Page, comboboxName: string) {
     await page.locator('.MuiBox-root > button').first().click();
 }
 
-test('main-municipality', async ({page}) => {
-    await setup(page);
-    await clickButton(page, 'Main');
-    await selectOptionAndSubmit(page, 'municipality', 'Talisay');
-    await clearInput(page, 'municipality');
-});
+test.describe('index.ts', () => {
+    test('main-municipality', async ({page}) => {
+        await setup(page);
+        await clickButton(page, 'Main');
+        await selectOptionAndSubmit(page, 'municipality', 'Talisay');
+        await clearInput(page, 'municipality');
+    });
 
-test('main-region', async ({page}) => {
-    await setup(page);
-    await clickButton(page, 'Main');
-    await selectOptionAndSubmit(page, 'region', 'VII');
-    await clearInput(page, 'region');
-});
+    test('main-region', async ({page}) => {
+        await setup(page);
+        await clickButton(page, 'Main');
+        await selectOptionAndSubmit(page, 'region', 'VII');
+        await clearInput(page, 'region');
+    });
 
-test('main-location', async ({page}) => {
-    await setup(page);
-    await clickButton(page, 'Main');
-    await selectOptionAndSubmit(page, 'location', 'Cebu');
-    await clearInput(page, 'location');
-});
+    test('main-location', async ({page}) => {
+        await setup(page);
+        await clickButton(page, 'Main');
+        await selectOptionAndSubmit(page, 'location', 'Cebu');
+        await clearInput(page, 'location');
+    });
 
-test('main-postcode', async ({page}) => {
-    await setup(page);
-    await clickButton(page, 'Main');
-    await selectOptionAndSubmit(page, 'post_code', '6045');
-    await clearInput(page, 'post_code');
+    test('main-postcode', async ({page}) => {
+        await setup(page);
+        await clickButton(page, 'Main');
+        await selectOptionAndSubmit(page, 'post_code', '6045');
+        await clearInput(page, 'post_code');
+    });
 });

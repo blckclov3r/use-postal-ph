@@ -10,6 +10,7 @@ municipalities, locations, and regions. Moreover, searching within the library i
 [![Downloads](https://img.shields.io/npm/dt/use-postal-ph.svg?style=flat-square)](https://www.npmjs.com/package/use-postal-ph)
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/blckclov3r)
 [![jsDocs.io](https://img.shields.io/badge/jsDocs.io-reference-blue)](https://www.jsdocs.io/package/use-postal-ph)
+[![Playwright Tests](https://github.com/blckclov3r/use-postal-ph/actions/workflows/playwright.yml/badge.svg)](https://github.com/blckclov3r/use-postal-ph/actions/workflows/playwright.yml)
 
 ## Contents
 
@@ -40,7 +41,7 @@ yarn add use-postal-ph
 
 ## Usage
 
-First, import the `use-postal-ph` function:
+To start using the `use-postal-ph` library, follow these steps:
 
 ```typescript
 import usePostalPH from 'use-postal-ph';
@@ -96,7 +97,7 @@ const regions = postalPH.fetchRegions({search: 'NCR', limit: 8});
 console.log(regions);
 
 // Fetch all data lists with a limit of 15
-const dataLimit = postalPH.fetchDataLists(15);
+const dataLimit = postalPH.fetchDataLists({limit: 15});
 console.log(dataLimit);
 
 // Fetch data based on the search criteria
@@ -158,10 +159,8 @@ queries:
 
 - **search**: This parameter is used to find specific information. For postal codes, search directly for the code
   itself. You can also search for municipalities, locations, and regions based on your query.
-- **limit**: Optionally restricts the number of results returned. Please note that the `limit` parameter doesn't apply
-  to postal codes. It functions differently and cannot be used to restrict the results when searching for postal codes.
-
-
+- **limit**: This parameter restricts the number of results returned for municipalities, locations, and regions.
+  However, it does not affect the results when searching for postal codes.
 - **municipality**: Search by the name of the municipality.
 - **post_code**: Search by the postal code.
 - **location**: Search by the specific district or neighborhood.
@@ -173,14 +172,16 @@ If you prefer not to install the package and want to include the ECMAScript modu
 project, you can use the following script tag:
 
 - CDN (
-  jsDelivr): [`https://cdn.jsdelivr.net/npm/use-postal-ph@1.1.5/dist/index.mjs`](https://cdn.jsdelivr.net/npm/use-postal-ph@1.1.5/dist/index.mjs)
+  jsDelivr): [`https://cdn.jsdelivr.net/npm/use-postal-ph@1.1.6/dist/index.mjs`](https://cdn.jsdelivr.net/npm/use-postal-ph@1.1.6/dist/index.mjs)
 
-- npm: [`https://unpkg.com/use-postal-ph@1.1.5/dist/index.mjs`](https://unpkg.com/use-postal-ph@1.1.5/dist/index.mjs)
+- NPM: [`https://unpkg.com/use-postal-ph@1.1.6/dist/index.mjs`](https://unpkg.com/use-postal-ph@1.1.6/dist/index.mjs)
+
+Import Statement:
 
 ```html
 
 <script type="module">
-    import usePostalPH from 'https://unpkg.com/use-postal-ph@1.1.5/dist/index.mjs';
+    import usePostalPH from 'https://unpkg.com/use-postal-ph@1.1.6/dist/index.mjs';
 
     const {
         fetchDataLists,
@@ -215,7 +216,8 @@ data are welcome.
 
 ## References
 
-The data used in this library is sourced from the following:
+The `use-postal-ph` library utilizes data sourced from Wikipedia, including information on regions, provinces, and
+municipalities of the Philippines.
 
 - [Wikipedia - Regions of the Philippines](http://en.wikipedia.org/wiki/Regions_of_the_Philippines)
 - [Wikipedia - Provinces of the Philippines](http://en.wikipedia.org/wiki/Provinces_of_the_Philippines)
