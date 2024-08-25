@@ -21,14 +21,19 @@ async function selectOptionAndSubmit(page: Page, comboboxName: string, optionNam
     const combobox = await page.getByRole('combobox', {name: comboboxName});
     await combobox.type(optionName);
     await page.getByRole('option', {name: optionName, exact: true}).click();
-    await page.locator('.MuiBox-root > button').first().click();
+    const submitButton = page.locator('.MuiBox-root > button').first();
+    await submitButton.waitFor({state: 'visible'});
+    await submitButton.click();
 }
 
 async function clearInput(page: Page, comboboxName: string) {
     await page.getByRole('combobox', {name: comboboxName}).click();
     await page.getByLabel('Clear').click();
-    await page.locator('.MuiBox-root > button').first().click();
+    const submitButton = page.locator('.MuiBox-root > button').first();
+    await submitButton.waitFor({state: 'visible'});
+    await submitButton.click();
 }
+
 
 test.describe('main', () => {
     test('municipality', async ({page}) => {

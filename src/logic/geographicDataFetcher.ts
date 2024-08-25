@@ -36,7 +36,7 @@ export default function geographicDataFetcher() {
         if (!value || !key) return undefined;
         const pattern = value.toString().trim();
         const regex = new RegExp('^' + pattern, 'i');
-        return data.find((x) => regex.test(x[key]?.toString() || ''));
+        return data.find((x) => regex.test((x[key] as unknown)?.toString() || ''));
     };
 
     const createRegexPattern = (value: string | undefined, autoComplete: boolean = false) => {
@@ -53,7 +53,7 @@ export default function geographicDataFetcher() {
     ) => {
         if (!value || !key) return {data: [], count: 0};
         const regex = createRegexPattern(value.toString(), autoComplete);
-        let filteredData = data.filter((x) => regex.test(x[key]?.toString() || ''));
+        let filteredData = data.filter((x) => regex.test((x[key] as unknown)?.toString() || ''));
         let count = filteredData.length;
         if (limit && limit > 0) {
             filteredData = filteredData.slice(0, limit);
