@@ -3518,49 +3518,49 @@ export default function placeDataArray() {
         },
         {
             "location": "Aurora",
-            "region": "CAR",
+            "region": "III",
             "municipality": "Baler",
             "post_code": 3200
         },
         {
             "location": "Aurora",
-            "region": "CAR",
+            "region": "III",
             "municipality": "Casiguran",
             "post_code": 3204
         },
         {
             "location": "Aurora",
-            "region": "CAR",
+            "region": "III",
             "municipality": "Dilasag",
             "post_code": 3205
         },
         {
             "location": "Aurora",
-            "region": "CAR",
+            "region": "III",
             "municipality": "Dinalungan",
             "post_code": 3206
         },
         {
             "location": "Aurora",
-            "region": "CAR",
+            "region": "III",
             "municipality": "Dingalan",
             "post_code": 3207
         },
         {
             "location": "Aurora",
-            "region": "CAR",
+            "region": "III",
             "municipality": "Dipaculao",
             "post_code": 3203
         },
         {
             "location": "Aurora",
-            "region": "CAR",
+            "region": "III",
             "municipality": "Maria Aurora",
             "post_code": 3202
         },
         {
             "location": "Aurora",
-            "region": "CAR",
+            "region": "III",
             "municipality": "San Luis",
             "post_code": 3201
         },
@@ -3959,97 +3959,97 @@ export default function placeDataArray() {
         },
         {
             "location": "Benguet",
-            "region": "IV-A",
-            "municipality": "CAR ",
+            "region": "CAR",
+            "municipality": "Atok",
             "post_code": 2612
         },
         {
             "location": "Benguet",
-            "region": "IV-A",
+            "region": "CAR",
             "municipality": "Baguio City",
             "post_code": 2600
         },
         {
             "location": "Benguet",
-            "region": "IV-A",
+            "region": "CAR",
             "municipality": "Bakun",
             "post_code": 2610
         },
         {
             "location": "Benguet",
-            "region": "IV-A",
+            "region": "CAR",
             "municipality": "Bokod",
             "post_code": 2605
         },
         {
             "location": "Benguet",
-            "region": "IV-A",
+            "region": "CAR",
             "municipality": "Bugias",
             "post_code": 2607
         },
         {
             "location": "Benguet",
-            "region": "IV-A",
+            "region": "CAR",
             "municipality": "Itogon",
             "post_code": 2604
         },
         {
             "location": "Benguet",
-            "region": "IV-A",
+            "region": "CAR",
             "municipality": "Kabayan",
             "post_code": 2606
         },
         {
             "location": "Benguet",
-            "region": "IV-A",
+            "region": "CAR",
             "municipality": "Kapangan",
             "post_code": 2613
         },
         {
             "location": "Benguet",
-            "region": "IV-A",
+            "region": "CAR",
             "municipality": "Kibungan",
             "post_code": 2611
         },
         {
             "location": "Benguet",
-            "region": "IV-A",
+            "region": "CAR",
             "municipality": "La Trinidad",
             "post_code": 2601
         },
         {
             "location": "Benguet",
-            "region": "IV-A",
+            "region": "CAR",
             "municipality": "Lepanto",
             "post_code": 2609
         },
         {
             "location": "Benguet",
-            "region": "IV-A",
+            "region": "CAR",
             "municipality": "Mankayan",
             "post_code": 2608
         },
         {
             "location": "Benguet",
-            "region": "IV-A",
+            "region": "CAR",
             "municipality": "Philippine Military Academy (PMA)",
             "post_code": 2602
         },
         {
             "location": "Benguet",
-            "region": "IV-A",
+            "region": "CAR",
             "municipality": "Sablan",
             "post_code": 2614
         },
         {
             "location": "Benguet",
-            "region": "IV-A",
+            "region": "CAR",
             "municipality": "Tuba",
             "post_code": 2603
         },
         {
             "location": "Benguet",
-            "region": "IV-A",
+            "region": "CAR",
             "municipality": "Tublay",
             "post_code": 2615
         },
@@ -7318,49 +7318,49 @@ export default function placeDataArray() {
         },
         {
             "location": "Kalinga",
-            "region": "II",
+            "region": "CAR",
             "municipality": "Balbalan",
             "post_code": 3801
         },
         {
             "location": "Kalinga",
-            "region": "II",
+            "region": "CAR",
             "municipality": "Lubuagan",
             "post_code": 3802
         },
         {
             "location": "Kalinga",
-            "region": "II",
+            "region": "CAR",
             "municipality": "Pasil",
             "post_code": 3803
         },
         {
             "location": "Kalinga",
-            "region": "II",
+            "region": "CAR",
             "municipality": "Pinukpok",
             "post_code": 3806
         },
         {
             "location": "Kalinga",
-            "region": "II",
-            "municipality": "Rizal",
+            "region": "CAR",
+            "municipality": "Liwan(Rizal)",
             "post_code": 3808
         },
         {
             "location": "Kalinga",
-            "region": "II",
+            "region": "CAR",
             "municipality": "Tabuk City",
             "post_code": 3800
         },
         {
             "location": "Kalinga",
-            "region": "II",
+            "region": "CAR",
             "municipality": "Tanudan",
             "post_code": 3805
         },
         {
             "location": "Kalinga",
-            "region": "II",
+            "region": "CAR",
             "municipality": "Tinglayan",
             "post_code": 3804
         },
