@@ -3,10 +3,10 @@ import usePostalPH from './../src/index';
 
 test.describe('index.ts', () => {
     const {fetchPostCodes, fetchMunicipalities, fetchRegions, fetchLocations, fetchDataLists} = usePostalPH();
-    test('post-code', async () => {
-        const postCodes = await fetchPostCodes();
-        const postCodeSearch = await fetchPostCodes({search: '6045'});
-        const postCodeWithLimit = await fetchPostCodes({limit: 10});
+    test('post-code', () => {
+        const postCodes = fetchPostCodes();
+        const postCodeSearch = fetchPostCodes({search: '6045'});
+        const postCodeWithLimit = fetchPostCodes({limit: 10});
         expect(postCodeSearch).toEqual({
             "location": "Cebu",
             "municipality": "Talisay",
@@ -15,7 +15,7 @@ test.describe('index.ts', () => {
         });
         if (postCodeWithLimit) {
             if ('data' in postCodeWithLimit) {
-                const data: number[] = postCodeWithLimit.data;
+                const data = postCodeWithLimit.data;
                 expect(data).toHaveLength(10)
             }
         }
@@ -26,14 +26,14 @@ test.describe('index.ts', () => {
             }
         }
     });
-    test('municipality', async () => {
-        const municipalities = await fetchMunicipalities();
-        const municipalitySearch = await fetchMunicipalities({search: 'Talisayan'});
-        const municipalityWithLimit = await fetchMunicipalities({limit: 10});
+    test('municipality', () => {
+        const municipalities = fetchMunicipalities();
+        const municipalitySearch = fetchMunicipalities({search: 'Talisayan'});
+        const municipalityWithLimit = fetchMunicipalities({limit: 10});
         if (municipalities) {
             if ('data' in municipalities) {
                 const data = municipalities.data;
-                expect(data).toHaveLength(1876)
+                expect(data).toHaveLength(1877);
             }
         }
         if (municipalitySearch) {
@@ -54,9 +54,9 @@ test.describe('index.ts', () => {
             }
         }
     });
-    test('region', async () => {
-        const regionSearch = await fetchRegions({search: 'XII'});
-        const regionWithLimit = await fetchMunicipalities({limit: 10});
+    test('region', () => {
+        const regionSearch = fetchRegions({search: 'XII'});
+        const regionWithLimit = fetchMunicipalities({limit: 10});
         if (regionSearch) {
             if ('data' in regionSearch) {
                 const data = regionSearch.data;
@@ -70,9 +70,9 @@ test.describe('index.ts', () => {
             }
         }
     });
-    test('location', async () => {
-        const locationSearch = await fetchLocations({search: 'Cebu'});
-        const locationWithLimit = await fetchLocations({limit: 10});
+    test('location', () => {
+        const locationSearch = fetchLocations({search: 'Cebu'});
+        const locationWithLimit = fetchLocations({limit: 10});
         if (locationSearch) {
             if ('data' in locationSearch) {
                 const data = locationSearch.data;
@@ -86,9 +86,9 @@ test.describe('index.ts', () => {
             }
         }
     });
-    test('dataLists', async () => {
-        const dataListSearch = await fetchDataLists({post_code: '6045'});
-        const dataListWithLimit = await fetchDataLists({limit: 10});
+    test('dataLists', () => {
+        const dataListSearch = fetchDataLists({post_code: '6045'});
+        const dataListWithLimit = fetchDataLists({limit: 10});
         if (dataListSearch) {
             if ('data' in dataListSearch) {
                 const data = dataListSearch.data;

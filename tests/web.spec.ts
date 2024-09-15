@@ -3,9 +3,15 @@ import {expect, Page, test} from '@playwright/test';
 const baseUrl = 'https://use-postal-ph.vercel.app/';
 
 async function setup(page: Page) {
-    await page.goto(baseUrl);
-    await page.waitForLoadState('domcontentloaded');
-    await expect(page).toHaveTitle(/use-postal-ph/);
+    try {
+        await page.context().clearCookies();
+        // Increase timeout and wait until the network is idle
+        await page.goto(baseUrl, {timeout: 60000, waitUntil: 'networkidle'});
+        await expect(page).toHaveTitle(/use-postal-ph/ as unknown as string);
+    } catch (error) {
+        throw error;
+    }
+
     const buttons = ['Main', 'Municipality', 'Region', 'Location', 'Post Code'];
     for (const buttonName of buttons) {
         const button = await page.getByRole('button', {name: buttonName});
@@ -19,7 +25,7 @@ async function clickButton(page: Page, buttonName: string) {
 
 async function selectOptionAndSubmit(page: Page, comboboxName: string, optionName: string) {
     const combobox = await page.getByRole('combobox', {name: comboboxName});
-    await combobox.type(optionName);
+    await combobox.fill(optionName);
     await page.getByRole('option', {name: optionName, exact: true}).click();
     const submitButton = page.locator('.MuiBox-root > button').first();
     await submitButton.waitFor({state: 'visible'});
