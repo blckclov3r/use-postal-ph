@@ -12,8 +12,14 @@ export default defineConfig({
     target: 'es5',
     outDir: './dist',
     terserOptions: {
-        mangle: true,
-        compress: true,
+        mangle: {
+            toplevel: true,
+        },
+        compress: {
+            passes: 2,
+            drop_console: true,
+            drop_debugger: true
+        },
         ecma: 5,
     },
 });

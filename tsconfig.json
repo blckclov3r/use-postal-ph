@@ -5,21 +5,23 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strictNullChecks": true,
-    "module": "CommonJS",
+    "module": "ESNext",
     "moduleResolution": "Node",
     "isolatedModules": true,
     "strictBindCallApply": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "skipLibCheck": true,
     "outDir": "./dist",
     "target": "ES5",
+    "removeComments": true,
+    "declarationMap": true,
     "lib": [
-      "ES2016",
+      "ES5",
       "DOM"
     ]
   },
   "include": [
-    "src",
     "src/**/*.ts"
   ],
   "exclude": [
