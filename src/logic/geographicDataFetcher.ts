@@ -36,12 +36,12 @@ export default function geographicDataFetcher() {
         if (!value || !key) return undefined;
         const pattern = value.toString().trim();
         const regex = new RegExp('^' + pattern, 'i');
-        return data.find((x) => regex.test((x[key] as unknown)?.toString() || ''));
+        return data.find((x) => regex.test((x[key] as unknown).toString() || ''));
     };
 
     const createRegexPattern = (value: string | undefined, autoComplete: boolean = false) => {
         const pattern = (value || '').toString().trim();
-        const regexPattern = autoComplete ? '^' + pattern?.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/n|ñ/gi, '[nñ]') : '^' + pattern?.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/[nñ]/gi, '[nñ]') + '$';
+        const regexPattern = autoComplete ? '^' + pattern.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/n|ñ/gi, '[nñ]') : '^' + pattern.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/[nñ]/gi, '[nñ]') + '$';
         return new RegExp(regexPattern, 'i');
     };
 
@@ -53,7 +53,7 @@ export default function geographicDataFetcher() {
     ) => {
         if (!value || !key) return {data: [], count: 0};
         const regex = createRegexPattern(value.toString(), autoComplete);
-        let filteredData = data.filter((x) => regex.test((x[key] as unknown)?.toString() || ''));
+        let filteredData = data.filter((x) => regex.test((x[key] as unknown).toString() || ''));
         let count = filteredData.length;
         if (limit && limit > 0) {
             filteredData = filteredData.slice(0, limit);
@@ -94,7 +94,7 @@ export default function geographicDataFetcher() {
         };
     };
 
-    const fetchMunicipalities = ({search, limit}: SearchCriteriaProps = {}) => {
+    const fetchMunicipalities = ({search, limit}: SearchCriteriaProps = {search: "", limit: 0}) => {
         try {
             if (search) {
                 return filterData('municipality', search, limit, true);
@@ -102,7 +102,7 @@ export default function geographicDataFetcher() {
                 setUniqueArray(municipalityList, 'municipality', limit);
                 return {
                     data: municipalityList.slice(0, limit),
-                    count: limit ? municipalityList?.slice(0, limit)?.length : municipalityList?.length,
+                    count: limit ? municipalityList.slice(0, limit).length : municipalityList.length,
                 };
             }
         } catch (error) {
@@ -110,7 +110,7 @@ export default function geographicDataFetcher() {
         }
     };
 
-    const fetchPostCodes = ({search, limit}: SearchCriteriaProps = {}) => {
+    const fetchPostCodes = ({search, limit}: SearchCriteriaProps = {search: "", limit: 0}) => {
         try {
             if (search) {
                 return findData('post_code', search);
@@ -118,7 +118,7 @@ export default function geographicDataFetcher() {
                 setUniqueArray(postCodeList, 'post_code', limit);
                 return {
                     data: postCodeList.slice(0, limit),
-                    count: limit ? postCodeList?.slice(0, limit)?.length : postCodeList?.length,
+                    count: limit ? postCodeList.slice(0, limit).length : postCodeList.length,
                 };
             }
         } catch (error) {
@@ -126,7 +126,7 @@ export default function geographicDataFetcher() {
         }
     };
 
-    const fetchLocations = ({search, limit}: SearchCriteriaProps = {}) => {
+    const fetchLocations = ({search, limit}: SearchCriteriaProps = {search: "", limit: 0}) => {
         try {
             if (search) {
                 return filterData('location', search, limit, true);
@@ -134,7 +134,7 @@ export default function geographicDataFetcher() {
                 setUniqueArray(locationList, 'location');
                 return {
                     data: locationList.slice(0, limit),
-                    count: limit ? locationList?.slice(0, limit)?.length : locationList?.length,
+                    count: limit ? locationList.slice(0, limit).length : locationList.length,
                 };
             }
         } catch (error) {
@@ -150,7 +150,7 @@ export default function geographicDataFetcher() {
                 setUniqueArray(regionList, 'region');
                 return {
                     data: regionList.slice(0, limit),
-                    count: limit ? regionList?.slice(0, limit)?.length : regionList?.length,
+                    count: limit ? regionList.slice(0, limit).length : regionList.length,
                 };
             }
         } catch (error) {

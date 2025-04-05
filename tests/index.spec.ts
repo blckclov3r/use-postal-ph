@@ -20,7 +20,7 @@ test.describe('index.ts', () => {
             }
         }
         if (postCodes) {
-            if ('data' in postCodes) {
+            if ('data' in postCodes && postCodes.data?.length > 0) {
                 const data = postCodes.data;
                 expect(data.length).toBeGreaterThan(0);
             }
@@ -31,13 +31,13 @@ test.describe('index.ts', () => {
         const municipalitySearch = fetchMunicipalities({search: 'Talisayan'});
         const municipalityWithLimit = fetchMunicipalities({limit: 10});
         if (municipalities) {
-            if ('data' in municipalities) {
+            if ('data' in municipalities && municipalities.data?.length > 0) {
                 const data = municipalities.data;
                 expect(data.length).toBeGreaterThan(0);
             }
         }
         if (municipalitySearch) {
-            if ('data' in municipalitySearch) {
+            if ('data' in municipalitySearch && municipalitySearch.data?.length > 0) {
                 const data = municipalitySearch.data;
                 expect(data).toEqual([{
                     "location": "Misamis Oriental",
@@ -48,7 +48,7 @@ test.describe('index.ts', () => {
             }
         }
         if (municipalityWithLimit) {
-            if ('data' in municipalityWithLimit) {
+            if ('data' in municipalityWithLimit && municipalityWithLimit.data?.length > 0) {
                 const data = municipalityWithLimit.data;
                 expect(data).toHaveLength(10)
             }

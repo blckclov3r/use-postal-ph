@@ -14,11 +14,23 @@ export default defineConfig({
     terserOptions: {
         mangle: {
             toplevel: true,
+            reserved: ['require', 'exports', 'module', 'define'],
         },
         compress: {
             passes: 2,
             drop_console: true,
-            drop_debugger: true
+            drop_debugger: true,
+            pure_getters: true,
+            unsafe_comps: true,
+            booleans: true,
+            conditionals: true,
+            sequences: true,
+            dead_code: true,
+            unused: true,
+            arguments: true,
+            evaluate: true,
+            join_vars: true,
+            if_return: true,
         },
         ecma: 5,
     },

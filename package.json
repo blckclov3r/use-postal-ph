@@ -1,6 +1,6 @@
 {
   "name": "use-postal-ph",
-  "version": "1.1.11",
+  "version": "1.1.12",
   "description": "This utility library is specifically designed for the Philippines, providing comprehensive information on postal codes,\nmunicipalities, locations, and regions. Moreover, searching within the library is case insensitive.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -37,22 +37,22 @@
     "email": "blckclov3r@gmail.com"
   },
   "devDependencies": {
-    "@playwright/test": "^1.46.1",
-    "@swc/core": "^1.7.18",
-    "@types/node": "^22.5.0",
-    "terser": "^5.31.6",
-    "tsup": "^8.2.4",
-    "typescript": "^5.5.4"
+    "@playwright/test": "^1.51.1",
+    "@swc/core": "^1.11.16",
+    "@types/node": "^22.14.0",
+    "terser": "^5.39.0",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3"
   },
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "test": "yarn playwright test",
-    "test-headed": "yarn playwright test --headed",
-    "test-web": "yarn playwright test --ui web",
-    "codegen": "yarn playwright codegen",
-    "debug-web": "yarn playwright test web --debug",
+    "test": "pnpm playwright test",
+    "test-headed": "pnpm playwright test --headed",
+    "test-web": "pnpm playwright test --ui web",
+    "codegen": "pnpm playwright codegen",
+    "debug-web": "pnpm playwright test web --debug",
     "report": "playwright show-report",
     "build": "tsup",
     "start": "node dist/index.js"

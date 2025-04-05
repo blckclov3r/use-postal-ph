@@ -27,17 +27,11 @@ async function selectOptionAndSubmit(page: Page, comboboxName: string, optionNam
     const combobox = await page.getByRole('combobox', {name: comboboxName});
     await combobox.fill(optionName);
     await page.getByRole('option', {name: optionName, exact: true}).click();
-    const submitButton = page.locator('.MuiBox-root > button').first();
-    await submitButton.waitFor({state: 'visible'});
-    await submitButton.click();
 }
 
 async function clearInput(page: Page, comboboxName: string) {
     await page.getByRole('combobox', {name: comboboxName}).click();
     await page.getByLabel('Clear').click();
-    const submitButton = page.locator('.MuiBox-root > button').first();
-    await submitButton.waitFor({state: 'visible'});
-    await submitButton.click();
 }
 
 

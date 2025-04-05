@@ -1,4 +1,4 @@
-import {PlaceDataProps, PlaceProps} from "../types/placeTypes";
+import {PlaceProps} from "../types/placeTypes";
 
 /*
  * Author: blckclov3r
@@ -12795,7 +12795,7 @@ export default function placeDataArray() {
             "post_code": 7018
         }
     ];
-    const placeDataProvider = (): PlaceDataProps => {
+    const placeDataProvider = () => {
         return {data};
     };
     return {placeDataProvider};

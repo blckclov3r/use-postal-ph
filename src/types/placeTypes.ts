@@ -1,16 +1,16 @@
+export type PlaceProps = {
+    municipality?: string;
+    location?: string;
+    post_code?: string | number;
+    region?: string;
+};
+
 export type PlaceDataProps = {
     data: PlaceProps[];
 };
 
-export type PlaceProps = {
-    municipality?: string;
-    location?: string;
-    post_code?: number | string;
-    region?: string;
-};
-
 export type SearchCriteriaProps = {
-    search?: number | string;
+    search?: string | number;
     limit?: number;
 };
 
