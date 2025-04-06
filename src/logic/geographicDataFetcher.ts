@@ -9,7 +9,7 @@ import {PlaceListCriteriaProps, PlaceProps, SearchCriteriaProps} from "../types/
 
 export default function geographicDataFetcher() {
     const {placeDataProvider} = placeDataArray();
-    const data = placeDataProvider ? placeDataProvider().data : [];
+    const data = (placeDataProvider ? placeDataProvider().data : []) as PlaceProps[];
     let municipalityList: string[] = [];
     let postCodeList: number[] = [];
     let locationList: string[] = [];
@@ -66,7 +66,7 @@ export default function geographicDataFetcher() {
         if (error instanceof Error) {
             const errorMessage = `An error occurred in ${name}: ${error.message}`;
             console.error(errorMessage);
-            throw error; // Re-throw the error
+            throw error;
         } else {
             const unknownErrorMessage = `An unknown error occurred in ${name}: ${error}`;
             console.error(unknownErrorMessage);
@@ -94,7 +94,7 @@ export default function geographicDataFetcher() {
         };
     };
 
-    const fetchMunicipalities = ({search, limit}: SearchCriteriaProps = {search: "", limit: 0}) => {
+    const fetchMunicipalities = ({search, limit}: SearchCriteriaProps = {search: ""}) => {
         try {
             if (search) {
                 return filterData('municipality', search, limit, true);
@@ -110,7 +110,7 @@ export default function geographicDataFetcher() {
         }
     };
 
-    const fetchPostCodes = ({search, limit}: SearchCriteriaProps = {search: "", limit: 0}) => {
+    const fetchPostCodes = ({search, limit}: SearchCriteriaProps = {search: ""}) => {
         try {
             if (search) {
                 return findData('post_code', search);
@@ -126,7 +126,7 @@ export default function geographicDataFetcher() {
         }
     };
 
-    const fetchLocations = ({search, limit}: SearchCriteriaProps = {search: "", limit: 0}) => {
+    const fetchLocations = ({search, limit}: SearchCriteriaProps = {search: ""}) => {
         try {
             if (search) {
                 return filterData('location', search, limit, true);
@@ -142,7 +142,7 @@ export default function geographicDataFetcher() {
         }
     };
 
-    const fetchRegions = ({search, limit}: SearchCriteriaProps = {}) => {
+    const fetchRegions = ({search, limit}: SearchCriteriaProps = {search: ""}) => {
         try {
             if (search) {
                 return filterData('region', search, limit, false);

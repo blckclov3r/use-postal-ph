@@ -5,10 +5,6 @@ export type PlaceProps = {
     region?: string;
 };
 
-export type PlaceDataProps = {
-    data: PlaceProps[];
-};
-
 export type SearchCriteriaProps = {
     search?: string | number;
     limit?: number;

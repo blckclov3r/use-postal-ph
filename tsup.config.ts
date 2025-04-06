@@ -31,6 +31,7 @@ export default defineConfig({
             evaluate: true,
             join_vars: true,
             if_return: true,
+            defaults: true,
         },
         ecma: 5,
     },
