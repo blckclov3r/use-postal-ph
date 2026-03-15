@@ -9058,355 +9058,355 @@ export default function placeDataArray() {
         },
         {
             "location": "Negros Occidental",
-            "region": "VI",
+            "region": "NIR",
             "municipality": "Bacolod City",
             "post_code": 6100
         },
         {
             "location": "Negros Occidental",
-            "region": "VI",
+            "region": "NIR",
             "municipality": "Bago City",
             "post_code": 6101
         },
         {
             "location": "Negros Occidental",
-            "region": "VI",
+            "region": "NIR",
             "municipality": "Binalbagan",
             "post_code": 6107
         },
         {
             "location": "Negros Occidental",
-            "region": "VI",
+            "region": "NIR",
             "municipality": "Cadiz City",
             "post_code": 6121
         },
         {
             "location": "Negros Occidental",
-            "region": "VI",
+            "region": "NIR",
             "municipality": "Calatrava",
             "post_code": 6126
         },
         {
             "location": "Negros Occidental",
-            "region": "VI",
+            "region": "NIR",
             "municipality": "Candoni",
             "post_code": 6110
         },
         {
             "location": "Negros Occidental",
-            "region": "VI",
+            "region": "NIR",
             "municipality": "Cauayan",
             "post_code": 6112
         },
         {
             "location": "Negros Occidental",
-            "region": "VI",
+            "region": "NIR",
             "municipality": "Don Salvador Benedicto",
             "post_code": 6133
         },
         {
             "location": "Negros Occidental",
-            "region": "VI",
+            "region": "NIR",
             "municipality": "Enrique Magalona",
             "post_code": 6118
         },
         {
             "location": "Negros Occidental",
-            "region": "VI",
+            "region": "NIR",
             "municipality": "Escalante",
             "post_code": 6124
         },
         {
             "location": "Negros Occidental",
-            "region": "VI",
+            "region": "NIR",
             "municipality": "Himamaylan",
             "post_code": 6108
         },
         {
             "location": "Negros Occidental",
-            "region": "VI",
+            "region": "NIR",
             "municipality": "Hinigaran",
             "post_code": 6106
         },
         {
             "location": "Negros Occidental",
-            "region": "VI",
+            "region": "NIR",
             "municipality": "Hinoba-an",
             "post_code": 6114
         },
         {
             "location": "Negros Occidental",
-            "region": "VI",
+            "region": "NIR",
             "municipality": "Ilog",
             "post_code": 6109
         },
         {
             "location": "Negros Occidental",
-            "region": "VI",
+            "region": "NIR",
             "municipality": "Isabela",
             "post_code": 6128
         },
         {
             "location": "Negros Occidental",
-            "region": "VI",
+            "region": "NIR",
             "municipality": "Kabankalan",
             "post_code": 6111
         },
         {
             "location": "Negros Occidental",
-            "region": "VI",
+            "region": "NIR",
             "municipality": "La Carlota City",
             "post_code": 6130
         },
         {
             "location": "Negros Occidental",
-            "region": "VI",
+            "region": "NIR",
             "municipality": "La Castellana",
             "post_code": 6131
         },
         {
             "location": "Negros Occidental",
-            "region": "VI",
+            "region": "NIR",
             "municipality": "Manapla",
             "post_code": 6120
         },
         {
             "location": "Negros Occidental",
-            "region": "VI",
+            "region": "NIR",
             "municipality": "Moises Padilla",
             "post_code": 6132
         },
         {
             "location": "Negros Occidental",
-            "region": "VI",
+            "region": "NIR",
             "municipality": "Murcia",
             "post_code": 6129
         },
         {
             "location": "Negros Occidental",
-            "region": "VI",
+            "region": "NIR",
             "municipality": "Paraiso (Fabrica)",
             "post_code": 6123
         },
         {
             "location": "Negros Occidental",
-            "region": "VI",
+            "region": "NIR",
             "municipality": "Pontevedra",
             "post_code": 6105
         },
         {
             "location": "Negros Occidental",
-            "region": "VI",
+            "region": "NIR",
             "municipality": "Pulupandan",
             "post_code": 6102
         },
         {
             "location": "Negros Occidental",
-            "region": "VI",
+            "region": "NIR",
             "municipality": "Sagay",
             "post_code": 6122
         },
         {
             "location": "Negros Occidental",
-            "region": "VI",
+            "region": "NIR",
             "municipality": "San Carlos City",
             "post_code": 6127
         },
         {
             "location": "Negros Occidental",
-            "region": "VI",
+            "region": "NIR",
             "municipality": "San Enrique",
             "post_code": 6104
         },
         {
             "location": "Negros Occidental",
-            "region": "VI",
+            "region": "NIR",
             "municipality": "Silay City",
             "post_code": 6116
         },
         {
             "location": "Negros Occidental",
-            "region": "VI",
+            "region": "NIR",
             "municipality": "Silay Hawaiian Central",
             "post_code": 6117
         },
         {
             "location": "Negros Occidental",
-            "region": "VI",
+            "region": "NIR",
             "municipality": "Sipalay",
             "post_code": 6113
         },
         {
             "location": "Negros Occidental",
-            "region": "VI",
+            "region": "NIR",
             "municipality": "Talisay",
             "post_code": 6115
         },
         {
             "location": "Negros Occidental",
-            "region": "VI",
+            "region": "NIR",
             "municipality": "Toboso",
             "post_code": 6125
         },
         {
             "location": "Negros Occidental",
-            "region": "VI",
+            "region": "NIR",
             "municipality": "Valladolid",
             "post_code": 6103
         },
         {
             "location": "Negros Occidental",
-            "region": "VI",
+            "region": "NIR",
             "municipality": "Victorias",
             "post_code": 6119
         },
         {
             "location": "Negros Oriental",
-            "region": "VII",
+            "region": "NIR",
             "municipality": "Amlan",
             "post_code": 6203
         },
         {
             "location": "Negros Oriental",
-            "region": "VII",
+            "region": "NIR",
             "municipality": "Ayungon",
             "post_code": 6210
         },
         {
             "location": "Negros Oriental",
-            "region": "VII",
+            "region": "NIR",
             "municipality": "Bacung",
             "post_code": 6216
         },
         {
             "location": "Negros Oriental",
-            "region": "VII",
+            "region": "NIR",
             "municipality": "Bais City",
             "post_code": 6206
         },
         {
             "location": "Negros Oriental",
-            "region": "VII",
+            "region": "NIR",
             "municipality": "Basay",
             "post_code": 6222
         },
         {
             "location": "Negros Oriental",
-            "region": "VII",
+            "region": "NIR",
             "municipality": "Bayawan",
             "post_code": 6221
         },
         {
             "location": "Negros Oriental",
-            "region": "VII",
+            "region": "NIR",
             "municipality": "Bindoy",
             "post_code": 6209
         },
         {
             "location": "Negros Oriental",
-            "region": "VII",
+            "region": "NIR",
             "municipality": "Canlaon City",
             "post_code": 6223
         },
         {
             "location": "Negros Oriental",
-            "region": "VII",
+            "region": "NIR",
             "municipality": "Dauin",
             "post_code": 6217
         },
         {
             "location": "Negros Oriental",
-            "region": "VII",
+            "region": "NIR",
             "municipality": "Dumaguete City",
             "post_code": 6200
         },
         {
             "location": "Negros Oriental",
-            "region": "VII",
+            "region": "NIR",
             "municipality": "Guihulngan",
             "post_code": 6214
         },
         {
             "location": "Negros Oriental",
-            "region": "VII",
+            "region": "NIR",
             "municipality": "Jimalalud",
             "post_code": 6212
         },
         {
             "location": "Negros Oriental",
-            "region": "VII",
+            "region": "NIR",
             "municipality": "La Libertad",
             "post_code": 6213
         },
         {
             "location": "Negros Oriental",
-            "region": "VII",
+            "region": "NIR",
             "municipality": "Mabinay",
             "post_code": 6207
         },
         {
             "location": "Negros Oriental",
-            "region": "VII",
+            "region": "NIR",
             "municipality": "Manjuyod",
             "post_code": 6208
         },
         {
             "location": "Negros Oriental",
-            "region": "VII",
+            "region": "NIR",
             "municipality": "Pamplona",
             "post_code": 6205
         },
         {
             "location": "Negros Oriental",
-            "region": "VII",
+            "region": "NIR",
             "municipality": "San Jose",
             "post_code": 6202
         },
         {
             "location": "Negros Oriental",
-            "region": "VII",
+            "region": "NIR",
             "municipality": "Siaton",
             "post_code": 6219
         },
         {
             "location": "Negros Oriental",
-            "region": "VII",
+            "region": "NIR",
             "municipality": "Sibulan",
             "post_code": 6201
         },
         {
             "location": "Negros Oriental",
-            "region": "VII",
+            "region": "NIR",
             "municipality": "Sta. Catalina",
             "post_code": 6220
         },
         {
             "location": "Negros Oriental",
-            "region": "VII",
+            "region": "NIR",
             "municipality": "Tanjay",
             "post_code": 6204
         },
         {
             "location": "Negros Oriental",
-            "region": "VII",
+            "region": "NIR",
             "municipality": "Tayasan",
             "post_code": 6211
         },
         {
             "location": "Negros Oriental",
-            "region": "VII",
+            "region": "NIR",
             "municipality": "Valencia",
             "post_code": 6215
         },
         {
             "location": "Negros Oriental",
-            "region": "VII",
+            "region": "NIR",
             "municipality": "Valle hermoso",
             "post_code": 6224
         },
         {
             "location": "Negros Oriental",
-            "region": "VII",
+            "region": "NIR",
             "municipality": "Zamboanguita",
             "post_code": 6218
         },
@@ -11428,37 +11428,37 @@ export default function placeDataArray() {
         },
         {
             "location": "Siquijor",
-            "region": "VII",
+            "region": "NIR",
             "municipality": "Enrique Villanueva",
             "post_code": 6230
         },
         {
             "location": "Siquijor",
-            "region": "VII",
+            "region": "NIR",
             "municipality": "Larena",
             "post_code": 6226
         },
         {
             "location": "Siquijor",
-            "region": "VII",
+            "region": "NIR",
             "municipality": "Lazi",
             "post_code": 6228
         },
         {
             "location": "Siquijor",
-            "region": "VII",
+            "region": "NIR",
             "municipality": "Maria",
             "post_code": 6229
         },
         {
             "location": "Siquijor",
-            "region": "VII",
+            "region": "NIR",
             "municipality": "San Juan",
             "post_code": 6227
         },
         {
             "location": "Siquijor",
-            "region": "VII",
+            "region": "NIR",
             "municipality": "Siquijor",
             "post_code": 6225
         },
