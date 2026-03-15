@@ -5,6 +5,9 @@
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "homepage": "https://github.com/blckclov3r/use-postal-ph#readme",
   "keywords": [
     "use-postal",
@@ -71,12 +74,15 @@
     "email": "blckclov3r@gmail.com"
   },
   "devDependencies": {
-    "@playwright/test": "^1.51.1",
-    "@swc/core": "^1.11.16",
-    "@types/node": "^22.14.0",
-    "terser": "^5.39.0",
-    "tsup": "^8.4.0",
-    "typescript": "^5.8.3"
+    "@playwright/test": "^1.58.2",
+    "@swc/core": "^1.15.18",
+    "@types/node": "^25.5.0",
+    "terser": "^5.46.0",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=10"
   },
   "publishConfig": {
     "access": "public"

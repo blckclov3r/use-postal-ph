@@ -5,13 +5,15 @@ export default defineConfig({
     entry: ['./src/index.ts'],
     dts: true,
     clean: true,
-    minify: "terser",
+    minify: 'terser',
     keepNames: true,
     treeshake: true,
     splitting: false,
     target: 'es5',
     outDir: './dist',
+    platform: 'node',
     terserOptions: {
+        ecma: 5,
         mangle: {
             toplevel: true,
             reserved: ['require', 'exports', 'module', 'define'],
@@ -33,6 +35,5 @@ export default defineConfig({
             if_return: true,
             defaults: true,
         },
-        ecma: 5,
     },
 });

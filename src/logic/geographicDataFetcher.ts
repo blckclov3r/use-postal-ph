@@ -36,12 +36,12 @@ export default function geographicDataFetcher() {
         if (!value || !key) return undefined;
         const pattern = value.toString().trim();
         const regex = new RegExp('^' + pattern, 'i');
-        return data.find((x) => regex.test((x[key] as unknown).toString() || ''));
+        return data.find((x) => regex.test((x[key] as unknown as string).toString() || ''));
     };
 
     const createRegexPattern = (value: string | undefined, autoComplete: boolean = false) => {
         const pattern = (value || '').toString().trim();
-        const regexPattern = autoComplete ? '^' + pattern.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/n|ñ/gi, '[nñ]') : '^' + pattern.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/[nñ]/gi, '[nñ]') + '$';
+        const regexPattern = autoComplete ? '^' + pattern.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/[nñ]/gi, '[nñ]') : '^' + pattern.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/[nñ]/gi, '[nñ]') + '$';
         return new RegExp(regexPattern, 'i');
     };
 
@@ -53,7 +53,7 @@ export default function geographicDataFetcher() {
     ) => {
         if (!value || !key) return {data: [], count: 0};
         const regex = createRegexPattern(value.toString(), autoComplete);
-        let filteredData = data.filter((x) => regex.test((x[key] as unknown).toString() || ''));
+        let filteredData = data.filter((x) => regex.test((x[key] as unknown as string).toString() || ''));
         let count = filteredData.length;
         if (limit && limit > 0) {
             filteredData = filteredData.slice(0, limit);
