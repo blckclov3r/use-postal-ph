@@ -11806,115 +11806,115 @@ export default function placeDataArray() {
         },
         {
             "location": "Sulu",
-            "region": "BARMM",
+            "region": "IX",
             "municipality": "Banguingui (formerly Tongkil)",
             "post_code": 7406
         },
         {
             "location": "Sulu",
-            "region": "BARMM",
+            "region": "IX",
             "municipality": "Hadji Panglima Tahil (formerly Marungas)",
             "post_code": 7413
         },
         {
             "location": "Sulu",
-            "region": "BARMM",
+            "region": "IX",
             "municipality": "Indanan",
             "post_code": 7407
         },
         {
             "location": "Sulu",
-            "region": "BARMM",
+            "region": "IX",
             "municipality": "Jolo",
             "post_code": 7400
         },
         {
             "location": "Sulu",
-            "region": "BARMM",
+            "region": "IX",
             "municipality": "Kalingalan Kalauang",
             "post_code": 7416
         },
         {
             "location": "Sulu",
-            "region": "BARMM",
+            "region": "IX",
             "municipality": "Lugus",
             "post_code": 7411
         },
         {
             "location": "Sulu",
-            "region": "BARMM",
+            "region": "IX",
             "municipality": "Luuk",
             "post_code": 7404
         },
         {
             "location": "Sulu",
-            "region": "BARMM",
+            "region": "IX",
             "municipality": "Maimbung",
             "post_code": 7409
         },
         {
             "location": "Sulu",
-            "region": "BARMM",
+            "region": "IX",
             "municipality": "Omar",
             "post_code": 7417
         },
         {
             "location": "Sulu",
-            "region": "BARMM",
+            "region": "IX",
             "municipality": "Panamao",
             "post_code": 7402
         },
         {
             "location": "Sulu",
-            "region": "BARMM",
+            "region": "IX",
             "municipality": "Pandami",
             "post_code": 7418
         },
         {
             "location": "Sulu",
-            "region": "BARMM",
+            "region": "IX",
             "municipality": "Panglima Estino",
             "post_code": 7415
         },
         {
             "location": "Sulu",
-            "region": "BARMM",
+            "region": "IX",
             "municipality": "Panguntaran",
             "post_code": 7414
         },
         {
             "location": "Sulu",
-            "region": "BARMM",
+            "region": "IX",
             "municipality": "Parang",
             "post_code": 7408
         },
         {
             "location": "Sulu",
-            "region": "BARMM",
+            "region": "IX",
             "municipality": "Pata",
             "post_code": 7405
         },
         {
             "location": "Sulu",
-            "region": "BARMM",
+            "region": "IX",
             "municipality": "Patikul",
             "post_code": 7401
         },
         {
             "location": "Sulu",
-            "region": "BARMM",
+            "region": "IX",
             "municipality": "Siasi",
             "post_code": 7412
         },
         {
             "location": "Sulu",
-            "region": "BARMM",
+            "region": "IX",
             "municipality": "Talipao",
             "post_code": 7403
         },
         {
             "location": "Sulu",
-            "region": "BARMM",
+            "region": "IX",
             "municipality": "Tapul",
             "post_code": 7410
         },
