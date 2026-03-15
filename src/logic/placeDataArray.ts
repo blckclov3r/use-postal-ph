@@ -8572,37 +8572,37 @@ export default function placeDataArray() {
         },
         {
             "location": "Marinduque",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Boac",
             "post_code": 4900
         },
         {
             "location": "Marinduque",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Buenavista",
             "post_code": 4904
         },
         {
             "location": "Marinduque",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Gasan",
             "post_code": 4905
         },
         {
             "location": "Marinduque",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Mogpog",
             "post_code": 4901
         },
         {
             "location": "Marinduque",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Sta. Cruz",
             "post_code": 4902
         },
         {
             "location": "Marinduque",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Torrijos",
             "post_code": 4903
         },
@@ -9958,313 +9958,313 @@ export default function placeDataArray() {
         },
         {
             "location": "Occidental Mindoro",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Abra de Ilog",
             "post_code": 5108
         },
         {
             "location": "Occidental Mindoro",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Calintaan",
             "post_code": 5102
         },
         {
             "location": "Occidental Mindoro",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Looc",
             "post_code": 5111
         },
         {
             "location": "Occidental Mindoro",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Lubang",
             "post_code": 5109
         },
         {
             "location": "Occidental Mindoro",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Magsaysay",
             "post_code": 5101
         },
         {
             "location": "Occidental Mindoro",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Mamburao",
             "post_code": 5106
         },
         {
             "location": "Occidental Mindoro",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Palauan",
             "post_code": 5107
         },
         {
             "location": "Occidental Mindoro",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Rizal",
             "post_code": 5103
         },
         {
             "location": "Occidental Mindoro",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Sablayan",
             "post_code": 5104
         },
         {
             "location": "Occidental Mindoro",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "San Jose",
             "post_code": 5100
         },
         {
             "location": "Occidental Mindoro",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Sta. Cruz",
             "post_code": 5105
         },
         {
             "location": "Occidental Mindoro",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Tilik",
             "post_code": 5110
         },
         {
             "location": "Oriental Mindoro",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Baco",
             "post_code": 5201
         },
         {
             "location": "Oriental Mindoro",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Bansud",
             "post_code": 5210
         },
         {
             "location": "Oriental Mindoro",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Bongabong",
             "post_code": 5211
         },
         {
             "location": "Oriental Mindoro",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Bulalacao",
             "post_code": 5214
         },
         {
             "location": "Oriental Mindoro",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Calapan",
             "post_code": 5200
         },
         {
             "location": "Oriental Mindoro",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Gloria",
             "post_code": 5209
         },
         {
             "location": "Oriental Mindoro",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Mansalay",
             "post_code": 5213
         },
         {
             "location": "Oriental Mindoro",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Naujan",
             "post_code": 5204
         },
         {
             "location": "Oriental Mindoro",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Pinamalayan",
             "post_code": 5208
         },
         {
             "location": "Oriental Mindoro",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Pola",
             "post_code": 5206
         },
         {
             "location": "Oriental Mindoro",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Puerto Galera",
             "post_code": 5203
         },
         {
             "location": "Oriental Mindoro",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Roxas",
             "post_code": 5212
         },
         {
             "location": "Oriental Mindoro",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "San Teodoro",
             "post_code": 5202
         },
         {
             "location": "Oriental Mindoro",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Socorro",
             "post_code": 5207
         },
         {
             "location": "Oriental Mindoro",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Victoria",
             "post_code": 5205
         },
         {
             "location": "Palawan",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Aborlan",
             "post_code": 5302
         },
         {
             "location": "Palawan",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Agutaya",
             "post_code": 5320
         },
         {
             "location": "Palawan",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Araceli",
             "post_code": 5311
         },
         {
             "location": "Palawan",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Balabac",
             "post_code": 5307
         },
         {
             "location": "Palawan",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Batazara",
             "post_code": 5306
         },
         {
             "location": "Palawan",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Brooke's Point",
             "post_code": 5305
         },
         {
             "location": "Palawan",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Busuanga",
             "post_code": 5317
         },
         {
             "location": "Palawan",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Cagayancillo",
             "post_code": 5321
         },
         {
             "location": "Palawan",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Coron",
             "post_code": 5316
         },
         {
             "location": "Palawan",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Culion",
             "post_code": 5315
         },
         {
             "location": "Palawan",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Cuyo",
             "post_code": 5318
         },
         {
             "location": "Palawan",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Dumaran",
             "post_code": 5310
         },
         {
             "location": "Palawan",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "El Nido (Baquit)",
             "post_code": 5313
         },
         {
             "location": "Palawan",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Iwahig Penal Colony",
             "post_code": 5301
         },
         {
             "location": "Palawan",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Kalayaan",
             "post_code": 5322
         },
         {
             "location": "Palawan",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Linapacan",
             "post_code": 5314
         },
         {
             "location": "Palawan",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Magsaysay",
             "post_code": 5319
         },
         {
             "location": "Palawan",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Narra (Panacan)",
             "post_code": 5303
         },
         {
             "location": "Palawan",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Puerto Princesa City",
             "post_code": 5300
         },
         {
             "location": "Palawan",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Quezon",
             "post_code": 5304
         },
         {
             "location": "Palawan",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Roxas",
             "post_code": 5308
         },
         {
             "location": "Palawan",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Rizal (Marcos)",
             "post_code": 5323
         },
         {
             "location": "Palawan",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "San Vicente",
             "post_code": 5309
         },
         {
             "location": "Palawan",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Sofronio Española",
             "post_code": 5324
         },
         {
             "location": "Palawan",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Taytay",
             "post_code": 5312
         },
@@ -11128,103 +11128,103 @@ export default function placeDataArray() {
         },
         {
             "location": "Romblon",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Alcantara",
             "post_code": 5509
         },
         {
             "location": "Romblon",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Banton (Jones)",
             "post_code": 5515
         },
         {
             "location": "Romblon",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Cajidiocan",
             "post_code": 5512
         },
         {
             "location": "Romblon",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Calatrava",
             "post_code": 5503
         },
         {
             "location": "Romblon",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Concepcion",
             "post_code": 5516
         },
         {
             "location": "Romblon",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Corcuera",
             "post_code": 5514
         },
         {
             "location": "Romblon",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Ferrol",
             "post_code": 5506
         },
         {
             "location": "Romblon",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Sta. Maria (formerly Imelda)",
             "post_code": 5502
         },
         {
             "location": "Romblon",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Looc",
             "post_code": 5507
         },
         {
             "location": "Romblon",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Magdiwang",
             "post_code": 5511
         },
         {
             "location": "Romblon",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Odiongan",
             "post_code": 5505
         },
         {
             "location": "Romblon",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Romblon",
             "post_code": 5500
         },
         {
             "location": "Romblon",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "San Agustin",
             "post_code": 5501
         },
         {
             "location": "Romblon",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "San Andres",
             "post_code": 5504
         },
         {
             "location": "Romblon",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "San fernando",
             "post_code": 5513
         },
         {
             "location": "Romblon",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "San Jose",
             "post_code": 5510
         },
         {
             "location": "Romblon",
-            "region": "IV-B",
+            "region": "MIMAROPA",
             "municipality": "Sta. Fe",
             "post_code": 5508
         },
