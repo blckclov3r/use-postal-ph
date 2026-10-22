@@ -7,12248 +7,2058 @@ import type {PlaceProps} from "../types/placeTypes";
  */
 
 export default function placeDataArray() {
-    const data: PlaceProps[] = [
-        {
-            "location": "Manila",
-            "municipality": "Binondo",
-            "post_code": 1006,
-            "region": "NCR"
-        },
-        {
-            "location": "Manila",
-            "municipality": "Intramuros",
-            "post_code": 1002,
-            "region": "NCR"
-        },
-        {
-            "location": "Manila",
-            "municipality": "Malate",
-            "post_code": 1004,
-            "region": "NCR"
-        },
-        {
-            "location": "Manila",
-            "municipality": "Manila CPO - Ermita",
-            "post_code": 1000,
-            "region": "NCR"
-        },
-        {
-            "location": "Manila",
-            "municipality": "Paco",
-            "post_code": 1007,
-            "region": "NCR"
-        },
-        {
-            "location": "Manila",
-            "municipality": "Pandacan",
-            "post_code": 1011,
-            "region": "NCR"
-        },
-        {
-            "location": "Manila",
-            "municipality": "Port Area (South)",
-            "post_code": 1018,
-            "region": "NCR"
-        },
-        {
-            "location": "Manila",
-            "municipality": "Quiapo",
-            "post_code": 1001,
-            "region": "NCR"
-        },
-        {
-            "location": "Manila",
-            "municipality": "Sampaloc East",
-            "post_code": 1008,
-            "region": "NCR"
-        },
-        {
-            "location": "Manila",
-            "municipality": "Sampaloc West",
-            "post_code": 1015,
-            "region": "NCR"
-        },
-        {
-            "location": "Manila",
-            "municipality": "San Andres Bukid",
-            "post_code": 1017,
-            "region": "NCR"
-        },
-        {
-            "location": "Manila",
-            "municipality": "San Miguel",
-            "post_code": 1005,
-            "region": "NCR"
-        },
-        {
-            "location": "Manila",
-            "municipality": "San Nicolas",
-            "post_code": 1010,
-            "region": "NCR"
-        },
-        {
-            "location": "Manila",
-            "municipality": "Sta. Ana",
-            "post_code": 1009,
-            "region": "NCR"
-        },
-        {
-            "location": "Manila",
-            "municipality": "Sta Cruz North",
-            "post_code": 1014,
-            "region": "NCR"
-        },
-        {
-            "location": "Manila",
-            "municipality": "Sta Cruz South",
-            "post_code": 1003,
-            "region": "NCR"
-        },
-        {
-            "location": "Manila",
-            "municipality": "Santa Mesa",
-            "post_code": 1016,
-            "region": "NCR"
-        },
-        {
-            "location": "Manila",
-            "municipality": "Tondo North",
-            "post_code": 1013,
-            "region": "NCR"
-        },
-        {
-            "location": "Manila",
-            "municipality": "Tondo South",
-            "post_code": 1012,
-            "region": "NCR"
-        },
-        {
-            "location": "Caloocan City (North)",
-            "region": "NCR",
-            "municipality": "Amparo Subdivision",
-            "post_code": 1425
-        },
-        {
-            "location": "Caloocan City (North)",
-            "region": "NCR",
-            "municipality": "Bagong Silang",
-            "post_code": 1428
-        },
-        {
-            "location": "Caloocan City (North)",
-            "region": "NCR",
-            "municipality": "Bagumbong/Pag-asa",
-            "post_code": 1421
-        },
-        {
-            "location": "Caloocan City (North)",
-            "region": "NCR",
-            "municipality": "Bankers Village",
-            "post_code": 1426
-        },
-        {
-            "location": "Caloocan City (North)",
-            "region": "NCR",
-            "municipality": "Capitol Parkland Subdivision",
-            "post_code": 1424
-        },
-        {
-            "location": "Caloocan City (North)",
-            "region": "NCR",
-            "municipality": "Kaybiga/Deparo",
-            "post_code": 1420
-        },
-        {
-            "location": "Caloocan City (North)",
-            "region": "NCR",
-            "municipality": "Lilles Ville Subdivision",
-            "post_code": 1423
-        },
-        {
-            "location": "Caloocan City (North)",
-            "region": "NCR",
-            "municipality": "Novaliches North",
-            "post_code": 1422
-        },
-        {
-            "location": "Caloocan City (North)",
-            "region": "NCR",
-            "municipality": "Tala Leprosarium",
-            "post_code": 1427
-        },
-        {
-            "location": "Caloocan City (North)",
-            "region": "NCR",
-            "municipality": "Victory Heights",
-            "post_code": 1427
-        },
-        {
-            "location": "Caloocan City (South)",
-            "region": "NCR",
-            "municipality": "1st Avenue to 7th Avenue - West",
-            "post_code": 1405
-        },
-        {
-            "location": "Caloocan City (South)",
-            "region": "NCR",
-            "municipality": "Baesa",
-            "post_code": 1401
-        },
-        {
-            "location": "Caloocan City (South)",
-            "region": "NCR",
-            "municipality": "Fish Market",
-            "post_code": 1411
-        },
-        {
-            "location": "Caloocan City (South)",
-            "region": "NCR",
-            "municipality": "Grace Park East",
-            "post_code": 1403
-        },
-        {
-            "location": "Caloocan City (South)",
-            "region": "NCR",
-            "municipality": "Grace Park West",
-            "post_code": 1406
-        },
-        {
-            "location": "Caloocan City (South)",
-            "region": "NCR",
-            "municipality": "Isla de Cocomo",
-            "post_code": 1412
-        },
-        {
-            "location": "Caloocan City (South)",
-            "region": "NCR",
-            "municipality": "Caloocan City CPO",
-            "post_code": 1400
-        },
-        {
-            "location": "Caloocan City (South)",
-            "region": "NCR",
-            "municipality": "Kapitbahayan East",
-            "post_code": 1413
-        },
-        {
-            "location": "Caloocan City (South)",
-            "region": "NCR",
-            "municipality": "Kaunlaran Village",
-            "post_code": 1409
-        },
-        {
-            "location": "Caloocan City (South)",
-            "region": "NCR",
-            "municipality": "Maypajo",
-            "post_code": 1410
-        },
-        {
-            "location": "Caloocan City (South)",
-            "region": "NCR",
-            "municipality": "San Jose",
-            "post_code": 1404
-        },
-        {
-            "location": "Caloocan City (South)",
-            "region": "NCR",
-            "municipality": "Sangandaan",
-            "post_code": 1408
-        },
-        {
-            "location": "Caloocan City (South)",
-            "region": "NCR",
-            "municipality": "Sta. Quiteria",
-            "post_code": 1402
-        },
-        {
-            "location": "Caloocan City (South)",
-            "region": "NCR",
-            "municipality": "University Hills",
-            "post_code": 1407
-        },
-        {
-            "location": "Las Piñas City",
-            "region": "NCR",
-            "municipality": "Almanza",
-            "post_code": 1750
-        },
-        {
-            "location": "Las Piñas City",
-            "region": "NCR",
-            "municipality": "Angela Village",
-            "post_code": 1749
-        },
-        {
-            "location": "Las Piñas City",
-            "region": "NCR",
-            "municipality": "Cut-cut",
-            "post_code": 1743
-        },
-        {
-            "location": "Las Piñas City",
-            "region": "NCR",
-            "municipality": "Gatchalian Subdivision",
-            "post_code": 1745
-        },
-        {
-            "location": "Las Piñas City",
-            "region": "NCR",
-            "municipality": "Las Piñas CPO",
-            "post_code": 1740
-        },
-        {
-            "location": "Las Piñas City",
-            "region": "NCR",
-            "municipality": "Manila Doctors Village",
-            "post_code": 1748
-        },
-        {
-            "location": "Las Piñas City",
-            "region": "NCR",
-            "municipality": "Manuyo",
-            "post_code": 1744
-        },
-        {
-            "location": "Las Piñas City",
-            "region": "NCR",
-            "municipality": "Pulang Lupa",
-            "post_code": 1742
-        },
-        {
-            "location": "Las Piñas City",
-            "region": "NCR",
-            "municipality": "Remarville Subdivision",
-            "post_code": 1741
-        },
-        {
-            "location": "Las Piñas City",
-            "region": "NCR",
-            "municipality": "Soldiers Hills Subdivision",
-            "post_code": 1752
-        },
-        {
-            "location": "Las Piñas City",
-            "region": "NCR",
-            "municipality": "T. S. Cruz Subdivision",
-            "post_code": 1751
-        },
-        {
-            "location": "Las Piñas City",
-            "region": "NCR",
-            "municipality": "Talon, Moonwalk",
-            "post_code": 1747
-        },
-        {
-            "location": "Las Piñas City",
-            "region": "NCR",
-            "municipality": "Verdant Acres Subdivision",
-            "post_code": 1746
-        },
-        {
-            "location": "Las Piñas City",
-            "region": "NCR",
-            "municipality": "Zapote",
-            "post_code": 1742
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "Ayala-Paseo De Roxas",
-            "post_code": 1226
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "Bangkal",
-            "post_code": 1233
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "Bel-air",
-            "post_code": 1209
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "Cembo",
-            "post_code": 1214
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "Comembo",
-            "post_code": 1217
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "Dasmarinas Village North",
-            "post_code": 1221
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "Dasmarinas Village South",
-            "post_code": 1222
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "Forbes Park North",
-            "post_code": 1219
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "Forbes Park South",
-            "post_code": 1220
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "Fort Bonifacio Naval Station",
-            "post_code": 1202
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "Greenbelt",
-            "post_code": 1228
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "Guadalupe Nuevo (inc. Visayan)",
-            "post_code": 1212
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "Guadalupe Viejo (inc. Palm Village)",
-            "post_code": 1211
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "Kasilawan",
-            "post_code": 1206
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "La Paz-Singkamas-Tejeros",
-            "post_code": 1204
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "Legaspi Village",
-            "post_code": 1229
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "Magallanes Village",
-            "post_code": 1232
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "Commercial Center",
-            "post_code": 1224
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "Makati CPO (Inc. Buendia Avenue)",
-            "post_code": 1200
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "Olympia and Carmona",
-            "post_code": 1207
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "Palanan",
-            "post_code": 1235
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "Pasong Tamo 2000 Up, Ecology Village",
-            "post_code": 1231
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "Pembo",
-            "post_code": 1218
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "Pinagkaisahan-pitogo",
-            "post_code": 1213
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "Pio Del Pilar",
-            "post_code": 1230
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "Poblacion",
-            "post_code": 1210
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "Rembo (East) and Malapad Na Bato",
-            "post_code": 1216
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "Rembo (West)",
-            "post_code": 1215
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "Salcedo Village",
-            "post_code": 1227
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "San Antonio Village (inc. Malu)",
-            "post_code": 1203
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "San Isidro",
-            "post_code": 1234
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "San Lorenzo Village",
-            "post_code": 1223
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "Sta. Cruz",
-            "post_code": 1205
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "Urdaneta Village",
-            "post_code": 1225
-        },
-        {
-            "location": "Makati City",
-            "region": "NCR",
-            "municipality": "Valenzuela (inc. Santiago, San Miguel and Rizal Village)",
-            "post_code": 1208
-        },
-        {
-            "location": "Malabon City",
-            "region": "NCR",
-            "municipality": "Acacia",
-            "post_code": 1474
-        },
-        {
-            "location": "Malabon City",
-            "region": "NCR",
-            "municipality": "Araneta Subdivision",
-            "post_code": 1476
-        },
-        {
-            "location": "Malabon City",
-            "region": "NCR",
-            "municipality": "Dampalit",
-            "post_code": 1480
-        },
-        {
-            "location": "Malabon City",
-            "region": "NCR",
-            "municipality": "Flores",
-            "post_code": 1471
-        },
-        {
-            "location": "Malabon City",
-            "region": "NCR",
-            "municipality": "Kaunlaran Village",
-            "post_code": 1409
-        },
-        {
-            "location": "Malabon City",
-            "region": "NCR",
-            "municipality": "Longos",
-            "post_code": 1472
-        },
-        {
-            "location": "Malabon City",
-            "region": "NCR",
-            "municipality": "Malabon",
-            "post_code": 1470
-        },
-        {
-            "location": "Malabon City",
-            "region": "NCR",
-            "municipality": "Maysilo",
-            "post_code": 1477
-        },
-        {
-            "location": "Malabon City",
-            "region": "NCR",
-            "municipality": "Muzon",
-            "post_code": 1479
-        },
-        {
-            "location": "Malabon City",
-            "region": "NCR",
-            "municipality": "Potrero",
-            "post_code": 1475
-        },
-        {
-            "location": "Malabon City",
-            "region": "NCR",
-            "municipality": "Santolan",
-            "post_code": 1478
-        },
-        {
-            "location": "Malabon City",
-            "region": "NCR",
-            "municipality": "Tonsuya",
-            "post_code": 1473
-        },
-        {
-            "location": "Mandaluyong City",
-            "region": "NCR",
-            "municipality": "East Edsa",
-            "post_code": 1554
-        },
-        {
-            "location": "Mandaluyong City",
-            "region": "NCR",
-            "municipality": "Greenhills South",
-            "post_code": 1556
-        },
-        {
-            "location": "Mandaluyong City",
-            "region": "NCR",
-            "municipality": "Mandaluyong CPO",
-            "post_code": 1550
-        },
-        {
-            "location": "Mandaluyong City",
-            "region": "NCR",
-            "municipality": "Philippine National Mental Hospital",
-            "post_code": 1553
-        },
-        {
-            "location": "Mandaluyong City",
-            "region": "NCR",
-            "municipality": "Shaw Boulevard",
-            "post_code": 1552
-        },
-        {
-            "location": "Mandaluyong City",
-            "region": "NCR",
-            "municipality": "Vergara",
-            "post_code": 1551
-        },
-        {
-            "location": "Mandaluyong City",
-            "region": "NCR",
-            "municipality": "Wack Wack Golf",
-            "post_code": 1555
-        },
-        {
-            "location": "Marikina City",
-            "municipality": "Barangka",
-            "post_code": 1803,
-            "region": "NCR"
-        },
-        {
-            "location": "Marikina City",
-            "municipality": "Concepcion 1",
-            "post_code": 1807,
-            "region": "NCR"
-        },
-        {
-            "location": "Marikina City",
-            "municipality": "Concepcion 2",
-            "post_code": 1811,
-            "region": "NCR"
-        },
-        {
-            "location": "Marikina City",
-            "municipality": "Fortune",
-            "post_code": 1812,
-            "region": "NCR"
-        },
-        {
-            "location": "Marikina City",
-            "municipality": "Industrial Valley",
-            "post_code": 1802,
-            "region": "NCR"
-        },
-        {
-            "location": "Marikina City",
-            "municipality": "J. De La Peña",
-            "post_code": 1804,
-            "region": "NCR"
-        },
-        {
-            "location": "Marikina City",
-            "municipality": "Malanday",
-            "post_code": 1805,
-            "region": "NCR"
-        },
-        {
-            "location": "Marikina City",
-            "municipality": "Marikina CPO - Sta. Elena - Sto. Niño",
-            "post_code": 1800,
-            "region": "NCR"
-        },
-        {
-            "location": "Marikina City",
-            "municipality": "Marikina Heights",
-            "post_code": 1810,
-            "region": "NCR"
-        },
-        {
-            "location": "Marikina City",
-            "municipality": "Nangka",
-            "post_code": 1808,
-            "region": "NCR"
-        },
-        {
-            "location": "Marikina City",
-            "municipality": "Tumana",
-            "post_code": 1806,
-            "region": "NCR"
-        },
-        {
-            "location": "Marikina City",
-            "municipality": "Parang",
-            "post_code": 1809,
-            "region": "NCR"
-        },
-        {
-            "location": "Marikina City",
-            "municipality": "San Roque - Calumpang",
-            "post_code": 1801,
-            "region": "NCR"
-        },
-        {
-            "location": "Marikina City",
-            "municipality": "Tañong",
-            "post_code": 1803,
-            "region": "NCR"
-        },
-        {
-            "location": "Muntinlupa City",
-            "region": "NCR",
-            "municipality": "Ayala Alabang P.O. Boxes",
-            "post_code": 1799
-        },
-        {
-            "location": "Muntinlupa City",
-            "region": "NCR",
-            "municipality": "Ayala Alabang Subdivision",
-            "post_code": 1780
-        },
-        {
-            "location": "Muntinlupa City",
-            "region": "NCR",
-            "municipality": "Bayanan/Putatan",
-            "post_code": 1772
-        },
-        {
-            "location": "Muntinlupa City",
-            "region": "NCR",
-            "municipality": "Bule/Cupang",
-            "post_code": 1771
-        },
-        {
-            "location": "Muntinlupa City",
-            "region": "NCR",
-            "municipality": "Filinvest Corp. City",
-            "post_code": 1781
-        },
-        {
-            "location": "Muntinlupa City",
-            "region": "NCR",
-            "municipality": "Muntinlupa CPO",
-            "post_code": 1770
-        },
-        {
-            "location": "Muntinlupa City",
-            "region": "NCR",
-            "municipality": "Pearl Heights",
-            "post_code": 1775
-        },
-        {
-            "location": "Muntinlupa City",
-            "region": "NCR",
-            "municipality": "Pleasant Village",
-            "post_code": 1777
-        },
-        {
-            "location": "Muntinlupa City",
-            "region": "NCR",
-            "municipality": "Poblacion",
-            "post_code": 1776
-        },
-        {
-            "location": "Muntinlupa City",
-            "region": "NCR",
-            "municipality": "Susana Heights",
-            "post_code": 1774
-        },
-        {
-            "location": "Muntinlupa City",
-            "region": "NCR",
-            "municipality": "Tunasan",
-            "post_code": 1773
-        },
-        {
-            "location": "Navotas City",
-            "region": "NCR",
-            "municipality": "Fish Market",
-            "post_code": 1411
-        },
-        {
-            "location": "Navotas City",
-            "region": "NCR",
-            "municipality": "Isla de Cocomo",
-            "post_code": 1412
-        },
-        {
-            "location": "Navotas City",
-            "region": "NCR",
-            "municipality": "Kapitbahayan East",
-            "post_code": 1413
-        },
-        {
-            "location": "Navotas City",
-            "region": "NCR",
-            "municipality": "Kaunlaran Village",
-            "post_code": 1409
-        },
-        {
-            "location": "Navotas City",
-            "region": "NCR",
-            "municipality": "Navotas",
-            "post_code": 1485
-        },
-        {
-            "location": "Navotas City",
-            "region": "NCR",
-            "municipality": "Tangos",
-            "post_code": 1489
-        },
-        {
-            "location": "Navotas City",
-            "region": "NCR",
-            "municipality": "Tanza",
-            "post_code": 1490
-        },
-        {
-            "location": "Parañaque City",
-            "region": "NCR",
-            "municipality": "Aeropark Subdivision",
-            "post_code": 1714
-        },
-        {
-            "location": "Parañaque City",
-            "region": "NCR",
-            "municipality": "Baclaran",
-            "post_code": 1702
-        },
-        {
-            "location": "Parañaque City",
-            "region": "NCR",
-            "municipality": "Better Living Subdivision",
-            "post_code": 1711
-        },
-        {
-            "location": "Parañaque City",
-            "region": "NCR",
-            "municipality": "Bf Homes 1",
-            "post_code": 1720
-        },
-        {
-            "location": "Parañaque City",
-            "region": "NCR",
-            "municipality": "Bf Homes 2",
-            "post_code": 1718
-        },
-        {
-            "location": "Parañaque City",
-            "region": "NCR",
-            "municipality": "Executive Heights Subdivision",
-            "post_code": 1710
-        },
-        {
-            "location": "Parañaque City",
-            "region": "NCR",
-            "municipality": "Ireneville II",
-            "post_code": 1714
-        },
-        {
-            "location": "Parañaque City",
-            "region": "NCR",
-            "municipality": "Ireneville Subdivision I & II",
-            "post_code": 1719
-        },
-        {
-            "location": "Parañaque City",
-            "region": "NCR",
-            "municipality": "Manila Memorial Park",
-            "post_code": 1717
-        },
-        {
-            "location": "Parañaque City",
-            "region": "NCR",
-            "municipality": "Marina Subdivision (Reclamation)",
-            "post_code": 1703
-        },
-        {
-            "location": "Parañaque City",
-            "region": "NCR",
-            "municipality": "Maywood I",
-            "post_code": 1719
-        },
-        {
-            "location": "Parañaque City",
-            "region": "NCR",
-            "municipality": "Maywood Village II",
-            "post_code": 1716
-        },
-        {
-            "location": "Parañaque City",
-            "region": "NCR",
-            "municipality": "Merville Park",
-            "post_code": 1709
-        },
-        {
-            "location": "Parañaque City",
-            "region": "NCR",
-            "municipality": "Miramar Subdivision",
-            "post_code": 1712
-        },
-        {
-            "location": "Parañaque City",
-            "region": "NCR",
-            "municipality": "Moonwalk",
-            "post_code": 1709
-        },
-        {
-            "location": "Parañaque City",
-            "region": "NCR",
-            "municipality": "Multinational Village",
-            "post_code": 1708
-        },
-        {
-            "location": "Parañaque City",
-            "region": "NCR",
-            "municipality": "Ninoy Aquino International Airport (NAIA)",
-            "post_code": 1705
-        },
-        {
-            "location": "Parañaque City",
-            "region": "NCR",
-            "municipality": "Parañaque CPO",
-            "post_code": 1700
-        },
-        {
-            "location": "Parañaque City",
-            "region": "NCR",
-            "municipality": "Pulo",
-            "post_code": 1706
-        },
-        {
-            "location": "Parañaque City",
-            "region": "NCR",
-            "municipality": "San Antonio Valley 11 & 12",
-            "post_code": 1707
-        },
-        {
-            "location": "Parañaque City",
-            "region": "NCR",
-            "municipality": "San Antonio Valley I",
-            "post_code": 1715
-        },
-        {
-            "location": "Parañaque City",
-            "region": "NCR",
-            "municipality": "South Admiral Village",
-            "post_code": 1709
-        },
-        {
-            "location": "Parañaque City",
-            "region": "NCR",
-            "municipality": "Sto. Niño",
-            "post_code": 1704
-        },
-        {
-            "location": "Parañaque City",
-            "region": "NCR",
-            "municipality": "Tambo",
-            "post_code": 1701
-        },
-        {
-            "location": "Parañaque City",
-            "region": "NCR",
-            "municipality": "United Subdivision",
-            "post_code": 1713
-        },
-        {
-            "location": "Pasay City",
-            "region": "NCR",
-            "municipality": "Domestic Airport PO",
-            "post_code": 1301
-        },
-        {
-            "location": "Pasay City",
-            "region": "NCR",
-            "municipality": "Manila Bay (Reclamation)",
-            "post_code": 1308
-        },
-        {
-            "location": "Pasay City",
-            "region": "NCR",
-            "municipality": "Pasay City CPO Malibay",
-            "post_code": 1300
-        },
-        {
-            "location": "Pasay City",
-            "region": "NCR",
-            "municipality": "PICC (Reclamation Area)",
-            "post_code": 1307
-        },
-        {
-            "location": "Pasay City",
-            "region": "NCR",
-            "municipality": "San Isidro",
-            "post_code": 1306
-        },
-        {
-            "location": "Pasay City",
-            "region": "NCR",
-            "municipality": "San Jose",
-            "post_code": 1305
-        },
-        {
-            "location": "Pasay City",
-            "region": "NCR",
-            "municipality": "San Rafael",
-            "post_code": 1302
-        },
-        {
-            "location": "Pasay City",
-            "region": "NCR",
-            "municipality": "San Roque",
-            "post_code": 1303
-        },
-        {
-            "location": "Pasay City",
-            "region": "NCR",
-            "municipality": "Santa Clara",
-            "post_code": 1304
-        },
-        {
-            "location": "Pasay City",
-            "region": "NCR",
-            "municipality": "Villamor Airbase",
-            "post_code": 1309
-        },
-        {
-            "location": "Pasig City",
-            "region": "NCR",
-            "municipality": "Caniogan",
-            "post_code": 1606
-        },
-        {
-            "location": "Pasig City",
-            "region": "NCR",
-            "municipality": "Green Park",
-            "post_code": 1612
-        },
-        {
-            "location": "Pasig City",
-            "region": "NCR",
-            "municipality": "Kapitolyo",
-            "post_code": 1603
-        },
-        {
-            "location": "Pasig City",
-            "region": "NCR",
-            "municipality": "Manggahan",
-            "post_code": 1611
-        },
-        {
-            "location": "Pasig City",
-            "region": "NCR",
-            "municipality": "Maybunga",
-            "post_code": 1607
-        },
-        {
-            "location": "Pasig City",
-            "region": "NCR",
-            "municipality": "Ortigas PO",
-            "post_code": 1605
-        },
-        {
-            "location": "Pasig City",
-            "region": "NCR",
-            "municipality": "Bagong Ilog",
-            "post_code": 1600
-        },
-        {
-            "location": "Pasig City",
-            "region": "NCR",
-            "municipality": "Bagong Katipunan",
-            "post_code": 1600
-        },
-        {
-            "location": "Pasig City",
-            "region": "NCR",
-            "municipality": "Bambang",
-            "post_code": 1600
-        },
-        {
-            "location": "Pasig City",
-            "region": "NCR",
-            "municipality": "Buting",
-            "post_code": 1600
-        },
-        {
-            "location": "Pasig City",
-            "region": "NCR",
-            "municipality": "Dela Paz",
-            "post_code": 1600
-        },
-        {
-            "location": "Pasig City",
-            "region": "NCR",
-            "municipality": "Kalawaan",
-            "post_code": 1600
-        },
-        {
-            "location": "Pasig City",
-            "region": "NCR",
-            "municipality": "Kapasigan",
-            "post_code": 1600
-        },
-        {
-            "location": "Pasig City",
-            "region": "NCR",
-            "municipality": "Malinao",
-            "post_code": 1600
-        },
-        {
-            "location": "Pasig City",
-            "region": "NCR",
-            "municipality": "Oranbo",
-            "post_code": 1600
-        },
-        {
-            "location": "Pasig City",
-            "region": "NCR",
-            "municipality": "Palatiw",
-            "post_code": 1600
-        },
-        {
-            "location": "Pasig City",
-            "region": "NCR",
-            "municipality": "Pineda",
-            "post_code": 1600
-        },
-        {
-            "location": "Pasig City",
-            "region": "NCR",
-            "municipality": "Sagad",
-            "post_code": 1600
-        },
-        {
-            "location": "Pasig City",
-            "region": "NCR",
-            "municipality": "San Antonio",
-            "post_code": 1600
-        },
-        {
-            "location": "Pasig City",
-            "region": "NCR",
-            "municipality": "San Jose",
-            "post_code": 1600
-        },
-        {
-            "location": "Pasig City",
-            "region": "NCR",
-            "municipality": "San Miguel",
-            "post_code": 1600
-        },
-        {
-            "location": "Pasig City",
-            "region": "NCR",
-            "municipality": "San Nicolas",
-            "post_code": 1600
-        },
-        {
-            "location": "Pasig City",
-            "region": "NCR",
-            "municipality": "Santa Cruz",
-            "post_code": 1600
-        },
-        {
-            "location": "Pasig City",
-            "region": "NCR",
-            "municipality": "Santa Rosa",
-            "post_code": 1600
-        },
-        {
-            "location": "Pasig City",
-            "region": "NCR",
-            "municipality": "Santo Tomas",
-            "post_code": 1600
-        },
-        {
-            "location": "Pasig City",
-            "region": "NCR",
-            "municipality": "Sumilang",
-            "post_code": 1600
-        },
-        {
-            "location": "Pasig City",
-            "region": "NCR",
-            "municipality": "Pasig CPO",
-            "post_code": 1600
-        },
-        {
-            "location": "Pasig City",
-            "region": "NCR",
-            "municipality": "Pinagbuhatan",
-            "post_code": 1602
-        },
-        {
-            "location": "Pasig City",
-            "region": "NCR",
-            "municipality": "Rosario",
-            "post_code": 1609
-        },
-        {
-            "location": "Pasig City",
-            "region": "NCR",
-            "municipality": "San Joaquin",
-            "post_code": 1601
-        },
-        {
-            "location": "Pasig City",
-            "region": "NCR",
-            "municipality": "Santolan",
-            "post_code": 1610
-        },
-        {
-            "location": "Pasig City",
-            "region": "NCR",
-            "municipality": "Sta. Lucia",
-            "post_code": 1608
-        },
-        {
-            "location": "Pasig City",
-            "region": "NCR",
-            "municipality": "Ugong",
-            "post_code": 1604
-        },
-        {
-            "location": "Pateros",
-            "region": "NCR", "municipality": "Aguho",
-            "post_code": 1620
-        },
-        {
-            "location": "Pateros",
-            "region": "NCR", "municipality": "Sta. Ana",
-            "post_code": 1621
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Alicia",
-            "post_code": 1105
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Amihan",
-            "post_code": 1102
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Apolonio Samson",
-            "post_code": 1106
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Baesa",
-            "post_code": 1106
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Bagbag",
-            "post_code": 1116
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Bagong Bayan",
-            "post_code": 1110
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Bagong Buhay",
-            "post_code": 1109
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Bagong Lipunan",
-            "post_code": 1111
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Bagong Pag-asa",
-            "post_code": 1105
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Bagong Silangan",
-            "post_code": 1119
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Bahay Toro",
-            "post_code": 1106
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Balingasa",
-            "post_code": 1115
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Balumbato",
-            "post_code": 1106
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Batasan Hills",
-            "post_code": 1126
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Bayanihan",
-            "post_code": 1109
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "BF Homes",
-            "post_code": 1120
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Blue Ridge",
-            "post_code": 1109
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Botocan",
-            "post_code": 1101
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Bungad",
-            "post_code": 1105
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Camp Aguinaldo",
-            "post_code": 1110
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Capitol Hills/Park",
-            "post_code": 1126
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Capri",
-            "post_code": 1117
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Central",
-            "post_code": 1100
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Claro",
-            "post_code": 1102
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Commonwealth",
-            "post_code": 1121
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Crame",
-            "post_code": 1111
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Cubao",
-            "post_code": 1109
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Culiat",
-            "post_code": 1128
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Damar",
-            "post_code": 1115
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Damayan",
-            "post_code": 1104
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Damayan Lagi",
-            "post_code": 1112
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Damong Maliit",
-            "post_code": 1123
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Del Monte",
-            "post_code": 1105
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Diliman",
-            "post_code": 1101
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Dioquino Zobel",
-            "post_code": 1109
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Doña Imelda",
-            "post_code": 1113
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Don Manuel",
-            "post_code": 1113
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Doña Aurora",
-            "post_code": 1113
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Doña Faustina Subd",
-            "post_code": 1125
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Doña Josefa",
-            "post_code": 1113
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Duyan-duyan",
-            "post_code": 1102
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "E. Rodriguez",
-            "post_code": 1102
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Escopa",
-            "post_code": 1109
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Fairview",
-            "post_code": 1118
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Fairview North",
-            "post_code": 1121
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Fairview South",
-            "post_code": 1122
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Gantol",
-            "post_code": 1113
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Gintong Silahis",
-            "post_code": 1114
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Gulod",
-            "post_code": 1117
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Holy Spirit",
-            "post_code": 1127
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Horseshoe",
-            "post_code": 1112
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Immaculate Concepcion",
-            "post_code": 1111
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Kaligayahan",
-            "post_code": 1124
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Kalusugan",
-            "post_code": 1112
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Kamias",
-            "post_code": 1102
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Kamuning",
-            "post_code": 1103
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Katipunan",
-            "post_code": 1105
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Kaunlaran",
-            "post_code": 1111
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Kristong Hari",
-            "post_code": 1112
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Krus Na Ligas",
-            "post_code": 1101
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "La Loma",
-            "post_code": 1114
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Langing Handa",
-            "post_code": 1103
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Libis",
-            "post_code": 1110
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Lourdes",
-            "post_code": 1114
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Loyola Heights",
-            "post_code": 1108
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Maharlika",
-            "post_code": 1114
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Malaya",
-            "post_code": 1101
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Mangga",
-            "post_code": 1109
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Manresa",
-            "post_code": 1115
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Mariana",
-            "post_code": 1112
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Mariblo",
-            "post_code": 1104
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Marilag",
-            "post_code": 1109
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Masagana",
-            "post_code": 1109
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Masambong",
-            "post_code": 1115
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Matalahib",
-            "post_code": 1114
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Matandang Balara",
-            "post_code": 1119
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Milagrosa",
-            "post_code": 1109
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Nagkaisang Nayon",
-            "post_code": 1125
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Nayon Kaunlaran",
-            "post_code": 1104
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "New Era",
-            "post_code": 1107
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Novaliches Proper",
-            "post_code": 1121
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Obrero",
-            "post_code": 1103
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Old Capitol Site",
-            "post_code": 1101
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Paang Bundok",
-            "post_code": 1114
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Pag-ibig Sa Nayon",
-            "post_code": 1115
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Paligsahan",
-            "post_code": 1103
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Paltok",
-            "post_code": 1105
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Pansol",
-            "post_code": 1108
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Paraiso",
-            "post_code": 1104
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Pasong Putik",
-            "post_code": 1118
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Pasong Tamo",
-            "post_code": 1107
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Payatas",
-            "post_code": 1119
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Phil-am",
-            "post_code": 1104
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Pinagkaisahan",
-            "post_code": 1111
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Piñahan",
-            "post_code": 1100
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Project 4",
-            "post_code": 1109
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Project 6",
-            "post_code": 1100
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Project 7",
-            "post_code": 1105
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Project 8",
-            "post_code": 1106
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Quezon City CPO",
-            "post_code": 1100
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Quirino District (Project 2 & 3)",
-            "post_code": 1102
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "R. Magsaysay",
-            "post_code": 1105
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Roxas District",
-            "post_code": 1103
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Sacred Heart",
-            "post_code": 1103
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Salumbato",
-            "post_code": 1106
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Salvacion",
-            "post_code": 1114
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "San Agustin",
-            "post_code": 1117
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "San Antonio",
-            "post_code": 1105
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "San Bartolome",
-            "post_code": 1116
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "San Isidro",
-            "post_code": 1113
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "San Isidro Labrador",
-            "post_code": 1114
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "San Jose",
-            "post_code": 1115
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "San Roque",
-            "post_code": 1109
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "San Vicente",
-            "post_code": 1101
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Sangandaan",
-            "post_code": 1116
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Santa Cruz",
-            "post_code": 1104
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Santa Lucia",
-            "post_code": 1117
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Santa Monica",
-            "post_code": 1117
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Santa Teresita",
-            "post_code": 1114
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Sauyo",
-            "post_code": 1116
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Sienna",
-            "post_code": 1114
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Sikatuna Village",
-            "post_code": 1101
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Silangan",
-            "post_code": 1102
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Socorro",
-            "post_code": 1109
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "South Triangle",
-            "post_code": 1103
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "St. Ignatius",
-            "post_code": 1110
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "St. Martin De Porres",
-            "post_code": 1111
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "St. Peter",
-            "post_code": 1114
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Sto. Cristo",
-            "post_code": 1105
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Sto. Niño",
-            "post_code": 1113
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Tagumpay",
-            "post_code": 1109
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Talampas",
-            "post_code": 1110
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Talayan",
-            "post_code": 1104
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Talipapa",
-            "post_code": 1116
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Tandang Sora",
-            "post_code": 1116
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Tatalon",
-            "post_code": 1113
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Teachers Village",
-            "post_code": 1101
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Ugong Norte",
-            "post_code": 1110
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Unang Sigaw",
-            "post_code": 1106
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "University of the Philippines PO",
-            "post_code": 1101
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "UP Village",
-            "post_code": 1101
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Valencia",
-            "post_code": 1112
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Vasra",
-            "post_code": 1128
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Veterans Village",
-            "post_code": 1105
-        },
-        {
-            "location": "Quezon City",
-            "region": "NCR",
-            "municipality": "Villa Maria Clara",
-            "post_code": 1109
-        },
-        {
-            "location": "San Juan City",
-            "municipality": "Eisenhower-Crame",
-            "post_code": 1504,
-            "region": "NCR"
-        },
-        {
-            "location": "San Juan City",
-            "municipality": "Greenhills North",
-            "post_code": 1503,
-            "region": "NCR"
-        },
-        {
-            "location": "San Juan City",
-            "municipality": "Greenhills PO",
-            "post_code": 1502,
-            "region": "NCR"
-        },
-        {
-            "location": "San Juan City",
-            "municipality": "San Juan CPO",
-            "post_code": 1500,
-            "region": "NCR"
-        },
-        {
-            "location": "Taguig City",
-            "region": "NCR",
-            "municipality": "Bay Breeze Executive Village",
-            "post_code": 1636
-        },
-        {
-            "location": "Taguig City",
-            "region": "NCR",
-            "municipality": "Bicutan",
-            "post_code": 1631
-        },
-        {
-            "location": "Taguig City",
-            "region": "NCR",
-            "municipality": "Bicutan Lower",
-            "post_code": 1632
-        },
-        {
-            "location": "Taguig City",
-            "region": "NCR",
-            "municipality": "Bicutan Upper",
-            "post_code": 1633
-        },
-        {
-            "location": "Taguig City",
-            "region": "NCR",
-            "municipality": "Bicutan Western",
-            "post_code": 1630
-        },
-        {
-            "location": "Taguig City",
-            "region": "NCR",
-            "municipality": "Bonifacio Global City",
-            "post_code": 1635
-        },
-        {
-            "location": "Taguig City",
-            "region": "NCR",
-            "municipality": "Ligid",
-            "post_code": 1638
-        },
-        {
-            "location": "Taguig City",
-            "region": "NCR",
-            "municipality": "Nichols - Mckinley",
-            "post_code": 1634
-        },
-        {
-            "location": "Taguig City",
-            "region": "NCR",
-            "municipality": "Tuktukan",
-            "post_code": 1637
-        },
-        {
-            "location": "Taguig City",
-            "region": "NCR",
-            "municipality": "Ususan",
-            "post_code": 1639
-        },
-        {
-            "location": "Valenzuela City",
-            "region": "NCR",
-            "municipality": "Arkong Bato-Rincon-Pasolo-Malanday-Mabolo-Polo",
-            "post_code": 1444
-        },
-        {
-            "location": "Valenzuela City",
-            "region": "NCR",
-            "municipality": "Balangkas-Caloong",
-            "post_code": 1445
-        },
-        {
-            "location": "Valenzuela City",
-            "region": "NCR",
-            "municipality": "Dalandan - West Canumay",
-            "post_code": 1443
-        },
-        {
-            "location": "Valenzuela City",
-            "region": "NCR",
-            "municipality": "East Canumay - Lawang Bato Pun",
-            "post_code": 1447
-        },
-        {
-            "location": "Valenzuela City",
-            "region": "NCR",
-            "municipality": "Fortune Village - Paso De Blas - Gen. T. De Leon",
-            "post_code": 1442
-        },
-        {
-            "location": "Valenzuela City",
-            "region": "NCR",
-            "municipality": "Karuhatan",
-            "post_code": 1441
-        },
-        {
-            "location": "Valenzuela City",
-            "region": "NCR",
-            "municipality": "Lingunan",
-            "post_code": 1446
-        },
-        {
-            "location": "Valenzuela City",
-            "region": "NCR",
-            "municipality": "Mapulang Lupa",
-            "post_code": 1448
-        },
-        {
-            "location": "Valenzuela City",
-            "region": "NCR",
-            "municipality": "Valenzuela CPO - Malinta",
-            "post_code": 1440
-        },
-        {
-            "location": "Valenzuela City",
-            "region": "NCR",
-            "municipality": "Valenzuela P.O. Boxes",
-            "post_code": 1469
-        },
-        {
-             "location": "Abra",
-            "region": "CAR",
-            "municipality": "Bangued",
-            "post_code": 2800
-        },
-        {
-            "location": "Abra",
-            "region": "CAR",
-            "municipality": "Boliney",
-            "post_code": 2815
-        },
-        {
-            "location": "Abra",
-            "region": "CAR",
-            "municipality": "Bucloc",
-            "post_code": 2817
-        },
-        {
-            "location": "Abra",
-            "region": "CAR",
-            "municipality": "Bucay",
-            "post_code": 2805
-        },
-        {
-            "location": "Abra",
-            "region": "CAR",
-            "municipality": "Daguioman",
-            "post_code": 2816
-        },
-        {
-            "location": "Abra",
-            "region": "CAR",
-            "municipality": "Danglas",
-            "post_code": 2825
-        },
-        {
-            "location": "Abra",
-            "region": "CAR",
-            "municipality": "Dolores",
-            "post_code": 2801
-        },
-        {
-            "location": "Abra",
-            "region": "CAR",
-            "municipality": "La Paz",
-            "post_code": 2826
-        },
-        {
-            "location": "Abra",
-            "region": "CAR",
-            "municipality": "Lacub",
-            "post_code": 2821
-        },
-        {
-            "location": "Abra",
-            "region": "CAR",
-            "municipality": "Lagayan",
-            "post_code": 2824
-        },
-        {
-            "location": "Abra",
-            "region": "CAR",
-            "municipality": "Lagangilang",
-            "post_code": 2802
-        },
-        {
-            "location": "Abra",
-            "region": "CAR",
-            "municipality": "Langiden",
-            "post_code": 2807
-        },
-        {
-            "location": "Abra",
-            "region": "CAR",
-            "municipality": "Licuan-Baay",
-            "post_code": 2819
-        },
-        {
-            "location": "Abra",
-            "region": "CAR",
-            "municipality": "Luba",
-            "post_code": 2813
-        },
-        {
-            "location": "Abra",
-            "region": "CAR",
-            "municipality": "Malibcong",
-            "post_code": 2820
-        },
-        {
-            "location": "Abra",
-            "region": "CAR",
-            "municipality": "Manabo",
-            "post_code": 2810
-        },
-        {
-            "location": "Abra",
-            "region": "CAR",
-            "municipality": "Peñarrubia",
-            "post_code": 2804
-        },
-        {
-            "location": "Abra",
-            "region": "CAR",
-            "municipality": "Pidigan",
-            "post_code": 2806
-        },
-        {
-            "location": "Abra",
-            "region": "CAR",
-            "municipality": "Pilar",
-            "post_code": 2812
-        },
-        {
-            "location": "Abra",
-            "region": "CAR",
-            "municipality": "Sal-Lapadan",
-            "post_code": 2818
-        },
-        {
-            "location": "Abra",
-            "region": "CAR",
-            "municipality": "San Isidro",
-            "post_code": 2809
-        },
-        {
-            "location": "Abra",
-            "region": "CAR",
-            "municipality": "San Juan",
-            "post_code": 2823
-        },
-        {
-            "location": "Abra",
-            "region": "CAR",
-            "municipality": "San Quintin",
-            "post_code": 2808
-        },
-        {
-            "location": "Abra",
-            "region": "CAR",
-            "municipality": "Tayum",
-            "post_code": 2803
-        },
-        {
-            "location": "Abra",
-            "region": "CAR",
-            "municipality": "Tineg",
-            "post_code": 2822
-        },
-        {
-            "location": "Abra",
-            "region": "CAR",
-            "municipality": "Tubo",
-            "post_code": 2814
-        },
-        {
-            "location": "Abra",
-            "region": "CAR",
-            "municipality": "Villaviciosa",
-            "post_code": 2811
-        },
-        {
-            "location": "Agusan del Norte",
-            "region": "XIII",
-            "municipality": "Buenavista",
-            "post_code": 8601
-        },
-        {
-            "location": "Agusan del Norte",
-            "region": "XIII",
-            "municipality": "Butuan City",
-            "post_code": 8600
-        },
-        {
-            "location": "Agusan del Norte",
-            "region": "XIII",
-            "municipality": "Cabadbaran",
-            "post_code": 8605
-        },
-        {
-            "location": "Agusan del Norte",
-            "region": "XIII",
-            "municipality": "Carmen",
-            "post_code": 8603
-        },
-        {
-            "location": "Agusan del Norte",
-            "region": "XIII",
-            "municipality": "Jabonga",
-            "post_code": 8607
-        },
-        {
-            "location": "Agusan del Norte",
-            "region": "XIII",
-            "municipality": "Kitcharao",
-            "post_code": 8609
-        },
-        {
-            "location": "Agusan del Norte",
-            "region": "XIII",
-            "municipality": "Las Nieves",
-            "post_code": 8610
-        },
-        {
-            "location": "Agusan del Norte",
-            "region": "XIII",
-            "municipality": "Magallanes",
-            "post_code": 8604
-        },
-        {
-            "location": "Agusan del Norte",
-            "region": "XIII",
-            "municipality": "Nasipit",
-            "post_code": 8602
-        },
-        {
-            "location": "Agusan del Norte",
-            "region": "XIII",
-            "municipality": "Remedios T. Romualdez",
-            "post_code": 8611
-        },
-        {
-            "location": "Agusan del Norte",
-            "region": "XIII",
-            "municipality": "Santiago",
-            "post_code": 8608
-        },
-        {
-            "location": "Agusan del Norte",
-            "region": "XIII",
-            "municipality": "Tubay",
-            "post_code": 8606
-        },
-        {
-            "location": "Agusan del Sur",
-            "region": "XIII",
-            "municipality": "Bayugan",
-            "post_code": 8502
-        },
-        {
-            "location": "Agusan del Sur",
-            "region": "XIII",
-            "municipality": "Bunawan",
-            "post_code": 8506
-        },
-        {
-            "location": "Agusan del Sur",
-            "region": "XIII",
-            "municipality": "Esperanza",
-            "post_code": 8513
-        },
-        {
-            "location": "Agusan del Sur",
-            "region": "XIII",
-            "municipality": "La Paz",
-            "post_code": 8508
-        },
-        {
-            "location": "Agusan del Sur",
-            "region": "XIII",
-            "municipality": "Loreto",
-            "post_code": 8507
-        },
-        {
-            "location": "Agusan del Sur",
-            "region": "XIII",
-            "municipality": "Prosperidad",
-            "post_code": 8500
-        },
-        {
-            "location": "Agusan del Sur",
-            "region": "XIII",
-            "municipality": "Rosario",
-            "post_code": 8504
-        },
-        {
-            "location": "Agusan del Sur",
-            "region": "XIII",
-            "municipality": "San Francisco",
-            "post_code": 8501
-        },
-        {
-            "location": "Agusan del Sur",
-            "region": "XIII",
-            "municipality": "San Luis",
-            "post_code": 8511
-        },
-        {
-            "location": "Agusan del Sur",
-            "region": "XIII",
-            "municipality": "Sibagat",
-            "post_code": 8503
-        },
-        {
-            "location": "Agusan del Sur",
-            "region": "XIII",
-            "municipality": "Sta. Josefa",
-            "post_code": 8512
-        },
-        {
-            "location": "Agusan del Sur",
-            "region": "XIII",
-            "municipality": "Talacogon",
-            "post_code": 8510
-        },
-        {
-            "location": "Agusan del Sur",
-            "region": "XIII",
-            "municipality": "Trento",
-            "post_code": 8505
-        },
-        {
-            "location": "Agusan del Sur",
-            "region": "XIII",
-            "municipality": "Veruela",
-            "post_code": 8509
-        },
-        {
-            "location": "Aklan",
-            "region": "VI",
-            "municipality": "Altavas",
-            "post_code": 5616
-        },
-        {
-            "location": "Aklan",
-            "region": "VI",
-            "municipality": "Balete",
-            "post_code": 5614
-        },
-        {
-            "location": "Aklan",
-            "region": "VI",
-            "municipality": "Banga",
-            "post_code": 5601
-        },
-        {
-            "location": "Aklan",
-            "region": "VI",
-            "municipality": "Batan",
-            "post_code": 5615
-        },
-        {
-            "location": "Aklan",
-            "region": "VI",
-            "municipality": "Buruanga",
-            "post_code": 5609
-        },
-        {
-            "location": "Aklan",
-            "region": "VI",
-            "municipality": "Ibajay",
-            "post_code": 5613
-        },
-        {
-            "location": "Aklan",
-            "region": "VI",
-            "municipality": "Kalibo",
-            "post_code": 5600
-        },
-        {
-            "location": "Aklan",
-            "region": "VI",
-            "municipality": "Lezo",
-            "post_code": 5605
-        },
-        {
-            "location": "Aklan",
-            "region": "VI",
-            "municipality": "Libacao",
-            "post_code": 5602
-        },
-        {
-            "location": "Aklan",
-            "region": "VI",
-            "municipality": "Madalag",
-            "post_code": 5603
-        },
-        {
-            "location": "Aklan",
-            "region": "VI",
-            "municipality": "Makato",
-            "post_code": 5611
-        },
-        {
-            "location": "Aklan",
-            "region": "VI",
-            "municipality": "Malay",
-            "post_code": 5608
-        },
-        {
-            "location": "Aklan",
-            "region": "VI",
-            "municipality": "Malinao",
-            "post_code": 5606
-        },
-        {
-            "location": "Aklan",
-            "region": "VI",
-            "municipality": "Nabas",
-            "post_code": 5607
-        },
-        {
-            "location": "Aklan",
-            "region": "VI",
-            "municipality": "New Washington",
-            "post_code": 5610
-        },
-        {
-            "location": "Aklan",
-            "region": "VI",
-            "municipality": "Numancia",
-            "post_code": 5604
-        },
-        {
-            "location": "Aklan",
-            "region": "VI",
-            "municipality": "Tangalan",
-            "post_code": 5612
-        },
-        {
-            "location": "Albay",
-            "region": "V",
-            "municipality": "Bacacay",
-            "post_code": 4509
-        },
-        {
-            "location": "Albay",
-            "region": "V",
-            "municipality": "Camalig",
-            "post_code": 4502
-        },
-        {
-            "location": "Albay",
-            "region": "V",
-            "municipality": "Daraga (Locsin)",
-            "post_code": 4501
-        },
-        {
-            "location": "Albay",
-            "region": "V",
-            "municipality": "Guinobatan",
-            "post_code": 4503
-        },
-        {
-            "location": "Albay",
-            "region": "V",
-            "municipality": "Jovellar",
-            "post_code": 4515
-        },
-        {
-            "location": "Albay",
-            "region": "V",
-            "municipality": "Legazpi City",
-            "post_code": 4500
-        },
-        {
-            "location": "Albay",
-            "region": "V",
-            "municipality": "Libon",
-            "post_code": 4507
-        },
-        {
-            "location": "Albay",
-            "region": "V",
-            "municipality": "Ligao",
-            "post_code": 4504
-        },
-        {
-            "location": "Albay",
-            "region": "V",
-            "municipality": "Malilipot",
-            "post_code": 4510
-        },
-        {
-            "location": "Albay",
-            "region": "V",
-            "municipality": "Malinao",
-            "post_code": 4512
-        },
-        {
-            "location": "Albay",
-            "region": "V",
-            "municipality": "Manito",
-            "post_code": 4514
-        },
-        {
-            "location": "Albay",
-            "region": "V",
-            "municipality": "Oas",
-            "post_code": 4505
-        },
-        {
-            "location": "Albay",
-            "region": "V",
-            "municipality": "Pio Duran (Malacbalac)",
-            "post_code": 4516
-        },
-        {
-            "location": "Albay",
-            "region": "V",
-            "municipality": "Polangui",
-            "post_code": 4506
-        },
-        {
-            "location": "Albay",
-            "region": "V",
-            "municipality": "Rapu-Rapu",
-            "post_code": 4517
-        },
-        {
-            "location": "Albay",
-            "region": "V",
-            "municipality": "Sto. Domingo",
-            "post_code": 4508
-        },
-        {
-            "location": "Albay",
-            "region": "V",
-            "municipality": "Tabaco",
-            "post_code": 4511
-        },
-        {
-            "location": "Albay",
-            "region": "V",
-            "municipality": "Tiwi",
-            "post_code": 4513
-        },
-        {
-            "location": "Antique",
-            "region": "VI",
-            "municipality": "Anini-y",
-            "post_code": 5717
-        },
-        {
-            "location": "Antique",
-            "region": "VI",
-            "municipality": "Barbaza",
-            "post_code": 5706
-        },
-        {
-            "location": "Antique",
-            "region": "VI",
-            "municipality": "Belison",
-            "post_code": 5701
-        },
-        {
-            "location": "Antique",
-            "region": "VI",
-            "municipality": "Bugasong",
-            "post_code": 5704
-        },
-        {
-            "location": "Antique",
-            "region": "VI",
-            "municipality": "Caluya",
-            "post_code": 5711
-        },
-        {
-            "location": "Antique",
-            "region": "VI",
-            "municipality": "Culasi",
-            "post_code": 5708
-        },
-        {
-            "location": "Antique",
-            "region": "VI",
-            "municipality": "Hamtic",
-            "post_code": 5715
-        },
-        {
-            "location": "Antique",
-            "region": "VI",
-            "municipality": "Laua-an",
-            "post_code": 5705
-        },
-        {
-            "location": "Antique",
-            "region": "VI",
-            "municipality": "Libertad",
-            "post_code": 5710
-        },
-        {
-            "location": "Antique",
-            "region": "VI",
-            "municipality": "Pandan",
-            "post_code": 5712
-        },
-        {
-            "location": "Antique",
-            "region": "VI",
-            "municipality": "Patnongon",
-            "post_code": 5702
-        },
-        {
-            "location": "Antique",
-            "region": "VI",
-            "municipality": "San Jose",
-            "post_code": 5700
-        },
-        {
-            "location": "Antique",
-            "region": "VI",
-            "municipality": "San Remegio",
-            "post_code": 5714
-        },
-        {
-            "location": "Antique",
-            "region": "VI",
-            "municipality": "Sebaste",
-            "post_code": 5709
-        },
-        {
-            "location": "Antique",
-            "region": "VI",
-            "municipality": "Sibalom",
-            "post_code": 5713
-        },
-        {
-            "location": "Antique",
-            "region": "VI",
-            "municipality": "Tibiao",
-            "post_code": 5707
-        },
-        {
-            "location": "Antique",
-            "region": "VI",
-            "municipality": "Tobias Fornier (Dao)",
-            "post_code": 5716
-        },
-        {
-            "location": "Antique",
-            "region": "VI",
-            "municipality": "Valderrama",
-            "post_code": 5703
-        },
-        {
-            "location": "Apayao",
-            "region": "CAR",
-            "municipality": "Calanasan",
-            "post_code": 3814
-        },
-        {
-            "location": "Apayao",
-            "region": "CAR",
-            "municipality": "Conner",
-            "post_code": 3807
-        },
-        {
-            "location": "Apayao",
-            "region": "CAR",
-            "municipality": "Flora",
-            "post_code": 3810
-        },
-        {
-            "location": "Apayao",
-            "region": "CAR",
-            "municipality": "Kabugao",
-            "post_code": 3809
-        },
-        {
-            "location": "Apayao",
-            "region": "CAR",
-            "municipality": "Luna",
-            "post_code": 3813
-        },
-        {
-            "location": "Apayao",
-            "region": "CAR",
-            "municipality": "Pudtol",
-            "post_code": 3812
-        },
-        {
-            "location": "Apayao",
-            "region": "CAR",
-            "municipality": "Sta. Marcela",
-            "post_code": 3811
-        },
-        {
-            "location": "Aurora",
-            "region": "III",
-            "municipality": "Baler",
-            "post_code": 3200
-        },
-        {
-            "location": "Aurora",
-            "region": "III",
-            "municipality": "Casiguran",
-            "post_code": 3204
-        },
-        {
-            "location": "Aurora",
-            "region": "III",
-            "municipality": "Dilasag",
-            "post_code": 3205
-        },
-        {
-            "location": "Aurora",
-            "region": "III",
-            "municipality": "Dinalungan",
-            "post_code": 3206
-        },
-        {
-            "location": "Aurora",
-            "region": "III",
-            "municipality": "Dingalan",
-            "post_code": 3207
-        },
-        {
-            "location": "Aurora",
-            "region": "III",
-            "municipality": "Dipaculao",
-            "post_code": 3203
-        },
-        {
-            "location": "Aurora",
-            "region": "III",
-            "municipality": "Maria Aurora",
-            "post_code": 3202
-        },
-        {
-            "location": "Aurora",
-            "region": "III",
-            "municipality": "San Luis",
-            "post_code": 3201
-        },
-        {
-            "location": "Basilan",
-            "region": "BARMM",
-            "municipality": "Akbar",
-            "post_code": 7307
-        },
-        {
-            "location": "Basilan",
-            "region": "BARMM",
-            "municipality": "Al-Barka",
-            "post_code": 7308
-        },
-        {
-            "location": "Basilan",
-            "region": "BARMM",
-            "municipality": "Hadji Mohammad Ajul",
-            "post_code": 7309
-        },
-        {
-            "location": "Basilan",
-            "region": "BARMM",
-            "municipality": "Hadji Muhtamad",
-            "post_code": 7310
-        },
-        {
-            "location": "Basilan",
-            "region": "BARMM",
-            "municipality": "Isabela de Basilan",
-            "post_code": 7300
-        },
-        {
-            "location": "Basilan",
-            "region": "BARMM",
-            "municipality": "Lamitan",
-            "post_code": 7302
-        },
-        {
-            "location": "Basilan",
-            "region": "BARMM",
-            "municipality": "Lantawan",
-            "post_code": 7301
-        },
-        {
-            "location": "Basilan",
-            "region": "BARMM",
-            "municipality": "Maluso",
-            "post_code": 7303
-        },
-        {
-            "location": "Basilan",
-            "region": "BARMM",
-            "municipality": "Sumisip",
-            "post_code": 7305
-        },
-        {
-            "location": "Basilan",
-            "region": "BARMM",
-            "municipality": "Tabuan-Lasa",
-            "post_code": 7312
-        },
-        {
-            "location": "Basilan",
-            "region": "BARMM",
-            "municipality": "Tipo-Tipo",
-            "post_code": 7304
-        },
-        {
-            "location": "Basilan",
-            "region": "BARMM",
-            "municipality": "Tuburan",
-            "post_code": 7306
-        },
-        {
-            "location": "Basilan",
-            "region": "BARMM",
-            "municipality": "Ungkaya Pukan",
-            "post_code": 7311
-        },
-        {
-            "location": "Bataan",
-            "region": "III", "municipality": "Abucay",
-            "post_code": 2114
-        },
-        {
-            "location": "Bataan",
-            "region": "III", "municipality": "Cabcaben",
-            "post_code": 2109
-        },
-        {
-            "location": "Bataan",
-            "region": "III", "municipality": "Bagac",
-            "post_code": 2107
-        },
-        {
-            "location": "Bataan",
-            "region": "III", "municipality": "Balanga",
-            "post_code": 2100
-        },
-        {
-            "location": "Bataan",
-            "region": "III", "municipality": "Bataan Export Processing Zone",
-            "post_code": 2106
-        },
-        {
-            "location": "Bataan",
-            "region": "III", "municipality": "Dinalupihan",
-            "post_code": 2110
-        },
-        {
-            "location": "Bataan",
-            "region": "III", "municipality": "Hermosa",
-            "post_code": 2111
-        },
-        {
-            "location": "Bataan",
-            "region": "III", "municipality": "Lamao",
-            "post_code": 2104
-        },
-        {
-            "location": "Bataan",
-            "region": "III", "municipality": "Limay",
-            "post_code": 2103
-        },
-        {
-            "location": "Bataan",
-            "region": "III", "municipality": "Mariveles",
-            "post_code": 2105
-        },
-        {
-            "location": "Bataan",
-            "region": "III", "municipality": "Morong",
-            "post_code": 2108
-        },
-        {
-            "location": "Bataan",
-            "region": "III", "municipality": "Orani",
-            "post_code": 2112
-        },
-        {
-            "location": "Bataan",
-            "region": "III", "municipality": "Orion",
-            "post_code": 2102
-        },
-        {
-            "location": "Bataan",
-            "region": "III", "municipality": "Pilar",
-            "post_code": 2101
-        },
-        {
-            "location": "Bataan",
-            "region": "III", "municipality": "Samal",
-            "post_code": 2113
-        },
-        {
-            "location": "Batanes",
-            "region": "II", "municipality": "Basco",
-            "post_code": 3900
-        },
-        {
-            "location": "Batanes",
-            "region": "II", "municipality": "Itbayat",
-            "post_code": 3905
-        },
-        {
-            "location": "Batanes",
-            "region": "II", "municipality": "Ivana",
-            "post_code": 3902
-        },
-        {
-            "location": "Batanes",
-            "region": "II", "municipality": "Mahatao",
-            "post_code": 3901
-        },
-        {
-            "location": "Batanes",
-            "region": "II", "municipality": "Sabtang",
-            "post_code": 3904
-        },
-        {
-            "location": "Batanes",
-            "region": "II", "municipality": "Uyugan",
-            "post_code": 3903
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "Agoncillo",
-            "post_code": 4211
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "Alitagtag",
-            "post_code": 4205
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "Balayan",
-            "post_code": 4213
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "Balete",
-            "post_code": 4219
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "Batangas City",
-            "post_code": 4200
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "Bauan",
-            "post_code": 4201
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "Calaca",
-            "post_code": 4212
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "Calatagan",
-            "post_code": 4215
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "Cuenca",
-            "post_code": 4222
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "Fernando Airbase",
-            "post_code": 4218
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "Ibaan",
-            "post_code": 4230
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "Laurel",
-            "post_code": 4221
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "Lemery",
-            "post_code": 4209
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "Lian",
-            "post_code": 4216
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "Lipa City",
-            "post_code": 4217
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "Lobo",
-            "post_code": 4229
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "Mabini",
-            "post_code": 4202
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "Malvar",
-            "post_code": 4233
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "Mataas na Kahoy",
-            "post_code": 4223
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "Nasugbu",
-            "post_code": 4231
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "Padre Garcia",
-            "post_code": 4224
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "Rosario",
-            "post_code": 4225
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "San Jose",
-            "post_code": 4227
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "San Juan",
-            "post_code": 4226
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "San Luis",
-            "post_code": 4210
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "San Nicolas",
-            "post_code": 4207
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "San Pascual",
-            "post_code": 4204
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "Sta. Teresita",
-            "post_code": 4206
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "Sto. Tomas",
-            "post_code": 4234
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "Taal",
-            "post_code": 4208
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "Talisay",
-            "post_code": 4220
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "Tanauan",
-            "post_code": 4232
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "Taysan",
-            "post_code": 4228
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "Tingloy",
-            "post_code": 4203
-        },
-        {
-            "location": "Batangas",
-            "region": "IV-A",
-            "municipality": "Tuy",
-            "post_code": 4214
-        },
-        {
-            "location": "Benguet",
-            "region": "CAR",
-            "municipality": "Atok",
-            "post_code": 2612
-        },
-        {
-            "location": "Benguet",
-            "region": "CAR",
-            "municipality": "Baguio City",
-            "post_code": 2600
-        },
-        {
-            "location": "Benguet",
-            "region": "CAR",
-            "municipality": "Bakun",
-            "post_code": 2610
-        },
-        {
-            "location": "Benguet",
-            "region": "CAR",
-            "municipality": "Bokod",
-            "post_code": 2605
-        },
-        {
-            "location": "Benguet",
-            "region": "CAR",
-            "municipality": "Bugias",
-            "post_code": 2607
-        },
-        {
-            "location": "Benguet",
-            "region": "CAR",
-            "municipality": "Itogon",
-            "post_code": 2604
-        },
-        {
-            "location": "Benguet",
-            "region": "CAR",
-            "municipality": "Kabayan",
-            "post_code": 2606
-        },
-        {
-            "location": "Benguet",
-            "region": "CAR",
-            "municipality": "Kapangan",
-            "post_code": 2613
-        },
-        {
-            "location": "Benguet",
-            "region": "CAR",
-            "municipality": "Kibungan",
-            "post_code": 2611
-        },
-        {
-            "location": "Benguet",
-            "region": "CAR",
-            "municipality": "La Trinidad",
-            "post_code": 2601
-        },
-        {
-            "location": "Benguet",
-            "region": "CAR",
-            "municipality": "Lepanto",
-            "post_code": 2609
-        },
-        {
-            "location": "Benguet",
-            "region": "CAR",
-            "municipality": "Mankayan",
-            "post_code": 2608
-        },
-        {
-            "location": "Benguet",
-            "region": "CAR",
-            "municipality": "Philippine Military Academy (PMA)",
-            "post_code": 2602
-        },
-        {
-            "location": "Benguet",
-            "region": "CAR",
-            "municipality": "Sablan",
-            "post_code": 2614
-        },
-        {
-            "location": "Benguet",
-            "region": "CAR",
-            "municipality": "Tuba",
-            "post_code": 2603
-        },
-        {
-            "location": "Benguet",
-            "region": "CAR",
-            "municipality": "Tublay",
-            "post_code": 2615
-        },
-        {
-            "location": "Biliran",
-            "region": "VIII",
-            "municipality": "Almeria",
-            "post_code": 6544
-        },
-        {
-            "location": "Biliran",
-            "region": "VIII",
-            "municipality": "Biliran",
-            "post_code": 6549
-        },
-        {
-            "location": "Biliran",
-            "region": "VIII",
-            "municipality": "Cabucgayan",
-            "post_code": 6550
-        },
-        {
-            "location": "Biliran",
-            "region": "VIII",
-            "municipality": "Caibiran",
-            "post_code": 6548
-        },
-        {
-            "location": "Biliran",
-            "region": "VIII",
-            "municipality": "Culaba",
-            "post_code": 6547
-        },
-        {
-            "location": "Biliran",
-            "region": "VIII",
-            "municipality": "Kawayan",
-            "post_code": 6545
-        },
-        {
-            "location": "Biliran",
-            "region": "VIII",
-            "municipality": "Maripipi",
-            "post_code": 6546
-        },
-        {
-            "location": "Biliran",
-            "region": "VIII",
-            "municipality": "Naval",
-            "post_code": 6543
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Alburquerque",
-            "post_code": 6302
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Alicia",
-            "post_code": 6314
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Anda",
-            "post_code": 6311
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Antequera",
-            "post_code": 6335
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Baclayon",
-            "post_code": 6301
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Balilihan",
-            "post_code": 6342
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Batuan",
-            "post_code": 6318
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Bien Unido",
-            "post_code": 6326
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Bilar",
-            "post_code": 6317
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Buenavista",
-            "post_code": 6333
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Calape",
-            "post_code": 6328
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Candijay",
-            "post_code": 6312
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Carmen",
-            "post_code": 6319
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Catigbian",
-            "post_code": 6343
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Clarin",
-            "post_code": 6330
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Corella",
-            "post_code": 6337
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Cortes",
-            "post_code": 6341
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Dagohoy",
-            "post_code": 6322
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Danao",
-            "post_code": 6344
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Dauis",
-            "post_code": 6339
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Dimiao",
-            "post_code": 6305
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Duero",
-            "post_code": 6309
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Garcia Hernandez",
-            "post_code": 6307
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Guindulman",
-            "post_code": 6310
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Inabanga",
-            "post_code": 6332
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Jagna",
-            "post_code": 6308
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Jetafe",
-            "post_code": 6334
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Lila",
-            "post_code": 6304
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Loay",
-            "post_code": 6303
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Loboc",
-            "post_code": 6316
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Loon",
-            "post_code": 6327
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Mabini",
-            "post_code": 6313
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Maribojoc",
-            "post_code": 6336
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Panglao",
-            "post_code": 6340
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Pilar",
-            "post_code": 6321
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "President Carlos P. Garcia",
-            "post_code": 6346
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Sagbayan",
-            "post_code": 6331
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "San Isidro",
-            "post_code": 6345
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "San Miguel",
-            "post_code": 6323
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Sevilla",
-            "post_code": 6347
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Sierra Bullones",
-            "post_code": 6320
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Sikatuna",
-            "post_code": 6338
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Tagbilaran City",
-            "post_code": 6300
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Talibon",
-            "post_code": 6325
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Trinidad",
-            "post_code": 6324
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Tubigon",
-            "post_code": 6329
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Ubay",
-            "post_code": 6315
-        },
-        {
-            "location": "Bohol",
-            "region": "VII",
-            "municipality": "Valencia",
-            "post_code": 6306
-        },
-        {
-            "location": "Bukidnon",
-            "region": "X",
-            "municipality": "Baungon",
-            "post_code": 8707
-        },
-        {
-            "location": "Bukidnon",
-            "region": "X",
-            "municipality": "Cabanglasan",
-            "post_code": 8723
-        },
-        {
-            "location": "Bukidnon",
-            "region": "X",
-            "municipality": "Damulog",
-            "post_code": 8721
-        },
-        {
-            "location": "Bukidnon",
-            "region": "X",
-            "municipality": "Dangcagan",
-            "post_code": 8719
-        },
-        {
-            "location": "Bukidnon",
-            "region": "X",
-            "municipality": "Don Carlos",
-            "post_code": 8712
-        },
-        {
-            "location": "Bukidnon",
-            "region": "X",
-            "municipality": "Impasugong",
-            "post_code": 8702
-        },
-        {
-            "location": "Bukidnon",
-            "region": "X",
-            "municipality": "Kadingilan",
-            "post_code": 8713
-        },
-        {
-            "location": "Bukidnon",
-            "region": "X",
-            "municipality": "Kalilangan",
-            "post_code": 8718
-        },
-        {
-            "location": "Bukidnon",
-            "region": "X",
-            "municipality": "Kibawe",
-            "post_code": 8720
-        },
-        {
-            "location": "Bukidnon",
-            "region": "X",
-            "municipality": "Kitaotao",
-            "post_code": 8716
-        },
-        {
-            "location": "Bukidnon",
-            "region": "X",
-            "municipality": "Lantapan",
-            "post_code": 8722
-        },
-        {
-            "location": "Bukidnon",
-            "region": "X",
-            "municipality": "Libona",
-            "post_code": 8706
-        },
-        {
-            "location": "Bukidnon",
-            "region": "X",
-            "municipality": "Malaybalay",
-            "post_code": 8700
-        },
-        {
-            "location": "Bukidnon",
-            "region": "X",
-            "municipality": "Malitbog",
-            "post_code": 8704
-        },
-        {
-            "location": "Bukidnon",
-            "region": "X",
-            "municipality": "Manolo Fortich",
-            "post_code": 8703
-        },
-        {
-            "location": "Bukidnon",
-            "region": "X",
-            "municipality": "Maramag",
-            "post_code": 8714
-        },
-        {
-            "location": "Bukidnon",
-            "region": "X",
-            "municipality": "Musuan",
-            "post_code": 8710
-        },
-        {
-            "location": "Bukidnon",
-            "region": "X",
-            "municipality": "Pangantucan",
-            "post_code": 8717
-        },
-        {
-            "location": "Bukidnon",
-            "region": "X",
-            "municipality": "Phillips",
-            "post_code": 8705
-        },
-        {
-            "location": "Bukidnon",
-            "region": "X",
-            "municipality": "Quezon",
-            "post_code": 8715
-        },
-        {
-            "location": "Bukidnon",
-            "region": "X",
-            "municipality": "San Fernando",
-            "post_code": 8711
-        },
-        {
-            "location": "Bukidnon",
-            "region": "X",
-            "municipality": "Sumilao",
-            "post_code": 8701
-        },
-        {
-            "location": "Bukidnon",
-            "region": "X",
-            "municipality": "Talakag",
-            "post_code": 8708
-        },
-        {
-            "location": "Bukidnon",
-            "region": "X",
-            "municipality": "Valencia",
-            "post_code": 8709
-        },
-        {
-            "location": "Bulacan",
-            "region": "III",
-            "municipality": "Angat",
-            "post_code": 3012
-        },
-        {
-            "location": "Bulacan",
-            "region": "III",
-            "municipality": "Balagtas",
-            "post_code": 3016
-        },
-        {
-            "location": "Bulacan",
-            "region": "III",
-            "municipality": "Baliuag",
-            "post_code": 3006
-        },
-        {
-            "location": "Bulacan",
-            "region": "III",
-            "municipality": "Bocaue",
-            "post_code": 3018
-        },
-        {
-            "location": "Bulacan",
-            "region": "III",
-            "municipality": "Bulacan",
-            "post_code": 3017
-        },
-        {
-            "location": "Bulacan",
-            "region": "III",
-            "municipality": "Bustos",
-            "post_code": 3007
-        },
-        {
-            "location": "Bulacan",
-            "region": "III",
-            "municipality": "Calumpit",
-            "post_code": 3003
-        },
-        {
-            "location": "Bulacan",
-            "region": "III",
-            "municipality": "Cruz na Daan",
-            "post_code": 3025
-        },
-        {
-            "location": "Bulacan",
-            "region": "III",
-            "municipality": "Doña Remedios Trinidad",
-            "post_code": 3009
-        },
-        {
-            "location": "Bulacan",
-            "region": "III",
-            "municipality": "Guiguinto",
-            "post_code": 3015
-        },
-        {
-            "location": "Bulacan",
-            "region": "III",
-            "municipality": "Hagonoy",
-            "post_code": 3002
-        },
-        {
-            "location": "Bulacan",
-            "region": "III",
-            "municipality": "Malolos",
-            "post_code": 3000
-        },
-        {
-            "location": "Bulacan",
-            "region": "III",
-            "municipality": "Marilao",
-            "post_code": 3019
-        },
-        {
-            "location": "Bulacan",
-            "region": "III",
-            "municipality": "Meycauayan",
-            "post_code": 3020
-        },
-        {
-            "location": "Bulacan",
-            "region": "III",
-            "municipality": "Norzagaray",
-            "post_code": 3013
-        },
-        {
-            "location": "Bulacan",
-            "region": "III",
-            "municipality": "Obando",
-            "post_code": 3021
-        },
-        {
-            "location": "Bulacan",
-            "region": "III",
-            "municipality": "Pandi",
-            "post_code": 3014
-        },
-        {
-            "location": "Bulacan",
-            "region": "III",
-            "municipality": "Paombong",
-            "post_code": 3001
-        },
-        {
-            "location": "Bulacan",
-            "region": "III",
-            "municipality": "Plaridel",
-            "post_code": 3004
-        },
-        {
-            "location": "Bulacan",
-            "region": "III",
-            "municipality": "Pulilan",
-            "post_code": 3005
-        },
-        {
-            "location": "Bulacan",
-            "region": "III",
-            "municipality": "San Ildefonso",
-            "post_code": 3010
-        },
-        {
-            "location": "Bulacan",
-            "region": "III",
-            "municipality": "San Jose Del Monte",
-            "post_code": 3023
-        },
-        {
-            "location": "Bulacan",
-            "region": "III",
-            "municipality": "San Miguel",
-            "post_code": 3011
-        },
-        {
-            "location": "Bulacan",
-            "region": "III",
-            "municipality": "San Rafael",
-            "post_code": 3008
-        },
-        {
-            "location": "Bulacan",
-            "region": "III",
-            "municipality": "Sapang Palay",
-            "post_code": 3024
-        },
-        {
-            "location": "Bulacan",
-            "region": "III",
-            "municipality": "Sta. Maria",
-            "post_code": 3022
-        },
-        {
-            "location": "Cagayan",
-            "region": "II",
-            "municipality": "Abulug",
-            "post_code": 3517
-        },
-        {
-            "location": "Cagayan",
-            "region": "II",
-            "municipality": "Alcala",
-            "post_code": 3507
-        },
-        {
-            "location": "Cagayan",
-            "region": "II",
-            "municipality": "Allacapan",
-            "post_code": 3523
-        },
-        {
-            "location": "Cagayan",
-            "region": "II",
-            "municipality": "Amulung",
-            "post_code": 3505
-        },
-        {
-            "location": "Cagayan",
-            "region": "II",
-            "municipality": "Aparri",
-            "post_code": 3515
-        },
-        {
-            "location": "Cagayan",
-            "region": "II",
-            "municipality": "Baggao",
-            "post_code": 3506
-        },
-        {
-            "location": "Cagayan",
-            "region": "II",
-            "municipality": "Ballesteros",
-            "post_code": 3516
-        },
-        {
-            "location": "Cagayan",
-            "region": "II",
-            "municipality": "Buguey",
-            "post_code": 3511
-        },
-        {
-            "location": "Cagayan",
-            "region": "II",
-            "municipality": "Calayan",
-            "post_code": 3520
-        },
-        {
-            "location": "Cagayan",
-            "region": "II",
-            "municipality": "Camalaniugan",
-            "post_code": 3510
-        },
-        {
-            "location": "Cagayan",
-            "region": "II",
-            "municipality": "Claveria",
-            "post_code": 3519
-        },
-        {
-            "location": "Cagayan",
-            "region": "II",
-            "municipality": "Enrile",
-            "post_code": 3501
-        },
-        {
-            "location": "Cagayan",
-            "region": "II",
-            "municipality": "Gattaran",
-            "post_code": 3508
-        },
-        {
-            "location": "Cagayan",
-            "region": "II",
-            "municipality": "Gonzaga",
-            "post_code": 3513
-        },
-        {
-            "location": "Cagayan",
-            "region": "II",
-            "municipality": "Iguig",
-            "post_code": 3504
-        },
-        {
-            "location": "Cagayan",
-            "region": "II",
-            "municipality": "Lal-lo",
-            "post_code": 3509
-        },
-        {
-            "location": "Cagayan",
-            "region": "II",
-            "municipality": "Lasam",
-            "post_code": 3524
-        },
-        {
-            "location": "Cagayan",
-            "region": "II",
-            "municipality": "Pamplona",
-            "post_code": 3522
-        },
-        {
-            "location": "Cagayan",
-            "region": "II",
-            "municipality": "Peñablanca",
-            "post_code": 3502
-        },
-        {
-            "location": "Cagayan",
-            "region": "II",
-            "municipality": "Piat",
-            "post_code": 3527
-        },
-        {
-            "location": "Cagayan",
-            "region": "II",
-            "municipality": "Rizal",
-            "post_code": 3526
-        },
-        {
-            "location": "Cagayan",
-            "region": "II",
-            "municipality": "Sanchez Mira",
-            "post_code": 3518
-        },
-        {
-            "location": "Cagayan",
-            "region": "II",
-            "municipality": "Solana",
-            "post_code": 3503
-        },
-        {
-            "location": "Cagayan",
-            "region": "II",
-            "municipality": "Sta. Ana",
-            "post_code": 3514
-        },
-        {
-            "location": "Cagayan",
-            "region": "II",
-            "municipality": "Sta. Praxedes",
-            "post_code": 3521
-        },
-        {
-            "location": "Cagayan",
-            "region": "II",
-            "municipality": "Sta. Teresita",
-            "post_code": 3512
-        },
-        {
-            "location": "Cagayan",
-            "region": "II",
-            "municipality": "Sto. Niño",
-            "post_code": 3525
-        },
-        {
-            "location": "Cagayan",
-            "region": "II",
-            "municipality": "Tuao",
-            "post_code": 3528
-        },
-        {
-            "location": "Cagayan",
-            "region": "II",
-            "municipality": "Tuguegarao City",
-            "post_code": 3500
-        },
-        {
-            "location": "Camarines Norte",
-            "region": "V",
-            "municipality": "Basud",
-            "post_code": 4608
-        },
-        {
-            "location": "Camarines Norte",
-            "region": "V",
-            "municipality": "Capalonga",
-            "post_code": 4607
-        },
-        {
-            "location": "Camarines Norte",
-            "region": "V",
-            "municipality": "Daet",
-            "post_code": 4600
-        },
-        {
-            "location": "Camarines Norte",
-            "region": "V",
-            "municipality": "San Lorenzo Ruiz (formerly Imelda)",
-            "post_code": 4610
-        },
-        {
-            "location": "Camarines Norte",
-            "region": "V",
-            "municipality": "Jose Panganiban",
-            "post_code": 4606
-        },
-        {
-            "location": "Camarines Norte",
-            "region": "V",
-            "municipality": "Labo",
-            "post_code": 4604
-        },
-        {
-            "location": "Camarines Norte",
-            "region": "V",
-            "municipality": "Mercedes",
-            "post_code": 4601
-        },
-        {
-            "location": "Camarines Norte",
-            "region": "V",
-            "municipality": "Paracale",
-            "post_code": 4605
-        },
-        {
-            "location": "Camarines Norte",
-            "region": "V",
-            "municipality": "San Vicente",
-            "post_code": 4609
-        },
-        {
-            "location": "Camarines Norte",
-            "region": "V",
-            "municipality": "Sta. Elena",
-            "post_code": 4611
-        },
-        {
-            "location": "Camarines Norte",
-            "region": "V",
-            "municipality": "Talisay",
-            "post_code": 4602
-        },
-        {
-            "location": "Camarines Norte",
-            "region": "V",
-            "municipality": "Tulay na Lupa",
-            "post_code": 4612
-        },
-        {
-            "location": "Camarines Norte",
-            "region": "V",
-            "municipality": "Vinzons",
-            "post_code": 4603
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Baao",
-            "post_code": 4432
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Balatan",
-            "post_code": 4436
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Bato",
-            "post_code": 4435
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Bombon",
-            "post_code": 4404
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Buhi",
-            "post_code": 4433
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Bula",
-            "post_code": 4430
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Cabusao",
-            "post_code": 4406
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Calabanga",
-            "post_code": 4405
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Camaligan",
-            "post_code": 4401
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Canaman",
-            "post_code": 4402
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Caramoan",
-            "post_code": 4429
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Del Gallego",
-            "post_code": 4411
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Gainza",
-            "post_code": 4412
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Garchitorena",
-            "post_code": 4428
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Goa",
-            "post_code": 4422
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Iriga City",
-            "post_code": 4431
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Lagonoy",
-            "post_code": 4425
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Libmanan",
-            "post_code": 4407
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Lupi",
-            "post_code": 4409
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Magarao",
-            "post_code": 4403
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Milaor",
-            "post_code": 4413
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Minalabac",
-            "post_code": 4414
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Nabua",
-            "post_code": 4434
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Naga City",
-            "post_code": 4400
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Ocampo",
-            "post_code": 4419
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Pamplona",
-            "post_code": 4416
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Pasacao",
-            "post_code": 4417
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Pili",
-            "post_code": 4418
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Presentacion",
-            "post_code": 4424
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Ragay",
-            "post_code": 4410
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Sagnay",
-            "post_code": 4421
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "San Fernando",
-            "post_code": 4415
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "San Jose",
-            "post_code": 4423
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Sipocot",
-            "post_code": 4408
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Siruma",
-            "post_code": 4427
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Tigaon",
-            "post_code": 4420
-        },
-        {
-            "location": "Camarines Sur",
-            "region": "V",
-            "municipality": "Tinambac",
-            "post_code": 4426
-        },
-        {
-            "location": "Camiguin",
-            "region": "X", "municipality": "Catarman",
-            "post_code": 9104
-        },
-        {
-            "location": "Camiguin",
-            "region": "X", "municipality": "Guinsiliban",
-            "post_code": 9102
-        },
-        {
-            "location": "Camiguin",
-            "region": "X", "municipality": "Mahinog",
-            "post_code": 9101
-        },
-        {
-            "location": "Camiguin",
-            "region": "X", "municipality": "Mambajao",
-            "post_code": 9100
-        },
-        {
-            "location": "Camiguin",
-            "region": "X", "municipality": "Sagay",
-            "post_code": 9103
-        },
-        {
-            "location": "Capiz",
-            "region": "VI",
-            "municipality": "Cuartero",
-            "post_code": 5811
-        },
-        {
-            "location": "Capiz",
-            "region": "VI",
-            "municipality": "Dao",
-            "post_code": 5810
-        },
-        {
-            "location": "Capiz",
-            "region": "VI",
-            "municipality": "Dumalag",
-            "post_code": 5813
-        },
-        {
-            "location": "Capiz",
-            "region": "VI",
-            "municipality": "Dumarao",
-            "post_code": 5812
-        },
-        {
-            "location": "Capiz",
-            "region": "VI",
-            "municipality": "Ivisan",
-            "post_code": 5805
-        },
-        {
-            "location": "Capiz",
-            "region": "VI",
-            "municipality": "Jamindan",
-            "post_code": 5808
-        },
-        {
-            "location": "Capiz",
-            "region": "VI",
-            "municipality": "Ma-ayon",
-            "post_code": 5809
-        },
-        {
-            "location": "Capiz",
-            "region": "VI",
-            "municipality": "Mambusao",
-            "post_code": 5807
-        },
-        {
-            "location": "Capiz",
-            "region": "VI",
-            "municipality": "Panay",
-            "post_code": 5801
-        },
-        {
-            "location": "Capiz",
-            "region": "VI",
-            "municipality": "Panitan",
-            "post_code": 5815
-        },
-        {
-            "location": "Capiz",
-            "region": "VI",
-            "municipality": "Pilar",
-            "post_code": 5804
-        },
-        {
-            "location": "Capiz",
-            "region": "VI",
-            "municipality": "Pres. Roxas",
-            "post_code": 5803
-        },
-        {
-            "location": "Capiz",
-            "region": "VI",
-            "municipality": "Pontevedra",
-            "post_code": 5802
-        },
-        {
-            "location": "Capiz",
-            "region": "VI",
-            "municipality": "Roxas City",
-            "post_code": 5800
-        },
-        {
-            "location": "Capiz",
-            "region": "VI",
-            "municipality": "Sapian",
-            "post_code": 5806
-        },
-        {
-            "location": "Capiz",
-            "region": "VI",
-            "municipality": "Sigma",
-            "post_code": 5816
-        },
-        {
-            "location": "Capiz",
-            "region": "VI",
-            "municipality": "Tapaz",
-            "post_code": 5814
-        },
-        {
-            "location": "Catanduanes",
-            "region": "V",
-            "municipality": "Bagamanoc",
-            "post_code": 4807
-        },
-        {
-            "location": "Catanduanes",
-            "region": "V",
-            "municipality": "Baras",
-            "post_code": 4803
-        },
-        {
-            "location": "Catanduanes",
-            "region": "V",
-            "municipality": "Bato",
-            "post_code": 4801
-        },
-        {
-            "location": "Catanduanes",
-            "region": "V",
-            "municipality": "Caramoran",
-            "post_code": 4808
-        },
-        {
-            "location": "Catanduanes",
-            "region": "V",
-            "municipality": "Gigmoto",
-            "post_code": 4804
-        },
-        {
-            "location": "Catanduanes",
-            "region": "V",
-            "municipality": "Pandan",
-            "post_code": 4809
-        },
-        {
-            "location": "Catanduanes",
-            "region": "V",
-            "municipality": "Panganiban",
-            "post_code": 4806
-        },
-        {
-            "location": "Catanduanes",
-            "region": "V",
-            "municipality": "San Andres",
-            "post_code": 4810
-        },
-        {
-            "location": "Catanduanes",
-            "region": "V",
-            "municipality": "San Miguel",
-            "post_code": 4802
-        },
-        {
-            "location": "Catanduanes",
-            "region": "V",
-            "municipality": "Viga",
-            "post_code": 4805
-        },
-        {
-            "location": "Catanduanes",
-            "region": "V",
-            "municipality": "Virac",
-            "post_code": 4800
-        },
-        {
-            "location": "Cavite",
-            "region": "IV-A",
-            "municipality": "1st Cavite Industrial Estate",
-            "post_code": 4126
-        },
-        {
-            "location": "Cavite",
-            "region": "IV-A",
-            "municipality": "Alfonso",
-            "post_code": 4123
-        },
-        {
-            "location": "Cavite",
-            "region": "IV-A",
-            "municipality": "Amadeo",
-            "post_code": 4119
-        },
-        {
-            "location": "Cavite",
-            "region": "IV-A",
-            "municipality": "Bacoor",
-            "post_code": 4102
-        },
-        {
-            "location": "Cavite",
-            "region": "IV-A",
-            "municipality": "Carmona",
-            "post_code": 4116
-        },
-        {
-            "location": "Cavite",
-            "region": "IV-A",
-            "municipality": "Cavite City",
-            "post_code": 4100
-        },
-        {
-            "location": "Cavite",
-            "region": "IV-A",
-            "municipality": "Cavite Naval Base",
-            "post_code": 4101
-        },
-        {
-            "location": "Cavite",
-            "region": "IV-A",
-            "municipality": "Corregidor",
-            "post_code": 4125
-        },
-        {
-            "location": "Cavite",
-            "region": "IV-A",
-            "municipality": "Dasmariñas",
-            "post_code": 4114
-        },
-        {
-            "location": "Cavite",
-            "region": "IV-A",
-            "municipality": "Dasmariñas Resettlement Area",
-            "post_code": 4115
-        },
-        {
-            "location": "Cavite",
-            "region": "IV-A",
-            "municipality": "Gen. Aguinaldo (Bailen)",
-            "post_code": 4124
-        },
-        {
-            "location": "Cavite",
-            "region": "IV-A",
-            "municipality": "Gen. Mariano Alvarez",
-            "post_code": 4117
-        },
-        {
-            "location": "Cavite",
-            "region": "IV-A",
-            "municipality": "Gen. Trias",
-            "post_code": 4107
-        },
-        {
-            "location": "Cavite",
-            "region": "IV-A",
-            "municipality": "Imus",
-            "post_code": 4103
-        },
-        {
-            "location": "Cavite",
-            "region": "IV-A",
-            "municipality": "Indang",
-            "post_code": 4122
-        },
-        {
-            "location": "Cavite",
-            "region": "IV-A",
-            "municipality": "Kawit",
-            "post_code": 4104
-        },
-        {
-            "location": "Cavite",
-            "region": "IV-A",
-            "municipality": "Magallanes",
-            "post_code": 4113
-        },
-        {
-            "location": "Cavite",
-            "region": "IV-A",
-            "municipality": "Maragondon",
-            "post_code": 4112
-        },
-        {
-            "location": "Cavite",
-            "region": "IV-A",
-            "municipality": "Mendez",
-            "post_code": 4121
-        },
-        {
-            "location": "Cavite",
-            "region": "IV-A",
-            "municipality": "Molino",
-            "post_code": 4135
-        },
-        {
-            "location": "Cavite",
-            "region": "IV-A",
-            "municipality": "Naic",
-            "post_code": 4110
-        },
-        {
-            "location": "Cavite",
-            "region": "IV-A",
-            "municipality": "Noveleta",
-            "post_code": 4105
-        },
-        {
-            "location": "Cavite",
-            "region": "IV-A",
-            "municipality": "Rosario",
-            "post_code": 4106
-        },
-        {
-            "location": "Cavite",
-            "region": "IV-A",
-            "municipality": "Silang",
-            "post_code": 4118
-        },
-        {
-            "location": "Cavite",
-            "region": "IV-A",
-            "municipality": "Tagaytay",
-            "post_code": 4120
-        },
-        {
-            "location": "Cavite",
-            "region": "IV-A",
-            "municipality": "Tanza",
-            "post_code": 4108
-        },
-        {
-            "location": "Cavite",
-            "region": "IV-A",
-            "municipality": "Ternate",
-            "post_code": 4111
-        },
-        {
-            "location": "Cavite",
-            "region": "IV-A",
-            "municipality": "Trece Martirez City",
-            "post_code": 4109
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Alcantara",
-            "post_code": 6033
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Alcoy",
-            "post_code": 6023
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Alegria",
-            "post_code": 6030
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Aloguinsan",
-            "post_code": 6040
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Argao",
-            "post_code": 6021
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Asturias",
-            "post_code": 6042
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Badian",
-            "post_code": 6031
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Balamban",
-            "post_code": 6041
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Bantayan",
-            "post_code": 6052
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Barili",
-            "post_code": 6036
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Bogo",
-            "post_code": 6010
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Boljoon",
-            "post_code": 6024
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Borbon",
-            "post_code": 6008
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Carcar",
-            "post_code": 6019
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Carmen",
-            "post_code": 6005
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Catmon",
-            "post_code": 6006
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Cebu City",
-            "post_code": 6000
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Compostela",
-            "post_code": 6003
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Consolacion",
-            "post_code": 6001
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Cordova",
-            "post_code": 6017
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Daang-Bantayan",
-            "post_code": 6013
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Dalaguete",
-            "post_code": 6022
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Danao City",
-            "post_code": 6004
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Dumanjug",
-            "post_code": 6035
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Ginatilan",
-            "post_code": 6028
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Lapu-Lapu City",
-            "post_code": 6015
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Liloan",
-            "post_code": 6002
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Mactan Airport",
-            "post_code": 6016
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Madridejos",
-            "post_code": 6053
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Malabuyoc",
-            "post_code": 6029
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Mandaue City",
-            "post_code": 6014
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Medellin",
-            "post_code": 6012
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Minglanilla",
-            "post_code": 6046
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Moalboal",
-            "post_code": 6032
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Naga",
-            "post_code": 6037
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Oslob",
-            "post_code": 6025
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Pilar",
-            "post_code": 6048
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Pinamungajan",
-            "post_code": 6039
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Poro",
-            "post_code": 6049
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Ronda",
-            "post_code": 6034
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Samboan",
-            "post_code": 6027
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "San Fernando",
-            "post_code": 6018
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "San Francisco",
-            "post_code": 6050
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "San Remegio",
-            "post_code": 6011
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Santa Fe",
-            "post_code": 6047
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Santander",
-            "post_code": 6026
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Sibonga",
-            "post_code": 6020
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Sogod",
-            "post_code": 6007
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Tabogon",
-            "post_code": 6009
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Tabuelan",
-            "post_code": 6044
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Talisay",
-            "post_code": 6045
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Toledo City",
-            "post_code": 6038
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Tuburan",
-            "post_code": 6043
-        },
-        {
-            "location": "Cebu",
-            "region": "VII",
-            "municipality": "Tudela",
-            "post_code": 6051
-        },
-        {
-            "location": "Davao de Oro (Compostela Valley)",
-            "region": "XI",
-            "municipality": "Compostela",
-            "post_code": 8803
-        },
-        {
-            "location": "Davao de Oro (Compostela Valley)",
-            "region": "XI",
-            "municipality": "Laak (formerly San Vicente)",
-            "post_code": 8810
-        },
-        {
-            "location": "Davao de Oro (Compostela Valley)",
-            "region": "XI",
-            "municipality": "Mabini",
-            "post_code": 8807
-        },
-        {
-            "location": "Davao de Oro (Compostela Valley)",
-            "region": "XI",
-            "municipality": "Maco",
-            "post_code": 8806
-        },
-        {
-            "location": "Davao de Oro (Compostela Valley)",
-            "region": "XI",
-            "municipality": "Maragusan (formerly San Mariano)",
-            "post_code": 8808
-        },
-        {
-            "location": "Davao de Oro (Compostela Valley)",
-            "region": "XI",
-            "municipality": "Mawab",
-            "post_code": 8802
-        },
-        {
-            "location": "Davao de Oro (Compostela Valley)",
-            "region": "XI",
-            "municipality": "Monkayo",
-            "post_code": 8805
-        },
-        {
-            "location": "Davao de Oro (Compostela Valley)",
-            "region": "XI",
-            "municipality": "Montevista",
-            "post_code": 8801
-        },
-        {
-            "location": "Davao de Oro (Compostela Valley)",
-            "region": "XI",
-            "municipality": "Nabunturan",
-            "post_code": 8800
-        },
-        {
-            "location": "Davao de Oro (Compostela Valley)",
-            "region": "XI",
-            "municipality": "New Bataan",
-            "post_code": 8804
-        },
-        {
-            "location": "Davao de Oro (Compostela Valley)",
-            "region": "XI",
-            "municipality": "Pantukan",
-            "post_code": 8809
-        },
-        {
-            "location": "Davao del Norte",
-            "region": "XI",
-            "municipality": "Asuncion (formerly Saug)",
-            "post_code": 8102
-        },
-        {
-            "location": "Davao del Norte",
-            "region": "XI",
-            "municipality": "Babak",
-            "post_code": 8118
-        },
-        {
-            "location": "Davao del Norte",
-            "region": "XI",
-            "municipality": "Braulio E. Dujali",
-            "post_code": 8106
-        },
-        {
-            "location": "Davao del Norte",
-            "region": "XI",
-            "municipality": "Carmen",
-            "post_code": 8101
-        },
-        {
-            "location": "Davao del Norte",
-            "region": "XI",
-            "municipality": "Kapalong",
-            "post_code": 8113
-        },
-        {
-            "location": "Davao del Norte",
-            "region": "XI",
-            "municipality": "Kaputian",
-            "post_code": 8120
-        },
-        {
-            "location": "Davao del Norte",
-            "region": "XI",
-            "municipality": "New Corella",
-            "post_code": 8104
-        },
-        {
-            "location": "Davao del Norte",
-            "region": "XI",
-            "municipality": "Panabo",
-            "post_code": 8105
-        },
-        {
-            "location": "Davao del Norte",
-            "region": "XI",
-            "municipality": "Samal",
-            "post_code": 8119
-        },
-        {
-            "location": "Davao del Norte",
-            "region": "XI",
-            "municipality": "San Isidro",
-            "post_code": 8121
-        },
-        {
-            "location": "Davao del Norte",
-            "region": "XI",
-            "municipality": "Santo Tomas",
-            "post_code": 8112
-        },
-        {
-            "location": "Davao del Norte",
-            "region": "XI",
-            "municipality": "Tagum",
-            "post_code": 8100
-        },
-        {
-            "location": "Davao del Norte",
-            "region": "XI",
-            "municipality": "Talaingod",
-            "post_code": 8107
-        },
-        {
-            "location": "Davao del Sur",
-            "region": "XI",
-            "municipality": "Ateneo",
-            "post_code": 8016
-        },
-        {
-            "location": "Davao del Sur",
-            "region": "XI",
-            "municipality": "Bansalan",
-            "post_code": 8005
-        },
-        {
-            "location": "Davao del Sur",
-            "region": "XI",
-            "municipality": "Bunawan",
-            "post_code": 8017
-        },
-        {
-            "location": "Davao del Sur",
-            "region": "XI",
-            "municipality": "Calinan",
-            "post_code": 8018
-        },
-        {
-            "location": "Davao del Sur",
-            "region": "XI",
-            "municipality": "Davao City",
-            "post_code": 8000
-        },
-        {
-            "location": "Davao del Sur",
-            "region": "XI",
-            "municipality": "Davao International Airport",
-            "post_code": 8019
-        },
-        {
-            "location": "Davao del Sur",
-            "region": "XI",
-            "municipality": "Digos",
-            "post_code": 8002
-        },
-        {
-            "location": "Davao del Sur",
-            "region": "XI",
-            "municipality": "Hagonoy",
-            "post_code": 8006
-        },
-        {
-            "location": "Davao del Sur",
-            "region": "XI",
-            "municipality": "Kiblawan",
-            "post_code": 8008
-        },
-        {
-            "location": "Davao del Sur",
-            "region": "XI",
-            "municipality": "Magsaysay",
-            "post_code": 8004
-        },
-        {
-            "location": "Davao del Sur",
-            "region": "XI",
-            "municipality": "Malalag",
-            "post_code": 8010
-        },
-        {
-            "location": "Davao del Sur",
-            "region": "XI",
-            "municipality": "Mandug",
-            "post_code": 8020
-        },
-        {
-            "location": "Davao del Sur",
-            "region": "XI",
-            "municipality": "Matanao",
-            "post_code": 8003
-        },
-        {
-            "location": "Davao del Sur",
-            "region": "XI",
-            "municipality": "Matina",
-            "post_code": 8021
-        },
-        {
-            "location": "Davao del Sur",
-            "region": "XI",
-            "municipality": "Mintal",
-            "post_code": 8022
-        },
-        {
-            "location": "Davao del Sur",
-            "region": "XI",
-            "municipality": "Padada",
-            "post_code": 8007
-        },
-        {
-            "location": "Davao del Sur",
-            "region": "XI",
-            "municipality": "Santa Cruz",
-            "post_code": 8001
-        },
-        {
-            "location": "Davao del Sur",
-            "region": "XI",
-            "municipality": "Sulop",
-            "post_code": 8009
-        },
-        {
-            "location": "Davao del Sur",
-            "region": "XI",
-            "municipality": "Talomo",
-            "post_code": 8023
-        },
-        {
-            "location": "Davao del Sur",
-            "region": "XI",
-            "municipality": "Tibungco",
-            "post_code": 8024
-        },
-        {
-            "location": "Davao del Sur",
-            "region": "XI",
-            "municipality": "Toril",
-            "post_code": 8025
-        },
-        {
-            "location": "Davao del Sur",
-            "region": "XI",
-            "municipality": "University of Mindanao",
-            "post_code": 8026
-        },
-        {
-            "location": "Davao Occidental",
-            "region": "XI",
-            "municipality": "Don Marcelino",
-            "post_code": 8013
-        },
-        {
-            "location": "Davao Occidental",
-            "region": "XI",
-            "municipality": "Jose Abad Santos",
-            "post_code": 8014
-        },
-        {
-            "location": "Davao Occidental",
-            "region": "XI",
-            "municipality": "Malita",
-            "post_code": 8012
-        },
-        {
-            "location": "Davao Occidental",
-            "region": "XI",
-            "municipality": "Santa Maria",
-            "post_code": 8011
-        },
-        {
-            "location": "Davao Occidental",
-            "region": "XI",
-            "municipality": "Sarangani",
-            "post_code": 8015
-        },
-        {
-            "location": "Davao Oriental",
-            "region": "XI",
-            "municipality": "Baganga",
-            "post_code": 8204
-        },
-        {
-            "location": "Davao Oriental",
-            "region": "XI",
-            "municipality": "Banaybanay",
-            "post_code": 8208
-        },
-        {
-            "location": "Davao Oriental",
-            "region": "XI",
-            "municipality": "Boston",
-            "post_code": 8206
-        },
-        {
-            "location": "Davao Oriental",
-            "region": "XI",
-            "municipality": "Caraga",
-            "post_code": 8203
-        },
-        {
-            "location": "Davao Oriental",
-            "region": "XI",
-            "municipality": "Cateel",
-            "post_code": 8205
-        },
-        {
-            "location": "Davao Oriental",
-            "region": "XI",
-            "municipality": "Gov. Generoso",
-            "post_code": 8210
-        },
-        {
-            "location": "Davao Oriental",
-            "region": "XI",
-            "municipality": "Lupon",
-            "post_code": 8207
-        },
-        {
-            "location": "Davao Oriental",
-            "region": "XI",
-            "municipality": "Manay",
-            "post_code": 8202
-        },
-        {
-            "location": "Davao Oriental",
-            "region": "XI",
-            "municipality": "Mati",
-            "post_code": 8200
-        },
-        {
-            "location": "Davao Oriental",
-            "region": "XI",
-            "municipality": "San Isidro",
-            "post_code": 8209
-        },
-        {
-            "location": "Davao Oriental",
-            "region": "XI",
-            "municipality": "Tarragona",
-            "post_code": 8201
-        },
-        {
-            "location": "Dinagat Islands",
-            "region": "XIII",
-            "municipality": "Basilisa (formerly Rizal)",
-            "post_code": 8413
-        },
-        {
-            "location": "Dinagat Islands",
-            "region": "XIII",
-            "municipality": "Cagdianao",
-            "post_code": 8411
-        },
-        {
-            "location": "Dinagat Islands",
-            "region": "XIII",
-            "municipality": "Dinagat",
-            "post_code": 8412
-        },
-        {
-            "location": "Dinagat Islands",
-            "region": "XIII",
-            "municipality": "Libjo (formerly Albor)",
-            "post_code": 8414
-        },
-        {
-            "location": "Dinagat Islands",
-            "region": "XIII",
-            "municipality": "Loreto",
-            "post_code": 8415
-        },
-        {
-            "location": "Dinagat Islands",
-            "region": "XIII",
-            "municipality": "San Jose",
-            "post_code": 8427
-        },
-        {
-            "location": "Dinagat Islands",
-            "region": "XIII",
-            "municipality": "Tubajon",
-            "post_code": 8426
-        },
-        {
-            "location": "Eastern Samar",
-            "region": "VIII",
-            "municipality": "Arteche",
-            "post_code": 6822
-        },
-        {
-            "location": "Eastern Samar",
-            "region": "VIII",
-            "municipality": "Balangiga",
-            "post_code": 6812
-        },
-        {
-            "location": "Eastern Samar",
-            "region": "VIII",
-            "municipality": "Balangkayan",
-            "post_code": 6801
-        },
-        {
-            "location": "Eastern Samar",
-            "region": "VIII",
-            "municipality": "Borongan",
-            "post_code": 6800
-        },
-        {
-            "location": "Eastern Samar",
-            "region": "VIII",
-            "municipality": "Can-Avid",
-            "post_code": 6806
-        },
-        {
-            "location": "Eastern Samar",
-            "region": "VIII",
-            "municipality": "Dolores",
-            "post_code": 6817
-        },
-        {
-            "location": "Eastern Samar",
-            "region": "VIII",
-            "municipality": "Gen. MacArthur",
-            "post_code": 6805
-        },
-        {
-            "location": "Eastern Samar",
-            "region": "VIII",
-            "municipality": "Giporlos",
-            "post_code": 6811
-        },
-        {
-            "location": "Eastern Samar",
-            "region": "VIII",
-            "municipality": "Guiuan",
-            "post_code": 6809
-        },
-        {
-            "location": "Eastern Samar",
-            "region": "VIII",
-            "municipality": "Hernani",
-            "post_code": 6804
-        },
-        {
-            "location": "Eastern Samar",
-            "region": "VIII",
-            "municipality": "Jipapad",
-            "post_code": 6819
-        },
-        {
-            "location": "Eastern Samar",
-            "region": "VIII",
-            "municipality": "Lawaan",
-            "post_code": 6813
-        },
-        {
-            "location": "Eastern Samar",
-            "region": "VIII",
-            "municipality": "Llorente",
-            "post_code": 6803
-        },
-        {
-            "location": "Eastern Samar",
-            "region": "VIII",
-            "municipality": "Maslog",
-            "post_code": 6820
-        },
-        {
-            "location": "Eastern Samar",
-            "region": "VIII",
-            "municipality": "Maydolong",
-            "post_code": 6802
-        },
-        {
-            "location": "Eastern Samar",
-            "region": "VIII",
-            "municipality": "Mercedes",
-            "post_code": 6808
-        },
-        {
-            "location": "Eastern Samar",
-            "region": "VIII",
-            "municipality": "Oras",
-            "post_code": 6818
-        },
-        {
-            "location": "Eastern Samar",
-            "region": "VIII",
-            "municipality": "Quinapondan",
-            "post_code": 6810
-        },
-        {
-            "location": "Eastern Samar",
-            "region": "VIII",
-            "municipality": "Salcedo",
-            "post_code": 6807
-        },
-        {
-            "location": "Eastern Samar",
-            "region": "VIII",
-            "municipality": "San Julian",
-            "post_code": 6814
-        },
-        {
-            "location": "Eastern Samar",
-            "region": "VIII",
-            "municipality": "San Policarpio",
-            "post_code": 6821
-        },
-        {
-            "location": "Eastern Samar",
-            "region": "VIII",
-            "municipality": "Sulat",
-            "post_code": 6815
-        },
-        {
-            "location": "Eastern Samar",
-            "region": "VIII",
-            "municipality": "Taft",
-            "post_code": 6816
-        },
-        {
-            "location": "Guimaras",
-            "region": "VI",
-            "municipality": "Buenavista",
-            "post_code": 5044
-        },
-        {
-            "location": "Guimaras",
-            "region": "VI",
-            "municipality": "Jordan",
-            "post_code": 5045
-        },
-        {
-            "location": "Guimaras",
-            "region": "VI",
-            "municipality": "Nueva Valencia",
-            "post_code": 5046
-        },
-        {
-            "location": "Guimaras",
-            "region": "VI",
-            "municipality": "San Lorenzo",
-            "post_code": 5047
-        },
-        {
-            "location": "Guimaras",
-            "region": "VI",
-            "municipality": "Sibunag",
-            "post_code": 5048
-        },
-        {
-            "location": "Ifugao",
-            "region": "CAR",
-            "municipality": "Aguinaldo",
-            "post_code": 3606
-        },
-        {
-            "location": "Ifugao",
-            "region": "CAR",
-            "municipality": "Asipulo",
-            "post_code": 3610
-        },
-        {
-            "location": "Ifugao",
-            "region": "CAR",
-            "municipality": "Banaue",
-            "post_code": 3601
-        },
-        {
-            "location": "Ifugao",
-            "region": "CAR", "municipality": "Hingyon",
-            "post_code": 3607
-        },
-        {
-            "location": "Ifugao",
-            "region": "CAR", "municipality": "Hungduan",
-            "post_code": 3603
-        },
-        {
-            "location": "Ifugao",
-            "region": "CAR", "municipality": "Kiangan",
-            "post_code": 3604
-        },
-        {
-            "location": "Ifugao",
-            "region": "CAR", "municipality": "Lagawe",
-            "post_code": 3600
-        },
-        {
-            "location": "Ifugao",
-            "region": "CAR", "municipality": "Lamut",
-            "post_code": 3605
-        },
-        {
-            "location": "Ifugao",
-            "region": "CAR", "municipality": "Mayoyao",
-            "post_code": 3602
-        },
-        {
-            "location": "Ifugao",
-            "region": "CAR", "municipality": "Potia",
-            "post_code": 3608
-        },
-        {
-            "location": "Ifugao",
-            "region": "CAR", "municipality": "Tinoc",
-            "post_code": 3609
-        },
-        {
-            "location": "Ilocos Norte",
-            "region": "I",
-            "municipality": "Adams",
-            "post_code": 2922
-        },
-        {
-            "location": "Ilocos Norte",
-            "region": "I",
-            "municipality": "Bacarra",
-            "post_code": 2916
-        },
-        {
-            "location": "Ilocos Norte",
-            "region": "I",
-            "municipality": "Badoc",
-            "post_code": 2904
-        },
-        {
-            "location": "Ilocos Norte",
-            "region": "I",
-            "municipality": "Bangui",
-            "post_code": 2920
-        },
-        {
-            "location": "Ilocos Norte",
-            "region": "I",
-            "municipality": "Batac",
-            "post_code": 2906
-        },
-        {
-            "location": "Ilocos Norte",
-            "region": "I",
-            "municipality": "Burgos",
-            "post_code": 2918
-        },
-        {
-            "location": "Ilocos Norte",
-            "region": "I",
-            "municipality": "Carasi",
-            "post_code": 2911
-        },
-        {
-            "location": "Ilocos Norte",
-            "region": "I",
-            "municipality": "Currimao",
-            "post_code": 2903
-        },
-        {
-            "location": "Ilocos Norte",
-            "region": "I",
-            "municipality": "Dingras",
-            "post_code": 2913
-        },
-        {
-            "location": "Ilocos Norte",
-            "region": "I",
-            "municipality": "Dumalneg",
-            "post_code": 2921
-        },
-        {
-            "location": "Ilocos Norte",
-            "region": "I",
-            "municipality": "Espiritu",
-            "post_code": 2908
-        },
-        {
-            "location": "Ilocos Norte",
-            "region": "I",
-            "municipality": "Laoag City",
-            "post_code": 2900
-        },
-        {
-            "location": "Ilocos Norte",
-            "region": "I",
-            "municipality": "Marcos",
-            "post_code": 2907
-        },
-        {
-            "location": "Ilocos Norte",
-            "region": "I",
-            "municipality": "Nueva Era",
-            "post_code": 2909
-        },
-        {
-            "location": "Ilocos Norte",
-            "region": "I",
-            "municipality": "Pagudpud",
-            "post_code": 2919
-        },
-        {
-            "location": "Ilocos Norte",
-            "region": "I",
-            "municipality": "Paoay",
-            "post_code": 2902
-        },
-        {
-            "location": "Ilocos Norte",
-            "region": "I",
-            "municipality": "Pasuquin",
-            "post_code": 2917
-        },
-        {
-            "location": "Ilocos Norte",
-            "region": "I",
-            "municipality": "Piddig",
-            "post_code": 2912
-        },
-        {
-            "location": "Ilocos Norte",
-            "region": "I",
-            "municipality": "Pinili",
-            "post_code": 2905
-        },
-        {
-            "location": "Ilocos Norte",
-            "region": "I",
-            "municipality": "San Nicolas",
-            "post_code": 2901
-        },
-        {
-            "location": "Ilocos Norte",
-            "region": "I",
-            "municipality": "Sarrat",
-            "post_code": 2914
-        },
-        {
-            "location": "Ilocos Norte",
-            "region": "I",
-            "municipality": "Solsona",
-            "post_code": 2910
-        },
-        {
-            "location": "Ilocos Norte",
-            "region": "I",
-            "municipality": "Vintar",
-            "post_code": 2915
-        },
-        {
-            "location": "Ilocos Sur",
-            "region": "I",
-            "municipality": "Alilem",
-            "post_code": 2716
-        },
-        {
-            "location": "Ilocos Sur",
-            "region": "I",
-            "municipality": "Banayoyo",
-            "post_code": 2708
-        },
-        {
-            "location": "Ilocos Sur",
-            "region": "I",
-            "municipality": "Bantay",
-            "post_code": 2727
-        },
-        {
-            "location": "Ilocos Sur",
-            "region": "I",
-            "municipality": "Burgos",
-            "post_code": 2724
-        },
-        {
-            "location": "Ilocos Sur",
-            "region": "I",
-            "municipality": "Cabugao",
-            "post_code": 2732
-        },
-        {
-            "location": "Ilocos Sur",
-            "region": "I",
-            "municipality": "Candon",
-            "post_code": 2710
-        },
-        {
-            "location": "Ilocos Sur",
-            "region": "I",
-            "municipality": "Caoayan",
-            "post_code": 2702
-        },
-        {
-            "location": "Ilocos Sur",
-            "region": "I",
-            "municipality": "Cervantes",
-            "post_code": 2718
-        },
-        {
-            "location": "Ilocos Sur",
-            "region": "I",
-            "municipality": "Galimuyod",
-            "post_code": 2709
-        },
-        {
-            "location": "Ilocos Sur",
-            "region": "I",
-            "municipality": "Gregorio del Pilar",
-            "post_code": 2720
-        },
-        {
-            "location": "Ilocos Sur",
-            "region": "I",
-            "municipality": "Lidlida",
-            "post_code": 2723
-        },
-        {
-            "location": "Ilocos Sur",
-            "region": "I",
-            "municipality": "Magsingal",
-            "post_code": 2730
-        },
-        {
-            "location": "Ilocos Sur",
-            "region": "I",
-            "municipality": "Nagbukel",
-            "post_code": 2725
-        },
-        {
-            "location": "Ilocos Sur",
-            "region": "I",
-            "municipality": "Narvacan",
-            "post_code": 2704
-        },
-        {
-            "location": "Ilocos Sur",
-            "region": "I",
-            "municipality": "Quirino",
-            "post_code": 2721
-        },
-        {
-            "location": "Ilocos Sur",
-            "region": "I",
-            "municipality": "Salcedo",
-            "post_code": 2711
-        },
-        {
-            "location": "Ilocos Sur",
-            "region": "I",
-            "municipality": "San Emilio",
-            "post_code": 2722
-        },
-        {
-            "location": "Ilocos Sur",
-            "region": "I",
-            "municipality": "San Esteban",
-            "post_code": 2706
-        },
-        {
-            "location": "Ilocos Sur",
-            "region": "I",
-            "municipality": "San Ildefonso",
-            "post_code": 2728
-        },
-        {
-            "location": "Ilocos Sur",
-            "region": "I",
-            "municipality": "San Juan",
-            "post_code": 2731
-        },
-        {
-            "location": "Ilocos Sur",
-            "region": "I",
-            "municipality": "San Vicente",
-            "post_code": 2726
-        },
-        {
-            "location": "Ilocos Sur",
-            "region": "I",
-            "municipality": "Santa",
-            "post_code": 2703
-        },
-        {
-            "location": "Ilocos Sur",
-            "region": "I",
-            "municipality": "Santa Catalina",
-            "post_code": 2701
-        },
-        {
-            "location": "Ilocos Sur",
-            "region": "I",
-            "municipality": "Santa Cruz",
-            "post_code": 2713
-        },
-        {
-            "location": "Ilocos Sur",
-            "region": "I",
-            "municipality": "Santa Lucia",
-            "post_code": 2712
-        },
-        {
-            "location": "Ilocos Sur",
-            "region": "I",
-            "municipality": "Santa Maria",
-            "post_code": 2705
-        },
-        {
-            "location": "Ilocos Sur",
-            "region": "I",
-            "municipality": "Santiago",
-            "post_code": 2707
-        },
-        {
-            "location": "Ilocos Sur",
-            "region": "I",
-            "municipality": "Santo Domingo",
-            "post_code": 2729
-        },
-        {
-            "location": "Ilocos Sur",
-            "region": "I",
-            "municipality": "Sigay",
-            "post_code": 2719
-        },
-        {
-            "location": "Ilocos Sur",
-            "region": "I",
-            "municipality": "Sinait",
-            "post_code": 2733
-        },
-        {
-            "location": "Ilocos Sur",
-            "region": "I",
-            "municipality": "Sugpon",
-            "post_code": 2717
-        },
-        {
-            "location": "Ilocos Sur",
-            "region": "I",
-            "municipality": "Suyo",
-            "post_code": 2715
-        },
-        {
-            "location": "Ilocos Sur",
-            "region": "I",
-            "municipality": "Tagudin",
-            "post_code": 2714
-        },
-        {
-            "location": "Ilocos Sur",
-            "region": "I",
-            "municipality": "Vigan",
-            "post_code": 2700
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Ajuy",
-            "post_code": 5012
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Alimodian",
-            "post_code": 5028
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Anilao",
-            "post_code": 5009
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Badiangan",
-            "post_code": 5033
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Balasan",
-            "post_code": 5018
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Banate",
-            "post_code": 5010
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Barotac Nuevo",
-            "post_code": 5007
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Barotac Viejo",
-            "post_code": 5011
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Batad",
-            "post_code": 5016
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Bingawan",
-            "post_code": 5041
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Cabatuan",
-            "post_code": 5031
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Calinog",
-            "post_code": 5040
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Carles",
-            "post_code": 5019
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Concepcion",
-            "post_code": 5013
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Dingle",
-            "post_code": 5035
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Dueñas",
-            "post_code": 5038
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Dumangas",
-            "post_code": 5006
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Estancia",
-            "post_code": 5017
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Guimbal",
-            "post_code": 5022
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Igbaras",
-            "post_code": 5029
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Iloilo City",
-            "post_code": 5000
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Janiuay",
-            "post_code": 5034
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Lambunao",
-            "post_code": 5042
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Leganes",
-            "post_code": 5003
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Lemery",
-            "post_code": 5043
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Leon",
-            "post_code": 5026
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Maasin",
-            "post_code": 5030
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Miagao",
-            "post_code": 5023
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Mina",
-            "post_code": 5032
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "New Lucena",
-            "post_code": 5005
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Oton",
-            "post_code": 5020
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Passi",
-            "post_code": 5037
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Pavia",
-            "post_code": 5001
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Pototan",
-            "post_code": 5008
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "San Dionisio",
-            "post_code": 5015
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "San Enrique",
-            "post_code": 5036
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "San Joaquin",
-            "post_code": 5024
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "San Miguel",
-            "post_code": 5025
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "San Rafael",
-            "post_code": 5039
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Santa Barbara",
-            "post_code": 5002
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Sara",
-            "post_code": 5014
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Tigbauan",
-            "post_code": 5021
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Tubungan",
-            "post_code": 5027
-        },
-        {
-            "location": "Iloilo",
-            "region": "VI",
-            "municipality": "Zarraga",
-            "post_code": 5004
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "Alicia",
-            "post_code": 3306
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "Angadanan",
-            "post_code": 3307
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "Aurora",
-            "post_code": 3316
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "Benito Soliven",
-            "post_code": 3331
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "Burgos",
-            "post_code": 3322
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "Cabagan",
-            "post_code": 3328
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "Cabatuan",
-            "post_code": 3315
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "City of Cauayan",
-            "post_code": 3305
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "City of Ilagan",
-            "post_code": 3300
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "Cordon",
-            "post_code": 3312
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "Delfin Albano",
-            "post_code": 3326
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "Dinapigue",
-            "post_code": 3336
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "Divilacan",
-            "post_code": 3335
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "Echague",
-            "post_code": 3309
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "Gamu",
-            "post_code": 3301
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "Jones",
-            "post_code": 3313
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "Luna",
-            "post_code": 3304
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "Maconacon",
-            "post_code": 3333
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "Mallig",
-            "post_code": 3323
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "Naguillan",
-            "post_code": 3302
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "Palanan",
-            "post_code": 3334
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "Quezon",
-            "post_code": 3324
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "Quirino",
-            "post_code": 3321
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "Ramon",
-            "post_code": 3319
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "Reina Mercedes",
-            "post_code": 3303
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "Roxas",
-            "post_code": 3320
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "San Agustin",
-            "post_code": 3314
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "San Guillermo",
-            "post_code": 3308
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "San Isidro",
-            "post_code": 3310
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "San Manuel",
-            "post_code": 3317
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "San Mariano",
-            "post_code": 3332
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "San Mateo",
-            "post_code": 3318
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "San Pablo",
-            "post_code": 3329
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "Santiago CIty",
-            "post_code": 3311
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "Sta. Maria",
-            "post_code": 3330
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "Sto. Tomas",
-            "post_code": 3327
-        },
-        {
-            "location": "Isabela",
-            "region": "II",
-            "municipality": "Tumauini",
-            "post_code": 3325
-        },
-        {
-            "location": "Kalinga",
-            "region": "CAR",
-            "municipality": "Balbalan",
-            "post_code": 3801
-        },
-        {
-            "location": "Kalinga",
-            "region": "CAR",
-            "municipality": "Lubuagan",
-            "post_code": 3802
-        },
-        {
-            "location": "Kalinga",
-            "region": "CAR",
-            "municipality": "Pasil",
-            "post_code": 3803
-        },
-        {
-            "location": "Kalinga",
-            "region": "CAR",
-            "municipality": "Pinukpok",
-            "post_code": 3806
-        },
-        {
-            "location": "Kalinga",
-            "region": "CAR",
-            "municipality": "Liwan(Rizal)",
-            "post_code": 3808
-        },
-        {
-            "location": "Kalinga",
-            "region": "CAR",
-            "municipality": "Tabuk City",
-            "post_code": 3800
-        },
-        {
-            "location": "Kalinga",
-            "region": "CAR",
-            "municipality": "Tanudan",
-            "post_code": 3805
-        },
-        {
-            "location": "Kalinga",
-            "region": "CAR",
-            "municipality": "Tinglayan",
-            "post_code": 3804
-        },
-        {
-            "location": "La Union",
-            "region": "I",
-            "municipality": "Agoo",
-            "post_code": 2504
-        },
-        {
-            "location": "La Union",
-            "region": "I",
-            "municipality": "Aringay",
-            "post_code": 2503
-        },
-        {
-            "location": "La Union",
-            "region": "I",
-            "municipality": "Bacnotan",
-            "post_code": 2515
-        },
-        {
-            "location": "La Union",
-            "region": "I",
-            "municipality": "Bagulin",
-            "post_code": 2512
-        },
-        {
-            "location": "La Union",
-            "region": "I",
-            "municipality": "Balaoan",
-            "post_code": 2517
-        },
-        {
-            "location": "La Union",
-            "region": "I",
-            "municipality": "Bangar",
-            "post_code": 2519
-        },
-        {
-            "location": "La Union",
-            "region": "I",
-            "municipality": "Bauang",
-            "post_code": 2501
-        },
-        {
-            "location": "La Union",
-            "region": "I",
-            "municipality": "Burgos",
-            "post_code": 2510
-        },
-        {
-            "location": "La Union",
-            "region": "I",
-            "municipality": "Caba",
-            "post_code": 2502
-        },
-        {
-            "location": "La Union",
-            "region": "I",
-            "municipality": "Damortis",
-            "post_code": 2507
-        },
-        {
-            "location": "La Union",
-            "region": "I",
-            "municipality": "Luna",
-            "post_code": 2518
-        },
-        {
-            "location": "La Union",
-            "region": "I",
-            "municipality": "Naguilian",
-            "post_code": 2511
-        },
-        {
-            "location": "La Union",
-            "region": "I",
-            "municipality": "Pugo",
-            "post_code": 2508
-        },
-        {
-            "location": "La Union",
-            "region": "I",
-            "municipality": "Rosario",
-            "post_code": 2506
-        },
-        {
-            "location": "La Union",
-            "region": "I",
-            "municipality": "San Fernando",
-            "post_code": 2500
-        },
-        {
-            "location": "La Union",
-            "region": "I",
-            "municipality": "San Gabriel",
-            "post_code": 2513
-        },
-        {
-            "location": "La Union",
-            "region": "I",
-            "municipality": "San Juan",
-            "post_code": 2514
-        },
-        {
-            "location": "La Union",
-            "region": "I",
-            "municipality": "Santol",
-            "post_code": 2516
-        },
-        {
-            "location": "La Union",
-            "region": "I",
-            "municipality": "Sto. Tomas",
-            "post_code": 2505
-        },
-        {
-            "location": "La Union",
-            "region": "I",
-            "municipality": "Sudipen",
-            "post_code": 2520
-        },
-        {
-            "location": "La Union",
-            "region": "I",
-            "municipality": "Tubao",
-            "post_code": 2509
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "Alaminos",
-            "post_code": 4001
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "Bay",
-            "post_code": 4033
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "Biñan",
-            "post_code": 4024
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "Botocan",
-            "post_code": 4006
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "Cabuyao",
-            "post_code": 4025
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "Calamba",
-            "post_code": 4027
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "Caluan",
-            "post_code": 4012
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "Camp Vicente Lim",
-            "post_code": 4029
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "Canlubang",
-            "post_code": 4028
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "Cavinti",
-            "post_code": 4013
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "College Los Baños",
-            "post_code": 4031
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "Famy",
-            "post_code": 4021
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "Kalayaan",
-            "post_code": 4015
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "Laguna Technopark",
-            "post_code": 4034
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "Liliw",
-            "post_code": 4004
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "Los Baños",
-            "post_code": 4030
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "Luisiana",
-            "post_code": 4032
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "Lumban",
-            "post_code": 4014
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "Mabitac",
-            "post_code": 4020
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "Magdalena",
-            "post_code": 4007
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "Majayjay",
-            "post_code": 4005
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "Nagcarlan",
-            "post_code": 4002
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "Paete",
-            "post_code": 4016
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "Pagsanjan",
-            "post_code": 4008
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "Pakil",
-            "post_code": 4017
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "Pangil",
-            "post_code": 4018
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "Pila",
-            "post_code": 4010
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "Rizal",
-            "post_code": 4003
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "San Pablo City",
-            "post_code": 4000
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "San Pedro",
-            "post_code": 4023
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "Siniloan",
-            "post_code": 4019
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "Sta. Cruz",
-            "post_code": 4009
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "Sta. Maria",
-            "post_code": 4022
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "Sta. Rosa",
-            "post_code": 4026
-        },
-        {
-            "location": "Laguna",
-            "region": "IV-A",
-            "municipality": "Victoria",
-            "post_code": 4011
-        },
-        {
-            "location": "Lanao del Norte",
-            "region": "X",
-            "municipality": "Bacolod",
-            "post_code": 9205
-        },
-        {
-            "location": "Lanao del Norte",
-            "region": "X",
-            "municipality": "Baloi",
-            "post_code": 9217
-        },
-        {
-            "location": "Lanao del Norte",
-            "region": "X",
-            "municipality": "Baroy",
-            "post_code": 9210
-        },
-        {
-            "location": "Lanao del Norte",
-            "region": "X",
-            "municipality": "Iligan City",
-            "post_code": 9200
-        },
-        {
-            "location": "Lanao del Norte",
-            "region": "X",
-            "municipality": "Kapatagan",
-            "post_code": 9214
-        },
-        {
-            "location": "Lanao del Norte",
-            "region": "X",
-            "municipality": "Kauswagan",
-            "post_code": 9202
-        },
-        {
-            "location": "Lanao del Norte",
-            "region": "X",
-            "municipality": "Kolambugan",
-            "post_code": 9207
-        },
-        {
-            "location": "Lanao del Norte",
-            "region": "X",
-            "municipality": "Lala",
-            "post_code": 9211
-        },
-        {
-            "location": "Lanao del Norte",
-            "region": "X",
-            "municipality": "Linamon",
-            "post_code": 9201
-        },
-        {
-            "location": "Lanao del Norte",
-            "region": "X",
-            "municipality": "Magsaysay",
-            "post_code": 9221
-        },
-        {
-            "location": "Lanao del Norte",
-            "region": "X",
-            "municipality": "Maigo",
-            "post_code": 9206
-        },
-        {
-            "location": "Lanao del Norte",
-            "region": "X",
-            "municipality": "Matungao",
-            "post_code": 9203
-        },
-        {
-            "location": "Lanao del Norte",
-            "region": "X",
-            "municipality": "Munai",
-            "post_code": 9219
-        },
-        {
-            "location": "Lanao del Norte",
-            "region": "X",
-            "municipality": "Nunungan",
-            "post_code": 9216
-        },
-        {
-            "location": "Lanao del Norte",
-            "region": "X",
-            "municipality": "Pantao Ragat",
-            "post_code": 9208
-        },
-        {
-            "location": "Lanao del Norte",
-            "region": "X",
-            "municipality": "Pantar",
-            "post_code": 9218
-        },
-        {
-            "location": "Lanao del Norte",
-            "region": "X",
-            "municipality": "Poona Piagapo",
-            "post_code": 9204
-        },
-        {
-            "location": "Lanao del Norte",
-            "region": "X",
-            "municipality": "Salvador",
-            "post_code": 9212
-        },
-        {
-            "location": "Lanao del Norte",
-            "region": "X",
-            "municipality": "Sapad",
-            "post_code": 9213
-        },
-        {
-            "location": "Lanao del Norte",
-            "region": "X",
-            "municipality": "Sultan Naga Dimaporo (formerly Karomatan)",
-            "post_code": 9215
-        },
-        {
-            "location": "Lanao del Norte",
-            "region": "X",
-            "municipality": "Tagoloan",
-            "post_code": 9222
-        },
-        {
-            "location": "Lanao del Norte",
-            "region": "X",
-            "municipality": "Tangcal",
-            "post_code": 9220
-        },
-        {
-            "location": "Lanao del Norte",
-            "region": "X",
-            "municipality": "Tubod",
-            "post_code": 9209
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Bacolod-Kalawi (formerly Bacolod Grande)",
-            "post_code": 9316
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Balabagan",
-            "post_code": 9302
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Bayang",
-            "post_code": 9309
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Balindong",
-            "post_code": 9318
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Binidayan",
-            "post_code": 9310
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Buadiposo-Buntong",
-            "post_code": 9714
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Bubong",
-            "post_code": 9708
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Amai Manabilang (formerly Bumbaran)",
-            "post_code": 9320
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Butig",
-            "post_code": 9305
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Calanogas",
-            "post_code": 9319
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Ganassi",
-            "post_code": 9311
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Kapai",
-            "post_code": 9709
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Kapatagan",
-            "post_code": 9322
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Lumba-Bayabao",
-            "post_code": 9703
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Lumbaca-Unayan",
-            "post_code": 9323
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Lumbatan",
-            "post_code": 9307
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Lumbayanague",
-            "post_code": 9306
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Macador Andong",
-            "post_code": 9308
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Madalum",
-            "post_code": 9315
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Madamba",
-            "post_code": 9314
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Maguing",
-            "post_code": 9715
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Malabang",
-            "post_code": 9300
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Marantao",
-            "post_code": 9711
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Marawi City",
-            "post_code": 9700
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Marogong",
-            "post_code": 9303
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Masiu",
-            "post_code": 9706
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Mulondo",
-            "post_code": 9702
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Pagayawan",
-            "post_code": 9312
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Piagapo",
-            "post_code": 9710
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Picong (formerly Sultan Gumander)",
-            "post_code": 9301
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Poona Bayabao",
-            "post_code": 9705
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Pualas",
-            "post_code": 9313
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Ditsaan-Ramain",
-            "post_code": 9713
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Saguiaran",
-            "post_code": 9701
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Sultan Dumalondong",
-            "post_code": 9324
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Tagoloan II",
-            "post_code": 9321
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Tamparan",
-            "post_code": 9704
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Taraka",
-            "post_code": 9712
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Tubaran",
-            "post_code": 9304
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Tugaya",
-            "post_code": 9317
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "BARMM",
-            "municipality": "Wao",
-            "post_code": 9716
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Abuyog",
-            "post_code": 6510
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Alangalang",
-            "post_code": 6517
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Albuera",
-            "post_code": 6542
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Babatngon",
-            "post_code": 6520
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Burauen",
-            "post_code": 6516
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Barugo",
-            "post_code": 6519
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Bato",
-            "post_code": 6525
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Baybay",
-            "post_code": 6521
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Calubian",
-            "post_code": 6534
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Capoocan",
-            "post_code": 6530
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Carigara",
-            "post_code": 6529
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Dagami",
-            "post_code": 6515
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Dulag",
-            "post_code": 6505
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Hilongos",
-            "post_code": 6524
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Hindang",
-            "post_code": 6523
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Inopacan",
-            "post_code": 6522
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Isabel",
-            "post_code": 6539
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Jaro",
-            "post_code": 6527
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Javier",
-            "post_code": 6511
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Julita",
-            "post_code": 6506
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Kananga",
-            "post_code": 6531
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "La Paz",
-            "post_code": 6508
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Leyte",
-            "post_code": 6533
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Macarthur",
-            "post_code": 6509
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Mahaplag",
-            "post_code": 6512
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Matag-ob",
-            "post_code": 6532
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Matalom",
-            "post_code": 6526
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Mayorga",
-            "post_code": 6507
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Merida",
-            "post_code": 6540
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Ormoc City",
-            "post_code": 6541
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Palo",
-            "post_code": 6501
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Palompon",
-            "post_code": 6538
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Pastrana",
-            "post_code": 6514
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "San Isidro",
-            "post_code": 6535
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "San Miguel",
-            "post_code": 6518
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Sta. Fe",
-            "post_code": 6513
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Tabango",
-            "post_code": 6536
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Tabontabon",
-            "post_code": 6504
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Tacloban City",
-            "post_code": 6500
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Tanauan",
-            "post_code": 6502
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Tolosa",
-            "post_code": 6503
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Tunga",
-            "post_code": 6528
-        },
-        {
-            "location": "Leyte",
-            "region": "VIII",
-            "municipality": "Villaba",
-            "post_code": 6537
-        },
-        {
-            "location": "Maguindanao del Sur",
-            "region": "BARMM",
-            "municipality": "Ampatuan",
-            "post_code": 9609
-        },
-        {
-            "location": "Maguindanao del Norte",
-            "region": "BARMM",
-            "municipality": "Barira",
-            "post_code": 9614
-        },
-        {
-            "location": "Maguindanao del Norte",
-            "region": "BARMM",
-            "municipality": "Buldon",
-            "post_code": 9615
-        },
-        {
-            "location": "Maguindanao del Sur",
-            "region": "BARMM",
-            "municipality": "Buluan",
-            "post_code": 9616
-        },
-        {
-            "location": "Maguindanao del Norte",
-            "region": "BARMM",
-            "municipality": "Cotabato City",
-            "post_code": 9600
-        },
-        {
-            "location": "Maguindanao del Norte",
-            "region": "BARMM",
-            "municipality": "Datu Odin Sinsuat (Dinaig)",
-            "post_code": 9601
-        },
-        {
-            "location": "Maguindanao del Sur",
-            "region": "BARMM",
-            "municipality": "Datu Paglas",
-            "post_code": 9617
-        },
-        {
-            "location": "Maguindanao del Sur",
-            "region": "BARMM",
-            "municipality": "Datu Piang",
-            "post_code": 9607
-        },
-        {
-            "location": "Maguindanao del Sur",
-            "region": "BARMM",
-            "municipality": "Datu Abdullah Sangki",
-            "post_code": 9621
-        },
-        {
-            "location": "Maguindanao del Sur",
-            "region": "BARMM",
-            "municipality": "Datu Anggal Midtimbang",
-            "post_code": 9622
-        },
-        {
-            "location": "Maguindanao del Norte",
-            "region": "BARMM",
-            "municipality": "Datu Blah T. Sinsuat",
-            "post_code": 9623
-        },
-        {
-            "location": "Maguindanao del Sur",
-            "region": "BARMM",
-            "municipality": "Datu Hoffer Ampatuan",
-            "post_code": 9624
-        },
-        {
-            "location": "Maguindanao del Sur",
-            "region": "BARMM",
-            "municipality": "Datu Montawal (formerly Pagagawan)",
-            "post_code": 9631
-        },
-        {
-            "location": "Maguindanao del Sur",
-            "region": "BARMM",
-            "municipality": "Datu Salibo",
-            "post_code": 9625
-        },
-        {
-            "location": "Maguindanao del Sur",
-            "region": "BARMM",
-            "municipality": "Datu Saudi Ampatuan",
-            "post_code": 9626
-        },
-        {
-            "location": "Maguindanao del Sur",
-            "region": "BARMM",
-            "municipality": "Datu Unsay",
-            "post_code": 9627
-        },
-        {
-            "location": "Maguindanao del Sur",
-            "region": "BARMM",
-            "municipality": "General Salipada K. Pendatun",
-            "post_code": 9618
-        },
-        {
-            "location": "Maguindanao del Sur",
-            "region": "BARMM",
-            "municipality": "Guindulungan",
-            "post_code": 9628
-        },
-        {
-            "location": "Maguindanao del Norte",
-            "region": "BARMM",
-            "municipality": "Kabuntalan",
-            "post_code": 9606
-        },
-        {
-            "location": "Maguindanao del Sur",
-            "region": "BARMM",
-            "municipality": "Shariff Aguak (formerly Maganoy)",
-            "post_code": 9608
-        },
-        {
-            "location": "Maguindanao del Sur",
-            "region": "BARMM",
-            "municipality": "Mamasapano",
-            "post_code": 9629
-        },
-        {
-            "location": "Maguindanao del Sur",
-            "region": "BARMM",
-            "municipality": "Mangudadatu",
-            "post_code": 9620
-        },
-        {
-            "location": "Maguindanao del Norte",
-            "region": "BARMM",
-            "municipality": "Matanog",
-            "post_code": 9613
-        },
-        {
-            "location": "Maguindanao del Norte",
-            "region": "BARMM",
-            "municipality": "Northern Kabuntalan",
-            "post_code": 9630
-        },
-        {
-            "location": "Maguindanao del Sur",
-            "region": "BARMM",
-            "municipality": "Paglat",
-            "post_code": 9632
-        },
-        {
-            "location": "Maguindanao del Sur",
-            "region": "BARMM",
-            "municipality": "Pandag",
-            "post_code": 9633
-        },
-        {
-            "location": "Maguindanao del Sur",
-            "region": "BARMM",
-            "municipality": "Pagalungan",
-            "post_code": 9610
-        },
-        {
-            "location": "Maguindanao del Norte",
-            "region": "BARMM",
-            "municipality": "Parang",
-            "post_code": 9604
-        },
-        {
-            "location": "Maguindanao del Sur",
-            "region": "BARMM",
-            "municipality": "Rajah Buayan",
-            "post_code": 9634
-        },
-        {
-            "location": "Maguindanao del Sur",
-            "region": "BARMM",
-            "municipality": "Shariff Saydona Mustapha",
-            "post_code": 9635
-        },
-        {
-            "location": "Maguindanao del Norte",
-            "region": "BARMM",
-            "municipality": "Sultan Mastura",
-            "post_code": 9636
-        },
-        {
-            "location": "Maguindanao del Norte",
-            "region": "BARMM",
-            "municipality": "Sultan Sumagka (formerly Talitay)",
-            "post_code": 9637
-        },
-        {
-            "location": "Maguindanao del Sur",
-            "region": "BARMM",
-            "municipality": "South Upi",
-            "post_code": 9603
-        },
-        {
-            "location": "Maguindanao del Norte",
-            "region": "BARMM",
-            "municipality": "Sultan Kudarat",
-            "post_code": 9605
-        },
-        {
-            "location": "Maguindanao del Sur",
-            "region": "BARMM",
-            "municipality": "Sultan sa Barongis",
-            "post_code": 9611
-        },
-        {
-            "location": "Maguindanao del Sur",
-            "region": "BARMM",
-            "municipality": "Talayan",
-            "post_code": 9612
-        },
-        {
-            "location": "Maguindanao del Norte",
-            "region": "BARMM",
-            "municipality": "Upi",
-            "post_code": 9602
-        },
-        {
-            "location": "Marinduque",
-            "region": "MIMAROPA",
-            "municipality": "Boac",
-            "post_code": 4900
-        },
-        {
-            "location": "Marinduque",
-            "region": "MIMAROPA",
-            "municipality": "Buenavista",
-            "post_code": 4904
-        },
-        {
-            "location": "Marinduque",
-            "region": "MIMAROPA",
-            "municipality": "Gasan",
-            "post_code": 4905
-        },
-        {
-            "location": "Marinduque",
-            "region": "MIMAROPA",
-            "municipality": "Mogpog",
-            "post_code": 4901
-        },
-        {
-            "location": "Marinduque",
-            "region": "MIMAROPA",
-            "municipality": "Sta. Cruz",
-            "post_code": 4902
-        },
-        {
-            "location": "Marinduque",
-            "region": "MIMAROPA",
-            "municipality": "Torrijos",
-            "post_code": 4903
-        },
-        {
-            "location": "Masbate",
-            "region": "V",
-            "municipality": "Aroroy",
-            "post_code": 5414
-        },
-        {
-            "location": "Masbate",
-            "region": "V",
-            "municipality": "Baleno",
-            "post_code": 5413
-        },
-        {
-            "location": "Masbate",
-            "region": "V",
-            "municipality": "Balud",
-            "post_code": 5412
-        },
-        {
-            "location": "Masbate",
-            "region": "V",
-            "municipality": "Batuan",
-            "post_code": 5415
-        },
-        {
-            "location": "Masbate",
-            "region": "V",
-            "municipality": "Buenavista",
-            "post_code": 5421
-        },
-        {
-            "location": "Masbate",
-            "region": "V",
-            "municipality": "Cataingan",
-            "post_code": 5405
-        },
-        {
-            "location": "Masbate",
-            "region": "V",
-            "municipality": "Cawayan",
-            "post_code": 5409
-        },
-        {
-            "location": "Masbate",
-            "region": "V",
-            "municipality": "Claveria",
-            "post_code": 5419
-        },
-        {
-            "location": "Masbate",
-            "region": "V",
-            "municipality": "Dimasalang",
-            "post_code": 5403
-        },
-        {
-            "location": "Masbate",
-            "region": "V",
-            "municipality": "Esperanza",
-            "post_code": 5407
-        },
-        {
-            "location": "Masbate",
-            "region": "V",
-            "municipality": "Mandaon",
-            "post_code": 5411
-        },
-        {
-            "location": "Masbate",
-            "region": "V",
-            "municipality": "Masbate",
-            "post_code": 5400
-        },
-        {
-            "location": "Masbate",
-            "region": "V",
-            "municipality": "Milagros",
-            "post_code": 5410
-        },
-        {
-            "location": "Masbate",
-            "region": "V",
-            "municipality": "Mobo",
-            "post_code": 5401
-        },
-        {
-            "location": "Masbate",
-            "region": "V",
-            "municipality": "Monreal",
-            "post_code": 5418
-        },
-        {
-            "location": "Masbate",
-            "region": "V",
-            "municipality": "Palanas",
-            "post_code": 5404
-        },
-        {
-            "location": "Masbate",
-            "region": "V",
-            "municipality": "Pio V. Corpuz",
-            "post_code": 5406
-        },
-        {
-            "location": "Masbate",
-            "region": "V",
-            "municipality": "Placer",
-            "post_code": 5408
-        },
-        {
-            "location": "Masbate",
-            "region": "V",
-            "municipality": "San Fernando",
-            "post_code": 5416
-        },
-        {
-            "location": "Masbate",
-            "region": "V",
-            "municipality": "San Jacinto",
-            "post_code": 5417
-        },
-        {
-            "location": "Masbate",
-            "region": "V",
-            "municipality": "San Pascual",
-            "post_code": 5420
-        },
-        {
-            "location": "Masbate",
-            "region": "V",
-            "municipality": "Uson",
-            "post_code": 5402
-        },
-        {
-            "location": "Misamis Occidental",
-            "region": "X",
-            "municipality": "Aloran",
-            "post_code": 7206
-        },
-        {
-            "location": "Misamis Occidental",
-            "region": "X",
-            "municipality": "Baliangao",
-            "post_code": 7211
-        },
-        {
-            "location": "Misamis Occidental",
-            "region": "X",
-            "municipality": "Bonifacio",
-            "post_code": 7215
-        },
-        {
-            "location": "Misamis Occidental",
-            "region": "X",
-            "municipality": "Calamba",
-            "post_code": 7210
-        },
-        {
-            "location": "Misamis Occidental",
-            "region": "X",
-            "municipality": "Clarin",
-            "post_code": 7201
-        },
-        {
-            "location": "Misamis Occidental",
-            "region": "X",
-            "municipality": "Concepcion",
-            "post_code": 7213
-        },
-        {
-            "location": "Misamis Occidental",
-            "region": "X",
-            "municipality": "Don Victoriano Chiongbian",
-            "post_code": 7216
-        },
-        {
-            "location": "Misamis Occidental",
-            "region": "X",
-            "municipality": "Jimenez",
-            "post_code": 7204
-        },
-        {
-            "location": "Misamis Occidental",
-            "region": "X",
-            "municipality": "Lopez Jaena",
-            "post_code": 7208
-        },
-        {
-            "location": "Misamis Occidental",
-            "region": "X",
-            "municipality": "Oroquieta City",
-            "post_code": 7207
-        },
-        {
-            "location": "Misamis Occidental",
-            "region": "X",
-            "municipality": "Ozamis City",
-            "post_code": 7200
-        },
-        {
-            "location": "Misamis Occidental",
-            "region": "X",
-            "municipality": "Panaon",
-            "post_code": 7205
-        },
-        {
-            "location": "Misamis Occidental",
-            "region": "X",
-            "municipality": "Plaridel",
-            "post_code": 7209
-        },
-        {
-            "location": "Misamis Occidental",
-            "region": "X",
-            "municipality": "Sapang dalaga",
-            "post_code": 7212
-        },
-        {
-            "location": "Misamis Occidental",
-            "region": "X",
-            "municipality": "Sinacaban",
-            "post_code": 7203
-        },
-        {
-            "location": "Misamis Occidental",
-            "region": "X",
-            "municipality": "Tangub City",
-            "post_code": 7214
-        },
-        {
-            "location": "Misamis Occidental",
-            "region": "X",
-            "municipality": "Tudela",
-            "post_code": 7202
-        },
-        {
-            "location": "Misamis Oriental",
-            "region": "X",
-            "municipality": "Alubijid",
-            "post_code": 9018
-        },
-        {
-            "location": "Misamis Oriental",
-            "region": "X",
-            "municipality": "Balingasag",
-            "post_code": 9005
-        },
-        {
-            "location": "Misamis Oriental",
-            "region": "X",
-            "municipality": "Balingoan",
-            "post_code": 9011
-        },
-        {
-            "location": "Misamis Oriental",
-            "region": "X",
-            "municipality": "Binuangan",
-            "post_code": 9008
-        },
-        {
-            "location": "Misamis Oriental",
-            "region": "X",
-            "municipality": "Cagayan de Oro City",
-            "post_code": 9000
-        },
-        {
-            "location": "Misamis Oriental",
-            "region": "X",
-            "municipality": "Claveria",
-            "post_code": 9004
-        },
-        {
-            "location": "Misamis Oriental",
-            "region": "X",
-            "municipality": "El Salvador",
-            "post_code": 9017
-        },
-        {
-            "location": "Misamis Oriental",
-            "region": "X",
-            "municipality": "Gingoog City",
-            "post_code": 9014
-        },
-        {
-            "location": "Misamis Oriental",
-            "region": "X",
-            "municipality": "Gitagum",
-            "post_code": 9020
-        },
-        {
-            "location": "Misamis Oriental",
-            "region": "X",
-            "municipality": "Initao",
-            "post_code": 9022
-        },
-        {
-            "location": "Misamis Oriental",
-            "region": "X",
-            "municipality": "Jasaan",
-            "post_code": 9003
-        },
-        {
-            "location": "Misamis Oriental",
-            "region": "X",
-            "municipality": "Kinoguitan",
-            "post_code": 9010
-        },
-        {
-            "location": "Misamis Oriental",
-            "region": "X",
-            "municipality": "Laguindingan",
-            "post_code": 9019
-        },
-        {
-            "location": "Misamis Oriental",
-            "region": "X",
-            "municipality": "Lagonglong",
-            "post_code": 9006
-        },
-        {
-            "location": "Misamis Oriental",
-            "region": "X",
-            "municipality": "Libertad",
-            "post_code": 9021
-        },
-        {
-            "location": "Misamis Oriental",
-            "region": "X",
-            "municipality": "Lugait",
-            "post_code": 9025
-        },
-        {
-            "location": "Misamis Oriental",
-            "region": "X",
-            "municipality": "Magsaysay",
-            "post_code": 9015
-        },
-        {
-            "location": "Misamis Oriental",
-            "region": "X",
-            "municipality": "Manticao",
-            "post_code": 9024
-        },
-        {
-            "location": "Misamis Oriental",
-            "region": "X",
-            "municipality": "Medina",
-            "post_code": 9013
-        },
-        {
-            "location": "Misamis Oriental",
-            "region": "X",
-            "municipality": "Naawan",
-            "post_code": 9023
-        },
-        {
-            "location": "Misamis Oriental",
-            "region": "X",
-            "municipality": "Opol",
-            "post_code": 9016
-        },
-        {
-            "location": "Misamis Oriental",
-            "region": "X",
-            "municipality": "Salay",
-            "post_code": 9007
-        },
-        {
-            "location": "Misamis Oriental",
-            "region": "X",
-            "municipality": "Sugbongcogon",
-            "post_code": 9009
-        },
-        {
-            "location": "Misamis Oriental",
-            "region": "X",
-            "municipality": "Tagoloan",
-            "post_code": 9001
-        },
-        {
-            "location": "Misamis Oriental",
-            "region": "X",
-            "municipality": "Talisayan",
-            "post_code": 9012
-        },
-        {
-            "location": "Misamis Oriental",
-            "region": "X",
-            "municipality": "Villanueva",
-            "post_code": 9002
-        },
-        {
-            "location": "Mountain Province",
-            "region": "CAR",
-            "municipality": "Barlig",
-            "post_code": 2623
-        },
-        {
-            "location": "Mountain Province",
-            "region": "CAR",
-            "municipality": "Baukod",
-            "post_code": 2621
-        },
-        {
-            "location": "Mountain Province",
-            "region": "CAR",
-            "municipality": "Besao",
-            "post_code": 2618
-        },
-        {
-            "location": "Mountain Province",
-            "region": "CAR",
-            "municipality": "Bontoc",
-            "post_code": 2616
-        },
-        {
-            "location": "Mountain Province",
-            "region": "CAR",
-            "municipality": "Natonin",
-            "post_code": 2624
-        },
-        {
-            "location": "Mountain Province",
-            "region": "CAR",
-            "municipality": "Paracelis",
-            "post_code": 2625
-        },
-        {
-            "location": "Mountain Province",
-            "region": "CAR",
-            "municipality": "Sabangan",
-            "post_code": 2622
-        },
-        {
-            "location": "Mountain Province",
-            "region": "CAR",
-            "municipality": "Sadanga",
-            "post_code": 2617
-        },
-        {
-            "location": "Mountain Province",
-            "region": "CAR",
-            "municipality": "Sagada",
-            "post_code": 2619
-        },
-        {
-            "location": "Mountain Province",
-            "region": "CAR",
-            "municipality": "Tadian",
-            "post_code": 2620
-        },
-        {
-            "location": "Negros Occidental",
-            "region": "NIR",
-            "municipality": "Bacolod City",
-            "post_code": 6100
-        },
-        {
-            "location": "Negros Occidental",
-            "region": "NIR",
-            "municipality": "Bago City",
-            "post_code": 6101
-        },
-        {
-            "location": "Negros Occidental",
-            "region": "NIR",
-            "municipality": "Binalbagan",
-            "post_code": 6107
-        },
-        {
-            "location": "Negros Occidental",
-            "region": "NIR",
-            "municipality": "Cadiz City",
-            "post_code": 6121
-        },
-        {
-            "location": "Negros Occidental",
-            "region": "NIR",
-            "municipality": "Calatrava",
-            "post_code": 6126
-        },
-        {
-            "location": "Negros Occidental",
-            "region": "NIR",
-            "municipality": "Candoni",
-            "post_code": 6110
-        },
-        {
-            "location": "Negros Occidental",
-            "region": "NIR",
-            "municipality": "Cauayan",
-            "post_code": 6112
-        },
-        {
-            "location": "Negros Occidental",
-            "region": "NIR",
-            "municipality": "Don Salvador Benedicto",
-            "post_code": 6133
-        },
-        {
-            "location": "Negros Occidental",
-            "region": "NIR",
-            "municipality": "Enrique Magalona",
-            "post_code": 6118
-        },
-        {
-            "location": "Negros Occidental",
-            "region": "NIR",
-            "municipality": "Escalante",
-            "post_code": 6124
-        },
-        {
-            "location": "Negros Occidental",
-            "region": "NIR",
-            "municipality": "Himamaylan",
-            "post_code": 6108
-        },
-        {
-            "location": "Negros Occidental",
-            "region": "NIR",
-            "municipality": "Hinigaran",
-            "post_code": 6106
-        },
-        {
-            "location": "Negros Occidental",
-            "region": "NIR",
-            "municipality": "Hinoba-an",
-            "post_code": 6114
-        },
-        {
-            "location": "Negros Occidental",
-            "region": "NIR",
-            "municipality": "Ilog",
-            "post_code": 6109
-        },
-        {
-            "location": "Negros Occidental",
-            "region": "NIR",
-            "municipality": "Isabela",
-            "post_code": 6128
-        },
-        {
-            "location": "Negros Occidental",
-            "region": "NIR",
-            "municipality": "Kabankalan",
-            "post_code": 6111
-        },
-        {
-            "location": "Negros Occidental",
-            "region": "NIR",
-            "municipality": "La Carlota City",
-            "post_code": 6130
-        },
-        {
-            "location": "Negros Occidental",
-            "region": "NIR",
-            "municipality": "La Castellana",
-            "post_code": 6131
-        },
-        {
-            "location": "Negros Occidental",
-            "region": "NIR",
-            "municipality": "Manapla",
-            "post_code": 6120
-        },
-        {
-            "location": "Negros Occidental",
-            "region": "NIR",
-            "municipality": "Moises Padilla",
-            "post_code": 6132
-        },
-        {
-            "location": "Negros Occidental",
-            "region": "NIR",
-            "municipality": "Murcia",
-            "post_code": 6129
-        },
-        {
-            "location": "Negros Occidental",
-            "region": "NIR",
-            "municipality": "Paraiso (Fabrica)",
-            "post_code": 6123
-        },
-        {
-            "location": "Negros Occidental",
-            "region": "NIR",
-            "municipality": "Pontevedra",
-            "post_code": 6105
-        },
-        {
-            "location": "Negros Occidental",
-            "region": "NIR",
-            "municipality": "Pulupandan",
-            "post_code": 6102
-        },
-        {
-            "location": "Negros Occidental",
-            "region": "NIR",
-            "municipality": "Sagay",
-            "post_code": 6122
-        },
-        {
-            "location": "Negros Occidental",
-            "region": "NIR",
-            "municipality": "San Carlos City",
-            "post_code": 6127
-        },
-        {
-            "location": "Negros Occidental",
-            "region": "NIR",
-            "municipality": "San Enrique",
-            "post_code": 6104
-        },
-        {
-            "location": "Negros Occidental",
-            "region": "NIR",
-            "municipality": "Silay City",
-            "post_code": 6116
-        },
-        {
-            "location": "Negros Occidental",
-            "region": "NIR",
-            "municipality": "Silay Hawaiian Central",
-            "post_code": 6117
-        },
-        {
-            "location": "Negros Occidental",
-            "region": "NIR",
-            "municipality": "Sipalay",
-            "post_code": 6113
-        },
-        {
-            "location": "Negros Occidental",
-            "region": "NIR",
-            "municipality": "Talisay",
-            "post_code": 6115
-        },
-        {
-            "location": "Negros Occidental",
-            "region": "NIR",
-            "municipality": "Toboso",
-            "post_code": 6125
-        },
-        {
-            "location": "Negros Occidental",
-            "region": "NIR",
-            "municipality": "Valladolid",
-            "post_code": 6103
-        },
-        {
-            "location": "Negros Occidental",
-            "region": "NIR",
-            "municipality": "Victorias",
-            "post_code": 6119
-        },
-        {
-            "location": "Negros Oriental",
-            "region": "NIR",
-            "municipality": "Amlan",
-            "post_code": 6203
-        },
-        {
-            "location": "Negros Oriental",
-            "region": "NIR",
-            "municipality": "Ayungon",
-            "post_code": 6210
-        },
-        {
-            "location": "Negros Oriental",
-            "region": "NIR",
-            "municipality": "Bacung",
-            "post_code": 6216
-        },
-        {
-            "location": "Negros Oriental",
-            "region": "NIR",
-            "municipality": "Bais City",
-            "post_code": 6206
-        },
-        {
-            "location": "Negros Oriental",
-            "region": "NIR",
-            "municipality": "Basay",
-            "post_code": 6222
-        },
-        {
-            "location": "Negros Oriental",
-            "region": "NIR",
-            "municipality": "Bayawan",
-            "post_code": 6221
-        },
-        {
-            "location": "Negros Oriental",
-            "region": "NIR",
-            "municipality": "Bindoy",
-            "post_code": 6209
-        },
-        {
-            "location": "Negros Oriental",
-            "region": "NIR",
-            "municipality": "Canlaon City",
-            "post_code": 6223
-        },
-        {
-            "location": "Negros Oriental",
-            "region": "NIR",
-            "municipality": "Dauin",
-            "post_code": 6217
-        },
-        {
-            "location": "Negros Oriental",
-            "region": "NIR",
-            "municipality": "Dumaguete City",
-            "post_code": 6200
-        },
-        {
-            "location": "Negros Oriental",
-            "region": "NIR",
-            "municipality": "Guihulngan",
-            "post_code": 6214
-        },
-        {
-            "location": "Negros Oriental",
-            "region": "NIR",
-            "municipality": "Jimalalud",
-            "post_code": 6212
-        },
-        {
-            "location": "Negros Oriental",
-            "region": "NIR",
-            "municipality": "La Libertad",
-            "post_code": 6213
-        },
-        {
-            "location": "Negros Oriental",
-            "region": "NIR",
-            "municipality": "Mabinay",
-            "post_code": 6207
-        },
-        {
-            "location": "Negros Oriental",
-            "region": "NIR",
-            "municipality": "Manjuyod",
-            "post_code": 6208
-        },
-        {
-            "location": "Negros Oriental",
-            "region": "NIR",
-            "municipality": "Pamplona",
-            "post_code": 6205
-        },
-        {
-            "location": "Negros Oriental",
-            "region": "NIR",
-            "municipality": "San Jose",
-            "post_code": 6202
-        },
-        {
-            "location": "Negros Oriental",
-            "region": "NIR",
-            "municipality": "Siaton",
-            "post_code": 6219
-        },
-        {
-            "location": "Negros Oriental",
-            "region": "NIR",
-            "municipality": "Sibulan",
-            "post_code": 6201
-        },
-        {
-            "location": "Negros Oriental",
-            "region": "NIR",
-            "municipality": "Sta. Catalina",
-            "post_code": 6220
-        },
-        {
-            "location": "Negros Oriental",
-            "region": "NIR",
-            "municipality": "Tanjay",
-            "post_code": 6204
-        },
-        {
-            "location": "Negros Oriental",
-            "region": "NIR",
-            "municipality": "Tayasan",
-            "post_code": 6211
-        },
-        {
-            "location": "Negros Oriental",
-            "region": "NIR",
-            "municipality": "Valencia",
-            "post_code": 6215
-        },
-        {
-            "location": "Negros Oriental",
-            "region": "NIR",
-            "municipality": "Valle hermoso",
-            "post_code": 6224
-        },
-        {
-            "location": "Negros Oriental",
-            "region": "NIR",
-            "municipality": "Zamboanguita",
-            "post_code": 6218
-        },
-        {
-            "location": "North Cotabato",
-            "region": "XII",
-            "municipality": "Alamada",
-            "post_code": 9413
-        },
-        {
-            "location": "North Cotabato",
-            "region": "XII",
-            "municipality": "Aleosan",
-            "post_code": 9415
-        },
-        {
-            "location": "North Cotabato",
-            "region": "XII",
-            "municipality": "Antipas",
-            "post_code": 9414
-        },
-        {
-            "location": "North Cotabato",
-            "region": "XII",
-            "municipality": "Arakan",
-            "post_code": 9417
-        },
-        {
-            "location": "North Cotabato",
-            "region": "XII",
-            "municipality": "Banisilan",
-            "post_code": 9416
-        },
-        {
-            "location": "North Cotabato",
-            "region": "XII",
-            "municipality": "Carmen",
-            "post_code": 9408
-        },
-        {
-            "location": "North Cotabato",
-            "region": "XII",
-            "municipality": "Kabacan",
-            "post_code": 9407
-        },
-        {
-            "location": "North Cotabato",
-            "region": "XII",
-            "municipality": "Kidapawan",
-            "post_code": 9400
-        },
-        {
-            "location": "North Cotabato",
-            "region": "XII",
-            "municipality": "Libungan",
-            "post_code": 9411
-        },
-        {
-            "location": "North Cotabato",
-            "region": "XII",
-            "municipality": "Magpet",
-            "post_code": 9404
-        },
-        {
-            "location": "North Cotabato",
-            "region": "XII",
-            "municipality": "Makilala",
-            "post_code": 9401
-        },
-        {
-            "location": "North Cotabato",
-            "region": "XII",
-            "municipality": "Matalam",
-            "post_code": 9406
-        },
-        {
-            "location": "North Cotabato",
-            "region": "XII",
-            "municipality": "Midsayap",
-            "post_code": 9410
-        },
-        {
-            "location": "North Cotabato",
-            "region": "XII",
-            "municipality": "M'lang",
-            "post_code": 9402
-        },
-        {
-            "location": "North Cotabato",
-            "region": "XII",
-            "municipality": "Pigkawayan",
-            "post_code": 9412
-        },
-        {
-            "location": "North Cotabato",
-            "region": "XII",
-            "municipality": "Pikit",
-            "post_code": 9409
-        },
-        {
-            "location": "North Cotabato",
-            "region": "XII",
-            "municipality": "Pre. Roxas",
-            "post_code": 9405
-        },
-        {
-            "location": "North Cotabato",
-            "region": "XII",
-            "municipality": "Tulunan",
-            "post_code": 9403
-        },
-        {
-            "location": "Northern Samar",
-            "region": "VIII",
-            "municipality": "Allen",
-            "post_code": 6405
-        },
-        {
-            "location": "Northern Samar",
-            "region": "VIII",
-            "municipality": "Biri",
-            "post_code": 6410
-        },
-        {
-            "location": "Northern Samar",
-            "region": "VIII",
-            "municipality": "Bobon",
-            "post_code": 6401
-        },
-        {
-            "location": "Northern Samar",
-            "region": "VIII",
-            "municipality": "Capul",
-            "post_code": 6408
-        },
-        {
-            "location": "Northern Samar",
-            "region": "VIII",
-            "municipality": "Catarman",
-            "post_code": 6400
-        },
-        {
-            "location": "Northern Samar",
-            "region": "VIII",
-            "municipality": "Catubig",
-            "post_code": 6418
-        },
-        {
-            "location": "Northern Samar",
-            "region": "VIII",
-            "municipality": "Gamay",
-            "post_code": 6422
-        },
-        {
-            "location": "Northern Samar",
-            "region": "VIII",
-            "municipality": "Las Navas",
-            "post_code": 6420
-        },
-        {
-            "location": "Northern Samar",
-            "region": "VIII",
-            "municipality": "Laoang",
-            "post_code": 6411
-        },
-        {
-            "location": "Northern Samar",
-            "region": "VIII",
-            "municipality": "Lapineg",
-            "post_code": 6423
-        },
-        {
-            "location": "Northern Samar",
-            "region": "VIII",
-            "municipality": "Lavezares",
-            "post_code": 6404
-        },
-        {
-            "location": "Northern Samar",
-            "region": "VIII",
-            "municipality": "Lope de Vega",
-            "post_code": 6403
-        },
-        {
-            "location": "Northern Samar",
-            "region": "VIII",
-            "municipality": "Mapanas",
-            "post_code": 6412
-        },
-        {
-            "location": "Northern Samar",
-            "region": "VIII",
-            "municipality": "Mondragon",
-            "post_code": 6417
-        },
-        {
-            "location": "Northern Samar",
-            "region": "VIII",
-            "municipality": "Palapag",
-            "post_code": 6421
-        },
-        {
-            "location": "Northern Samar",
-            "region": "VIII",
-            "municipality": "Pambujan",
-            "post_code": 6413
-        },
-        {
-            "location": "Northern Samar",
-            "region": "VIII",
-            "municipality": "Rosario",
-            "post_code": 6416
-        },
-        {
-            "location": "Northern Samar",
-            "region": "VIII",
-            "municipality": "San Antonio",
-            "post_code": 6407
-        },
-        {
-            "location": "Northern Samar",
-            "region": "VIII",
-            "municipality": "San Isidro",
-            "post_code": 6409
-        },
-        {
-            "location": "Northern Samar",
-            "region": "VIII",
-            "municipality": "San Jose",
-            "post_code": 6402
-        },
-        {
-            "location": "Northern Samar",
-            "region": "VIII",
-            "municipality": "San Roque",
-            "post_code": 6415
-        },
-        {
-            "location": "Northern Samar",
-            "region": "VIII",
-            "municipality": "San Vicente",
-            "post_code": 6419
-        },
-        {
-            "location": "Northern Samar",
-            "region": "VIII",
-            "municipality": "Silvino Lobos",
-            "post_code": 6414
-        },
-        {
-            "location": "Northern Samar",
-            "region": "VIII",
-            "municipality": "Victoria",
-            "post_code": 6406
-        },
-        {
-            "location": "Nueva Ecija",
-            "region": "III",
-            "municipality": "Aliaga",
-            "post_code": 3111
-        },
-        {
-            "location": "Nueva Ecija",
-            "region": "III",
-            "municipality": "Bongabon",
-            "post_code": 3128
-        },
-        {
-            "location": "Nueva Ecija",
-            "region": "III",
-            "municipality": "Cabanatuan City",
-            "post_code": 3100
-        },
-        {
-            "location": "Nueva Ecija",
-            "region": "III",
-            "municipality": "Cabiao",
-            "post_code": 3107
-        },
-        {
-            "location": "Nueva Ecija",
-            "region": "III",
-            "municipality": "Carrangalan",
-            "post_code": 3123
-        },
-        {
-            "location": "Nueva Ecija",
-            "region": "III",
-            "municipality": "Central Luzon State University",
-            "post_code": 3120
-        },
-        {
-            "location": "Nueva Ecija",
-            "region": "III",
-            "municipality": "Cuyapo",
-            "post_code": 3117
-        },
-        {
-            "location": "Nueva Ecija",
-            "region": "III",
-            "municipality": "Fort Magsaysay",
-            "post_code": 3130
-        },
-        {
-            "location": "Nueva Ecija",
-            "region": "III",
-            "municipality": "Gabaldon",
-            "post_code": 3131
-        },
-        {
-            "location": "Nueva Ecija",
-            "region": "III",
-            "municipality": "Gapan City",
-            "post_code": 3105
-        },
-        {
-            "location": "Nueva Ecija",
-            "region": "III",
-            "municipality": "Gen. M. Natividad",
-            "post_code": 3125
-        },
-        {
-            "location": "Nueva Ecija",
-            "region": "III",
-            "municipality": "Gen. Tinio",
-            "post_code": 3104
-        },
-        {
-            "location": "Nueva Ecija",
-            "region": "III",
-            "municipality": "Guimba",
-            "post_code": 3115
-        },
-        {
-            "location": "Nueva Ecija",
-            "region": "III",
-            "municipality": "Jaen",
-            "post_code": 3109
-        },
-        {
-            "location": "Nueva Ecija",
-            "region": "III",
-            "municipality": "Laur",
-            "post_code": 3129
-        },
-        {
-            "location": "Nueva Ecija",
-            "region": "III",
-            "municipality": "Licab",
-            "post_code": 3112
-        },
-        {
-            "location": "Nueva Ecija",
-            "region": "III",
-            "municipality": "Llanera",
-            "post_code": 3126
-        },
-        {
-            "location": "Nueva Ecija",
-            "region": "III",
-            "municipality": "Lupao",
-            "post_code": 3122
-        },
-        {
-            "location": "Nueva Ecija",
-            "region": "III",
-            "municipality": "Muñoz",
-            "post_code": 3119
-        },
-        {
-            "location": "Nueva Ecija",
-            "region": "III",
-            "municipality": "Nampicuan",
-            "post_code": 3116
-        },
-        {
-            "location": "Nueva Ecija",
-            "region": "III",
-            "municipality": "Palayan City",
-            "post_code": 3132
-        },
-        {
-            "location": "Nueva Ecija",
-            "region": "III",
-            "municipality": "Pantabangan",
-            "post_code": 3124
-        },
-        {
-            "location": "Nueva Ecija",
-            "region": "III",
-            "municipality": "Peñaranda",
-            "post_code": 3103
-        },
-        {
-            "location": "Nueva Ecija",
-            "region": "III",
-            "municipality": "Quezon",
-            "post_code": 3113
-        },
-        {
-            "location": "Nueva Ecija",
-            "region": "III",
-            "municipality": "Rizal",
-            "post_code": 3127
-        },
-        {
-            "location": "Nueva Ecija",
-            "region": "III",
-            "municipality": "San Antonio",
-            "post_code": 3108
-        },
-        {
-            "location": "Nueva Ecija",
-            "region": "III",
-            "municipality": "San Isidro",
-            "post_code": 3106
-        },
-        {
-            "location": "Nueva Ecija",
-            "region": "III",
-            "municipality": "San Jose City",
-            "post_code": 3121
-        },
-        {
-            "location": "Nueva Ecija",
-            "region": "III",
-            "municipality": "San Leonardo",
-            "post_code": 3102
-        },
-        {
-            "location": "Nueva Ecija",
-            "region": "III",
-            "municipality": "Sta. Rosa",
-            "post_code": 3101
-        },
-        {
-            "location": "Nueva Ecija",
-            "region": "III",
-            "municipality": "Sto. Domingo",
-            "post_code": 3133
-        },
-        {
-            "location": "Nueva Ecija",
-            "region": "III",
-            "municipality": "Talavera",
-            "post_code": 3114
-        },
-        {
-            "location": "Nueva Ecija",
-            "region": "III",
-            "municipality": "Talugtog",
-            "post_code": 3118
-        },
-        {
-            "location": "Nueva Ecija",
-            "region": "III",
-            "municipality": "Zaragoza",
-            "post_code": 3110
-        },
-        {
-            "location": "Nueva Vizcaya",
-            "region": "II",
-            "municipality": "Alfonso Castañeda",
-            "post_code": 3714
-        },
-        {
-            "location": "Nueva Vizcaya",
-            "region": "II",
-            "municipality": "Ambaguio",
-            "post_code": 3701
-        },
-        {
-            "location": "Nueva Vizcaya",
-            "region": "II",
-            "municipality": "Aritao",
-            "post_code": 3704
-        },
-        {
-            "location": "Nueva Vizcaya",
-            "region": "II",
-            "municipality": "Bagabag",
-            "post_code": 3711
-        },
-        {
-            "location": "Nueva Vizcaya",
-            "region": "II",
-            "municipality": "Bambang",
-            "post_code": 3702
-        },
-        {
-            "location": "Nueva Vizcaya",
-            "region": "II",
-            "municipality": "Bayombong",
-            "post_code": 3700
-        },
-        {
-            "location": "Nueva Vizcaya",
-            "region": "II",
-            "municipality": "Diadi",
-            "post_code": 3712
-        },
-        {
-            "location": "Nueva Vizcaya",
-            "region": "II",
-            "municipality": "Dupax del Norte",
-            "post_code": 3706
-        },
-        {
-            "location": "Nueva Vizcaya",
-            "region": "II",
-            "municipality": "Dupax del Sur",
-            "post_code": 3707
-        },
-        {
-            "location": "Nueva Vizcaya",
-            "region": "II",
-            "municipality": "Kasibu",
-            "post_code": 3703
-        },
-        {
-            "location": "Nueva Vizcaya",
-            "region": "II",
-            "municipality": "Kayapa",
-            "post_code": 3708
-        },
-        {
-            "location": "Nueva Vizcaya",
-            "region": "II",
-            "municipality": "Quezon",
-            "post_code": 3713
-        },
-        {
-            "location": "Nueva Vizcaya",
-            "region": "II",
-            "municipality": "Solano",
-            "post_code": 3709
-        },
-        {
-            "location": "Nueva Vizcaya",
-            "region": "II",
-            "municipality": "Sta. Fe",
-            "post_code": 3705
-        },
-        {
-            "location": "Nueva Vizcaya",
-            "region": "II",
-            "municipality": "Villaverde",
-            "post_code": 3710
-        },
-        {
-            "location": "Occidental Mindoro",
-            "region": "MIMAROPA",
-            "municipality": "Abra de Ilog",
-            "post_code": 5108
-        },
-        {
-            "location": "Occidental Mindoro",
-            "region": "MIMAROPA",
-            "municipality": "Calintaan",
-            "post_code": 5102
-        },
-        {
-            "location": "Occidental Mindoro",
-            "region": "MIMAROPA",
-            "municipality": "Looc",
-            "post_code": 5111
-        },
-        {
-            "location": "Occidental Mindoro",
-            "region": "MIMAROPA",
-            "municipality": "Lubang",
-            "post_code": 5109
-        },
-        {
-            "location": "Occidental Mindoro",
-            "region": "MIMAROPA",
-            "municipality": "Magsaysay",
-            "post_code": 5101
-        },
-        {
-            "location": "Occidental Mindoro",
-            "region": "MIMAROPA",
-            "municipality": "Mamburao",
-            "post_code": 5106
-        },
-        {
-            "location": "Occidental Mindoro",
-            "region": "MIMAROPA",
-            "municipality": "Palauan",
-            "post_code": 5107
-        },
-        {
-            "location": "Occidental Mindoro",
-            "region": "MIMAROPA",
-            "municipality": "Rizal",
-            "post_code": 5103
-        },
-        {
-            "location": "Occidental Mindoro",
-            "region": "MIMAROPA",
-            "municipality": "Sablayan",
-            "post_code": 5104
-        },
-        {
-            "location": "Occidental Mindoro",
-            "region": "MIMAROPA",
-            "municipality": "San Jose",
-            "post_code": 5100
-        },
-        {
-            "location": "Occidental Mindoro",
-            "region": "MIMAROPA",
-            "municipality": "Sta. Cruz",
-            "post_code": 5105
-        },
-        {
-            "location": "Occidental Mindoro",
-            "region": "MIMAROPA",
-            "municipality": "Tilik",
-            "post_code": 5110
-        },
-        {
-            "location": "Oriental Mindoro",
-            "region": "MIMAROPA",
-            "municipality": "Baco",
-            "post_code": 5201
-        },
-        {
-            "location": "Oriental Mindoro",
-            "region": "MIMAROPA",
-            "municipality": "Bansud",
-            "post_code": 5210
-        },
-        {
-            "location": "Oriental Mindoro",
-            "region": "MIMAROPA",
-            "municipality": "Bongabong",
-            "post_code": 5211
-        },
-        {
-            "location": "Oriental Mindoro",
-            "region": "MIMAROPA",
-            "municipality": "Bulalacao",
-            "post_code": 5214
-        },
-        {
-            "location": "Oriental Mindoro",
-            "region": "MIMAROPA",
-            "municipality": "Calapan",
-            "post_code": 5200
-        },
-        {
-            "location": "Oriental Mindoro",
-            "region": "MIMAROPA",
-            "municipality": "Gloria",
-            "post_code": 5209
-        },
-        {
-            "location": "Oriental Mindoro",
-            "region": "MIMAROPA",
-            "municipality": "Mansalay",
-            "post_code": 5213
-        },
-        {
-            "location": "Oriental Mindoro",
-            "region": "MIMAROPA",
-            "municipality": "Naujan",
-            "post_code": 5204
-        },
-        {
-            "location": "Oriental Mindoro",
-            "region": "MIMAROPA",
-            "municipality": "Pinamalayan",
-            "post_code": 5208
-        },
-        {
-            "location": "Oriental Mindoro",
-            "region": "MIMAROPA",
-            "municipality": "Pola",
-            "post_code": 5206
-        },
-        {
-            "location": "Oriental Mindoro",
-            "region": "MIMAROPA",
-            "municipality": "Puerto Galera",
-            "post_code": 5203
-        },
-        {
-            "location": "Oriental Mindoro",
-            "region": "MIMAROPA",
-            "municipality": "Roxas",
-            "post_code": 5212
-        },
-        {
-            "location": "Oriental Mindoro",
-            "region": "MIMAROPA",
-            "municipality": "San Teodoro",
-            "post_code": 5202
-        },
-        {
-            "location": "Oriental Mindoro",
-            "region": "MIMAROPA",
-            "municipality": "Socorro",
-            "post_code": 5207
-        },
-        {
-            "location": "Oriental Mindoro",
-            "region": "MIMAROPA",
-            "municipality": "Victoria",
-            "post_code": 5205
-        },
-        {
-            "location": "Palawan",
-            "region": "MIMAROPA",
-            "municipality": "Aborlan",
-            "post_code": 5302
-        },
-        {
-            "location": "Palawan",
-            "region": "MIMAROPA",
-            "municipality": "Agutaya",
-            "post_code": 5320
-        },
-        {
-            "location": "Palawan",
-            "region": "MIMAROPA",
-            "municipality": "Araceli",
-            "post_code": 5311
-        },
-        {
-            "location": "Palawan",
-            "region": "MIMAROPA",
-            "municipality": "Balabac",
-            "post_code": 5307
-        },
-        {
-            "location": "Palawan",
-            "region": "MIMAROPA",
-            "municipality": "Batazara",
-            "post_code": 5306
-        },
-        {
-            "location": "Palawan",
-            "region": "MIMAROPA",
-            "municipality": "Brooke's Point",
-            "post_code": 5305
-        },
-        {
-            "location": "Palawan",
-            "region": "MIMAROPA",
-            "municipality": "Busuanga",
-            "post_code": 5317
-        },
-        {
-            "location": "Palawan",
-            "region": "MIMAROPA",
-            "municipality": "Cagayancillo",
-            "post_code": 5321
-        },
-        {
-            "location": "Palawan",
-            "region": "MIMAROPA",
-            "municipality": "Coron",
-            "post_code": 5316
-        },
-        {
-            "location": "Palawan",
-            "region": "MIMAROPA",
-            "municipality": "Culion",
-            "post_code": 5315
-        },
-        {
-            "location": "Palawan",
-            "region": "MIMAROPA",
-            "municipality": "Cuyo",
-            "post_code": 5318
-        },
-        {
-            "location": "Palawan",
-            "region": "MIMAROPA",
-            "municipality": "Dumaran",
-            "post_code": 5310
-        },
-        {
-            "location": "Palawan",
-            "region": "MIMAROPA",
-            "municipality": "El Nido (Baquit)",
-            "post_code": 5313
-        },
-        {
-            "location": "Palawan",
-            "region": "MIMAROPA",
-            "municipality": "Iwahig Penal Colony",
-            "post_code": 5301
-        },
-        {
-            "location": "Palawan",
-            "region": "MIMAROPA",
-            "municipality": "Kalayaan",
-            "post_code": 5322
-        },
-        {
-            "location": "Palawan",
-            "region": "MIMAROPA",
-            "municipality": "Linapacan",
-            "post_code": 5314
-        },
-        {
-            "location": "Palawan",
-            "region": "MIMAROPA",
-            "municipality": "Magsaysay",
-            "post_code": 5319
-        },
-        {
-            "location": "Palawan",
-            "region": "MIMAROPA",
-            "municipality": "Narra (Panacan)",
-            "post_code": 5303
-        },
-        {
-            "location": "Palawan",
-            "region": "MIMAROPA",
-            "municipality": "Puerto Princesa City",
-            "post_code": 5300
-        },
-        {
-            "location": "Palawan",
-            "region": "MIMAROPA",
-            "municipality": "Quezon",
-            "post_code": 5304
-        },
-        {
-            "location": "Palawan",
-            "region": "MIMAROPA",
-            "municipality": "Roxas",
-            "post_code": 5308
-        },
-        {
-            "location": "Palawan",
-            "region": "MIMAROPA",
-            "municipality": "Rizal (Marcos)",
-            "post_code": 5323
-        },
-        {
-            "location": "Palawan",
-            "region": "MIMAROPA",
-            "municipality": "San Vicente",
-            "post_code": 5309
-        },
-        {
-            "location": "Palawan",
-            "region": "MIMAROPA",
-            "municipality": "Sofronio Española",
-            "post_code": 5324
-        },
-        {
-            "location": "Palawan",
-            "region": "MIMAROPA",
-            "municipality": "Taytay",
-            "post_code": 5312
-        },
-        {
-            "location": "Pampanga",
-            "region": "III",
-            "municipality": "Angeles City",
-            "post_code": 2009
-        },
-        {
-            "location": "Pampanga",
-            "region": "III",
-            "municipality": "Apalit",
-            "post_code": 2016
-        },
-        {
-            "location": "Pampanga",
-            "region": "III",
-            "municipality": "Arayat",
-            "post_code": 2012
-        },
-        {
-            "location": "Pampanga",
-            "region": "III",
-            "municipality": "Bacolor",
-            "post_code": 2001
-        },
-        {
-            "location": "Pampanga",
-            "region": "III",
-            "municipality": "Balibago",
-            "post_code": 2024
-        },
-        {
-            "location": "Pampanga",
-            "region": "III",
-            "municipality": "Basa airbase",
-            "post_code": 2007
-        },
-        {
-            "location": "Pampanga",
-            "region": "III",
-            "municipality": "Candaba",
-            "post_code": 2013
-        },
-        {
-            "location": "Pampanga",
-            "region": "III",
-            "municipality": "CSEZ, Clark",
-            "post_code": 2023
-        },
-        {
-            "location": "Pampanga",
-            "region": "III",
-            "municipality": "Dau, Mabalacat",
-            "post_code": 2026
-        },
-        {
-            "location": "Pampanga",
-            "region": "III",
-            "municipality": "Floridablanca",
-            "post_code": 2006
-        },
-        {
-            "location": "Pampanga",
-            "region": "III",
-            "municipality": "Guagua",
-            "post_code": 2003
-        },
-        {
-            "location": "Pampanga",
-            "region": "III",
-            "municipality": "Lubao",
-            "post_code": 2005
-        },
-        {
-            "location": "Pampanga",
-            "region": "III",
-            "municipality": "Mabalacat",
-            "post_code": 2010
-        },
-        {
-            "location": "Pampanga",
-            "region": "III",
-            "municipality": "Macabebe",
-            "post_code": 2018
-        },
-        {
-            "location": "Pampanga",
-            "region": "III",
-            "municipality": "Magalang",
-            "post_code": 2011
-        },
-        {
-            "location": "Pampanga",
-            "region": "III",
-            "municipality": "Masantol",
-            "post_code": 2017
-        },
-        {
-            "location": "Pampanga",
-            "region": "III",
-            "municipality": "Mexico",
-            "post_code": 2021
-        },
-        {
-            "location": "Pampanga",
-            "region": "III",
-            "municipality": "Minalin",
-            "post_code": 2019
-        },
-        {
-            "location": "Pampanga",
-            "region": "III",
-            "municipality": "Porac",
-            "post_code": 2008
-        },
-        {
-            "location": "Pampanga",
-            "region": "III",
-            "municipality": "San Fernando",
-            "post_code": 2000
-        },
-        {
-            "location": "Pampanga",
-            "region": "III",
-            "municipality": "San Luis",
-            "post_code": 2014
-        },
-        {
-            "location": "Pampanga",
-            "region": "III",
-            "municipality": "San simon",
-            "post_code": 2015
-        },
-        {
-            "location": "Pampanga",
-            "region": "III",
-            "municipality": "Sexmoan (Sasmuan)",
-            "post_code": 2004
-        },
-        {
-            "location": "Pampanga",
-            "region": "III",
-            "municipality": "Sta. Ana",
-            "post_code": 2022
-        },
-        {
-            "location": "Pampanga",
-            "region": "III",
-            "municipality": "Sta. Cruz, Lubao",
-            "post_code": 2025
-        },
-        {
-            "location": "Pampanga",
-            "region": "III",
-            "municipality": "Sta. Rita",
-            "post_code": 2002
-        },
-        {
-            "location": "Pampanga",
-            "region": "III",
-            "municipality": "Sto. Tomas",
-            "post_code": 2020
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Agno",
-            "post_code": 2408
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Aguilar",
-            "post_code": 2415
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Alaminos",
-            "post_code": 2404
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Alcala",
-            "post_code": 2425
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Anda",
-            "post_code": 2405
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Asingan",
-            "post_code": 2439
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Balungao",
-            "post_code": 2442
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Bani",
-            "post_code": 2407
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Basista",
-            "post_code": 2422
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Bautista",
-            "post_code": 2424
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Bayambang",
-            "post_code": 2423
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Binalonan",
-            "post_code": 2436
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Binmaley",
-            "post_code": 2417
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Bolinao",
-            "post_code": 2406
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Bugallon",
-            "post_code": 2416
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Burgos",
-            "post_code": 2410
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Calasiao",
-            "post_code": 2418
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Dagupan City",
-            "post_code": 2400
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Dasol",
-            "post_code": 2411
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Infanta",
-            "post_code": 2412
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Labrador",
-            "post_code": 2402
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Laoac",
-            "post_code": 2437
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Lingayen",
-            "post_code": 2401
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Mabini",
-            "post_code": 2409
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Malasiqui",
-            "post_code": 2421
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Manaoag",
-            "post_code": 2430
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Mangaldan",
-            "post_code": 2432
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Mangatarem",
-            "post_code": 2413
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Mapandan",
-            "post_code": 2429
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Natividad",
-            "post_code": 2446
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Pozorrubio",
-            "post_code": 2435
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Rosales",
-            "post_code": 2441
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "San Carlos City",
-            "post_code": 2420
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "San Fabian",
-            "post_code": 2433
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "San Jacinto",
-            "post_code": 2431
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "San Manuel",
-            "post_code": 2438
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "San Nicolas",
-            "post_code": 2447
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "San Quintin",
-            "post_code": 2444
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Sison",
-            "post_code": 2434
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Sta. Barbara",
-            "post_code": 2419
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Sta. Maria",
-            "post_code": 2440
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Sto. Tomas",
-            "post_code": 2426
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Sual",
-            "post_code": 2403
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Tayug",
-            "post_code": 2445
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Umingan",
-            "post_code": 2443
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Urbiztondo",
-            "post_code": 2414
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Urdaneta",
-            "post_code": 2428
-        },
-        {
-            "location": "Pangasinan",
-            "region": "I",
-            "municipality": "Villasis",
-            "post_code": 2427
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Agdangan",
-            "post_code": 4304
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Alabat",
-            "post_code": 4333
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Atimonan",
-            "post_code": 4331
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Buenavista",
-            "post_code": 4320
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Burdeos",
-            "post_code": 4340
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Calauag",
-            "post_code": 4318
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Candelaria",
-            "post_code": 4323
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Catanauan",
-            "post_code": 4311
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Dolores",
-            "post_code": 4326
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "General Luna",
-            "post_code": 4310
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "General Nakar",
-            "post_code": 4338
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Guinayangan",
-            "post_code": 4319
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Gumaca",
-            "post_code": 4307
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Hondagua",
-            "post_code": 4317
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Infanta",
-            "post_code": 4336
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Jomalig",
-            "post_code": 4342
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Lopez",
-            "post_code": 4316
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Lucban",
-            "post_code": 4328
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Lucena City",
-            "post_code": 4301
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Macalelon",
-            "post_code": 4309
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Mauban",
-            "post_code": 4330
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Mulanay",
-            "post_code": 4312
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Padre Burgos",
-            "post_code": 4303
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Pagbilao",
-            "post_code": 4302
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Panukulan",
-            "post_code": 4337
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Patnanungan",
-            "post_code": 4341
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Perez",
-            "post_code": 4334
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Pitogo",
-            "post_code": 4308
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Plaridel",
-            "post_code": 4306
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Polilio",
-            "post_code": 4339
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Quezon",
-            "post_code": 4332
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Quezon Capitol",
-            "post_code": 4300
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Real",
-            "post_code": 4335
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Sampaloc",
-            "post_code": 4329
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "San Andres",
-            "post_code": 4314
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "San Antonio",
-            "post_code": 4324
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "San Francisco",
-            "post_code": 4315
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "San Narciso",
-            "post_code": 4313
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Sariaya",
-            "post_code": 4322
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Tagkawayan",
-            "post_code": 4321
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Tayabas",
-            "post_code": 4327
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Tiaong",
-            "post_code": 4325
-        },
-        {
-            "location": "Quezon Province",
-            "region": "IV-A",
-            "municipality": "Unisan",
-            "post_code": 4305
-        },
-        {
-            "location": "Quirino",
-            "region": "II",
-            "municipality": "Aglipay",
-            "post_code": 3403
-        },
-        {
-            "location": "Quirino",
-            "region": "II",
-            "municipality": "Cabarroguis",
-            "post_code": 3400
-        },
-        {
-            "location": "Quirino",
-            "region": "II",
-            "municipality": "Diffun",
-            "post_code": 3401
-        },
-        {
-            "location": "Quirino",
-            "region": "II",
-            "municipality": "Maddela",
-            "post_code": 3404
-        },
-        {
-            "location": "Quirino",
-            "region": "II",
-            "municipality": "Nagtipunan",
-            "post_code": 3405
-        },
-        {
-            "location": "Quirino",
-            "region": "II",
-            "municipality": "Saguday",
-            "post_code": 3402
-        },
-        {
-            "location": "Rizal Province",
-            "region": "IV-A",
-            "municipality": "Angono",
-            "post_code": 1930
-        },
-        {
-            "location": "Rizal Province",
-            "region": "IV-A",
-            "municipality": "Antipolo",
-            "post_code": 1870
-        },
-        {
-            "location": "Rizal Province",
-            "region": "IV-A",
-            "municipality": "Bagong Nayon (Cogeo)",
-            "post_code": 1872
-        },
-        {
-            "location": "Rizal Province",
-            "region": "IV-A",
-            "municipality": "Baras",
-            "post_code": 1970
-        },
-        {
-            "location": "Rizal Province",
-            "region": "IV-A",
-            "municipality": "Binangonan",
-            "post_code": 1940
-        },
-        {
-            "location": "Rizal Province",
-            "region": "IV-A",
-            "municipality": "Cainta",
-            "post_code": 1900
-        },
-        {
-            "location": "Rizal Province",
-            "region": "IV-A",
-            "municipality": "Cardona",
-            "post_code": 1950
-        },
-        {
-            "location": "Rizal Province",
-            "region": "IV-A",
-            "municipality": "Cupang",
-            "post_code": 1873
-        },
-        {
-            "location": "Rizal Province",
-            "region": "IV-A",
-            "municipality": "Jala-Jala",
-            "post_code": 1990
-        },
-        {
-            "location": "Rizal Province",
-            "region": "IV-A",
-            "municipality": "Langhaya",
-            "post_code": 1874
-        },
-        {
-            "location": "Rizal Province",
-            "region": "IV-A",
-            "municipality": "Mambagat",
-            "post_code": 1875
-        },
-        {
-            "location": "Rizal Province",
-            "region": "IV-A",
-            "municipality": "Mayamot",
-            "post_code": 1871
-        },
-        {
-            "location": "Rizal Province",
-            "region": "IV-A",
-            "municipality": "Montalban (Rodriguez)",
-            "post_code": 1860
-        },
-        {
-            "location": "Rizal Province",
-            "region": "IV-A",
-            "municipality": "Morong",
-            "post_code": 1960
-        },
-        {
-            "location": "Rizal Province",
-            "region": "IV-A",
-            "municipality": "Pilillia",
-            "post_code": 1910
-        },
-        {
-            "location": "Rizal Province",
-            "region": "IV-A",
-            "municipality": "San Mateo",
-            "post_code": 1850
-        },
-        {
-            "location": "Rizal Province",
-            "region": "IV-A",
-            "municipality": "Tanay",
-            "post_code": 1980
-        },
-        {
-            "location": "Rizal Province",
-            "region": "IV-A",
-            "municipality": "Taytay",
-            "post_code": 1920
-        },
-        {
-            "location": "Rizal Province",
-            "region": "IV-A",
-            "municipality": "Teresa",
-            "post_code": 1880
-        },
-        {
-            "location": "Romblon",
-            "region": "MIMAROPA",
-            "municipality": "Alcantara",
-            "post_code": 5509
-        },
-        {
-            "location": "Romblon",
-            "region": "MIMAROPA",
-            "municipality": "Banton (Jones)",
-            "post_code": 5515
-        },
-        {
-            "location": "Romblon",
-            "region": "MIMAROPA",
-            "municipality": "Cajidiocan",
-            "post_code": 5512
-        },
-        {
-            "location": "Romblon",
-            "region": "MIMAROPA",
-            "municipality": "Calatrava",
-            "post_code": 5503
-        },
-        {
-            "location": "Romblon",
-            "region": "MIMAROPA",
-            "municipality": "Concepcion",
-            "post_code": 5516
-        },
-        {
-            "location": "Romblon",
-            "region": "MIMAROPA",
-            "municipality": "Corcuera",
-            "post_code": 5514
-        },
-        {
-            "location": "Romblon",
-            "region": "MIMAROPA",
-            "municipality": "Ferrol",
-            "post_code": 5506
-        },
-        {
-            "location": "Romblon",
-            "region": "MIMAROPA",
-            "municipality": "Sta. Maria (formerly Imelda)",
-            "post_code": 5502
-        },
-        {
-            "location": "Romblon",
-            "region": "MIMAROPA",
-            "municipality": "Looc",
-            "post_code": 5507
-        },
-        {
-            "location": "Romblon",
-            "region": "MIMAROPA",
-            "municipality": "Magdiwang",
-            "post_code": 5511
-        },
-        {
-            "location": "Romblon",
-            "region": "MIMAROPA",
-            "municipality": "Odiongan",
-            "post_code": 5505
-        },
-        {
-            "location": "Romblon",
-            "region": "MIMAROPA",
-            "municipality": "Romblon",
-            "post_code": 5500
-        },
-        {
-            "location": "Romblon",
-            "region": "MIMAROPA",
-            "municipality": "San Agustin",
-            "post_code": 5501
-        },
-        {
-            "location": "Romblon",
-            "region": "MIMAROPA",
-            "municipality": "San Andres",
-            "post_code": 5504
-        },
-        {
-            "location": "Romblon",
-            "region": "MIMAROPA",
-            "municipality": "San Fernando",
-            "post_code": 5513
-        },
-        {
-            "location": "Romblon",
-            "region": "MIMAROPA",
-            "municipality": "San Jose",
-            "post_code": 5510
-        },
-        {
-            "location": "Romblon",
-            "region": "MIMAROPA",
-            "municipality": "Sta. Fe",
-            "post_code": 5508
-        },
-        {
-            "location": "Samar",
-            "region": "VIII",
-            "municipality": "Almagro",
-            "post_code": 6724
-        },
-        {
-            "location": "Samar",
-            "region": "VIII",
-            "municipality": "Basey",
-            "post_code": 6720
-        },
-        {
-            "location": "Samar",
-            "region": "VIII",
-            "municipality": "Calbayog City",
-            "post_code": 6710
-        },
-        {
-            "location": "Samar",
-            "region": "VIII",
-            "municipality": "Calbiga",
-            "post_code": 6715
-        },
-        {
-            "location": "Samar",
-            "region": "VIII",
-            "municipality": "Catbalogan",
-            "post_code": 6700
-        },
-        {
-            "location": "Samar",
-            "region": "VIII",
-            "municipality": "Daram",
-            "post_code": 6722
-        },
-        {
-            "location": "Samar",
-            "region": "VIII",
-            "municipality": "Gandara",
-            "post_code": 6706
-        },
-        {
-            "location": "Samar",
-            "region": "VIII",
-            "municipality": "Hinabangan",
-            "post_code": 6713
-        },
-        {
-            "location": "Samar",
-            "region": "VIII",
-            "municipality": "Jiabong",
-            "post_code": 6701
-        },
-        {
-            "location": "Samar",
-            "region": "VIII",
-            "municipality": "Marabut",
-            "post_code": 6721
-        },
-        {
-            "location": "Samar",
-            "region": "VIII",
-            "municipality": "Matuguinao",
-            "post_code": 6708
-        },
-        {
-            "location": "Samar",
-            "region": "VIII",
-            "municipality": "Motiong",
-            "post_code": 6702
-        },
-        {
-            "location": "Samar",
-            "region": "VIII",
-            "municipality": "Pagsanghan",
-            "post_code": 6705
-        },
-        {
-            "location": "Samar",
-            "region": "VIII",
-            "municipality": "Pinabacdao",
-            "post_code": 6716
-        },
-        {
-            "location": "Samar",
-            "region": "VIII",
-            "municipality": "San Jorge",
-            "post_code": 6707
-        },
-        {
-            "location": "Samar",
-            "region": "VIII",
-            "municipality": "San Jose de Buan",
-            "post_code": 6723
-        },
-        {
-            "location": "Samar",
-            "region": "VIII",
-            "municipality": "San Sebastian",
-            "post_code": 6714
-        },
-        {
-            "location": "Samar",
-            "region": "VIII",
-            "municipality": "Sta. Margarita",
-            "post_code": 6709
-        },
-        {
-            "location": "Samar",
-            "region": "VIII",
-            "municipality": "Sta. Rita",
-            "post_code": 6718
-        },
-        {
-            "location": "Samar",
-            "region": "VIII",
-            "municipality": "Sto. Niño",
-            "post_code": 6711
-        },
-        {
-            "location": "Samar",
-            "region": "VIII",
-            "municipality": "Tagapul-an",
-            "post_code": 6712
-        },
-        {
-            "location": "Samar",
-            "region": "VIII",
-            "municipality": "Talalora",
-            "post_code": 6719
-        },
-        {
-            "location": "Samar",
-            "region": "VIII",
-            "municipality": "Tarangnan",
-            "post_code": 6704
-        },
-        {
-            "location": "Samar",
-            "region": "VIII",
-            "municipality": "Villareal",
-            "post_code": 6717
-        },
-        {
-            "location": "Samar",
-            "region": "VIII",
-            "municipality": "Wright",
-            "post_code": 6703
-        },
-        {
-            "location": "Samar",
-            "region": "VIII",
-            "municipality": "Zumarraga",
-            "post_code": 6725
-        },
-        {
-            "location": "Sarangani",
-            "region": "XII",
-            "municipality": "Alabel",
-            "post_code": 9501
-        },
-        {
-            "location": "Sarangani",
-            "region": "XII",
-            "municipality": "Glan",
-            "post_code": 9517
-        },
-        {
-            "location": "Sarangani",
-            "region": "XII",
-            "municipality": "Kiamba",
-            "post_code": 9514
-        },
-        {
-            "location": "Sarangani",
-            "region": "XII",
-            "municipality": "Maasim",
-            "post_code": 9502
-        },
-        {
-            "location": "Sarangani",
-            "region": "XII",
-            "municipality": "Maitum",
-            "post_code": 9515
-        },
-        {
-            "location": "Sarangani",
-            "region": "XII",
-            "municipality": "Malapatan",
-            "post_code": 9516
-        },
-        {
-            "location": "Sarangani",
-            "region": "XII",
-            "municipality": "Malungon",
-            "post_code": 9503
-        },
-        {
-            "location": "Siquijor",
-            "region": "NIR",
-            "municipality": "Enrique Villanueva",
-            "post_code": 6230
-        },
-        {
-            "location": "Siquijor",
-            "region": "NIR",
-            "municipality": "Larena",
-            "post_code": 6226
-        },
-        {
-            "location": "Siquijor",
-            "region": "NIR",
-            "municipality": "Lazi",
-            "post_code": 6228
-        },
-        {
-            "location": "Siquijor",
-            "region": "NIR",
-            "municipality": "Maria",
-            "post_code": 6229
-        },
-        {
-            "location": "Siquijor",
-            "region": "NIR",
-            "municipality": "San Juan",
-            "post_code": 6227
-        },
-        {
-            "location": "Siquijor",
-            "region": "NIR",
-            "municipality": "Siquijor",
-            "post_code": 6225
-        },
-        {
-            "location": "Sorsogon",
-            "region": "V",
-            "municipality": "Bacon",
-            "post_code": 4701
-        },
-        {
-            "location": "Sorsogon",
-            "region": "V",
-            "municipality": "Barcelona",
-            "post_code": 4712
-        },
-        {
-            "location": "Sorsogon",
-            "region": "V",
-            "municipality": "Bulan",
-            "post_code": 4706
-        },
-        {
-            "location": "Sorsogon",
-            "region": "V",
-            "municipality": "Bulusan",
-            "post_code": 4704
-        },
-        {
-            "location": "Sorsogon",
-            "region": "V",
-            "municipality": "Casiguran",
-            "post_code": 4702
-        },
-        {
-            "location": "Sorsogon",
-            "region": "V",
-            "municipality": "Castilla",
-            "post_code": 4713
-        },
-        {
-            "location": "Sorsogon",
-            "region": "V",
-            "municipality": "Donsol",
-            "post_code": 4715
-        },
-        {
-            "location": "Sorsogon",
-            "region": "V",
-            "municipality": "Gubat",
-            "post_code": 4710
-        },
-        {
-            "location": "Sorsogon",
-            "region": "V",
-            "municipality": "Irosin",
-            "post_code": 4707
-        },
-        {
-            "location": "Sorsogon",
-            "region": "V",
-            "municipality": "Juban",
-            "post_code": 4703
-        },
-        {
-            "location": "Sorsogon",
-            "region": "V",
-            "municipality": "Magallanes",
-            "post_code": 4705
-        },
-        {
-            "location": "Sorsogon",
-            "region": "V",
-            "municipality": "Matnog",
-            "post_code": 4708
-        },
-        {
-            "location": "Sorsogon",
-            "region": "V",
-            "municipality": "Pilar",
-            "post_code": 4714
-        },
-        {
-            "location": "Sorsogon",
-            "region": "V",
-            "municipality": "Prieto Diaz",
-            "post_code": 4711
-        },
-        {
-            "location": "Sorsogon",
-            "region": "V",
-            "municipality": "Sorsogon",
-            "post_code": 4700
-        },
-        {
-            "location": "Sorsogon",
-            "region": "V",
-            "municipality": "Sta. Magdalena",
-            "post_code": 4709
-        },
-        {
-            "location": "South Cotabato",
-            "region": "XII", "municipality": "Banga",
-            "post_code": 9511
-        },
-        {
-            "location": "South Cotabato",
-            "region": "XII", "municipality": "General Santos City",
-            "post_code": 9500
-        },
-        {
-            "location": "South Cotabato",
-            "region": "XII", "municipality": "Koronadal",
-            "post_code": 9506
-        },
-        {
-            "location": "South Cotabato",
-            "region": "XII", "municipality": "Lake Sebu",
-            "post_code": 9518
-        },
-        {
-            "location": "South Cotabato",
-            "region": "XII", "municipality": "Norala",
-            "post_code": 9508
-        },
-        {
-            "location": "South Cotabato",
-            "region": "XII", "municipality": "Polomolok",
-            "post_code": 9504
-        },
-        {
-            "location": "South Cotabato",
-            "region": "XII", "municipality": "Sto. Niño",
-            "post_code": 9509
-        },
-        {
-            "location": "South Cotabato",
-            "region": "XII", "municipality": "Surallah",
-            "post_code": 9512
-        },
-        {
-            "location": "South Cotabato",
-            "region": "XII", "municipality": "Tampakan",
-            "post_code": 9507
-        },
-        {
-            "location": "South Cotabato",
-            "region": "XII", "municipality": "Tantangan",
-            "post_code": 9510
-        },
-        {
-            "location": "South Cotabato",
-            "region": "XII", "municipality": "T'boli",
-            "post_code": 9513
-        },
-        {
-            "location": "South Cotabato",
-            "region": "XII", "municipality": "Tupi",
-            "post_code": 9505
-        },
-        {
-            "location": "Southern Leyte",
-            "region": "VIII",
-            "municipality": "Anahawan",
-            "post_code": 6610
-        },
-        {
-            "location": "Southern Leyte",
-            "region": "VIII",
-            "municipality": "Bontoc",
-            "post_code": 6604
-        },
-        {
-            "location": "Southern Leyte",
-            "region": "VIII",
-            "municipality": "Hinunangan",
-            "post_code": 6608
-        },
-        {
-            "location": "Southern Leyte",
-            "region": "VIII",
-            "municipality": "Hinundayan",
-            "post_code": 6609
-        },
-        {
-            "location": "Southern Leyte",
-            "region": "VIII",
-            "municipality": "Libagon",
-            "post_code": 6615
-        },
-        {
-            "location": "Southern Leyte",
-            "region": "VIII",
-            "municipality": "Liloan",
-            "post_code": 6612
-        },
-        {
-            "location": "Southern Leyte",
-            "region": "VIII",
-            "municipality": "Limasawa",
-            "post_code": 6618
-        },
-        {
-            "location": "Southern Leyte",
-            "region": "VIII",
-            "municipality": "Maasin",
-            "post_code": 6600
-        },
-        {
-            "location": "Southern Leyte",
-            "region": "VIII",
-            "municipality": "Macrohon",
-            "post_code": 6601
-        },
-        {
-            "location": "Southern Leyte",
-            "region": "VIII",
-            "municipality": "Malitbog",
-            "post_code": 6603
-        },
-        {
-            "location": "Southern Leyte",
-            "region": "VIII",
-            "municipality": "Padre Burgos",
-            "post_code": 6602
-        },
-        {
-            "location": "Southern Leyte",
-            "region": "VIII",
-            "municipality": "Pintuyan",
-            "post_code": 6614
-        },
-        {
-            "location": "Southern Leyte",
-            "region": "VIII",
-            "municipality": "San Francisco",
-            "post_code": 6613
-        },
-        {
-            "location": "Southern Leyte",
-            "region": "VIII",
-            "municipality": "San Juan (Cabalian)",
-            "post_code": 6611
-        },
-        {
-            "location": "Southern Leyte",
-            "region": "VIII",
-            "municipality": "San Ricardo",
-            "post_code": 6617
-        },
-        {
-            "location": "Southern Leyte",
-            "region": "VIII",
-            "municipality": "Silago",
-            "post_code": 6607
-        },
-        {
-            "location": "Southern Leyte",
-            "region": "VIII",
-            "municipality": "Sogod",
-            "post_code": 6606
-        },
-        {
-            "location": "Southern Leyte",
-            "region": "VIII",
-            "municipality": "St. Bernard",
-            "post_code": 6616
-        },
-        {
-            "location": "Southern Leyte",
-            "region": "VIII",
-            "municipality": "Tomas Oppus",
-            "post_code": 6605
-        },
-        {
-            "location": "Sultan Kudarat",
-            "region": "XII",
-            "municipality": "Bagumbayan",
-            "post_code": 9810
-        },
-        {
-            "location": "Sultan Kudarat",
-            "region": "XII",
-            "municipality": "Columbio",
-            "post_code": 9801
-        },
-        {
-            "location": "Sultan Kudarat",
-            "region": "XII",
-            "municipality": "Esperanza (Ampatuan)",
-            "post_code": 9806
-        },
-        {
-            "location": "Sultan Kudarat",
-            "region": "XII",
-            "municipality": "Isulan",
-            "post_code": 9805
-        },
-        {
-            "location": "Sultan Kudarat",
-            "region": "XII",
-            "municipality": "Kalamansig",
-            "post_code": 9808
-        },
-        {
-            "location": "Sultan Kudarat",
-            "region": "XII",
-            "municipality": "Lebak (Salaman)",
-            "post_code": 9807
-        },
-        {
-            "location": "Sultan Kudarat",
-            "region": "XII",
-            "municipality": "Lutayan",
-            "post_code": 9803
-        },
-        {
-            "location": "Sultan Kudarat",
-            "region": "XII",
-            "municipality": "Mariano Marcos",
-            "post_code": 9802
-        },
-        {
-            "location": "Sultan Kudarat",
-            "region": "XII",
-            "municipality": "Palimbang",
-            "post_code": 9809
-        },
-        {
-            "location": "Sultan Kudarat",
-            "region": "XII",
-            "municipality": "Pres. Quirino",
-            "post_code": 9804
-        },
-        {
-            "location": "Sultan Kudarat",
-            "region": "XII",
-            "municipality": "Sen. Ninoy Aquino",
-            "post_code": 9811
-        },
-        {
-            "location": "Sultan Kudarat",
-            "region": "XII",
-            "municipality": "Tacurong",
-            "post_code": 9800
-        },
-        {
-            "location": "Sulu",
-            "region": "BARMM",
-            "municipality": "Banguingui (formerly Tongkil)",
-            "post_code": 7406
-        },
-        {
-            "location": "Sulu",
-            "region": "BARMM",
-            "municipality": "Hadji Panglima Tahil (formerly Marungas)",
-            "post_code": 7413
-        },
-        {
-            "location": "Sulu",
-            "region": "BARMM",
-            "municipality": "Indanan",
-            "post_code": 7407
-        },
-        {
-            "location": "Sulu",
-            "region": "BARMM",
-            "municipality": "Jolo",
-            "post_code": 7400
-        },
-        {
-            "location": "Sulu",
-            "region": "BARMM",
-            "municipality": "Kalingalan Caluang",
-            "post_code": 7416
-        },
-        {
-            "location": "Sulu",
-            "region": "BARMM",
-            "municipality": "Lugus",
-            "post_code": 7411
-        },
-        {
-            "location": "Sulu",
-            "region": "BARMM",
-            "municipality": "Luuk",
-            "post_code": 7404
-        },
-        {
-            "location": "Sulu",
-            "region": "BARMM",
-            "municipality": "Maimbung",
-            "post_code": 7409
-        },
-        {
-            "location": "Sulu",
-            "region": "BARMM",
-            "municipality": "Omar",
-            "post_code": 7417
-        },
-        {
-            "location": "Sulu",
-            "region": "BARMM",
-            "municipality": "Panamao",
-            "post_code": 7402
-        },
-        {
-            "location": "Sulu",
-            "region": "BARMM",
-            "municipality": "Pandami",
-            "post_code": 7418
-        },
-        {
-            "location": "Sulu",
-            "region": "BARMM",
-            "municipality": "Panglima Estino",
-            "post_code": 7415
-        },
-        {
-            "location": "Sulu",
-            "region": "BARMM",
-            "municipality": "Pangutaran",
-            "post_code": 7414
-        },
-        {
-            "location": "Sulu",
-            "region": "BARMM",
-            "municipality": "Parang",
-            "post_code": 7408
-        },
-        {
-            "location": "Sulu",
-            "region": "BARMM",
-            "municipality": "Pata",
-            "post_code": 7405
-        },
-        {
-            "location": "Sulu",
-            "region": "BARMM",
-            "municipality": "Patikul",
-            "post_code": 7401
-        },
-        {
-            "location": "Sulu",
-            "region": "BARMM",
-            "municipality": "Siasi",
-            "post_code": 7412
-        },
-        {
-            "location": "Sulu",
-            "region": "BARMM",
-            "municipality": "Talipao",
-            "post_code": 7403
-        },
-        {
-            "location": "Sulu",
-            "region": "BARMM",
-            "municipality": "Tapul",
-            "post_code": 7410
-        },
-        {
-            "location": "Surigao del Norte",
-            "region": "XIII",
-            "municipality": "Alegria",
-            "post_code": 8425
-        },
-        {
-            "location": "Surigao del Norte",
-            "region": "XIII",
-            "municipality": "Bacuag",
-            "post_code": 8408
-        },
-        {
-            "location": "Surigao del Norte",
-            "region": "XIII",
-            "municipality": "Burgos",
-            "post_code": 8424
-        },
-        {
-            "location": "Surigao del Norte",
-            "region": "XIII",
-            "municipality": "Claver",
-            "post_code": 8410
-        },
-        {
-            "location": "Surigao del Norte",
-            "region": "XIII",
-            "municipality": "Dapa",
-            "post_code": 8417
-        },
-        {
-            "location": "Surigao del Norte",
-            "region": "XIII",
-            "municipality": "Del Carmen",
-            "post_code": 8418
-        },
-        {
-            "location": "Surigao del Norte",
-            "region": "XIII",
-            "municipality": "Gen. Luna",
-            "post_code": 8419
-        },
-        {
-            "location": "Surigao del Norte",
-            "region": "XIII",
-            "municipality": "Gigaquit",
-            "post_code": 8409
-        },
-        {
-            "location": "Surigao del Norte",
-            "region": "XIII",
-            "municipality": "Mainit",
-            "post_code": 8407
-        },
-        {
-            "location": "Surigao del Norte",
-            "region": "XIII",
-            "municipality": "Malimono",
-            "post_code": 8402
-        },
-        {
-            "location": "Surigao del Norte",
-            "region": "XIII",
-            "municipality": "Pilar",
-            "post_code": 8420
-        },
-        {
-            "location": "Surigao del Norte",
-            "region": "XIII",
-            "municipality": "Placer",
-            "post_code": 8405
-        },
-        {
-            "location": "Surigao del Norte",
-            "region": "XIII",
-            "municipality": "San Benito",
-            "post_code": 8423
-        },
-        {
-            "location": "Surigao del Norte",
-            "region": "XIII",
-            "municipality": "San Francisco",
-            "post_code": 8401
-        },
-        {
-            "location": "Surigao del Norte",
-            "region": "XIII",
-            "municipality": "San Isidro",
-            "post_code": 8421
-        },
-        {
-            "location": "Surigao del Norte",
-            "region": "XIII",
-            "municipality": "Sison",
-            "post_code": 8404
-        },
-        {
-            "location": "Surigao del Norte",
-            "region": "XIII",
-            "municipality": "Socorro",
-            "post_code": 8416
-        },
-        {
-            "location": "Surigao del Norte",
-            "region": "XIII",
-            "municipality": "Sta. Monica",
-            "post_code": 8422
-        },
-        {
-            "location": "Surigao del Norte",
-            "region": "XIII",
-            "municipality": "Surigao City",
-            "post_code": 8400
-        },
-        {
-            "location": "Surigao del Norte",
-            "region": "XIII",
-            "municipality": "Tagana-an",
-            "post_code": 8403
-        },
-        {
-            "location": "Surigao del Norte",
-            "region": "XIII",
-            "municipality": "Tubod",
-            "post_code": 8406
-        },
-        {
-            "location": "Surigao del Sur",
-            "region": "XIII",
-            "municipality": "Barobo",
-            "post_code": 8309
-        },
-        {
-            "location": "Surigao del Sur",
-            "region": "XIII",
-            "municipality": "Bayabas",
-            "post_code": 8303
-        },
-        {
-            "location": "Surigao del Sur",
-            "region": "XIII",
-            "municipality": "Bislig",
-            "post_code": 8311
-        },
-        {
-            "location": "Surigao del Sur",
-            "region": "XIII",
-            "municipality": "Cagwait",
-            "post_code": 8304
-        },
-        {
-            "location": "Surigao del Sur",
-            "region": "XIII",
-            "municipality": "Cantilan",
-            "post_code": 8317
-        },
-        {
-            "location": "Surigao del Sur",
-            "region": "XIII",
-            "municipality": "Carmen",
-            "post_code": 8315
-        },
-        {
-            "location": "Surigao del Sur",
-            "region": "XIII",
-            "municipality": "Carrascal",
-            "post_code": 8318
-        },
-        {
-            "location": "Surigao del Sur",
-            "region": "XIII",
-            "municipality": "Cortez",
-            "post_code": 8313
-        },
-        {
-            "location": "Surigao del Sur",
-            "region": "XIII",
-            "municipality": "Hinatuan",
-            "post_code": 8310
-        },
-        {
-            "location": "Surigao del Sur",
-            "region": "XIII",
-            "municipality": "Lanuza",
-            "post_code": 8314
-        },
-        {
-            "location": "Surigao del Sur",
-            "region": "XIII",
-            "municipality": "Lianga",
-            "post_code": 8307
-        },
-        {
-            "location": "Surigao del Sur",
-            "region": "XIII",
-            "municipality": "Lingig",
-            "post_code": 8312
-        },
-        {
-            "location": "Surigao del Sur",
-            "region": "XIII",
-            "municipality": "Madrid",
-            "post_code": 8316
-        },
-        {
-            "location": "Surigao del Sur",
-            "region": "XIII",
-            "municipality": "Malixi",
-            "post_code": 8319
-        },
-        {
-            "location": "Surigao del Sur",
-            "region": "XIII",
-            "municipality": "Marihatag",
-            "post_code": 8306
-        },
-        {
-            "location": "Surigao del Sur",
-            "region": "XIII",
-            "municipality": "San Agustin",
-            "post_code": 8305
-        },
-        {
-            "location": "Surigao del Sur",
-            "region": "XIII",
-            "municipality": "San Miguel",
-            "post_code": 8301
-        },
-        {
-            "location": "Surigao del Sur",
-            "region": "XIII",
-            "municipality": "Tagbina",
-            "post_code": 8308
-        },
-        {
-            "location": "Surigao del Sur",
-            "region": "XIII",
-            "municipality": "Tago",
-            "post_code": 8302
-        },
-        {
-            "location": "Surigao del Sur",
-            "region": "XIII",
-            "municipality": "Tandag",
-            "post_code": 8300
-        },
-        {
-            "location": "Tarlac",
-            "region": "III",
-            "municipality": "Anao",
-            "post_code": 2310
-        },
-        {
-            "location": "Tarlac",
-            "region": "III",
-            "municipality": "Bamban",
-            "post_code": 2317
-        },
-        {
-            "location": "Tarlac",
-            "region": "III",
-            "municipality": "Camiling",
-            "post_code": 2306
-        },
-        {
-            "location": "Tarlac",
-            "region": "III",
-            "municipality": "Capas",
-            "post_code": 2315
-        },
-        {
-            "location": "Tarlac",
-            "region": "III",
-            "municipality": "Concepcion",
-            "post_code": 2316
-        },
-        {
-            "location": "Tarlac",
-            "region": "III",
-            "municipality": "Gerona",
-            "post_code": 2302
-        },
-        {
-            "location": "Tarlac",
-            "region": "III",
-            "municipality": "La Paz",
-            "post_code": 2314
-        },
-        {
-            "location": "Tarlac",
-            "region": "III",
-            "municipality": "Mayantoc",
-            "post_code": 2304
-        },
-        {
-            "location": "Tarlac",
-            "region": "III",
-            "municipality": "Moncada",
-            "post_code": 2308
-        },
-        {
-            "location": "Tarlac",
-            "region": "III",
-            "municipality": "Paniqui",
-            "post_code": 2307
-        },
-        {
-            "location": "Tarlac",
-            "region": "III",
-            "municipality": "Pura",
-            "post_code": 2312
-        },
-        {
-            "location": "Tarlac",
-            "region": "III",
-            "municipality": "Ramos",
-            "post_code": 2311
-        },
-        {
-            "location": "Tarlac",
-            "region": "III",
-            "municipality": "San Clemente",
-            "post_code": 2305
-        },
-        {
-            "location": "Tarlac",
-            "region": "III",
-            "municipality": "San Jose",
-            "post_code": 2318
-        },
-        {
-            "location": "Tarlac",
-            "region": "III",
-            "municipality": "San Manuel",
-            "post_code": 2309
-        },
-        {
-            "location": "Tarlac",
-            "region": "III",
-            "municipality": "San Miguel",
-            "post_code": 2301
-        },
-        {
-            "location": "Tarlac",
-            "region": "III",
-            "municipality": "Sta. Ignacia",
-            "post_code": 2303
-        },
-        {
-            "location": "Tarlac",
-            "region": "III",
-            "municipality": "Tarlac",
-            "post_code": 2300
-        },
-        {
-            "location": "Tarlac",
-            "region": "III",
-            "municipality": "Victoria",
-            "post_code": 2313
-        },
-        {
-            "location": "Tawi-Tawi",
-            "region": "BARMM",
-            "municipality": "Bongao",
-            "post_code": 7500
-        },
-        {
-            "location": "Tawi-Tawi",
-            "region": "BARMM",
-            "municipality": "Languyan",
-            "post_code": 7509
-        },
-        {
-            "location": "Tawi-Tawi",
-            "region": "BARMM",
-            "municipality": "Mapun (formerly Cagayan de Sulu)",
-            "post_code": 7508
-        },
-        {
-            "location": "Tawi-Tawi",
-            "region": "BARMM",
-            "municipality": "Panglima Sugala (formerly Balimbing)",
-            "post_code": 7501
-        },
-        {
-            "location": "Tawi-Tawi",
-            "region": "BARMM",
-            "municipality": "Sapa-Sapa",
-            "post_code": 7503
-        },
-        {
-            "location": "Tawi-Tawi",
-            "region": "BARMM",
-            "municipality": "Sibutu",
-            "post_code": 7510
-        },
-        {
-            "location": "Tawi-Tawi",
-            "region": "BARMM",
-            "municipality": "Simunul",
-            "post_code": 7505
-        },
-        {
-            "location": "Tawi-Tawi",
-            "region": "BARMM",
-            "municipality": "Sitangkai",
-            "post_code": 7506
-        },
-        {
-            "location": "Tawi-Tawi",
-            "region": "BARMM",
-            "municipality": "South Ubian",
-            "post_code": 7504
-        },
-        {
-            "location": "Tawi-Tawi",
-            "region": "BARMM",
-            "municipality": "Turtle Islands (Taganak)",
-            "post_code": 7507
-        },
-        {
-            "location": "Tawi-Tawi",
-            "region": "BARMM",
-            "municipality": "Tandubas",
-            "post_code": 7502
-        },
-        {
-            "location": "Zambales",
-            "region": "III",
-            "municipality": "Botolan",
-            "post_code": 2202
-        },
-        {
-            "location": "Zambales",
-            "region": "III",
-            "municipality": "Cabangan",
-            "post_code": 2203
-        },
-        {
-            "location": "Zambales",
-            "region": "III",
-            "municipality": "Candelaria",
-            "post_code": 2212
-        },
-        {
-            "location": "Zambales",
-            "region": "III",
-            "municipality": "Castillejos",
-            "post_code": 2208
-        },
-        {
-            "location": "Zambales",
-            "region": "III",
-            "municipality": "Iba",
-            "post_code": 2201
-        },
-        {
-            "location": "Zambales",
-            "region": "III",
-            "municipality": "Masinloc",
-            "post_code": 2211
-        },
-        {
-            "location": "Zambales",
-            "region": "III",
-            "municipality": "Olongapo City",
-            "post_code": 2200
-        },
-        {
-            "location": "Zambales",
-            "region": "III",
-            "municipality": "Palauig",
-            "post_code": 2210
-        },
-        {
-            "location": "Zambales",
-            "region": "III",
-            "municipality": "San Antonio",
-            "post_code": 2206
-        },
-        {
-            "location": "Zambales",
-            "region": "III",
-            "municipality": "San Felipe",
-            "post_code": 2204
-        },
-        {
-            "location": "Zambales",
-            "region": "III",
-            "municipality": "San Marcelino",
-            "post_code": 2207
-        },
-        {
-            "location": "Zambales",
-            "region": "III",
-            "municipality": "San Narciso",
-            "post_code": 2205
-        },
-        {
-            "location": "Zambales",
-            "region": "III",
-            "municipality": "Sta. Cruz",
-            "post_code": 2213
-        },
-        {
-            "location": "Zambales",
-            "region": "III",
-            "municipality": "Subic",
-            "post_code": 2209
-        },
-        {
-            "location": "Zamboanga del Norte",
-            "region": "IX",
-            "municipality": "Leon B. Postigo (Bacungan)",
-            "post_code": 7125
-        },
-        {
-            "location": "Zamboanga del Norte",
-            "region": "IX",
-            "municipality": "Liloy",
-            "post_code": 7115
-        },
-        {
-            "location": "Zamboanga del Norte",
-            "region": "IX",
-            "municipality": "Manukan",
-            "post_code": 7110
-        },
-        {
-            "location": "Zamboanga del Norte",
-            "region": "IX",
-            "municipality": "Mutia",
-            "post_code": 7107
-        },
-        {
-            "location": "Zamboanga del Norte",
-            "region": "IX",
-            "municipality": "Pinan",
-            "post_code": 7105
-        },
-        {
-            "location": "Zamboanga del Norte",
-            "region": "IX",
-            "municipality": "Polanco",
-            "post_code": 7106
-        },
-        {
-            "location": "Zamboanga del Norte",
-            "region": "IX",
-            "municipality": "Rizal",
-            "post_code": 7104
-        },
-        {
-            "location": "Zamboanga del Norte",
-            "region": "IX",
-            "municipality": "Roxas",
-            "post_code": 7102
-        },
-        {
-            "location": "Zamboanga del Norte",
-            "region": "IX",
-            "municipality": "Salug",
-            "post_code": 7114
-        },
-        {
-            "location": "Zamboanga del Norte",
-            "region": "IX",
-            "municipality": "Sergio Osmeña",
-            "post_code": 7108
-        },
-        {
-            "location": "Zamboanga del Norte",
-            "region": "IX",
-            "municipality": "Siayan",
-            "post_code": 7113
-        },
-        {
-            "location": "Zamboanga del Norte",
-            "region": "IX",
-            "municipality": "Sibuco",
-            "post_code": 7122
-        },
-        {
-            "location": "Zamboanga del Norte",
-            "region": "IX",
-            "municipality": "Sibutad",
-            "post_code": 7103
-        },
-        {
-            "location": "Zamboanga del Norte",
-            "region": "IX",
-            "municipality": "Sindangan",
-            "post_code": 7112
-        },
-        {
-            "location": "Zamboanga del Norte",
-            "region": "IX",
-            "municipality": "Siocon",
-            "post_code": 7120
-        },
-        {
-            "location": "Zamboanga del Norte",
-            "region": "IX",
-            "municipality": "Siraway",
-            "post_code": 7121
-        },
-        {
-            "location": "Zamboanga del Norte",
-            "region": "IX",
-            "municipality": "Tampilisan",
-            "post_code": 7116
-        },
-        {
-            "location": "Zamboanga del Sur",
-            "region": "IX",
-            "municipality": "Aurora",
-            "post_code": 7020
-        },
-        {
-            "location": "Zamboanga del Sur",
-            "region": "IX",
-            "municipality": "Bayog",
-            "post_code": 7011
-        },
-        {
-            "location": "Zamboanga del Sur",
-            "region": "IX",
-            "municipality": "Dimataling",
-            "post_code": 7032
-        },
-        {
-            "location": "Zamboanga del Sur",
-            "region": "IX",
-            "municipality": "Dinas",
-            "post_code": 7030
-        },
-        {
-            "location": "Zamboanga del Sur",
-            "region": "IX",
-            "municipality": "Don Mariano Marcos",
-            "post_code": 7022
-        },
-        {
-            "location": "Zamboanga del Sur",
-            "region": "IX",
-            "municipality": "Dumalinao",
-            "post_code": 7015
-        },
-        {
-            "location": "Zamboanga del Sur",
-            "region": "IX",
-            "municipality": "Dumingag",
-            "post_code": 7028
-        },
-        {
-            "location": "Zamboanga del Sur",
-            "region": "IX",
-            "municipality": "Guipos",
-            "post_code": 7042
-        },
-        {
-            "location": "Zamboanga del Sur",
-            "region": "IX",
-            "municipality": "Josefina",
-            "post_code": 7027
-        },
-        {
-            "location": "Zamboanga del Sur",
-            "region": "IX",
-            "municipality": "Kumalarang",
-            "post_code": 7013
-        },
-        {
-            "location": "Zamboanga del Sur",
-            "region": "IX",
-            "municipality": "Labangan",
-            "post_code": 7017
-        },
-        {
-            "location": "Zamboanga del Sur",
-            "region": "IX",
-            "municipality": "Lakewood",
-            "post_code": 7014
-        },
-        {
-            "location": "Zamboanga del Sur",
-            "region": "IX",
-            "municipality": "Lapuyan",
-            "post_code": 7037
-        },
-        {
-            "location": "Zamboanga del Sur",
-            "region": "IX",
-            "municipality": "Mahayag",
-            "post_code": 7026
-        },
-        {
-            "location": "Zamboanga del Sur",
-            "region": "IX",
-            "municipality": "Margo sa Tubig",
-            "post_code": 7035
-        },
-        {
-            "location": "Zamboanga del Sur",
-            "region": "IX",
-            "municipality": "Midsalip",
-            "post_code": 7021
-        },
-        {
-            "location": "Zamboanga del Sur",
-            "region": "IX",
-            "municipality": "Molave",
-            "post_code": 7023
-        },
-        {
-            "location": "Zamboanga del Sur",
-            "region": "IX",
-            "municipality": "Pagadian City",
-            "post_code": 7016
-        },
-        {
-            "location": "Zamboanga del Sur",
-            "region": "IX",
-            "municipality": "Pitogo",
-            "post_code": 7033
-        },
-        {
-            "location": "Zamboanga del Sur",
-            "region": "IX",
-            "municipality": "Ramon Magsaysay",
-            "post_code": 7024
-        },
-        {
-            "location": "Zamboanga del Sur",
-            "region": "IX",
-            "municipality": "San Miguel",
-            "post_code": 7029
-        },
-        {
-            "location": "Zamboanga del Sur",
-            "region": "IX",
-            "municipality": "San Pablo",
-            "post_code": 7031
-        },
-        {
-            "location": "Zamboanga del Sur",
-            "region": "IX",
-            "municipality": "Tabina",
-            "post_code": 7034
-        },
-        {
-            "location": "Zamboanga del Sur",
-            "region": "IX",
-            "municipality": "Tambulig",
-            "post_code": 7025
-        },
-        {
-            "location": "Zamboanga del Sur",
-            "region": "IX",
-            "municipality": "Tigbao",
-            "post_code": 7043
-        },
-        {
-            "location": "Zamboanga del Sur",
-            "region": "IX",
-            "municipality": "Tukuran",
-            "post_code": 7019
-        },
-        {
-            "location": "Zamboanga del Sur",
-            "region": "IX",
-            "municipality": "Vicencio Sagun",
-            "post_code": 7036
-        },
-        {
-            "location": "Zamboanga del Sur",
-            "region": "IX",
-            "municipality": "Zamboanga City",
-            "post_code": 7000
-        },
-        {
-            "location": "Zamboanga Sibugay",
-            "region": "IX",
-            "municipality": "Alicia",
-            "post_code": 7040
-        },
-        {
-            "location": "Zamboanga Sibugay",
-            "region": "IX",
-            "municipality": "Buug",
-            "post_code": 7009
-        },
-        {
-            "location": "Zamboanga Sibugay",
-            "region": "IX",
-            "municipality": "Diplahan",
-            "post_code": 7039
-        },
-        {
-            "location": "Zamboanga Sibugay",
-            "region": "IX",
-            "municipality": "Imelda",
-            "post_code": 7007
-        },
-        {
-            "location": "Zamboanga Sibugay",
-            "region": "IX",
-            "municipality": "Ipil",
-            "post_code": 7001
-        },
-        {
-            "location": "Zamboanga Sibugay",
-            "region": "IX",
-            "municipality": "Kabasalan",
-            "post_code": 7005
-        },
-        {
-            "location": "Zamboanga Sibugay",
-            "region": "IX",
-            "municipality": "Mabuhay",
-            "post_code": 7010
-        },
-        {
-            "location": "Zamboanga Sibugay",
-            "region": "IX",
-            "municipality": "Malangas",
-            "post_code": 7038
-        },
-        {
-            "location": "Zamboanga Sibugay",
-            "region": "IX",
-            "municipality": "Naga",
-            "post_code": 7004
-        },
-        {
-            "location": "Zamboanga Sibugay",
-            "region": "IX",
-            "municipality": "Olutanga",
-            "post_code": 7041
-        },
-        {
-            "location": "Zamboanga Sibugay",
-            "region": "IX",
-            "municipality": "Payao",
-            "post_code": 7008
-        },
-        {
-            "location": "Zamboanga Sibugay",
-            "region": "IX",
-            "municipality": "Roseller Lim",
-            "post_code": 7002
-        },
-        {
-            "location": "Zamboanga Sibugay",
-            "region": "IX",
-            "municipality": "Siay",
-            "post_code": 7006
-        },
-        {
-            "location": "Zamboanga Sibugay",
-            "region": "IX",
-            "municipality": "Talusan",
-            "post_code": 7012
-        },
-        {
-            "location": "Zamboanga Sibugay",
-            "region": "IX",
-            "municipality": "Titay",
-            "post_code": 7003
-        },
-        {
-            "location": "Zamboanga Sibugay",
-            "region": "IX",
-            "municipality": "Tungawan",
-            "post_code": 7018
-        }
-    ];
+
+    const rawData: [string, string, number, string][] = [
+    ["Manila", "Binondo", 1006, "NCR"],
+    ["Manila", "Intramuros", 1002, "NCR"],
+    ["Manila", "Malate", 1004, "NCR"],
+    ["Manila", "Manila CPO - Ermita", 1000, "NCR"],
+    ["Manila", "Paco", 1007, "NCR"],
+    ["Manila", "Pandacan", 1011, "NCR"],
+    ["Manila", "Port Area (South)", 1018, "NCR"],
+    ["Manila", "Quiapo", 1001, "NCR"],
+    ["Manila", "Sampaloc East", 1008, "NCR"],
+    ["Manila", "Sampaloc West", 1015, "NCR"],
+    ["Manila", "San Andres Bukid", 1017, "NCR"],
+    ["Manila", "San Miguel", 1005, "NCR"],
+    ["Manila", "San Nicolas", 1010, "NCR"],
+    ["Manila", "Sta. Ana", 1009, "NCR"],
+    ["Manila", "Sta Cruz North", 1014, "NCR"],
+    ["Manila", "Sta Cruz South", 1003, "NCR"],
+    ["Manila", "Santa Mesa", 1016, "NCR"],
+    ["Manila", "Tondo North", 1013, "NCR"],
+    ["Manila", "Tondo South", 1012, "NCR"],
+    ["Caloocan City (North)", "Amparo Subdivision", 1425, "NCR"],
+    ["Caloocan City (North)", "Bagong Silang", 1428, "NCR"],
+    ["Caloocan City (North)", "Bagumbong/Pag-asa", 1421, "NCR"],
+    ["Caloocan City (North)", "Bankers Village", 1426, "NCR"],
+    ["Caloocan City (North)", "Capitol Parkland Subdivision", 1424, "NCR"],
+    ["Caloocan City (North)", "Kaybiga/Deparo", 1420, "NCR"],
+    ["Caloocan City (North)", "Lilles Ville Subdivision", 1423, "NCR"],
+    ["Caloocan City (North)", "Novaliches North", 1422, "NCR"],
+    ["Caloocan City (North)", "Tala Leprosarium", 1427, "NCR"],
+    ["Caloocan City (North)", "Victory Heights", 1427, "NCR"],
+    ["Caloocan City (South)", "1st Avenue to 7th Avenue - West", 1405, "NCR"],
+    ["Caloocan City (South)", "Baesa", 1401, "NCR"],
+    ["Caloocan City (South)", "Fish Market", 1411, "NCR"],
+    ["Caloocan City (South)", "Grace Park East", 1403, "NCR"],
+    ["Caloocan City (South)", "Grace Park West", 1406, "NCR"],
+    ["Caloocan City (South)", "Isla de Cocomo", 1412, "NCR"],
+    ["Caloocan City (South)", "Caloocan City CPO", 1400, "NCR"],
+    ["Caloocan City (South)", "Kapitbahayan East", 1413, "NCR"],
+    ["Caloocan City (South)", "Kaunlaran Village", 1409, "NCR"],
+    ["Caloocan City (South)", "Maypajo", 1410, "NCR"],
+    ["Caloocan City (South)", "San Jose", 1404, "NCR"],
+    ["Caloocan City (South)", "Sangandaan", 1408, "NCR"],
+    ["Caloocan City (South)", "Sta. Quiteria", 1402, "NCR"],
+    ["Caloocan City (South)", "University Hills", 1407, "NCR"],
+    ["Las Piñas City", "Almanza", 1750, "NCR"],
+    ["Las Piñas City", "Angela Village", 1749, "NCR"],
+    ["Las Piñas City", "Cut-cut", 1743, "NCR"],
+    ["Las Piñas City", "Gatchalian Subdivision", 1745, "NCR"],
+    ["Las Piñas City", "Las Piñas CPO", 1740, "NCR"],
+    ["Las Piñas City", "Manila Doctors Village", 1748, "NCR"],
+    ["Las Piñas City", "Manuyo", 1744, "NCR"],
+    ["Las Piñas City", "Pulang Lupa", 1742, "NCR"],
+    ["Las Piñas City", "Remarville Subdivision", 1741, "NCR"],
+    ["Las Piñas City", "Soldiers Hills Subdivision", 1752, "NCR"],
+    ["Las Piñas City", "T. S. Cruz Subdivision", 1751, "NCR"],
+    ["Las Piñas City", "Talon, Moonwalk", 1747, "NCR"],
+    ["Las Piñas City", "Verdant Acres Subdivision", 1746, "NCR"],
+    ["Las Piñas City", "Zapote", 1742, "NCR"],
+    ["Makati City", "Ayala-Paseo De Roxas", 1226, "NCR"],
+    ["Makati City", "Bangkal", 1233, "NCR"],
+    ["Makati City", "Bel-air", 1209, "NCR"],
+    ["Makati City", "Cembo", 1214, "NCR"],
+    ["Makati City", "Comembo", 1217, "NCR"],
+    ["Makati City", "Dasmarinas Village North", 1221, "NCR"],
+    ["Makati City", "Dasmarinas Village South", 1222, "NCR"],
+    ["Makati City", "Forbes Park North", 1219, "NCR"],
+    ["Makati City", "Forbes Park South", 1220, "NCR"],
+    ["Makati City", "Fort Bonifacio Naval Station", 1202, "NCR"],
+    ["Makati City", "Greenbelt", 1228, "NCR"],
+    ["Makati City", "Guadalupe Nuevo (inc. Visayan)", 1212, "NCR"],
+    ["Makati City", "Guadalupe Viejo (inc. Palm Village)", 1211, "NCR"],
+    ["Makati City", "Kasilawan", 1206, "NCR"],
+    ["Makati City", "La Paz-Singkamas-Tejeros", 1204, "NCR"],
+    ["Makati City", "Legaspi Village", 1229, "NCR"],
+    ["Makati City", "Magallanes Village", 1232, "NCR"],
+    ["Makati City", "Commercial Center", 1224, "NCR"],
+    ["Makati City", "Makati CPO (Inc. Buendia Avenue)", 1200, "NCR"],
+    ["Makati City", "Olympia and Carmona", 1207, "NCR"],
+    ["Makati City", "Palanan", 1235, "NCR"],
+    ["Makati City", "Pasong Tamo 2000 Up, Ecology Village", 1231, "NCR"],
+    ["Makati City", "Pembo", 1218, "NCR"],
+    ["Makati City", "Pinagkaisahan-pitogo", 1213, "NCR"],
+    ["Makati City", "Pio Del Pilar", 1230, "NCR"],
+    ["Makati City", "Poblacion", 1210, "NCR"],
+    ["Makati City", "Rembo (East) and Malapad Na Bato", 1216, "NCR"],
+    ["Makati City", "Rembo (West)", 1215, "NCR"],
+    ["Makati City", "Salcedo Village", 1227, "NCR"],
+    ["Makati City", "San Antonio Village (inc. Malu)", 1203, "NCR"],
+    ["Makati City", "San Isidro", 1234, "NCR"],
+    ["Makati City", "San Lorenzo Village", 1223, "NCR"],
+    ["Makati City", "Sta. Cruz", 1205, "NCR"],
+    ["Makati City", "Urdaneta Village", 1225, "NCR"],
+    ["Makati City", "Valenzuela (inc. Santiago, San Miguel and Rizal Village)", 1208, "NCR"],
+    ["Malabon City", "Acacia", 1474, "NCR"],
+    ["Malabon City", "Araneta Subdivision", 1476, "NCR"],
+    ["Malabon City", "Dampalit", 1480, "NCR"],
+    ["Malabon City", "Flores", 1471, "NCR"],
+    ["Malabon City", "Kaunlaran Village", 1409, "NCR"],
+    ["Malabon City", "Longos", 1472, "NCR"],
+    ["Malabon City", "Malabon", 1470, "NCR"],
+    ["Malabon City", "Maysilo", 1477, "NCR"],
+    ["Malabon City", "Muzon", 1479, "NCR"],
+    ["Malabon City", "Potrero", 1475, "NCR"],
+    ["Malabon City", "Santolan", 1478, "NCR"],
+    ["Malabon City", "Tonsuya", 1473, "NCR"],
+    ["Mandaluyong City", "East Edsa", 1554, "NCR"],
+    ["Mandaluyong City", "Greenhills South", 1556, "NCR"],
+    ["Mandaluyong City", "Mandaluyong CPO", 1550, "NCR"],
+    ["Mandaluyong City", "Philippine National Mental Hospital", 1553, "NCR"],
+    ["Mandaluyong City", "Shaw Boulevard", 1552, "NCR"],
+    ["Mandaluyong City", "Vergara", 1551, "NCR"],
+    ["Mandaluyong City", "Wack Wack Golf", 1555, "NCR"],
+    ["Marikina City", "Barangka", 1803, "NCR"],
+    ["Marikina City", "Concepcion 1", 1807, "NCR"],
+    ["Marikina City", "Concepcion 2", 1811, "NCR"],
+    ["Marikina City", "Fortune", 1812, "NCR"],
+    ["Marikina City", "Industrial Valley", 1802, "NCR"],
+    ["Marikina City", "J. De La Peña", 1804, "NCR"],
+    ["Marikina City", "Malanday", 1805, "NCR"],
+    ["Marikina City", "Marikina CPO - Sta. Elena - Sto. Niño", 1800, "NCR"],
+    ["Marikina City", "Marikina Heights", 1810, "NCR"],
+    ["Marikina City", "Nangka", 1808, "NCR"],
+    ["Marikina City", "Tumana", 1806, "NCR"],
+    ["Marikina City", "Parang", 1809, "NCR"],
+    ["Marikina City", "San Roque - Calumpang", 1801, "NCR"],
+    ["Marikina City", "Tañong", 1803, "NCR"],
+    ["Muntinlupa City", "Ayala Alabang P.O. Boxes", 1799, "NCR"],
+    ["Muntinlupa City", "Ayala Alabang Subdivision", 1780, "NCR"],
+    ["Muntinlupa City", "Bayanan/Putatan", 1772, "NCR"],
+    ["Muntinlupa City", "Bule/Cupang", 1771, "NCR"],
+    ["Muntinlupa City", "Filinvest Corp. City", 1781, "NCR"],
+    ["Muntinlupa City", "Muntinlupa CPO", 1770, "NCR"],
+    ["Muntinlupa City", "Pearl Heights", 1775, "NCR"],
+    ["Muntinlupa City", "Pleasant Village", 1777, "NCR"],
+    ["Muntinlupa City", "Poblacion", 1776, "NCR"],
+    ["Muntinlupa City", "Susana Heights", 1774, "NCR"],
+    ["Muntinlupa City", "Tunasan", 1773, "NCR"],
+    ["Navotas City", "Fish Market", 1411, "NCR"],
+    ["Navotas City", "Isla de Cocomo", 1412, "NCR"],
+    ["Navotas City", "Kapitbahayan East", 1413, "NCR"],
+    ["Navotas City", "Kaunlaran Village", 1409, "NCR"],
+    ["Navotas City", "Navotas", 1485, "NCR"],
+    ["Navotas City", "Tangos", 1489, "NCR"],
+    ["Navotas City", "Tanza", 1490, "NCR"],
+    ["Parañaque City", "Aeropark Subdivision", 1714, "NCR"],
+    ["Parañaque City", "Baclaran", 1702, "NCR"],
+    ["Parañaque City", "Better Living Subdivision", 1711, "NCR"],
+    ["Parañaque City", "Bf Homes 1", 1720, "NCR"],
+    ["Parañaque City", "Bf Homes 2", 1718, "NCR"],
+    ["Parañaque City", "Executive Heights Subdivision", 1710, "NCR"],
+    ["Parañaque City", "Ireneville II", 1714, "NCR"],
+    ["Parañaque City", "Ireneville Subdivision I & II", 1719, "NCR"],
+    ["Parañaque City", "Manila Memorial Park", 1717, "NCR"],
+    ["Parañaque City", "Marina Subdivision (Reclamation)", 1703, "NCR"],
+    ["Parañaque City", "Maywood I", 1719, "NCR"],
+    ["Parañaque City", "Maywood Village II", 1716, "NCR"],
+    ["Parañaque City", "Merville Park", 1709, "NCR"],
+    ["Parañaque City", "Miramar Subdivision", 1712, "NCR"],
+    ["Parañaque City", "Moonwalk", 1709, "NCR"],
+    ["Parañaque City", "Multinational Village", 1708, "NCR"],
+    ["Parañaque City", "Ninoy Aquino International Airport (NAIA)", 1705, "NCR"],
+    ["Parañaque City", "Parañaque CPO", 1700, "NCR"],
+    ["Parañaque City", "Pulo", 1706, "NCR"],
+    ["Parañaque City", "San Antonio Valley 11 & 12", 1707, "NCR"],
+    ["Parañaque City", "San Antonio Valley I", 1715, "NCR"],
+    ["Parañaque City", "South Admiral Village", 1709, "NCR"],
+    ["Parañaque City", "Sto. Niño", 1704, "NCR"],
+    ["Parañaque City", "Tambo", 1701, "NCR"],
+    ["Parañaque City", "United Subdivision", 1713, "NCR"],
+    ["Pasay City", "Domestic Airport PO", 1301, "NCR"],
+    ["Pasay City", "Manila Bay (Reclamation)", 1308, "NCR"],
+    ["Pasay City", "Pasay City CPO Malibay", 1300, "NCR"],
+    ["Pasay City", "PICC (Reclamation Area)", 1307, "NCR"],
+    ["Pasay City", "San Isidro", 1306, "NCR"],
+    ["Pasay City", "San Jose", 1305, "NCR"],
+    ["Pasay City", "San Rafael", 1302, "NCR"],
+    ["Pasay City", "San Roque", 1303, "NCR"],
+    ["Pasay City", "Santa Clara", 1304, "NCR"],
+    ["Pasay City", "Villamor Airbase", 1309, "NCR"],
+    ["Pasig City", "Caniogan", 1606, "NCR"],
+    ["Pasig City", "Green Park", 1612, "NCR"],
+    ["Pasig City", "Kapitolyo", 1603, "NCR"],
+    ["Pasig City", "Manggahan", 1611, "NCR"],
+    ["Pasig City", "Maybunga", 1607, "NCR"],
+    ["Pasig City", "Ortigas PO", 1605, "NCR"],
+    ["Pasig City", "Bagong Ilog", 1600, "NCR"],
+    ["Pasig City", "Bagong Katipunan", 1600, "NCR"],
+    ["Pasig City", "Bambang", 1600, "NCR"],
+    ["Pasig City", "Buting", 1600, "NCR"],
+    ["Pasig City", "Dela Paz", 1600, "NCR"],
+    ["Pasig City", "Kalawaan", 1600, "NCR"],
+    ["Pasig City", "Kapasigan", 1600, "NCR"],
+    ["Pasig City", "Malinao", 1600, "NCR"],
+    ["Pasig City", "Oranbo", 1600, "NCR"],
+    ["Pasig City", "Palatiw", 1600, "NCR"],
+    ["Pasig City", "Pineda", 1600, "NCR"],
+    ["Pasig City", "Sagad", 1600, "NCR"],
+    ["Pasig City", "San Antonio", 1600, "NCR"],
+    ["Pasig City", "San Jose", 1600, "NCR"],
+    ["Pasig City", "San Miguel", 1600, "NCR"],
+    ["Pasig City", "San Nicolas", 1600, "NCR"],
+    ["Pasig City", "Santa Cruz", 1600, "NCR"],
+    ["Pasig City", "Santa Rosa", 1600, "NCR"],
+    ["Pasig City", "Santo Tomas", 1600, "NCR"],
+    ["Pasig City", "Sumilang", 1600, "NCR"],
+    ["Pasig City", "Pasig CPO", 1600, "NCR"],
+    ["Pasig City", "Pinagbuhatan", 1602, "NCR"],
+    ["Pasig City", "Rosario", 1609, "NCR"],
+    ["Pasig City", "San Joaquin", 1601, "NCR"],
+    ["Pasig City", "Santolan", 1610, "NCR"],
+    ["Pasig City", "Sta. Lucia", 1608, "NCR"],
+    ["Pasig City", "Ugong", 1604, "NCR"],
+    ["Pateros", "Aguho", 1620, "NCR"],
+    ["Pateros", "Sta. Ana", 1621, "NCR"],
+    ["Quezon City", "Alicia", 1105, "NCR"],
+    ["Quezon City", "Amihan", 1102, "NCR"],
+    ["Quezon City", "Apolonio Samson", 1106, "NCR"],
+    ["Quezon City", "Baesa", 1106, "NCR"],
+    ["Quezon City", "Bagbag", 1116, "NCR"],
+    ["Quezon City", "Bagong Bayan", 1110, "NCR"],
+    ["Quezon City", "Bagong Buhay", 1109, "NCR"],
+    ["Quezon City", "Bagong Lipunan", 1111, "NCR"],
+    ["Quezon City", "Bagong Pag-asa", 1105, "NCR"],
+    ["Quezon City", "Bagong Silangan", 1119, "NCR"],
+    ["Quezon City", "Bahay Toro", 1106, "NCR"],
+    ["Quezon City", "Balingasa", 1115, "NCR"],
+    ["Quezon City", "Balumbato", 1106, "NCR"],
+    ["Quezon City", "Batasan Hills", 1126, "NCR"],
+    ["Quezon City", "Bayanihan", 1109, "NCR"],
+    ["Quezon City", "BF Homes", 1120, "NCR"],
+    ["Quezon City", "Blue Ridge", 1109, "NCR"],
+    ["Quezon City", "Botocan", 1101, "NCR"],
+    ["Quezon City", "Bungad", 1105, "NCR"],
+    ["Quezon City", "Camp Aguinaldo", 1110, "NCR"],
+    ["Quezon City", "Capitol Hills/Park", 1126, "NCR"],
+    ["Quezon City", "Capri", 1117, "NCR"],
+    ["Quezon City", "Central", 1100, "NCR"],
+    ["Quezon City", "Claro", 1102, "NCR"],
+    ["Quezon City", "Commonwealth", 1121, "NCR"],
+    ["Quezon City", "Crame", 1111, "NCR"],
+    ["Quezon City", "Cubao", 1109, "NCR"],
+    ["Quezon City", "Culiat", 1128, "NCR"],
+    ["Quezon City", "Damar", 1115, "NCR"],
+    ["Quezon City", "Damayan", 1104, "NCR"],
+    ["Quezon City", "Damayan Lagi", 1112, "NCR"],
+    ["Quezon City", "Damong Maliit", 1123, "NCR"],
+    ["Quezon City", "Del Monte", 1105, "NCR"],
+    ["Quezon City", "Diliman", 1101, "NCR"],
+    ["Quezon City", "Dioquino Zobel", 1109, "NCR"],
+    ["Quezon City", "Doña Imelda", 1113, "NCR"],
+    ["Quezon City", "Don Manuel", 1113, "NCR"],
+    ["Quezon City", "Doña Aurora", 1113, "NCR"],
+    ["Quezon City", "Doña Faustina Subd", 1125, "NCR"],
+    ["Quezon City", "Doña Josefa", 1113, "NCR"],
+    ["Quezon City", "Duyan-duyan", 1102, "NCR"],
+    ["Quezon City", "E. Rodriguez", 1102, "NCR"],
+    ["Quezon City", "Escopa", 1109, "NCR"],
+    ["Quezon City", "Fairview", 1118, "NCR"],
+    ["Quezon City", "Fairview North", 1121, "NCR"],
+    ["Quezon City", "Fairview South", 1122, "NCR"],
+    ["Quezon City", "Gantol", 1113, "NCR"],
+    ["Quezon City", "Gintong Silahis", 1114, "NCR"],
+    ["Quezon City", "Gulod", 1117, "NCR"],
+    ["Quezon City", "Holy Spirit", 1127, "NCR"],
+    ["Quezon City", "Horseshoe", 1112, "NCR"],
+    ["Quezon City", "Immaculate Concepcion", 1111, "NCR"],
+    ["Quezon City", "Kaligayahan", 1124, "NCR"],
+    ["Quezon City", "Kalusugan", 1112, "NCR"],
+    ["Quezon City", "Kamias", 1102, "NCR"],
+    ["Quezon City", "Kamuning", 1103, "NCR"],
+    ["Quezon City", "Katipunan", 1105, "NCR"],
+    ["Quezon City", "Kaunlaran", 1111, "NCR"],
+    ["Quezon City", "Kristong Hari", 1112, "NCR"],
+    ["Quezon City", "Krus Na Ligas", 1101, "NCR"],
+    ["Quezon City", "La Loma", 1114, "NCR"],
+    ["Quezon City", "Langing Handa", 1103, "NCR"],
+    ["Quezon City", "Libis", 1110, "NCR"],
+    ["Quezon City", "Lourdes", 1114, "NCR"],
+    ["Quezon City", "Loyola Heights", 1108, "NCR"],
+    ["Quezon City", "Maharlika", 1114, "NCR"],
+    ["Quezon City", "Malaya", 1101, "NCR"],
+    ["Quezon City", "Mangga", 1109, "NCR"],
+    ["Quezon City", "Manresa", 1115, "NCR"],
+    ["Quezon City", "Mariana", 1112, "NCR"],
+    ["Quezon City", "Mariblo", 1104, "NCR"],
+    ["Quezon City", "Marilag", 1109, "NCR"],
+    ["Quezon City", "Masagana", 1109, "NCR"],
+    ["Quezon City", "Masambong", 1115, "NCR"],
+    ["Quezon City", "Matalahib", 1114, "NCR"],
+    ["Quezon City", "Matandang Balara", 1119, "NCR"],
+    ["Quezon City", "Milagrosa", 1109, "NCR"],
+    ["Quezon City", "Nagkaisang Nayon", 1125, "NCR"],
+    ["Quezon City", "Nayon Kaunlaran", 1104, "NCR"],
+    ["Quezon City", "New Era", 1107, "NCR"],
+    ["Quezon City", "Novaliches Proper", 1121, "NCR"],
+    ["Quezon City", "Obrero", 1103, "NCR"],
+    ["Quezon City", "Old Capitol Site", 1101, "NCR"],
+    ["Quezon City", "Paang Bundok", 1114, "NCR"],
+    ["Quezon City", "Pag-ibig Sa Nayon", 1115, "NCR"],
+    ["Quezon City", "Paligsahan", 1103, "NCR"],
+    ["Quezon City", "Paltok", 1105, "NCR"],
+    ["Quezon City", "Pansol", 1108, "NCR"],
+    ["Quezon City", "Paraiso", 1104, "NCR"],
+    ["Quezon City", "Pasong Putik", 1118, "NCR"],
+    ["Quezon City", "Pasong Tamo", 1107, "NCR"],
+    ["Quezon City", "Payatas", 1119, "NCR"],
+    ["Quezon City", "Phil-am", 1104, "NCR"],
+    ["Quezon City", "Pinagkaisahan", 1111, "NCR"],
+    ["Quezon City", "Piñahan", 1100, "NCR"],
+    ["Quezon City", "Project 4", 1109, "NCR"],
+    ["Quezon City", "Project 6", 1100, "NCR"],
+    ["Quezon City", "Project 7", 1105, "NCR"],
+    ["Quezon City", "Project 8", 1106, "NCR"],
+    ["Quezon City", "Quezon City CPO", 1100, "NCR"],
+    ["Quezon City", "Quirino District (Project 2 & 3)", 1102, "NCR"],
+    ["Quezon City", "R. Magsaysay", 1105, "NCR"],
+    ["Quezon City", "Roxas District", 1103, "NCR"],
+    ["Quezon City", "Sacred Heart", 1103, "NCR"],
+    ["Quezon City", "Salumbato", 1106, "NCR"],
+    ["Quezon City", "Salvacion", 1114, "NCR"],
+    ["Quezon City", "San Agustin", 1117, "NCR"],
+    ["Quezon City", "San Antonio", 1105, "NCR"],
+    ["Quezon City", "San Bartolome", 1116, "NCR"],
+    ["Quezon City", "San Isidro", 1113, "NCR"],
+    ["Quezon City", "San Isidro Labrador", 1114, "NCR"],
+    ["Quezon City", "San Jose", 1115, "NCR"],
+    ["Quezon City", "San Roque", 1109, "NCR"],
+    ["Quezon City", "San Vicente", 1101, "NCR"],
+    ["Quezon City", "Sangandaan", 1116, "NCR"],
+    ["Quezon City", "Santa Cruz", 1104, "NCR"],
+    ["Quezon City", "Santa Lucia", 1117, "NCR"],
+    ["Quezon City", "Santa Monica", 1117, "NCR"],
+    ["Quezon City", "Santa Teresita", 1114, "NCR"],
+    ["Quezon City", "Sauyo", 1116, "NCR"],
+    ["Quezon City", "Sienna", 1114, "NCR"],
+    ["Quezon City", "Sikatuna Village", 1101, "NCR"],
+    ["Quezon City", "Silangan", 1102, "NCR"],
+    ["Quezon City", "Socorro", 1109, "NCR"],
+    ["Quezon City", "South Triangle", 1103, "NCR"],
+    ["Quezon City", "St. Ignatius", 1110, "NCR"],
+    ["Quezon City", "St. Martin De Porres", 1111, "NCR"],
+    ["Quezon City", "St. Peter", 1114, "NCR"],
+    ["Quezon City", "Sto. Cristo", 1105, "NCR"],
+    ["Quezon City", "Sto. Niño", 1113, "NCR"],
+    ["Quezon City", "Tagumpay", 1109, "NCR"],
+    ["Quezon City", "Talampas", 1110, "NCR"],
+    ["Quezon City", "Talayan", 1104, "NCR"],
+    ["Quezon City", "Talipapa", 1116, "NCR"],
+    ["Quezon City", "Tandang Sora", 1116, "NCR"],
+    ["Quezon City", "Tatalon", 1113, "NCR"],
+    ["Quezon City", "Teachers Village", 1101, "NCR"],
+    ["Quezon City", "Ugong Norte", 1110, "NCR"],
+    ["Quezon City", "Unang Sigaw", 1106, "NCR"],
+    ["Quezon City", "University of the Philippines PO", 1101, "NCR"],
+    ["Quezon City", "UP Village", 1101, "NCR"],
+    ["Quezon City", "Valencia", 1112, "NCR"],
+    ["Quezon City", "Vasra", 1128, "NCR"],
+    ["Quezon City", "Veterans Village", 1105, "NCR"],
+    ["Quezon City", "Villa Maria Clara", 1109, "NCR"],
+    ["San Juan City", "Eisenhower-Crame", 1504, "NCR"],
+    ["San Juan City", "Greenhills North", 1503, "NCR"],
+    ["San Juan City", "Greenhills PO", 1502, "NCR"],
+    ["San Juan City", "San Juan CPO", 1500, "NCR"],
+    ["Taguig City", "Bay Breeze Executive Village", 1636, "NCR"],
+    ["Taguig City", "Bicutan", 1631, "NCR"],
+    ["Taguig City", "Bicutan Lower", 1632, "NCR"],
+    ["Taguig City", "Bicutan Upper", 1633, "NCR"],
+    ["Taguig City", "Bicutan Western", 1630, "NCR"],
+    ["Taguig City", "Bonifacio Global City", 1635, "NCR"],
+    ["Taguig City", "Ligid", 1638, "NCR"],
+    ["Taguig City", "Nichols - Mckinley", 1634, "NCR"],
+    ["Taguig City", "Tuktukan", 1637, "NCR"],
+    ["Taguig City", "Ususan", 1639, "NCR"],
+    ["Valenzuela City", "Arkong Bato-Rincon-Pasolo-Malanday-Mabolo-Polo", 1444, "NCR"],
+    ["Valenzuela City", "Balangkas-Caloong", 1445, "NCR"],
+    ["Valenzuela City", "Dalandan - West Canumay", 1443, "NCR"],
+    ["Valenzuela City", "East Canumay - Lawang Bato Pun", 1447, "NCR"],
+    ["Valenzuela City", "Fortune Village - Paso De Blas - Gen. T. De Leon", 1442, "NCR"],
+    ["Valenzuela City", "Karuhatan", 1441, "NCR"],
+    ["Valenzuela City", "Lingunan", 1446, "NCR"],
+    ["Valenzuela City", "Mapulang Lupa", 1448, "NCR"],
+    ["Valenzuela City", "Valenzuela CPO - Malinta", 1440, "NCR"],
+    ["Valenzuela City", "Valenzuela P.O. Boxes", 1469, "NCR"],
+    ["Abra", "Bangued", 2800, "CAR"],
+    ["Abra", "Boliney", 2815, "CAR"],
+    ["Abra", "Bucloc", 2817, "CAR"],
+    ["Abra", "Bucay", 2805, "CAR"],
+    ["Abra", "Daguioman", 2816, "CAR"],
+    ["Abra", "Danglas", 2825, "CAR"],
+    ["Abra", "Dolores", 2801, "CAR"],
+    ["Abra", "La Paz", 2826, "CAR"],
+    ["Abra", "Lacub", 2821, "CAR"],
+    ["Abra", "Lagayan", 2824, "CAR"],
+    ["Abra", "Lagangilang", 2802, "CAR"],
+    ["Abra", "Langiden", 2807, "CAR"],
+    ["Abra", "Licuan-Baay", 2819, "CAR"],
+    ["Abra", "Luba", 2813, "CAR"],
+    ["Abra", "Malibcong", 2820, "CAR"],
+    ["Abra", "Manabo", 2810, "CAR"],
+    ["Abra", "Peñarrubia", 2804, "CAR"],
+    ["Abra", "Pidigan", 2806, "CAR"],
+    ["Abra", "Pilar", 2812, "CAR"],
+    ["Abra", "Sal-Lapadan", 2818, "CAR"],
+    ["Abra", "San Isidro", 2809, "CAR"],
+    ["Abra", "San Juan", 2823, "CAR"],
+    ["Abra", "San Quintin", 2808, "CAR"],
+    ["Abra", "Tayum", 2803, "CAR"],
+    ["Abra", "Tineg", 2822, "CAR"],
+    ["Abra", "Tubo", 2814, "CAR"],
+    ["Abra", "Villaviciosa", 2811, "CAR"],
+    ["Agusan del Norte", "Buenavista", 8601, "XIII"],
+    ["Agusan del Norte", "Butuan City", 8600, "XIII"],
+    ["Agusan del Norte", "Cabadbaran", 8605, "XIII"],
+    ["Agusan del Norte", "Carmen", 8603, "XIII"],
+    ["Agusan del Norte", "Jabonga", 8607, "XIII"],
+    ["Agusan del Norte", "Kitcharao", 8609, "XIII"],
+    ["Agusan del Norte", "Las Nieves", 8610, "XIII"],
+    ["Agusan del Norte", "Magallanes", 8604, "XIII"],
+    ["Agusan del Norte", "Nasipit", 8602, "XIII"],
+    ["Agusan del Norte", "Remedios T. Romualdez", 8611, "XIII"],
+    ["Agusan del Norte", "Santiago", 8608, "XIII"],
+    ["Agusan del Norte", "Tubay", 8606, "XIII"],
+    ["Agusan del Sur", "Bayugan", 8502, "XIII"],
+    ["Agusan del Sur", "Bunawan", 8506, "XIII"],
+    ["Agusan del Sur", "Esperanza", 8513, "XIII"],
+    ["Agusan del Sur", "La Paz", 8508, "XIII"],
+    ["Agusan del Sur", "Loreto", 8507, "XIII"],
+    ["Agusan del Sur", "Prosperidad", 8500, "XIII"],
+    ["Agusan del Sur", "Rosario", 8504, "XIII"],
+    ["Agusan del Sur", "San Francisco", 8501, "XIII"],
+    ["Agusan del Sur", "San Luis", 8511, "XIII"],
+    ["Agusan del Sur", "Sibagat", 8503, "XIII"],
+    ["Agusan del Sur", "Sta. Josefa", 8512, "XIII"],
+    ["Agusan del Sur", "Talacogon", 8510, "XIII"],
+    ["Agusan del Sur", "Trento", 8505, "XIII"],
+    ["Agusan del Sur", "Veruela", 8509, "XIII"],
+    ["Aklan", "Altavas", 5616, "VI"],
+    ["Aklan", "Balete", 5614, "VI"],
+    ["Aklan", "Banga", 5601, "VI"],
+    ["Aklan", "Batan", 5615, "VI"],
+    ["Aklan", "Buruanga", 5609, "VI"],
+    ["Aklan", "Ibajay", 5613, "VI"],
+    ["Aklan", "Kalibo", 5600, "VI"],
+    ["Aklan", "Lezo", 5605, "VI"],
+    ["Aklan", "Libacao", 5602, "VI"],
+    ["Aklan", "Madalag", 5603, "VI"],
+    ["Aklan", "Makato", 5611, "VI"],
+    ["Aklan", "Malay", 5608, "VI"],
+    ["Aklan", "Malinao", 5606, "VI"],
+    ["Aklan", "Nabas", 5607, "VI"],
+    ["Aklan", "New Washington", 5610, "VI"],
+    ["Aklan", "Numancia", 5604, "VI"],
+    ["Aklan", "Tangalan", 5612, "VI"],
+    ["Albay", "Bacacay", 4509, "V"],
+    ["Albay", "Camalig", 4502, "V"],
+    ["Albay", "Daraga (Locsin)", 4501, "V"],
+    ["Albay", "Guinobatan", 4503, "V"],
+    ["Albay", "Jovellar", 4515, "V"],
+    ["Albay", "Legazpi City", 4500, "V"],
+    ["Albay", "Libon", 4507, "V"],
+    ["Albay", "Ligao", 4504, "V"],
+    ["Albay", "Malilipot", 4510, "V"],
+    ["Albay", "Malinao", 4512, "V"],
+    ["Albay", "Manito", 4514, "V"],
+    ["Albay", "Oas", 4505, "V"],
+    ["Albay", "Pio Duran (Malacbalac)", 4516, "V"],
+    ["Albay", "Polangui", 4506, "V"],
+    ["Albay", "Rapu-Rapu", 4517, "V"],
+    ["Albay", "Sto. Domingo", 4508, "V"],
+    ["Albay", "Tabaco", 4511, "V"],
+    ["Albay", "Tiwi", 4513, "V"],
+    ["Antique", "Anini-y", 5717, "VI"],
+    ["Antique", "Barbaza", 5706, "VI"],
+    ["Antique", "Belison", 5701, "VI"],
+    ["Antique", "Bugasong", 5704, "VI"],
+    ["Antique", "Caluya", 5711, "VI"],
+    ["Antique", "Culasi", 5708, "VI"],
+    ["Antique", "Hamtic", 5715, "VI"],
+    ["Antique", "Laua-an", 5705, "VI"],
+    ["Antique", "Libertad", 5710, "VI"],
+    ["Antique", "Pandan", 5712, "VI"],
+    ["Antique", "Patnongon", 5702, "VI"],
+    ["Antique", "San Jose", 5700, "VI"],
+    ["Antique", "San Remegio", 5714, "VI"],
+    ["Antique", "Sebaste", 5709, "VI"],
+    ["Antique", "Sibalom", 5713, "VI"],
+    ["Antique", "Tibiao", 5707, "VI"],
+    ["Antique", "Tobias Fornier (Dao)", 5716, "VI"],
+    ["Antique", "Valderrama", 5703, "VI"],
+    ["Apayao", "Calanasan", 3814, "CAR"],
+    ["Apayao", "Conner", 3807, "CAR"],
+    ["Apayao", "Flora", 3810, "CAR"],
+    ["Apayao", "Kabugao", 3809, "CAR"],
+    ["Apayao", "Luna", 3813, "CAR"],
+    ["Apayao", "Pudtol", 3812, "CAR"],
+    ["Apayao", "Sta. Marcela", 3811, "CAR"],
+    ["Aurora", "Baler", 3200, "III"],
+    ["Aurora", "Casiguran", 3204, "III"],
+    ["Aurora", "Dilasag", 3205, "III"],
+    ["Aurora", "Dinalungan", 3206, "III"],
+    ["Aurora", "Dingalan", 3207, "III"],
+    ["Aurora", "Dipaculao", 3203, "III"],
+    ["Aurora", "Maria Aurora", 3202, "III"],
+    ["Aurora", "San Luis", 3201, "III"],
+    ["Basilan", "Akbar", 7307, "BARMM"],
+    ["Basilan", "Al-Barka", 7308, "BARMM"],
+    ["Basilan", "Hadji Mohammad Ajul", 7309, "BARMM"],
+    ["Basilan", "Hadji Muhtamad", 7310, "BARMM"],
+    ["Basilan", "Isabela de Basilan", 7300, "BARMM"],
+    ["Basilan", "Lamitan", 7302, "BARMM"],
+    ["Basilan", "Lantawan", 7301, "BARMM"],
+    ["Basilan", "Maluso", 7303, "BARMM"],
+    ["Basilan", "Sumisip", 7305, "BARMM"],
+    ["Basilan", "Tabuan-Lasa", 7312, "BARMM"],
+    ["Basilan", "Tipo-Tipo", 7304, "BARMM"],
+    ["Basilan", "Tuburan", 7306, "BARMM"],
+    ["Basilan", "Ungkaya Pukan", 7311, "BARMM"],
+    ["Bataan", "Abucay", 2114, "III"],
+    ["Bataan", "Cabcaben", 2109, "III"],
+    ["Bataan", "Bagac", 2107, "III"],
+    ["Bataan", "Balanga", 2100, "III"],
+    ["Bataan", "Bataan Export Processing Zone", 2106, "III"],
+    ["Bataan", "Dinalupihan", 2110, "III"],
+    ["Bataan", "Hermosa", 2111, "III"],
+    ["Bataan", "Lamao", 2104, "III"],
+    ["Bataan", "Limay", 2103, "III"],
+    ["Bataan", "Mariveles", 2105, "III"],
+    ["Bataan", "Morong", 2108, "III"],
+    ["Bataan", "Orani", 2112, "III"],
+    ["Bataan", "Orion", 2102, "III"],
+    ["Bataan", "Pilar", 2101, "III"],
+    ["Bataan", "Samal", 2113, "III"],
+    ["Batanes", "Basco", 3900, "II"],
+    ["Batanes", "Itbayat", 3905, "II"],
+    ["Batanes", "Ivana", 3902, "II"],
+    ["Batanes", "Mahatao", 3901, "II"],
+    ["Batanes", "Sabtang", 3904, "II"],
+    ["Batanes", "Uyugan", 3903, "II"],
+    ["Batangas", "Agoncillo", 4211, "IV-A"],
+    ["Batangas", "Alitagtag", 4205, "IV-A"],
+    ["Batangas", "Balayan", 4213, "IV-A"],
+    ["Batangas", "Balete", 4219, "IV-A"],
+    ["Batangas", "Batangas City", 4200, "IV-A"],
+    ["Batangas", "Bauan", 4201, "IV-A"],
+    ["Batangas", "Calaca", 4212, "IV-A"],
+    ["Batangas", "Calatagan", 4215, "IV-A"],
+    ["Batangas", "Cuenca", 4222, "IV-A"],
+    ["Batangas", "Fernando Airbase", 4218, "IV-A"],
+    ["Batangas", "Ibaan", 4230, "IV-A"],
+    ["Batangas", "Laurel", 4221, "IV-A"],
+    ["Batangas", "Lemery", 4209, "IV-A"],
+    ["Batangas", "Lian", 4216, "IV-A"],
+    ["Batangas", "Lipa City", 4217, "IV-A"],
+    ["Batangas", "Lobo", 4229, "IV-A"],
+    ["Batangas", "Mabini", 4202, "IV-A"],
+    ["Batangas", "Malvar", 4233, "IV-A"],
+    ["Batangas", "Mataas na Kahoy", 4223, "IV-A"],
+    ["Batangas", "Nasugbu", 4231, "IV-A"],
+    ["Batangas", "Padre Garcia", 4224, "IV-A"],
+    ["Batangas", "Rosario", 4225, "IV-A"],
+    ["Batangas", "San Jose", 4227, "IV-A"],
+    ["Batangas", "San Juan", 4226, "IV-A"],
+    ["Batangas", "San Luis", 4210, "IV-A"],
+    ["Batangas", "San Nicolas", 4207, "IV-A"],
+    ["Batangas", "San Pascual", 4204, "IV-A"],
+    ["Batangas", "Sta. Teresita", 4206, "IV-A"],
+    ["Batangas", "Sto. Tomas", 4234, "IV-A"],
+    ["Batangas", "Taal", 4208, "IV-A"],
+    ["Batangas", "Talisay", 4220, "IV-A"],
+    ["Batangas", "Tanauan", 4232, "IV-A"],
+    ["Batangas", "Taysan", 4228, "IV-A"],
+    ["Batangas", "Tingloy", 4203, "IV-A"],
+    ["Batangas", "Tuy", 4214, "IV-A"],
+    ["Benguet", "Atok", 2612, "CAR"],
+    ["Benguet", "Baguio City", 2600, "CAR"],
+    ["Benguet", "Bakun", 2610, "CAR"],
+    ["Benguet", "Bokod", 2605, "CAR"],
+    ["Benguet", "Bugias", 2607, "CAR"],
+    ["Benguet", "Itogon", 2604, "CAR"],
+    ["Benguet", "Kabayan", 2606, "CAR"],
+    ["Benguet", "Kapangan", 2613, "CAR"],
+    ["Benguet", "Kibungan", 2611, "CAR"],
+    ["Benguet", "La Trinidad", 2601, "CAR"],
+    ["Benguet", "Lepanto", 2609, "CAR"],
+    ["Benguet", "Mankayan", 2608, "CAR"],
+    ["Benguet", "Philippine Military Academy (PMA)", 2602, "CAR"],
+    ["Benguet", "Sablan", 2614, "CAR"],
+    ["Benguet", "Tuba", 2603, "CAR"],
+    ["Benguet", "Tublay", 2615, "CAR"],
+    ["Biliran", "Almeria", 6544, "VIII"],
+    ["Biliran", "Biliran", 6549, "VIII"],
+    ["Biliran", "Cabucgayan", 6550, "VIII"],
+    ["Biliran", "Caibiran", 6548, "VIII"],
+    ["Biliran", "Culaba", 6547, "VIII"],
+    ["Biliran", "Kawayan", 6545, "VIII"],
+    ["Biliran", "Maripipi", 6546, "VIII"],
+    ["Biliran", "Naval", 6543, "VIII"],
+    ["Bohol", "Alburquerque", 6302, "VII"],
+    ["Bohol", "Alicia", 6314, "VII"],
+    ["Bohol", "Anda", 6311, "VII"],
+    ["Bohol", "Antequera", 6335, "VII"],
+    ["Bohol", "Baclayon", 6301, "VII"],
+    ["Bohol", "Balilihan", 6342, "VII"],
+    ["Bohol", "Batuan", 6318, "VII"],
+    ["Bohol", "Bien Unido", 6326, "VII"],
+    ["Bohol", "Bilar", 6317, "VII"],
+    ["Bohol", "Buenavista", 6333, "VII"],
+    ["Bohol", "Calape", 6328, "VII"],
+    ["Bohol", "Candijay", 6312, "VII"],
+    ["Bohol", "Carmen", 6319, "VII"],
+    ["Bohol", "Catigbian", 6343, "VII"],
+    ["Bohol", "Clarin", 6330, "VII"],
+    ["Bohol", "Corella", 6337, "VII"],
+    ["Bohol", "Cortes", 6341, "VII"],
+    ["Bohol", "Dagohoy", 6322, "VII"],
+    ["Bohol", "Danao", 6344, "VII"],
+    ["Bohol", "Dauis", 6339, "VII"],
+    ["Bohol", "Dimiao", 6305, "VII"],
+    ["Bohol", "Duero", 6309, "VII"],
+    ["Bohol", "Garcia Hernandez", 6307, "VII"],
+    ["Bohol", "Guindulman", 6310, "VII"],
+    ["Bohol", "Inabanga", 6332, "VII"],
+    ["Bohol", "Jagna", 6308, "VII"],
+    ["Bohol", "Jetafe", 6334, "VII"],
+    ["Bohol", "Lila", 6304, "VII"],
+    ["Bohol", "Loay", 6303, "VII"],
+    ["Bohol", "Loboc", 6316, "VII"],
+    ["Bohol", "Loon", 6327, "VII"],
+    ["Bohol", "Mabini", 6313, "VII"],
+    ["Bohol", "Maribojoc", 6336, "VII"],
+    ["Bohol", "Panglao", 6340, "VII"],
+    ["Bohol", "Pilar", 6321, "VII"],
+    ["Bohol", "President Carlos P. Garcia", 6346, "VII"],
+    ["Bohol", "Sagbayan", 6331, "VII"],
+    ["Bohol", "San Isidro", 6345, "VII"],
+    ["Bohol", "San Miguel", 6323, "VII"],
+    ["Bohol", "Sevilla", 6347, "VII"],
+    ["Bohol", "Sierra Bullones", 6320, "VII"],
+    ["Bohol", "Sikatuna", 6338, "VII"],
+    ["Bohol", "Tagbilaran City", 6300, "VII"],
+    ["Bohol", "Talibon", 6325, "VII"],
+    ["Bohol", "Trinidad", 6324, "VII"],
+    ["Bohol", "Tubigon", 6329, "VII"],
+    ["Bohol", "Ubay", 6315, "VII"],
+    ["Bohol", "Valencia", 6306, "VII"],
+    ["Bukidnon", "Baungon", 8707, "X"],
+    ["Bukidnon", "Cabanglasan", 8723, "X"],
+    ["Bukidnon", "Damulog", 8721, "X"],
+    ["Bukidnon", "Dangcagan", 8719, "X"],
+    ["Bukidnon", "Don Carlos", 8712, "X"],
+    ["Bukidnon", "Impasugong", 8702, "X"],
+    ["Bukidnon", "Kadingilan", 8713, "X"],
+    ["Bukidnon", "Kalilangan", 8718, "X"],
+    ["Bukidnon", "Kibawe", 8720, "X"],
+    ["Bukidnon", "Kitaotao", 8716, "X"],
+    ["Bukidnon", "Lantapan", 8722, "X"],
+    ["Bukidnon", "Libona", 8706, "X"],
+    ["Bukidnon", "Malaybalay", 8700, "X"],
+    ["Bukidnon", "Malitbog", 8704, "X"],
+    ["Bukidnon", "Manolo Fortich", 8703, "X"],
+    ["Bukidnon", "Maramag", 8714, "X"],
+    ["Bukidnon", "Musuan", 8710, "X"],
+    ["Bukidnon", "Pangantucan", 8717, "X"],
+    ["Bukidnon", "Phillips", 8705, "X"],
+    ["Bukidnon", "Quezon", 8715, "X"],
+    ["Bukidnon", "San Fernando", 8711, "X"],
+    ["Bukidnon", "Sumilao", 8701, "X"],
+    ["Bukidnon", "Talakag", 8708, "X"],
+    ["Bukidnon", "Valencia", 8709, "X"],
+    ["Bulacan", "Angat", 3012, "III"],
+    ["Bulacan", "Balagtas", 3016, "III"],
+    ["Bulacan", "Baliuag", 3006, "III"],
+    ["Bulacan", "Bocaue", 3018, "III"],
+    ["Bulacan", "Bulacan", 3017, "III"],
+    ["Bulacan", "Bustos", 3007, "III"],
+    ["Bulacan", "Calumpit", 3003, "III"],
+    ["Bulacan", "Cruz na Daan", 3025, "III"],
+    ["Bulacan", "Doña Remedios Trinidad", 3009, "III"],
+    ["Bulacan", "Guiguinto", 3015, "III"],
+    ["Bulacan", "Hagonoy", 3002, "III"],
+    ["Bulacan", "Malolos", 3000, "III"],
+    ["Bulacan", "Marilao", 3019, "III"],
+    ["Bulacan", "Meycauayan", 3020, "III"],
+    ["Bulacan", "Norzagaray", 3013, "III"],
+    ["Bulacan", "Obando", 3021, "III"],
+    ["Bulacan", "Pandi", 3014, "III"],
+    ["Bulacan", "Paombong", 3001, "III"],
+    ["Bulacan", "Plaridel", 3004, "III"],
+    ["Bulacan", "Pulilan", 3005, "III"],
+    ["Bulacan", "San Ildefonso", 3010, "III"],
+    ["Bulacan", "San Jose Del Monte", 3023, "III"],
+    ["Bulacan", "San Miguel", 3011, "III"],
+    ["Bulacan", "San Rafael", 3008, "III"],
+    ["Bulacan", "Sapang Palay", 3024, "III"],
+    ["Bulacan", "Sta. Maria", 3022, "III"],
+    ["Cagayan", "Abulug", 3517, "II"],
+    ["Cagayan", "Alcala", 3507, "II"],
+    ["Cagayan", "Allacapan", 3523, "II"],
+    ["Cagayan", "Amulung", 3505, "II"],
+    ["Cagayan", "Aparri", 3515, "II"],
+    ["Cagayan", "Baggao", 3506, "II"],
+    ["Cagayan", "Ballesteros", 3516, "II"],
+    ["Cagayan", "Buguey", 3511, "II"],
+    ["Cagayan", "Calayan", 3520, "II"],
+    ["Cagayan", "Camalaniugan", 3510, "II"],
+    ["Cagayan", "Claveria", 3519, "II"],
+    ["Cagayan", "Enrile", 3501, "II"],
+    ["Cagayan", "Gattaran", 3508, "II"],
+    ["Cagayan", "Gonzaga", 3513, "II"],
+    ["Cagayan", "Iguig", 3504, "II"],
+    ["Cagayan", "Lal-lo", 3509, "II"],
+    ["Cagayan", "Lasam", 3524, "II"],
+    ["Cagayan", "Pamplona", 3522, "II"],
+    ["Cagayan", "Peñablanca", 3502, "II"],
+    ["Cagayan", "Piat", 3527, "II"],
+    ["Cagayan", "Rizal", 3526, "II"],
+    ["Cagayan", "Sanchez Mira", 3518, "II"],
+    ["Cagayan", "Solana", 3503, "II"],
+    ["Cagayan", "Sta. Ana", 3514, "II"],
+    ["Cagayan", "Sta. Praxedes", 3521, "II"],
+    ["Cagayan", "Sta. Teresita", 3512, "II"],
+    ["Cagayan", "Sto. Niño", 3525, "II"],
+    ["Cagayan", "Tuao", 3528, "II"],
+    ["Cagayan", "Tuguegarao City", 3500, "II"],
+    ["Camarines Norte", "Basud", 4608, "V"],
+    ["Camarines Norte", "Capalonga", 4607, "V"],
+    ["Camarines Norte", "Daet", 4600, "V"],
+    ["Camarines Norte", "San Lorenzo Ruiz (formerly Imelda)", 4610, "V"],
+    ["Camarines Norte", "Jose Panganiban", 4606, "V"],
+    ["Camarines Norte", "Labo", 4604, "V"],
+    ["Camarines Norte", "Mercedes", 4601, "V"],
+    ["Camarines Norte", "Paracale", 4605, "V"],
+    ["Camarines Norte", "San Vicente", 4609, "V"],
+    ["Camarines Norte", "Sta. Elena", 4611, "V"],
+    ["Camarines Norte", "Talisay", 4602, "V"],
+    ["Camarines Norte", "Tulay na Lupa", 4612, "V"],
+    ["Camarines Norte", "Vinzons", 4603, "V"],
+    ["Camarines Sur", "Baao", 4432, "V"],
+    ["Camarines Sur", "Balatan", 4436, "V"],
+    ["Camarines Sur", "Bato", 4435, "V"],
+    ["Camarines Sur", "Bombon", 4404, "V"],
+    ["Camarines Sur", "Buhi", 4433, "V"],
+    ["Camarines Sur", "Bula", 4430, "V"],
+    ["Camarines Sur", "Cabusao", 4406, "V"],
+    ["Camarines Sur", "Calabanga", 4405, "V"],
+    ["Camarines Sur", "Camaligan", 4401, "V"],
+    ["Camarines Sur", "Canaman", 4402, "V"],
+    ["Camarines Sur", "Caramoan", 4429, "V"],
+    ["Camarines Sur", "Del Gallego", 4411, "V"],
+    ["Camarines Sur", "Gainza", 4412, "V"],
+    ["Camarines Sur", "Garchitorena", 4428, "V"],
+    ["Camarines Sur", "Goa", 4422, "V"],
+    ["Camarines Sur", "Iriga City", 4431, "V"],
+    ["Camarines Sur", "Lagonoy", 4425, "V"],
+    ["Camarines Sur", "Libmanan", 4407, "V"],
+    ["Camarines Sur", "Lupi", 4409, "V"],
+    ["Camarines Sur", "Magarao", 4403, "V"],
+    ["Camarines Sur", "Milaor", 4413, "V"],
+    ["Camarines Sur", "Minalabac", 4414, "V"],
+    ["Camarines Sur", "Nabua", 4434, "V"],
+    ["Camarines Sur", "Naga City", 4400, "V"],
+    ["Camarines Sur", "Ocampo", 4419, "V"],
+    ["Camarines Sur", "Pamplona", 4416, "V"],
+    ["Camarines Sur", "Pasacao", 4417, "V"],
+    ["Camarines Sur", "Pili", 4418, "V"],
+    ["Camarines Sur", "Presentacion", 4424, "V"],
+    ["Camarines Sur", "Ragay", 4410, "V"],
+    ["Camarines Sur", "Sagnay", 4421, "V"],
+    ["Camarines Sur", "San Fernando", 4415, "V"],
+    ["Camarines Sur", "San Jose", 4423, "V"],
+    ["Camarines Sur", "Sipocot", 4408, "V"],
+    ["Camarines Sur", "Siruma", 4427, "V"],
+    ["Camarines Sur", "Tigaon", 4420, "V"],
+    ["Camarines Sur", "Tinambac", 4426, "V"],
+    ["Camiguin", "Catarman", 9104, "X"],
+    ["Camiguin", "Guinsiliban", 9102, "X"],
+    ["Camiguin", "Mahinog", 9101, "X"],
+    ["Camiguin", "Mambajao", 9100, "X"],
+    ["Camiguin", "Sagay", 9103, "X"],
+    ["Capiz", "Cuartero", 5811, "VI"],
+    ["Capiz", "Dao", 5810, "VI"],
+    ["Capiz", "Dumalag", 5813, "VI"],
+    ["Capiz", "Dumarao", 5812, "VI"],
+    ["Capiz", "Ivisan", 5805, "VI"],
+    ["Capiz", "Jamindan", 5808, "VI"],
+    ["Capiz", "Ma-ayon", 5809, "VI"],
+    ["Capiz", "Mambusao", 5807, "VI"],
+    ["Capiz", "Panay", 5801, "VI"],
+    ["Capiz", "Panitan", 5815, "VI"],
+    ["Capiz", "Pilar", 5804, "VI"],
+    ["Capiz", "Pres. Roxas", 5803, "VI"],
+    ["Capiz", "Pontevedra", 5802, "VI"],
+    ["Capiz", "Roxas City", 5800, "VI"],
+    ["Capiz", "Sapian", 5806, "VI"],
+    ["Capiz", "Sigma", 5816, "VI"],
+    ["Capiz", "Tapaz", 5814, "VI"],
+    ["Catanduanes", "Bagamanoc", 4807, "V"],
+    ["Catanduanes", "Baras", 4803, "V"],
+    ["Catanduanes", "Bato", 4801, "V"],
+    ["Catanduanes", "Caramoran", 4808, "V"],
+    ["Catanduanes", "Gigmoto", 4804, "V"],
+    ["Catanduanes", "Pandan", 4809, "V"],
+    ["Catanduanes", "Panganiban", 4806, "V"],
+    ["Catanduanes", "San Andres", 4810, "V"],
+    ["Catanduanes", "San Miguel", 4802, "V"],
+    ["Catanduanes", "Viga", 4805, "V"],
+    ["Catanduanes", "Virac", 4800, "V"],
+    ["Cavite", "1st Cavite Industrial Estate", 4126, "IV-A"],
+    ["Cavite", "Alfonso", 4123, "IV-A"],
+    ["Cavite", "Amadeo", 4119, "IV-A"],
+    ["Cavite", "Bacoor", 4102, "IV-A"],
+    ["Cavite", "Carmona", 4116, "IV-A"],
+    ["Cavite", "Cavite City", 4100, "IV-A"],
+    ["Cavite", "Cavite Naval Base", 4101, "IV-A"],
+    ["Cavite", "Corregidor", 4125, "IV-A"],
+    ["Cavite", "Dasmariñas", 4114, "IV-A"],
+    ["Cavite", "Dasmariñas Resettlement Area", 4115, "IV-A"],
+    ["Cavite", "Gen. Aguinaldo (Bailen)", 4124, "IV-A"],
+    ["Cavite", "Gen. Mariano Alvarez", 4117, "IV-A"],
+    ["Cavite", "Gen. Trias", 4107, "IV-A"],
+    ["Cavite", "Imus", 4103, "IV-A"],
+    ["Cavite", "Indang", 4122, "IV-A"],
+    ["Cavite", "Kawit", 4104, "IV-A"],
+    ["Cavite", "Magallanes", 4113, "IV-A"],
+    ["Cavite", "Maragondon", 4112, "IV-A"],
+    ["Cavite", "Mendez", 4121, "IV-A"],
+    ["Cavite", "Molino", 4135, "IV-A"],
+    ["Cavite", "Naic", 4110, "IV-A"],
+    ["Cavite", "Noveleta", 4105, "IV-A"],
+    ["Cavite", "Rosario", 4106, "IV-A"],
+    ["Cavite", "Silang", 4118, "IV-A"],
+    ["Cavite", "Tagaytay", 4120, "IV-A"],
+    ["Cavite", "Tanza", 4108, "IV-A"],
+    ["Cavite", "Ternate", 4111, "IV-A"],
+    ["Cavite", "Trece Martirez City", 4109, "IV-A"],
+    ["Cebu", "Alcantara", 6033, "VII"],
+    ["Cebu", "Alcoy", 6023, "VII"],
+    ["Cebu", "Alegria", 6030, "VII"],
+    ["Cebu", "Aloguinsan", 6040, "VII"],
+    ["Cebu", "Argao", 6021, "VII"],
+    ["Cebu", "Asturias", 6042, "VII"],
+    ["Cebu", "Badian", 6031, "VII"],
+    ["Cebu", "Balamban", 6041, "VII"],
+    ["Cebu", "Bantayan", 6052, "VII"],
+    ["Cebu", "Barili", 6036, "VII"],
+    ["Cebu", "Bogo", 6010, "VII"],
+    ["Cebu", "Boljoon", 6024, "VII"],
+    ["Cebu", "Borbon", 6008, "VII"],
+    ["Cebu", "Carcar", 6019, "VII"],
+    ["Cebu", "Carmen", 6005, "VII"],
+    ["Cebu", "Catmon", 6006, "VII"],
+    ["Cebu", "Cebu City", 6000, "VII"],
+    ["Cebu", "Compostela", 6003, "VII"],
+    ["Cebu", "Consolacion", 6001, "VII"],
+    ["Cebu", "Cordova", 6017, "VII"],
+    ["Cebu", "Daang-Bantayan", 6013, "VII"],
+    ["Cebu", "Dalaguete", 6022, "VII"],
+    ["Cebu", "Danao City", 6004, "VII"],
+    ["Cebu", "Dumanjug", 6035, "VII"],
+    ["Cebu", "Ginatilan", 6028, "VII"],
+    ["Cebu", "Lapu-Lapu City", 6015, "VII"],
+    ["Cebu", "Liloan", 6002, "VII"],
+    ["Cebu", "Mactan Airport", 6016, "VII"],
+    ["Cebu", "Madridejos", 6053, "VII"],
+    ["Cebu", "Malabuyoc", 6029, "VII"],
+    ["Cebu", "Mandaue City", 6014, "VII"],
+    ["Cebu", "Medellin", 6012, "VII"],
+    ["Cebu", "Minglanilla", 6046, "VII"],
+    ["Cebu", "Moalboal", 6032, "VII"],
+    ["Cebu", "Naga", 6037, "VII"],
+    ["Cebu", "Oslob", 6025, "VII"],
+    ["Cebu", "Pilar", 6048, "VII"],
+    ["Cebu", "Pinamungajan", 6039, "VII"],
+    ["Cebu", "Poro", 6049, "VII"],
+    ["Cebu", "Ronda", 6034, "VII"],
+    ["Cebu", "Samboan", 6027, "VII"],
+    ["Cebu", "San Fernando", 6018, "VII"],
+    ["Cebu", "San Francisco", 6050, "VII"],
+    ["Cebu", "San Remegio", 6011, "VII"],
+    ["Cebu", "Santa Fe", 6047, "VII"],
+    ["Cebu", "Santander", 6026, "VII"],
+    ["Cebu", "Sibonga", 6020, "VII"],
+    ["Cebu", "Sogod", 6007, "VII"],
+    ["Cebu", "Tabogon", 6009, "VII"],
+    ["Cebu", "Tabuelan", 6044, "VII"],
+    ["Cebu", "Talisay", 6045, "VII"],
+    ["Cebu", "Toledo City", 6038, "VII"],
+    ["Cebu", "Tuburan", 6043, "VII"],
+    ["Cebu", "Tudela", 6051, "VII"],
+    ["Davao de Oro (Compostela Valley)", "Compostela", 8803, "XI"],
+    ["Davao de Oro (Compostela Valley)", "Laak (formerly San Vicente)", 8810, "XI"],
+    ["Davao de Oro (Compostela Valley)", "Mabini", 8807, "XI"],
+    ["Davao de Oro (Compostela Valley)", "Maco", 8806, "XI"],
+    ["Davao de Oro (Compostela Valley)", "Maragusan (formerly San Mariano)", 8808, "XI"],
+    ["Davao de Oro (Compostela Valley)", "Mawab", 8802, "XI"],
+    ["Davao de Oro (Compostela Valley)", "Monkayo", 8805, "XI"],
+    ["Davao de Oro (Compostela Valley)", "Montevista", 8801, "XI"],
+    ["Davao de Oro (Compostela Valley)", "Nabunturan", 8800, "XI"],
+    ["Davao de Oro (Compostela Valley)", "New Bataan", 8804, "XI"],
+    ["Davao de Oro (Compostela Valley)", "Pantukan", 8809, "XI"],
+    ["Davao del Norte", "Asuncion (formerly Saug)", 8102, "XI"],
+    ["Davao del Norte", "Babak", 8118, "XI"],
+    ["Davao del Norte", "Braulio E. Dujali", 8106, "XI"],
+    ["Davao del Norte", "Carmen", 8101, "XI"],
+    ["Davao del Norte", "Kapalong", 8113, "XI"],
+    ["Davao del Norte", "Kaputian", 8120, "XI"],
+    ["Davao del Norte", "New Corella", 8104, "XI"],
+    ["Davao del Norte", "Panabo", 8105, "XI"],
+    ["Davao del Norte", "Samal", 8119, "XI"],
+    ["Davao del Norte", "San Isidro", 8121, "XI"],
+    ["Davao del Norte", "Santo Tomas", 8112, "XI"],
+    ["Davao del Norte", "Tagum", 8100, "XI"],
+    ["Davao del Norte", "Talaingod", 8107, "XI"],
+    ["Davao del Sur", "Ateneo", 8016, "XI"],
+    ["Davao del Sur", "Bansalan", 8005, "XI"],
+    ["Davao del Sur", "Bunawan", 8017, "XI"],
+    ["Davao del Sur", "Calinan", 8018, "XI"],
+    ["Davao del Sur", "Davao City", 8000, "XI"],
+    ["Davao del Sur", "Davao International Airport", 8019, "XI"],
+    ["Davao del Sur", "Digos", 8002, "XI"],
+    ["Davao del Sur", "Hagonoy", 8006, "XI"],
+    ["Davao del Sur", "Kiblawan", 8008, "XI"],
+    ["Davao del Sur", "Magsaysay", 8004, "XI"],
+    ["Davao del Sur", "Malalag", 8010, "XI"],
+    ["Davao del Sur", "Mandug", 8020, "XI"],
+    ["Davao del Sur", "Matanao", 8003, "XI"],
+    ["Davao del Sur", "Matina", 8021, "XI"],
+    ["Davao del Sur", "Mintal", 8022, "XI"],
+    ["Davao del Sur", "Padada", 8007, "XI"],
+    ["Davao del Sur", "Santa Cruz", 8001, "XI"],
+    ["Davao del Sur", "Sulop", 8009, "XI"],
+    ["Davao del Sur", "Talomo", 8023, "XI"],
+    ["Davao del Sur", "Tibungco", 8024, "XI"],
+    ["Davao del Sur", "Toril", 8025, "XI"],
+    ["Davao del Sur", "University of Mindanao", 8026, "XI"],
+    ["Davao Occidental", "Don Marcelino", 8013, "XI"],
+    ["Davao Occidental", "Jose Abad Santos", 8014, "XI"],
+    ["Davao Occidental", "Malita", 8012, "XI"],
+    ["Davao Occidental", "Santa Maria", 8011, "XI"],
+    ["Davao Occidental", "Sarangani", 8015, "XI"],
+    ["Davao Oriental", "Baganga", 8204, "XI"],
+    ["Davao Oriental", "Banaybanay", 8208, "XI"],
+    ["Davao Oriental", "Boston", 8206, "XI"],
+    ["Davao Oriental", "Caraga", 8203, "XI"],
+    ["Davao Oriental", "Cateel", 8205, "XI"],
+    ["Davao Oriental", "Gov. Generoso", 8210, "XI"],
+    ["Davao Oriental", "Lupon", 8207, "XI"],
+    ["Davao Oriental", "Manay", 8202, "XI"],
+    ["Davao Oriental", "Mati", 8200, "XI"],
+    ["Davao Oriental", "San Isidro", 8209, "XI"],
+    ["Davao Oriental", "Tarragona", 8201, "XI"],
+    ["Dinagat Islands", "Basilisa (formerly Rizal)", 8413, "XIII"],
+    ["Dinagat Islands", "Cagdianao", 8411, "XIII"],
+    ["Dinagat Islands", "Dinagat", 8412, "XIII"],
+    ["Dinagat Islands", "Libjo (formerly Albor)", 8414, "XIII"],
+    ["Dinagat Islands", "Loreto", 8415, "XIII"],
+    ["Dinagat Islands", "San Jose", 8427, "XIII"],
+    ["Dinagat Islands", "Tubajon", 8426, "XIII"],
+    ["Eastern Samar", "Arteche", 6822, "VIII"],
+    ["Eastern Samar", "Balangiga", 6812, "VIII"],
+    ["Eastern Samar", "Balangkayan", 6801, "VIII"],
+    ["Eastern Samar", "Borongan", 6800, "VIII"],
+    ["Eastern Samar", "Can-Avid", 6806, "VIII"],
+    ["Eastern Samar", "Dolores", 6817, "VIII"],
+    ["Eastern Samar", "Gen. MacArthur", 6805, "VIII"],
+    ["Eastern Samar", "Giporlos", 6811, "VIII"],
+    ["Eastern Samar", "Guiuan", 6809, "VIII"],
+    ["Eastern Samar", "Hernani", 6804, "VIII"],
+    ["Eastern Samar", "Jipapad", 6819, "VIII"],
+    ["Eastern Samar", "Lawaan", 6813, "VIII"],
+    ["Eastern Samar", "Llorente", 6803, "VIII"],
+    ["Eastern Samar", "Maslog", 6820, "VIII"],
+    ["Eastern Samar", "Maydolong", 6802, "VIII"],
+    ["Eastern Samar", "Mercedes", 6808, "VIII"],
+    ["Eastern Samar", "Oras", 6818, "VIII"],
+    ["Eastern Samar", "Quinapondan", 6810, "VIII"],
+    ["Eastern Samar", "Salcedo", 6807, "VIII"],
+    ["Eastern Samar", "San Julian", 6814, "VIII"],
+    ["Eastern Samar", "San Policarpio", 6821, "VIII"],
+    ["Eastern Samar", "Sulat", 6815, "VIII"],
+    ["Eastern Samar", "Taft", 6816, "VIII"],
+    ["Guimaras", "Buenavista", 5044, "VI"],
+    ["Guimaras", "Jordan", 5045, "VI"],
+    ["Guimaras", "Nueva Valencia", 5046, "VI"],
+    ["Guimaras", "San Lorenzo", 5047, "VI"],
+    ["Guimaras", "Sibunag", 5048, "VI"],
+    ["Ifugao", "Aguinaldo", 3606, "CAR"],
+    ["Ifugao", "Asipulo", 3610, "CAR"],
+    ["Ifugao", "Banaue", 3601, "CAR"],
+    ["Ifugao", "Hingyon", 3607, "CAR"],
+    ["Ifugao", "Hungduan", 3603, "CAR"],
+    ["Ifugao", "Kiangan", 3604, "CAR"],
+    ["Ifugao", "Lagawe", 3600, "CAR"],
+    ["Ifugao", "Lamut", 3605, "CAR"],
+    ["Ifugao", "Mayoyao", 3602, "CAR"],
+    ["Ifugao", "Potia", 3608, "CAR"],
+    ["Ifugao", "Tinoc", 3609, "CAR"],
+    ["Ilocos Norte", "Adams", 2922, "I"],
+    ["Ilocos Norte", "Bacarra", 2916, "I"],
+    ["Ilocos Norte", "Badoc", 2904, "I"],
+    ["Ilocos Norte", "Bangui", 2920, "I"],
+    ["Ilocos Norte", "Batac", 2906, "I"],
+    ["Ilocos Norte", "Burgos", 2918, "I"],
+    ["Ilocos Norte", "Carasi", 2911, "I"],
+    ["Ilocos Norte", "Currimao", 2903, "I"],
+    ["Ilocos Norte", "Dingras", 2913, "I"],
+    ["Ilocos Norte", "Dumalneg", 2921, "I"],
+    ["Ilocos Norte", "Espiritu", 2908, "I"],
+    ["Ilocos Norte", "Laoag City", 2900, "I"],
+    ["Ilocos Norte", "Marcos", 2907, "I"],
+    ["Ilocos Norte", "Nueva Era", 2909, "I"],
+    ["Ilocos Norte", "Pagudpud", 2919, "I"],
+    ["Ilocos Norte", "Paoay", 2902, "I"],
+    ["Ilocos Norte", "Pasuquin", 2917, "I"],
+    ["Ilocos Norte", "Piddig", 2912, "I"],
+    ["Ilocos Norte", "Pinili", 2905, "I"],
+    ["Ilocos Norte", "San Nicolas", 2901, "I"],
+    ["Ilocos Norte", "Sarrat", 2914, "I"],
+    ["Ilocos Norte", "Solsona", 2910, "I"],
+    ["Ilocos Norte", "Vintar", 2915, "I"],
+    ["Ilocos Sur", "Alilem", 2716, "I"],
+    ["Ilocos Sur", "Banayoyo", 2708, "I"],
+    ["Ilocos Sur", "Bantay", 2727, "I"],
+    ["Ilocos Sur", "Burgos", 2724, "I"],
+    ["Ilocos Sur", "Cabugao", 2732, "I"],
+    ["Ilocos Sur", "Candon", 2710, "I"],
+    ["Ilocos Sur", "Caoayan", 2702, "I"],
+    ["Ilocos Sur", "Cervantes", 2718, "I"],
+    ["Ilocos Sur", "Galimuyod", 2709, "I"],
+    ["Ilocos Sur", "Gregorio del Pilar", 2720, "I"],
+    ["Ilocos Sur", "Lidlida", 2723, "I"],
+    ["Ilocos Sur", "Magsingal", 2730, "I"],
+    ["Ilocos Sur", "Nagbukel", 2725, "I"],
+    ["Ilocos Sur", "Narvacan", 2704, "I"],
+    ["Ilocos Sur", "Quirino", 2721, "I"],
+    ["Ilocos Sur", "Salcedo", 2711, "I"],
+    ["Ilocos Sur", "San Emilio", 2722, "I"],
+    ["Ilocos Sur", "San Esteban", 2706, "I"],
+    ["Ilocos Sur", "San Ildefonso", 2728, "I"],
+    ["Ilocos Sur", "San Juan", 2731, "I"],
+    ["Ilocos Sur", "San Vicente", 2726, "I"],
+    ["Ilocos Sur", "Santa", 2703, "I"],
+    ["Ilocos Sur", "Santa Catalina", 2701, "I"],
+    ["Ilocos Sur", "Santa Cruz", 2713, "I"],
+    ["Ilocos Sur", "Santa Lucia", 2712, "I"],
+    ["Ilocos Sur", "Santa Maria", 2705, "I"],
+    ["Ilocos Sur", "Santiago", 2707, "I"],
+    ["Ilocos Sur", "Santo Domingo", 2729, "I"],
+    ["Ilocos Sur", "Sigay", 2719, "I"],
+    ["Ilocos Sur", "Sinait", 2733, "I"],
+    ["Ilocos Sur", "Sugpon", 2717, "I"],
+    ["Ilocos Sur", "Suyo", 2715, "I"],
+    ["Ilocos Sur", "Tagudin", 2714, "I"],
+    ["Ilocos Sur", "Vigan", 2700, "I"],
+    ["Iloilo", "Ajuy", 5012, "VI"],
+    ["Iloilo", "Alimodian", 5028, "VI"],
+    ["Iloilo", "Anilao", 5009, "VI"],
+    ["Iloilo", "Badiangan", 5033, "VI"],
+    ["Iloilo", "Balasan", 5018, "VI"],
+    ["Iloilo", "Banate", 5010, "VI"],
+    ["Iloilo", "Barotac Nuevo", 5007, "VI"],
+    ["Iloilo", "Barotac Viejo", 5011, "VI"],
+    ["Iloilo", "Batad", 5016, "VI"],
+    ["Iloilo", "Bingawan", 5041, "VI"],
+    ["Iloilo", "Cabatuan", 5031, "VI"],
+    ["Iloilo", "Calinog", 5040, "VI"],
+    ["Iloilo", "Carles", 5019, "VI"],
+    ["Iloilo", "Concepcion", 5013, "VI"],
+    ["Iloilo", "Dingle", 5035, "VI"],
+    ["Iloilo", "Dueñas", 5038, "VI"],
+    ["Iloilo", "Dumangas", 5006, "VI"],
+    ["Iloilo", "Estancia", 5017, "VI"],
+    ["Iloilo", "Guimbal", 5022, "VI"],
+    ["Iloilo", "Igbaras", 5029, "VI"],
+    ["Iloilo", "Iloilo City", 5000, "VI"],
+    ["Iloilo", "Janiuay", 5034, "VI"],
+    ["Iloilo", "Lambunao", 5042, "VI"],
+    ["Iloilo", "Leganes", 5003, "VI"],
+    ["Iloilo", "Lemery", 5043, "VI"],
+    ["Iloilo", "Leon", 5026, "VI"],
+    ["Iloilo", "Maasin", 5030, "VI"],
+    ["Iloilo", "Miagao", 5023, "VI"],
+    ["Iloilo", "Mina", 5032, "VI"],
+    ["Iloilo", "New Lucena", 5005, "VI"],
+    ["Iloilo", "Oton", 5020, "VI"],
+    ["Iloilo", "Passi", 5037, "VI"],
+    ["Iloilo", "Pavia", 5001, "VI"],
+    ["Iloilo", "Pototan", 5008, "VI"],
+    ["Iloilo", "San Dionisio", 5015, "VI"],
+    ["Iloilo", "San Enrique", 5036, "VI"],
+    ["Iloilo", "San Joaquin", 5024, "VI"],
+    ["Iloilo", "San Miguel", 5025, "VI"],
+    ["Iloilo", "San Rafael", 5039, "VI"],
+    ["Iloilo", "Santa Barbara", 5002, "VI"],
+    ["Iloilo", "Sara", 5014, "VI"],
+    ["Iloilo", "Tigbauan", 5021, "VI"],
+    ["Iloilo", "Tubungan", 5027, "VI"],
+    ["Iloilo", "Zarraga", 5004, "VI"],
+    ["Isabela", "Alicia", 3306, "II"],
+    ["Isabela", "Angadanan", 3307, "II"],
+    ["Isabela", "Aurora", 3316, "II"],
+    ["Isabela", "Benito Soliven", 3331, "II"],
+    ["Isabela", "Burgos", 3322, "II"],
+    ["Isabela", "Cabagan", 3328, "II"],
+    ["Isabela", "Cabatuan", 3315, "II"],
+    ["Isabela", "City of Cauayan", 3305, "II"],
+    ["Isabela", "City of Ilagan", 3300, "II"],
+    ["Isabela", "Cordon", 3312, "II"],
+    ["Isabela", "Delfin Albano", 3326, "II"],
+    ["Isabela", "Dinapigue", 3336, "II"],
+    ["Isabela", "Divilacan", 3335, "II"],
+    ["Isabela", "Echague", 3309, "II"],
+    ["Isabela", "Gamu", 3301, "II"],
+    ["Isabela", "Jones", 3313, "II"],
+    ["Isabela", "Luna", 3304, "II"],
+    ["Isabela", "Maconacon", 3333, "II"],
+    ["Isabela", "Mallig", 3323, "II"],
+    ["Isabela", "Naguillan", 3302, "II"],
+    ["Isabela", "Palanan", 3334, "II"],
+    ["Isabela", "Quezon", 3324, "II"],
+    ["Isabela", "Quirino", 3321, "II"],
+    ["Isabela", "Ramon", 3319, "II"],
+    ["Isabela", "Reina Mercedes", 3303, "II"],
+    ["Isabela", "Roxas", 3320, "II"],
+    ["Isabela", "San Agustin", 3314, "II"],
+    ["Isabela", "San Guillermo", 3308, "II"],
+    ["Isabela", "San Isidro", 3310, "II"],
+    ["Isabela", "San Manuel", 3317, "II"],
+    ["Isabela", "San Mariano", 3332, "II"],
+    ["Isabela", "San Mateo", 3318, "II"],
+    ["Isabela", "San Pablo", 3329, "II"],
+    ["Isabela", "Santiago CIty", 3311, "II"],
+    ["Isabela", "Sta. Maria", 3330, "II"],
+    ["Isabela", "Sto. Tomas", 3327, "II"],
+    ["Isabela", "Tumauini", 3325, "II"],
+    ["Kalinga", "Balbalan", 3801, "CAR"],
+    ["Kalinga", "Lubuagan", 3802, "CAR"],
+    ["Kalinga", "Pasil", 3803, "CAR"],
+    ["Kalinga", "Pinukpok", 3806, "CAR"],
+    ["Kalinga", "Liwan(Rizal)", 3808, "CAR"],
+    ["Kalinga", "Tabuk City", 3800, "CAR"],
+    ["Kalinga", "Tanudan", 3805, "CAR"],
+    ["Kalinga", "Tinglayan", 3804, "CAR"],
+    ["La Union", "Agoo", 2504, "I"],
+    ["La Union", "Aringay", 2503, "I"],
+    ["La Union", "Bacnotan", 2515, "I"],
+    ["La Union", "Bagulin", 2512, "I"],
+    ["La Union", "Balaoan", 2517, "I"],
+    ["La Union", "Bangar", 2519, "I"],
+    ["La Union", "Bauang", 2501, "I"],
+    ["La Union", "Burgos", 2510, "I"],
+    ["La Union", "Caba", 2502, "I"],
+    ["La Union", "Damortis", 2507, "I"],
+    ["La Union", "Luna", 2518, "I"],
+    ["La Union", "Naguilian", 2511, "I"],
+    ["La Union", "Pugo", 2508, "I"],
+    ["La Union", "Rosario", 2506, "I"],
+    ["La Union", "San Fernando", 2500, "I"],
+    ["La Union", "San Gabriel", 2513, "I"],
+    ["La Union", "San Juan", 2514, "I"],
+    ["La Union", "Santol", 2516, "I"],
+    ["La Union", "Sto. Tomas", 2505, "I"],
+    ["La Union", "Sudipen", 2520, "I"],
+    ["La Union", "Tubao", 2509, "I"],
+    ["Laguna", "Alaminos", 4001, "IV-A"],
+    ["Laguna", "Bay", 4033, "IV-A"],
+    ["Laguna", "Biñan", 4024, "IV-A"],
+    ["Laguna", "Botocan", 4006, "IV-A"],
+    ["Laguna", "Cabuyao", 4025, "IV-A"],
+    ["Laguna", "Calamba", 4027, "IV-A"],
+    ["Laguna", "Caluan", 4012, "IV-A"],
+    ["Laguna", "Camp Vicente Lim", 4029, "IV-A"],
+    ["Laguna", "Canlubang", 4028, "IV-A"],
+    ["Laguna", "Cavinti", 4013, "IV-A"],
+    ["Laguna", "College Los Baños", 4031, "IV-A"],
+    ["Laguna", "Famy", 4021, "IV-A"],
+    ["Laguna", "Kalayaan", 4015, "IV-A"],
+    ["Laguna", "Laguna Technopark", 4034, "IV-A"],
+    ["Laguna", "Liliw", 4004, "IV-A"],
+    ["Laguna", "Los Baños", 4030, "IV-A"],
+    ["Laguna", "Luisiana", 4032, "IV-A"],
+    ["Laguna", "Lumban", 4014, "IV-A"],
+    ["Laguna", "Mabitac", 4020, "IV-A"],
+    ["Laguna", "Magdalena", 4007, "IV-A"],
+    ["Laguna", "Majayjay", 4005, "IV-A"],
+    ["Laguna", "Nagcarlan", 4002, "IV-A"],
+    ["Laguna", "Paete", 4016, "IV-A"],
+    ["Laguna", "Pagsanjan", 4008, "IV-A"],
+    ["Laguna", "Pakil", 4017, "IV-A"],
+    ["Laguna", "Pangil", 4018, "IV-A"],
+    ["Laguna", "Pila", 4010, "IV-A"],
+    ["Laguna", "Rizal", 4003, "IV-A"],
+    ["Laguna", "San Pablo City", 4000, "IV-A"],
+    ["Laguna", "San Pedro", 4023, "IV-A"],
+    ["Laguna", "Siniloan", 4019, "IV-A"],
+    ["Laguna", "Sta. Cruz", 4009, "IV-A"],
+    ["Laguna", "Sta. Maria", 4022, "IV-A"],
+    ["Laguna", "Sta. Rosa", 4026, "IV-A"],
+    ["Laguna", "Victoria", 4011, "IV-A"],
+    ["Lanao del Norte", "Bacolod", 9205, "X"],
+    ["Lanao del Norte", "Baloi", 9217, "X"],
+    ["Lanao del Norte", "Baroy", 9210, "X"],
+    ["Lanao del Norte", "Iligan City", 9200, "X"],
+    ["Lanao del Norte", "Kapatagan", 9214, "X"],
+    ["Lanao del Norte", "Kauswagan", 9202, "X"],
+    ["Lanao del Norte", "Kolambugan", 9207, "X"],
+    ["Lanao del Norte", "Lala", 9211, "X"],
+    ["Lanao del Norte", "Linamon", 9201, "X"],
+    ["Lanao del Norte", "Magsaysay", 9221, "X"],
+    ["Lanao del Norte", "Maigo", 9206, "X"],
+    ["Lanao del Norte", "Matungao", 9203, "X"],
+    ["Lanao del Norte", "Munai", 9219, "X"],
+    ["Lanao del Norte", "Nunungan", 9216, "X"],
+    ["Lanao del Norte", "Pantao Ragat", 9208, "X"],
+    ["Lanao del Norte", "Pantar", 9218, "X"],
+    ["Lanao del Norte", "Poona Piagapo", 9204, "X"],
+    ["Lanao del Norte", "Salvador", 9212, "X"],
+    ["Lanao del Norte", "Sapad", 9213, "X"],
+    ["Lanao del Norte", "Sultan Naga Dimaporo (formerly Karomatan)", 9215, "X"],
+    ["Lanao del Norte", "Tagoloan", 9222, "X"],
+    ["Lanao del Norte", "Tangcal", 9220, "X"],
+    ["Lanao del Norte", "Tubod", 9209, "X"],
+    ["Lanao del Sur", "Bacolod-Kalawi (formerly Bacolod Grande)", 9316, "BARMM"],
+    ["Lanao del Sur", "Balabagan", 9302, "BARMM"],
+    ["Lanao del Sur", "Bayang", 9309, "BARMM"],
+    ["Lanao del Sur", "Balindong", 9318, "BARMM"],
+    ["Lanao del Sur", "Binidayan", 9310, "BARMM"],
+    ["Lanao del Sur", "Buadiposo-Buntong", 9714, "BARMM"],
+    ["Lanao del Sur", "Bubong", 9708, "BARMM"],
+    ["Lanao del Sur", "Amai Manabilang (formerly Bumbaran)", 9320, "BARMM"],
+    ["Lanao del Sur", "Butig", 9305, "BARMM"],
+    ["Lanao del Sur", "Calanogas", 9319, "BARMM"],
+    ["Lanao del Sur", "Ganassi", 9311, "BARMM"],
+    ["Lanao del Sur", "Kapai", 9709, "BARMM"],
+    ["Lanao del Sur", "Kapatagan", 9322, "BARMM"],
+    ["Lanao del Sur", "Lumba-Bayabao", 9703, "BARMM"],
+    ["Lanao del Sur", "Lumbaca-Unayan", 9323, "BARMM"],
+    ["Lanao del Sur", "Lumbatan", 9307, "BARMM"],
+    ["Lanao del Sur", "Lumbayanague", 9306, "BARMM"],
+    ["Lanao del Sur", "Macador Andong", 9308, "BARMM"],
+    ["Lanao del Sur", "Madalum", 9315, "BARMM"],
+    ["Lanao del Sur", "Madamba", 9314, "BARMM"],
+    ["Lanao del Sur", "Maguing", 9715, "BARMM"],
+    ["Lanao del Sur", "Malabang", 9300, "BARMM"],
+    ["Lanao del Sur", "Marantao", 9711, "BARMM"],
+    ["Lanao del Sur", "Marawi City", 9700, "BARMM"],
+    ["Lanao del Sur", "Marogong", 9303, "BARMM"],
+    ["Lanao del Sur", "Masiu", 9706, "BARMM"],
+    ["Lanao del Sur", "Mulondo", 9702, "BARMM"],
+    ["Lanao del Sur", "Pagayawan", 9312, "BARMM"],
+    ["Lanao del Sur", "Piagapo", 9710, "BARMM"],
+    ["Lanao del Sur", "Picong (formerly Sultan Gumander)", 9301, "BARMM"],
+    ["Lanao del Sur", "Poona Bayabao", 9705, "BARMM"],
+    ["Lanao del Sur", "Pualas", 9313, "BARMM"],
+    ["Lanao del Sur", "Ditsaan-Ramain", 9713, "BARMM"],
+    ["Lanao del Sur", "Saguiaran", 9701, "BARMM"],
+    ["Lanao del Sur", "Sultan Dumalondong", 9324, "BARMM"],
+    ["Lanao del Sur", "Tagoloan II", 9321, "BARMM"],
+    ["Lanao del Sur", "Tamparan", 9704, "BARMM"],
+    ["Lanao del Sur", "Taraka", 9712, "BARMM"],
+    ["Lanao del Sur", "Tubaran", 9304, "BARMM"],
+    ["Lanao del Sur", "Tugaya", 9317, "BARMM"],
+    ["Lanao del Sur", "Wao", 9716, "BARMM"],
+    ["Leyte", "Abuyog", 6510, "VIII"],
+    ["Leyte", "Alangalang", 6517, "VIII"],
+    ["Leyte", "Albuera", 6542, "VIII"],
+    ["Leyte", "Babatngon", 6520, "VIII"],
+    ["Leyte", "Burauen", 6516, "VIII"],
+    ["Leyte", "Barugo", 6519, "VIII"],
+    ["Leyte", "Bato", 6525, "VIII"],
+    ["Leyte", "Baybay", 6521, "VIII"],
+    ["Leyte", "Calubian", 6534, "VIII"],
+    ["Leyte", "Capoocan", 6530, "VIII"],
+    ["Leyte", "Carigara", 6529, "VIII"],
+    ["Leyte", "Dagami", 6515, "VIII"],
+    ["Leyte", "Dulag", 6505, "VIII"],
+    ["Leyte", "Hilongos", 6524, "VIII"],
+    ["Leyte", "Hindang", 6523, "VIII"],
+    ["Leyte", "Inopacan", 6522, "VIII"],
+    ["Leyte", "Isabel", 6539, "VIII"],
+    ["Leyte", "Jaro", 6527, "VIII"],
+    ["Leyte", "Javier", 6511, "VIII"],
+    ["Leyte", "Julita", 6506, "VIII"],
+    ["Leyte", "Kananga", 6531, "VIII"],
+    ["Leyte", "La Paz", 6508, "VIII"],
+    ["Leyte", "Leyte", 6533, "VIII"],
+    ["Leyte", "Macarthur", 6509, "VIII"],
+    ["Leyte", "Mahaplag", 6512, "VIII"],
+    ["Leyte", "Matag-ob", 6532, "VIII"],
+    ["Leyte", "Matalom", 6526, "VIII"],
+    ["Leyte", "Mayorga", 6507, "VIII"],
+    ["Leyte", "Merida", 6540, "VIII"],
+    ["Leyte", "Ormoc City", 6541, "VIII"],
+    ["Leyte", "Palo", 6501, "VIII"],
+    ["Leyte", "Palompon", 6538, "VIII"],
+    ["Leyte", "Pastrana", 6514, "VIII"],
+    ["Leyte", "San Isidro", 6535, "VIII"],
+    ["Leyte", "San Miguel", 6518, "VIII"],
+    ["Leyte", "Sta. Fe", 6513, "VIII"],
+    ["Leyte", "Tabango", 6536, "VIII"],
+    ["Leyte", "Tabontabon", 6504, "VIII"],
+    ["Leyte", "Tacloban City", 6500, "VIII"],
+    ["Leyte", "Tanauan", 6502, "VIII"],
+    ["Leyte", "Tolosa", 6503, "VIII"],
+    ["Leyte", "Tunga", 6528, "VIII"],
+    ["Leyte", "Villaba", 6537, "VIII"],
+    ["Maguindanao del Sur", "Ampatuan", 9609, "BARMM"],
+    ["Maguindanao del Norte", "Barira", 9614, "BARMM"],
+    ["Maguindanao del Norte", "Buldon", 9615, "BARMM"],
+    ["Maguindanao del Sur", "Buluan", 9616, "BARMM"],
+    ["Maguindanao del Norte", "Cotabato City", 9600, "BARMM"],
+    ["Maguindanao del Norte", "Datu Odin Sinsuat (Dinaig)", 9601, "BARMM"],
+    ["Maguindanao del Sur", "Datu Paglas", 9617, "BARMM"],
+    ["Maguindanao del Sur", "Datu Piang", 9607, "BARMM"],
+    ["Maguindanao del Sur", "Datu Abdullah Sangki", 9621, "BARMM"],
+    ["Maguindanao del Sur", "Datu Anggal Midtimbang", 9622, "BARMM"],
+    ["Maguindanao del Norte", "Datu Blah T. Sinsuat", 9623, "BARMM"],
+    ["Maguindanao del Sur", "Datu Hoffer Ampatuan", 9624, "BARMM"],
+    ["Maguindanao del Sur", "Datu Montawal (formerly Pagagawan)", 9631, "BARMM"],
+    ["Maguindanao del Sur", "Datu Salibo", 9625, "BARMM"],
+    ["Maguindanao del Sur", "Datu Saudi Ampatuan", 9626, "BARMM"],
+    ["Maguindanao del Sur", "Datu Unsay", 9627, "BARMM"],
+    ["Maguindanao del Sur", "General Salipada K. Pendatun", 9618, "BARMM"],
+    ["Maguindanao del Sur", "Guindulungan", 9628, "BARMM"],
+    ["Maguindanao del Norte", "Kabuntalan", 9606, "BARMM"],
+    ["Maguindanao del Sur", "Shariff Aguak (formerly Maganoy)", 9608, "BARMM"],
+    ["Maguindanao del Sur", "Mamasapano", 9629, "BARMM"],
+    ["Maguindanao del Sur", "Mangudadatu", 9620, "BARMM"],
+    ["Maguindanao del Norte", "Matanog", 9613, "BARMM"],
+    ["Maguindanao del Norte", "Northern Kabuntalan", 9630, "BARMM"],
+    ["Maguindanao del Sur", "Paglat", 9632, "BARMM"],
+    ["Maguindanao del Sur", "Pandag", 9633, "BARMM"],
+    ["Maguindanao del Sur", "Pagalungan", 9610, "BARMM"],
+    ["Maguindanao del Norte", "Parang", 9604, "BARMM"],
+    ["Maguindanao del Sur", "Rajah Buayan", 9634, "BARMM"],
+    ["Maguindanao del Sur", "Shariff Saydona Mustapha", 9635, "BARMM"],
+    ["Maguindanao del Norte", "Sultan Mastura", 9636, "BARMM"],
+    ["Maguindanao del Norte", "Sultan Sumagka (formerly Talitay)", 9637, "BARMM"],
+    ["Maguindanao del Sur", "South Upi", 9603, "BARMM"],
+    ["Maguindanao del Norte", "Sultan Kudarat", 9605, "BARMM"],
+    ["Maguindanao del Sur", "Sultan sa Barongis", 9611, "BARMM"],
+    ["Maguindanao del Sur", "Talayan", 9612, "BARMM"],
+    ["Maguindanao del Norte", "Upi", 9602, "BARMM"],
+    ["Marinduque", "Boac", 4900, "MIMAROPA"],
+    ["Marinduque", "Buenavista", 4904, "MIMAROPA"],
+    ["Marinduque", "Gasan", 4905, "MIMAROPA"],
+    ["Marinduque", "Mogpog", 4901, "MIMAROPA"],
+    ["Marinduque", "Sta. Cruz", 4902, "MIMAROPA"],
+    ["Marinduque", "Torrijos", 4903, "MIMAROPA"],
+    ["Masbate", "Aroroy", 5414, "V"],
+    ["Masbate", "Baleno", 5413, "V"],
+    ["Masbate", "Balud", 5412, "V"],
+    ["Masbate", "Batuan", 5415, "V"],
+    ["Masbate", "Buenavista", 5421, "V"],
+    ["Masbate", "Cataingan", 5405, "V"],
+    ["Masbate", "Cawayan", 5409, "V"],
+    ["Masbate", "Claveria", 5419, "V"],
+    ["Masbate", "Dimasalang", 5403, "V"],
+    ["Masbate", "Esperanza", 5407, "V"],
+    ["Masbate", "Mandaon", 5411, "V"],
+    ["Masbate", "Masbate", 5400, "V"],
+    ["Masbate", "Milagros", 5410, "V"],
+    ["Masbate", "Mobo", 5401, "V"],
+    ["Masbate", "Monreal", 5418, "V"],
+    ["Masbate", "Palanas", 5404, "V"],
+    ["Masbate", "Pio V. Corpuz", 5406, "V"],
+    ["Masbate", "Placer", 5408, "V"],
+    ["Masbate", "San Fernando", 5416, "V"],
+    ["Masbate", "San Jacinto", 5417, "V"],
+    ["Masbate", "San Pascual", 5420, "V"],
+    ["Masbate", "Uson", 5402, "V"],
+    ["Misamis Occidental", "Aloran", 7206, "X"],
+    ["Misamis Occidental", "Baliangao", 7211, "X"],
+    ["Misamis Occidental", "Bonifacio", 7215, "X"],
+    ["Misamis Occidental", "Calamba", 7210, "X"],
+    ["Misamis Occidental", "Clarin", 7201, "X"],
+    ["Misamis Occidental", "Concepcion", 7213, "X"],
+    ["Misamis Occidental", "Don Victoriano Chiongbian", 7216, "X"],
+    ["Misamis Occidental", "Jimenez", 7204, "X"],
+    ["Misamis Occidental", "Lopez Jaena", 7208, "X"],
+    ["Misamis Occidental", "Oroquieta City", 7207, "X"],
+    ["Misamis Occidental", "Ozamis City", 7200, "X"],
+    ["Misamis Occidental", "Panaon", 7205, "X"],
+    ["Misamis Occidental", "Plaridel", 7209, "X"],
+    ["Misamis Occidental", "Sapang dalaga", 7212, "X"],
+    ["Misamis Occidental", "Sinacaban", 7203, "X"],
+    ["Misamis Occidental", "Tangub City", 7214, "X"],
+    ["Misamis Occidental", "Tudela", 7202, "X"],
+    ["Misamis Oriental", "Alubijid", 9018, "X"],
+    ["Misamis Oriental", "Balingasag", 9005, "X"],
+    ["Misamis Oriental", "Balingoan", 9011, "X"],
+    ["Misamis Oriental", "Binuangan", 9008, "X"],
+    ["Misamis Oriental", "Cagayan de Oro City", 9000, "X"],
+    ["Misamis Oriental", "Claveria", 9004, "X"],
+    ["Misamis Oriental", "El Salvador", 9017, "X"],
+    ["Misamis Oriental", "Gingoog City", 9014, "X"],
+    ["Misamis Oriental", "Gitagum", 9020, "X"],
+    ["Misamis Oriental", "Initao", 9022, "X"],
+    ["Misamis Oriental", "Jasaan", 9003, "X"],
+    ["Misamis Oriental", "Kinoguitan", 9010, "X"],
+    ["Misamis Oriental", "Laguindingan", 9019, "X"],
+    ["Misamis Oriental", "Lagonglong", 9006, "X"],
+    ["Misamis Oriental", "Libertad", 9021, "X"],
+    ["Misamis Oriental", "Lugait", 9025, "X"],
+    ["Misamis Oriental", "Magsaysay", 9015, "X"],
+    ["Misamis Oriental", "Manticao", 9024, "X"],
+    ["Misamis Oriental", "Medina", 9013, "X"],
+    ["Misamis Oriental", "Naawan", 9023, "X"],
+    ["Misamis Oriental", "Opol", 9016, "X"],
+    ["Misamis Oriental", "Salay", 9007, "X"],
+    ["Misamis Oriental", "Sugbongcogon", 9009, "X"],
+    ["Misamis Oriental", "Tagoloan", 9001, "X"],
+    ["Misamis Oriental", "Talisayan", 9012, "X"],
+    ["Misamis Oriental", "Villanueva", 9002, "X"],
+    ["Mountain Province", "Barlig", 2623, "CAR"],
+    ["Mountain Province", "Baukod", 2621, "CAR"],
+    ["Mountain Province", "Besao", 2618, "CAR"],
+    ["Mountain Province", "Bontoc", 2616, "CAR"],
+    ["Mountain Province", "Natonin", 2624, "CAR"],
+    ["Mountain Province", "Paracelis", 2625, "CAR"],
+    ["Mountain Province", "Sabangan", 2622, "CAR"],
+    ["Mountain Province", "Sadanga", 2617, "CAR"],
+    ["Mountain Province", "Sagada", 2619, "CAR"],
+    ["Mountain Province", "Tadian", 2620, "CAR"],
+    ["Negros Occidental", "Bacolod City", 6100, "NIR"],
+    ["Negros Occidental", "Bago City", 6101, "NIR"],
+    ["Negros Occidental", "Binalbagan", 6107, "NIR"],
+    ["Negros Occidental", "Cadiz City", 6121, "NIR"],
+    ["Negros Occidental", "Calatrava", 6126, "NIR"],
+    ["Negros Occidental", "Candoni", 6110, "NIR"],
+    ["Negros Occidental", "Cauayan", 6112, "NIR"],
+    ["Negros Occidental", "Don Salvador Benedicto", 6133, "NIR"],
+    ["Negros Occidental", "Enrique Magalona", 6118, "NIR"],
+    ["Negros Occidental", "Escalante", 6124, "NIR"],
+    ["Negros Occidental", "Himamaylan", 6108, "NIR"],
+    ["Negros Occidental", "Hinigaran", 6106, "NIR"],
+    ["Negros Occidental", "Hinoba-an", 6114, "NIR"],
+    ["Negros Occidental", "Ilog", 6109, "NIR"],
+    ["Negros Occidental", "Isabela", 6128, "NIR"],
+    ["Negros Occidental", "Kabankalan", 6111, "NIR"],
+    ["Negros Occidental", "La Carlota City", 6130, "NIR"],
+    ["Negros Occidental", "La Castellana", 6131, "NIR"],
+    ["Negros Occidental", "Manapla", 6120, "NIR"],
+    ["Negros Occidental", "Moises Padilla", 6132, "NIR"],
+    ["Negros Occidental", "Murcia", 6129, "NIR"],
+    ["Negros Occidental", "Paraiso (Fabrica)", 6123, "NIR"],
+    ["Negros Occidental", "Pontevedra", 6105, "NIR"],
+    ["Negros Occidental", "Pulupandan", 6102, "NIR"],
+    ["Negros Occidental", "Sagay", 6122, "NIR"],
+    ["Negros Occidental", "San Carlos City", 6127, "NIR"],
+    ["Negros Occidental", "San Enrique", 6104, "NIR"],
+    ["Negros Occidental", "Silay City", 6116, "NIR"],
+    ["Negros Occidental", "Silay Hawaiian Central", 6117, "NIR"],
+    ["Negros Occidental", "Sipalay", 6113, "NIR"],
+    ["Negros Occidental", "Talisay", 6115, "NIR"],
+    ["Negros Occidental", "Toboso", 6125, "NIR"],
+    ["Negros Occidental", "Valladolid", 6103, "NIR"],
+    ["Negros Occidental", "Victorias", 6119, "NIR"],
+    ["Negros Oriental", "Amlan", 6203, "NIR"],
+    ["Negros Oriental", "Ayungon", 6210, "NIR"],
+    ["Negros Oriental", "Bacung", 6216, "NIR"],
+    ["Negros Oriental", "Bais City", 6206, "NIR"],
+    ["Negros Oriental", "Basay", 6222, "NIR"],
+    ["Negros Oriental", "Bayawan", 6221, "NIR"],
+    ["Negros Oriental", "Bindoy", 6209, "NIR"],
+    ["Negros Oriental", "Canlaon City", 6223, "NIR"],
+    ["Negros Oriental", "Dauin", 6217, "NIR"],
+    ["Negros Oriental", "Dumaguete City", 6200, "NIR"],
+    ["Negros Oriental", "Guihulngan", 6214, "NIR"],
+    ["Negros Oriental", "Jimalalud", 6212, "NIR"],
+    ["Negros Oriental", "La Libertad", 6213, "NIR"],
+    ["Negros Oriental", "Mabinay", 6207, "NIR"],
+    ["Negros Oriental", "Manjuyod", 6208, "NIR"],
+    ["Negros Oriental", "Pamplona", 6205, "NIR"],
+    ["Negros Oriental", "San Jose", 6202, "NIR"],
+    ["Negros Oriental", "Siaton", 6219, "NIR"],
+    ["Negros Oriental", "Sibulan", 6201, "NIR"],
+    ["Negros Oriental", "Sta. Catalina", 6220, "NIR"],
+    ["Negros Oriental", "Tanjay", 6204, "NIR"],
+    ["Negros Oriental", "Tayasan", 6211, "NIR"],
+    ["Negros Oriental", "Valencia", 6215, "NIR"],
+    ["Negros Oriental", "Valle hermoso", 6224, "NIR"],
+    ["Negros Oriental", "Zamboanguita", 6218, "NIR"],
+    ["North Cotabato", "Alamada", 9413, "XII"],
+    ["North Cotabato", "Aleosan", 9415, "XII"],
+    ["North Cotabato", "Antipas", 9414, "XII"],
+    ["North Cotabato", "Arakan", 9417, "XII"],
+    ["North Cotabato", "Banisilan", 9416, "XII"],
+    ["North Cotabato", "Carmen", 9408, "XII"],
+    ["North Cotabato", "Kabacan", 9407, "XII"],
+    ["North Cotabato", "Kidapawan", 9400, "XII"],
+    ["North Cotabato", "Libungan", 9411, "XII"],
+    ["North Cotabato", "Magpet", 9404, "XII"],
+    ["North Cotabato", "Makilala", 9401, "XII"],
+    ["North Cotabato", "Matalam", 9406, "XII"],
+    ["North Cotabato", "Midsayap", 9410, "XII"],
+    ["North Cotabato", "M'lang", 9402, "XII"],
+    ["North Cotabato", "Pigkawayan", 9412, "XII"],
+    ["North Cotabato", "Pikit", 9409, "XII"],
+    ["North Cotabato", "Pre. Roxas", 9405, "XII"],
+    ["North Cotabato", "Tulunan", 9403, "XII"],
+    ["Northern Samar", "Allen", 6405, "VIII"],
+    ["Northern Samar", "Biri", 6410, "VIII"],
+    ["Northern Samar", "Bobon", 6401, "VIII"],
+    ["Northern Samar", "Capul", 6408, "VIII"],
+    ["Northern Samar", "Catarman", 6400, "VIII"],
+    ["Northern Samar", "Catubig", 6418, "VIII"],
+    ["Northern Samar", "Gamay", 6422, "VIII"],
+    ["Northern Samar", "Las Navas", 6420, "VIII"],
+    ["Northern Samar", "Laoang", 6411, "VIII"],
+    ["Northern Samar", "Lapineg", 6423, "VIII"],
+    ["Northern Samar", "Lavezares", 6404, "VIII"],
+    ["Northern Samar", "Lope de Vega", 6403, "VIII"],
+    ["Northern Samar", "Mapanas", 6412, "VIII"],
+    ["Northern Samar", "Mondragon", 6417, "VIII"],
+    ["Northern Samar", "Palapag", 6421, "VIII"],
+    ["Northern Samar", "Pambujan", 6413, "VIII"],
+    ["Northern Samar", "Rosario", 6416, "VIII"],
+    ["Northern Samar", "San Antonio", 6407, "VIII"],
+    ["Northern Samar", "San Isidro", 6409, "VIII"],
+    ["Northern Samar", "San Jose", 6402, "VIII"],
+    ["Northern Samar", "San Roque", 6415, "VIII"],
+    ["Northern Samar", "San Vicente", 6419, "VIII"],
+    ["Northern Samar", "Silvino Lobos", 6414, "VIII"],
+    ["Northern Samar", "Victoria", 6406, "VIII"],
+    ["Nueva Ecija", "Aliaga", 3111, "III"],
+    ["Nueva Ecija", "Bongabon", 3128, "III"],
+    ["Nueva Ecija", "Cabanatuan City", 3100, "III"],
+    ["Nueva Ecija", "Cabiao", 3107, "III"],
+    ["Nueva Ecija", "Carrangalan", 3123, "III"],
+    ["Nueva Ecija", "Central Luzon State University", 3120, "III"],
+    ["Nueva Ecija", "Cuyapo", 3117, "III"],
+    ["Nueva Ecija", "Fort Magsaysay", 3130, "III"],
+    ["Nueva Ecija", "Gabaldon", 3131, "III"],
+    ["Nueva Ecija", "Gapan City", 3105, "III"],
+    ["Nueva Ecija", "Gen. M. Natividad", 3125, "III"],
+    ["Nueva Ecija", "Gen. Tinio", 3104, "III"],
+    ["Nueva Ecija", "Guimba", 3115, "III"],
+    ["Nueva Ecija", "Jaen", 3109, "III"],
+    ["Nueva Ecija", "Laur", 3129, "III"],
+    ["Nueva Ecija", "Licab", 3112, "III"],
+    ["Nueva Ecija", "Llanera", 3126, "III"],
+    ["Nueva Ecija", "Lupao", 3122, "III"],
+    ["Nueva Ecija", "Muñoz", 3119, "III"],
+    ["Nueva Ecija", "Nampicuan", 3116, "III"],
+    ["Nueva Ecija", "Palayan City", 3132, "III"],
+    ["Nueva Ecija", "Pantabangan", 3124, "III"],
+    ["Nueva Ecija", "Peñaranda", 3103, "III"],
+    ["Nueva Ecija", "Quezon", 3113, "III"],
+    ["Nueva Ecija", "Rizal", 3127, "III"],
+    ["Nueva Ecija", "San Antonio", 3108, "III"],
+    ["Nueva Ecija", "San Isidro", 3106, "III"],
+    ["Nueva Ecija", "San Jose City", 3121, "III"],
+    ["Nueva Ecija", "San Leonardo", 3102, "III"],
+    ["Nueva Ecija", "Sta. Rosa", 3101, "III"],
+    ["Nueva Ecija", "Sto. Domingo", 3133, "III"],
+    ["Nueva Ecija", "Talavera", 3114, "III"],
+    ["Nueva Ecija", "Talugtog", 3118, "III"],
+    ["Nueva Ecija", "Zaragoza", 3110, "III"],
+    ["Nueva Vizcaya", "Alfonso Castañeda", 3714, "II"],
+    ["Nueva Vizcaya", "Ambaguio", 3701, "II"],
+    ["Nueva Vizcaya", "Aritao", 3704, "II"],
+    ["Nueva Vizcaya", "Bagabag", 3711, "II"],
+    ["Nueva Vizcaya", "Bambang", 3702, "II"],
+    ["Nueva Vizcaya", "Bayombong", 3700, "II"],
+    ["Nueva Vizcaya", "Diadi", 3712, "II"],
+    ["Nueva Vizcaya", "Dupax del Norte", 3706, "II"],
+    ["Nueva Vizcaya", "Dupax del Sur", 3707, "II"],
+    ["Nueva Vizcaya", "Kasibu", 3703, "II"],
+    ["Nueva Vizcaya", "Kayapa", 3708, "II"],
+    ["Nueva Vizcaya", "Quezon", 3713, "II"],
+    ["Nueva Vizcaya", "Solano", 3709, "II"],
+    ["Nueva Vizcaya", "Sta. Fe", 3705, "II"],
+    ["Nueva Vizcaya", "Villaverde", 3710, "II"],
+    ["Occidental Mindoro", "Abra de Ilog", 5108, "MIMAROPA"],
+    ["Occidental Mindoro", "Calintaan", 5102, "MIMAROPA"],
+    ["Occidental Mindoro", "Looc", 5111, "MIMAROPA"],
+    ["Occidental Mindoro", "Lubang", 5109, "MIMAROPA"],
+    ["Occidental Mindoro", "Magsaysay", 5101, "MIMAROPA"],
+    ["Occidental Mindoro", "Mamburao", 5106, "MIMAROPA"],
+    ["Occidental Mindoro", "Palauan", 5107, "MIMAROPA"],
+    ["Occidental Mindoro", "Rizal", 5103, "MIMAROPA"],
+    ["Occidental Mindoro", "Sablayan", 5104, "MIMAROPA"],
+    ["Occidental Mindoro", "San Jose", 5100, "MIMAROPA"],
+    ["Occidental Mindoro", "Sta. Cruz", 5105, "MIMAROPA"],
+    ["Occidental Mindoro", "Tilik", 5110, "MIMAROPA"],
+    ["Oriental Mindoro", "Baco", 5201, "MIMAROPA"],
+    ["Oriental Mindoro", "Bansud", 5210, "MIMAROPA"],
+    ["Oriental Mindoro", "Bongabong", 5211, "MIMAROPA"],
+    ["Oriental Mindoro", "Bulalacao", 5214, "MIMAROPA"],
+    ["Oriental Mindoro", "Calapan", 5200, "MIMAROPA"],
+    ["Oriental Mindoro", "Gloria", 5209, "MIMAROPA"],
+    ["Oriental Mindoro", "Mansalay", 5213, "MIMAROPA"],
+    ["Oriental Mindoro", "Naujan", 5204, "MIMAROPA"],
+    ["Oriental Mindoro", "Pinamalayan", 5208, "MIMAROPA"],
+    ["Oriental Mindoro", "Pola", 5206, "MIMAROPA"],
+    ["Oriental Mindoro", "Puerto Galera", 5203, "MIMAROPA"],
+    ["Oriental Mindoro", "Roxas", 5212, "MIMAROPA"],
+    ["Oriental Mindoro", "San Teodoro", 5202, "MIMAROPA"],
+    ["Oriental Mindoro", "Socorro", 5207, "MIMAROPA"],
+    ["Oriental Mindoro", "Victoria", 5205, "MIMAROPA"],
+    ["Palawan", "Aborlan", 5302, "MIMAROPA"],
+    ["Palawan", "Agutaya", 5320, "MIMAROPA"],
+    ["Palawan", "Araceli", 5311, "MIMAROPA"],
+    ["Palawan", "Balabac", 5307, "MIMAROPA"],
+    ["Palawan", "Batazara", 5306, "MIMAROPA"],
+    ["Palawan", "Brooke's Point", 5305, "MIMAROPA"],
+    ["Palawan", "Busuanga", 5317, "MIMAROPA"],
+    ["Palawan", "Cagayancillo", 5321, "MIMAROPA"],
+    ["Palawan", "Coron", 5316, "MIMAROPA"],
+    ["Palawan", "Culion", 5315, "MIMAROPA"],
+    ["Palawan", "Cuyo", 5318, "MIMAROPA"],
+    ["Palawan", "Dumaran", 5310, "MIMAROPA"],
+    ["Palawan", "El Nido (Baquit)", 5313, "MIMAROPA"],
+    ["Palawan", "Iwahig Penal Colony", 5301, "MIMAROPA"],
+    ["Palawan", "Kalayaan", 5322, "MIMAROPA"],
+    ["Palawan", "Linapacan", 5314, "MIMAROPA"],
+    ["Palawan", "Magsaysay", 5319, "MIMAROPA"],
+    ["Palawan", "Narra (Panacan)", 5303, "MIMAROPA"],
+    ["Palawan", "Puerto Princesa City", 5300, "MIMAROPA"],
+    ["Palawan", "Quezon", 5304, "MIMAROPA"],
+    ["Palawan", "Roxas", 5308, "MIMAROPA"],
+    ["Palawan", "Rizal (Marcos)", 5323, "MIMAROPA"],
+    ["Palawan", "San Vicente", 5309, "MIMAROPA"],
+    ["Palawan", "Sofronio Española", 5324, "MIMAROPA"],
+    ["Palawan", "Taytay", 5312, "MIMAROPA"],
+    ["Pampanga", "Angeles City", 2009, "III"],
+    ["Pampanga", "Apalit", 2016, "III"],
+    ["Pampanga", "Arayat", 2012, "III"],
+    ["Pampanga", "Bacolor", 2001, "III"],
+    ["Pampanga", "Balibago", 2024, "III"],
+    ["Pampanga", "Basa airbase", 2007, "III"],
+    ["Pampanga", "Candaba", 2013, "III"],
+    ["Pampanga", "CSEZ, Clark", 2023, "III"],
+    ["Pampanga", "Dau, Mabalacat", 2026, "III"],
+    ["Pampanga", "Floridablanca", 2006, "III"],
+    ["Pampanga", "Guagua", 2003, "III"],
+    ["Pampanga", "Lubao", 2005, "III"],
+    ["Pampanga", "Mabalacat", 2010, "III"],
+    ["Pampanga", "Macabebe", 2018, "III"],
+    ["Pampanga", "Magalang", 2011, "III"],
+    ["Pampanga", "Masantol", 2017, "III"],
+    ["Pampanga", "Mexico", 2021, "III"],
+    ["Pampanga", "Minalin", 2019, "III"],
+    ["Pampanga", "Porac", 2008, "III"],
+    ["Pampanga", "San Fernando", 2000, "III"],
+    ["Pampanga", "San Luis", 2014, "III"],
+    ["Pampanga", "San simon", 2015, "III"],
+    ["Pampanga", "Sexmoan (Sasmuan)", 2004, "III"],
+    ["Pampanga", "Sta. Ana", 2022, "III"],
+    ["Pampanga", "Sta. Cruz, Lubao", 2025, "III"],
+    ["Pampanga", "Sta. Rita", 2002, "III"],
+    ["Pampanga", "Sto. Tomas", 2020, "III"],
+    ["Pangasinan", "Agno", 2408, "I"],
+    ["Pangasinan", "Aguilar", 2415, "I"],
+    ["Pangasinan", "Alaminos", 2404, "I"],
+    ["Pangasinan", "Alcala", 2425, "I"],
+    ["Pangasinan", "Anda", 2405, "I"],
+    ["Pangasinan", "Asingan", 2439, "I"],
+    ["Pangasinan", "Balungao", 2442, "I"],
+    ["Pangasinan", "Bani", 2407, "I"],
+    ["Pangasinan", "Basista", 2422, "I"],
+    ["Pangasinan", "Bautista", 2424, "I"],
+    ["Pangasinan", "Bayambang", 2423, "I"],
+    ["Pangasinan", "Binalonan", 2436, "I"],
+    ["Pangasinan", "Binmaley", 2417, "I"],
+    ["Pangasinan", "Bolinao", 2406, "I"],
+    ["Pangasinan", "Bugallon", 2416, "I"],
+    ["Pangasinan", "Burgos", 2410, "I"],
+    ["Pangasinan", "Calasiao", 2418, "I"],
+    ["Pangasinan", "Dagupan City", 2400, "I"],
+    ["Pangasinan", "Dasol", 2411, "I"],
+    ["Pangasinan", "Infanta", 2412, "I"],
+    ["Pangasinan", "Labrador", 2402, "I"],
+    ["Pangasinan", "Laoac", 2437, "I"],
+    ["Pangasinan", "Lingayen", 2401, "I"],
+    ["Pangasinan", "Mabini", 2409, "I"],
+    ["Pangasinan", "Malasiqui", 2421, "I"],
+    ["Pangasinan", "Manaoag", 2430, "I"],
+    ["Pangasinan", "Mangaldan", 2432, "I"],
+    ["Pangasinan", "Mangatarem", 2413, "I"],
+    ["Pangasinan", "Mapandan", 2429, "I"],
+    ["Pangasinan", "Natividad", 2446, "I"],
+    ["Pangasinan", "Pozorrubio", 2435, "I"],
+    ["Pangasinan", "Rosales", 2441, "I"],
+    ["Pangasinan", "San Carlos City", 2420, "I"],
+    ["Pangasinan", "San Fabian", 2433, "I"],
+    ["Pangasinan", "San Jacinto", 2431, "I"],
+    ["Pangasinan", "San Manuel", 2438, "I"],
+    ["Pangasinan", "San Nicolas", 2447, "I"],
+    ["Pangasinan", "San Quintin", 2444, "I"],
+    ["Pangasinan", "Sison", 2434, "I"],
+    ["Pangasinan", "Sta. Barbara", 2419, "I"],
+    ["Pangasinan", "Sta. Maria", 2440, "I"],
+    ["Pangasinan", "Sto. Tomas", 2426, "I"],
+    ["Pangasinan", "Sual", 2403, "I"],
+    ["Pangasinan", "Tayug", 2445, "I"],
+    ["Pangasinan", "Umingan", 2443, "I"],
+    ["Pangasinan", "Urbiztondo", 2414, "I"],
+    ["Pangasinan", "Urdaneta", 2428, "I"],
+    ["Pangasinan", "Villasis", 2427, "I"],
+    ["Quezon Province", "Agdangan", 4304, "IV-A"],
+    ["Quezon Province", "Alabat", 4333, "IV-A"],
+    ["Quezon Province", "Atimonan", 4331, "IV-A"],
+    ["Quezon Province", "Buenavista", 4320, "IV-A"],
+    ["Quezon Province", "Burdeos", 4340, "IV-A"],
+    ["Quezon Province", "Calauag", 4318, "IV-A"],
+    ["Quezon Province", "Candelaria", 4323, "IV-A"],
+    ["Quezon Province", "Catanauan", 4311, "IV-A"],
+    ["Quezon Province", "Dolores", 4326, "IV-A"],
+    ["Quezon Province", "General Luna", 4310, "IV-A"],
+    ["Quezon Province", "General Nakar", 4338, "IV-A"],
+    ["Quezon Province", "Guinayangan", 4319, "IV-A"],
+    ["Quezon Province", "Gumaca", 4307, "IV-A"],
+    ["Quezon Province", "Hondagua", 4317, "IV-A"],
+    ["Quezon Province", "Infanta", 4336, "IV-A"],
+    ["Quezon Province", "Jomalig", 4342, "IV-A"],
+    ["Quezon Province", "Lopez", 4316, "IV-A"],
+    ["Quezon Province", "Lucban", 4328, "IV-A"],
+    ["Quezon Province", "Lucena City", 4301, "IV-A"],
+    ["Quezon Province", "Macalelon", 4309, "IV-A"],
+    ["Quezon Province", "Mauban", 4330, "IV-A"],
+    ["Quezon Province", "Mulanay", 4312, "IV-A"],
+    ["Quezon Province", "Padre Burgos", 4303, "IV-A"],
+    ["Quezon Province", "Pagbilao", 4302, "IV-A"],
+    ["Quezon Province", "Panukulan", 4337, "IV-A"],
+    ["Quezon Province", "Patnanungan", 4341, "IV-A"],
+    ["Quezon Province", "Perez", 4334, "IV-A"],
+    ["Quezon Province", "Pitogo", 4308, "IV-A"],
+    ["Quezon Province", "Plaridel", 4306, "IV-A"],
+    ["Quezon Province", "Polilio", 4339, "IV-A"],
+    ["Quezon Province", "Quezon", 4332, "IV-A"],
+    ["Quezon Province", "Quezon Capitol", 4300, "IV-A"],
+    ["Quezon Province", "Real", 4335, "IV-A"],
+    ["Quezon Province", "Sampaloc", 4329, "IV-A"],
+    ["Quezon Province", "San Andres", 4314, "IV-A"],
+    ["Quezon Province", "San Antonio", 4324, "IV-A"],
+    ["Quezon Province", "San Francisco", 4315, "IV-A"],
+    ["Quezon Province", "San Narciso", 4313, "IV-A"],
+    ["Quezon Province", "Sariaya", 4322, "IV-A"],
+    ["Quezon Province", "Tagkawayan", 4321, "IV-A"],
+    ["Quezon Province", "Tayabas", 4327, "IV-A"],
+    ["Quezon Province", "Tiaong", 4325, "IV-A"],
+    ["Quezon Province", "Unisan", 4305, "IV-A"],
+    ["Quirino", "Aglipay", 3403, "II"],
+    ["Quirino", "Cabarroguis", 3400, "II"],
+    ["Quirino", "Diffun", 3401, "II"],
+    ["Quirino", "Maddela", 3404, "II"],
+    ["Quirino", "Nagtipunan", 3405, "II"],
+    ["Quirino", "Saguday", 3402, "II"],
+    ["Rizal Province", "Angono", 1930, "IV-A"],
+    ["Rizal Province", "Antipolo", 1870, "IV-A"],
+    ["Rizal Province", "Bagong Nayon (Cogeo)", 1872, "IV-A"],
+    ["Rizal Province", "Baras", 1970, "IV-A"],
+    ["Rizal Province", "Binangonan", 1940, "IV-A"],
+    ["Rizal Province", "Cainta", 1900, "IV-A"],
+    ["Rizal Province", "Cardona", 1950, "IV-A"],
+    ["Rizal Province", "Cupang", 1873, "IV-A"],
+    ["Rizal Province", "Jala-Jala", 1990, "IV-A"],
+    ["Rizal Province", "Langhaya", 1874, "IV-A"],
+    ["Rizal Province", "Mambagat", 1875, "IV-A"],
+    ["Rizal Province", "Mayamot", 1871, "IV-A"],
+    ["Rizal Province", "Montalban (Rodriguez)", 1860, "IV-A"],
+    ["Rizal Province", "Morong", 1960, "IV-A"],
+    ["Rizal Province", "Pilillia", 1910, "IV-A"],
+    ["Rizal Province", "San Mateo", 1850, "IV-A"],
+    ["Rizal Province", "Tanay", 1980, "IV-A"],
+    ["Rizal Province", "Taytay", 1920, "IV-A"],
+    ["Rizal Province", "Teresa", 1880, "IV-A"],
+    ["Romblon", "Alcantara", 5509, "MIMAROPA"],
+    ["Romblon", "Banton (Jones)", 5515, "MIMAROPA"],
+    ["Romblon", "Cajidiocan", 5512, "MIMAROPA"],
+    ["Romblon", "Calatrava", 5503, "MIMAROPA"],
+    ["Romblon", "Concepcion", 5516, "MIMAROPA"],
+    ["Romblon", "Corcuera", 5514, "MIMAROPA"],
+    ["Romblon", "Ferrol", 5506, "MIMAROPA"],
+    ["Romblon", "Sta. Maria (formerly Imelda)", 5502, "MIMAROPA"],
+    ["Romblon", "Looc", 5507, "MIMAROPA"],
+    ["Romblon", "Magdiwang", 5511, "MIMAROPA"],
+    ["Romblon", "Odiongan", 5505, "MIMAROPA"],
+    ["Romblon", "Romblon", 5500, "MIMAROPA"],
+    ["Romblon", "San Agustin", 5501, "MIMAROPA"],
+    ["Romblon", "San Andres", 5504, "MIMAROPA"],
+    ["Romblon", "San Fernando", 5513, "MIMAROPA"],
+    ["Romblon", "San Jose", 5510, "MIMAROPA"],
+    ["Romblon", "Sta. Fe", 5508, "MIMAROPA"],
+    ["Samar", "Almagro", 6724, "VIII"],
+    ["Samar", "Basey", 6720, "VIII"],
+    ["Samar", "Calbayog City", 6710, "VIII"],
+    ["Samar", "Calbiga", 6715, "VIII"],
+    ["Samar", "Catbalogan", 6700, "VIII"],
+    ["Samar", "Daram", 6722, "VIII"],
+    ["Samar", "Gandara", 6706, "VIII"],
+    ["Samar", "Hinabangan", 6713, "VIII"],
+    ["Samar", "Jiabong", 6701, "VIII"],
+    ["Samar", "Marabut", 6721, "VIII"],
+    ["Samar", "Matuguinao", 6708, "VIII"],
+    ["Samar", "Motiong", 6702, "VIII"],
+    ["Samar", "Pagsanghan", 6705, "VIII"],
+    ["Samar", "Pinabacdao", 6716, "VIII"],
+    ["Samar", "San Jorge", 6707, "VIII"],
+    ["Samar", "San Jose de Buan", 6723, "VIII"],
+    ["Samar", "San Sebastian", 6714, "VIII"],
+    ["Samar", "Sta. Margarita", 6709, "VIII"],
+    ["Samar", "Sta. Rita", 6718, "VIII"],
+    ["Samar", "Sto. Niño", 6711, "VIII"],
+    ["Samar", "Tagapul-an", 6712, "VIII"],
+    ["Samar", "Talalora", 6719, "VIII"],
+    ["Samar", "Tarangnan", 6704, "VIII"],
+    ["Samar", "Villareal", 6717, "VIII"],
+    ["Samar", "Wright", 6703, "VIII"],
+    ["Samar", "Zumarraga", 6725, "VIII"],
+    ["Sarangani", "Alabel", 9501, "XII"],
+    ["Sarangani", "Glan", 9517, "XII"],
+    ["Sarangani", "Kiamba", 9514, "XII"],
+    ["Sarangani", "Maasim", 9502, "XII"],
+    ["Sarangani", "Maitum", 9515, "XII"],
+    ["Sarangani", "Malapatan", 9516, "XII"],
+    ["Sarangani", "Malungon", 9503, "XII"],
+    ["Siquijor", "Enrique Villanueva", 6230, "NIR"],
+    ["Siquijor", "Larena", 6226, "NIR"],
+    ["Siquijor", "Lazi", 6228, "NIR"],
+    ["Siquijor", "Maria", 6229, "NIR"],
+    ["Siquijor", "San Juan", 6227, "NIR"],
+    ["Siquijor", "Siquijor", 6225, "NIR"],
+    ["Sorsogon", "Bacon", 4701, "V"],
+    ["Sorsogon", "Barcelona", 4712, "V"],
+    ["Sorsogon", "Bulan", 4706, "V"],
+    ["Sorsogon", "Bulusan", 4704, "V"],
+    ["Sorsogon", "Casiguran", 4702, "V"],
+    ["Sorsogon", "Castilla", 4713, "V"],
+    ["Sorsogon", "Donsol", 4715, "V"],
+    ["Sorsogon", "Gubat", 4710, "V"],
+    ["Sorsogon", "Irosin", 4707, "V"],
+    ["Sorsogon", "Juban", 4703, "V"],
+    ["Sorsogon", "Magallanes", 4705, "V"],
+    ["Sorsogon", "Matnog", 4708, "V"],
+    ["Sorsogon", "Pilar", 4714, "V"],
+    ["Sorsogon", "Prieto Diaz", 4711, "V"],
+    ["Sorsogon", "Sorsogon", 4700, "V"],
+    ["Sorsogon", "Sta. Magdalena", 4709, "V"],
+    ["South Cotabato", "Banga", 9511, "XII"],
+    ["South Cotabato", "General Santos City", 9500, "XII"],
+    ["South Cotabato", "Koronadal", 9506, "XII"],
+    ["South Cotabato", "Lake Sebu", 9518, "XII"],
+    ["South Cotabato", "Norala", 9508, "XII"],
+    ["South Cotabato", "Polomolok", 9504, "XII"],
+    ["South Cotabato", "Sto. Niño", 9509, "XII"],
+    ["South Cotabato", "Surallah", 9512, "XII"],
+    ["South Cotabato", "Tampakan", 9507, "XII"],
+    ["South Cotabato", "Tantangan", 9510, "XII"],
+    ["South Cotabato", "T'boli", 9513, "XII"],
+    ["South Cotabato", "Tupi", 9505, "XII"],
+    ["Southern Leyte", "Anahawan", 6610, "VIII"],
+    ["Southern Leyte", "Bontoc", 6604, "VIII"],
+    ["Southern Leyte", "Hinunangan", 6608, "VIII"],
+    ["Southern Leyte", "Hinundayan", 6609, "VIII"],
+    ["Southern Leyte", "Libagon", 6615, "VIII"],
+    ["Southern Leyte", "Liloan", 6612, "VIII"],
+    ["Southern Leyte", "Limasawa", 6618, "VIII"],
+    ["Southern Leyte", "Maasin", 6600, "VIII"],
+    ["Southern Leyte", "Macrohon", 6601, "VIII"],
+    ["Southern Leyte", "Malitbog", 6603, "VIII"],
+    ["Southern Leyte", "Padre Burgos", 6602, "VIII"],
+    ["Southern Leyte", "Pintuyan", 6614, "VIII"],
+    ["Southern Leyte", "San Francisco", 6613, "VIII"],
+    ["Southern Leyte", "San Juan (Cabalian)", 6611, "VIII"],
+    ["Southern Leyte", "San Ricardo", 6617, "VIII"],
+    ["Southern Leyte", "Silago", 6607, "VIII"],
+    ["Southern Leyte", "Sogod", 6606, "VIII"],
+    ["Southern Leyte", "St. Bernard", 6616, "VIII"],
+    ["Southern Leyte", "Tomas Oppus", 6605, "VIII"],
+    ["Sultan Kudarat", "Bagumbayan", 9810, "XII"],
+    ["Sultan Kudarat", "Columbio", 9801, "XII"],
+    ["Sultan Kudarat", "Esperanza (Ampatuan)", 9806, "XII"],
+    ["Sultan Kudarat", "Isulan", 9805, "XII"],
+    ["Sultan Kudarat", "Kalamansig", 9808, "XII"],
+    ["Sultan Kudarat", "Lebak (Salaman)", 9807, "XII"],
+    ["Sultan Kudarat", "Lutayan", 9803, "XII"],
+    ["Sultan Kudarat", "Mariano Marcos", 9802, "XII"],
+    ["Sultan Kudarat", "Palimbang", 9809, "XII"],
+    ["Sultan Kudarat", "Pres. Quirino", 9804, "XII"],
+    ["Sultan Kudarat", "Sen. Ninoy Aquino", 9811, "XII"],
+    ["Sultan Kudarat", "Tacurong", 9800, "XII"],
+    ["Sulu", "Banguingui (formerly Tongkil)", 7406, "BARMM"],
+    ["Sulu", "Hadji Panglima Tahil (formerly Marungas)", 7413, "BARMM"],
+    ["Sulu", "Indanan", 7407, "BARMM"],
+    ["Sulu", "Jolo", 7400, "BARMM"],
+    ["Sulu", "Kalingalan Caluang", 7416, "BARMM"],
+    ["Sulu", "Lugus", 7411, "BARMM"],
+    ["Sulu", "Luuk", 7404, "BARMM"],
+    ["Sulu", "Maimbung", 7409, "BARMM"],
+    ["Sulu", "Omar", 7417, "BARMM"],
+    ["Sulu", "Panamao", 7402, "BARMM"],
+    ["Sulu", "Pandami", 7418, "BARMM"],
+    ["Sulu", "Panglima Estino", 7415, "BARMM"],
+    ["Sulu", "Pangutaran", 7414, "BARMM"],
+    ["Sulu", "Parang", 7408, "BARMM"],
+    ["Sulu", "Pata", 7405, "BARMM"],
+    ["Sulu", "Patikul", 7401, "BARMM"],
+    ["Sulu", "Siasi", 7412, "BARMM"],
+    ["Sulu", "Talipao", 7403, "BARMM"],
+    ["Sulu", "Tapul", 7410, "BARMM"],
+    ["Surigao del Norte", "Alegria", 8425, "XIII"],
+    ["Surigao del Norte", "Bacuag", 8408, "XIII"],
+    ["Surigao del Norte", "Burgos", 8424, "XIII"],
+    ["Surigao del Norte", "Claver", 8410, "XIII"],
+    ["Surigao del Norte", "Dapa", 8417, "XIII"],
+    ["Surigao del Norte", "Del Carmen", 8418, "XIII"],
+    ["Surigao del Norte", "Gen. Luna", 8419, "XIII"],
+    ["Surigao del Norte", "Gigaquit", 8409, "XIII"],
+    ["Surigao del Norte", "Mainit", 8407, "XIII"],
+    ["Surigao del Norte", "Malimono", 8402, "XIII"],
+    ["Surigao del Norte", "Pilar", 8420, "XIII"],
+    ["Surigao del Norte", "Placer", 8405, "XIII"],
+    ["Surigao del Norte", "San Benito", 8423, "XIII"],
+    ["Surigao del Norte", "San Francisco", 8401, "XIII"],
+    ["Surigao del Norte", "San Isidro", 8421, "XIII"],
+    ["Surigao del Norte", "Sison", 8404, "XIII"],
+    ["Surigao del Norte", "Socorro", 8416, "XIII"],
+    ["Surigao del Norte", "Sta. Monica", 8422, "XIII"],
+    ["Surigao del Norte", "Surigao City", 8400, "XIII"],
+    ["Surigao del Norte", "Tagana-an", 8403, "XIII"],
+    ["Surigao del Norte", "Tubod", 8406, "XIII"],
+    ["Surigao del Sur", "Barobo", 8309, "XIII"],
+    ["Surigao del Sur", "Bayabas", 8303, "XIII"],
+    ["Surigao del Sur", "Bislig", 8311, "XIII"],
+    ["Surigao del Sur", "Cagwait", 8304, "XIII"],
+    ["Surigao del Sur", "Cantilan", 8317, "XIII"],
+    ["Surigao del Sur", "Carmen", 8315, "XIII"],
+    ["Surigao del Sur", "Carrascal", 8318, "XIII"],
+    ["Surigao del Sur", "Cortez", 8313, "XIII"],
+    ["Surigao del Sur", "Hinatuan", 8310, "XIII"],
+    ["Surigao del Sur", "Lanuza", 8314, "XIII"],
+    ["Surigao del Sur", "Lianga", 8307, "XIII"],
+    ["Surigao del Sur", "Lingig", 8312, "XIII"],
+    ["Surigao del Sur", "Madrid", 8316, "XIII"],
+    ["Surigao del Sur", "Malixi", 8319, "XIII"],
+    ["Surigao del Sur", "Marihatag", 8306, "XIII"],
+    ["Surigao del Sur", "San Agustin", 8305, "XIII"],
+    ["Surigao del Sur", "San Miguel", 8301, "XIII"],
+    ["Surigao del Sur", "Tagbina", 8308, "XIII"],
+    ["Surigao del Sur", "Tago", 8302, "XIII"],
+    ["Surigao del Sur", "Tandag", 8300, "XIII"],
+    ["Tarlac", "Anao", 2310, "III"],
+    ["Tarlac", "Bamban", 2317, "III"],
+    ["Tarlac", "Camiling", 2306, "III"],
+    ["Tarlac", "Capas", 2315, "III"],
+    ["Tarlac", "Concepcion", 2316, "III"],
+    ["Tarlac", "Gerona", 2302, "III"],
+    ["Tarlac", "La Paz", 2314, "III"],
+    ["Tarlac", "Mayantoc", 2304, "III"],
+    ["Tarlac", "Moncada", 2308, "III"],
+    ["Tarlac", "Paniqui", 2307, "III"],
+    ["Tarlac", "Pura", 2312, "III"],
+    ["Tarlac", "Ramos", 2311, "III"],
+    ["Tarlac", "San Clemente", 2305, "III"],
+    ["Tarlac", "San Jose", 2318, "III"],
+    ["Tarlac", "San Manuel", 2309, "III"],
+    ["Tarlac", "San Miguel", 2301, "III"],
+    ["Tarlac", "Sta. Ignacia", 2303, "III"],
+    ["Tarlac", "Tarlac", 2300, "III"],
+    ["Tarlac", "Victoria", 2313, "III"],
+    ["Tawi-Tawi", "Bongao", 7500, "BARMM"],
+    ["Tawi-Tawi", "Languyan", 7509, "BARMM"],
+    ["Tawi-Tawi", "Mapun (formerly Cagayan de Sulu)", 7508, "BARMM"],
+    ["Tawi-Tawi", "Panglima Sugala (formerly Balimbing)", 7501, "BARMM"],
+    ["Tawi-Tawi", "Sapa-Sapa", 7503, "BARMM"],
+    ["Tawi-Tawi", "Sibutu", 7510, "BARMM"],
+    ["Tawi-Tawi", "Simunul", 7505, "BARMM"],
+    ["Tawi-Tawi", "Sitangkai", 7506, "BARMM"],
+    ["Tawi-Tawi", "South Ubian", 7504, "BARMM"],
+    ["Tawi-Tawi", "Turtle Islands (Taganak)", 7507, "BARMM"],
+    ["Tawi-Tawi", "Tandubas", 7502, "BARMM"],
+    ["Zambales", "Botolan", 2202, "III"],
+    ["Zambales", "Cabangan", 2203, "III"],
+    ["Zambales", "Candelaria", 2212, "III"],
+    ["Zambales", "Castillejos", 2208, "III"],
+    ["Zambales", "Iba", 2201, "III"],
+    ["Zambales", "Masinloc", 2211, "III"],
+    ["Zambales", "Olongapo City", 2200, "III"],
+    ["Zambales", "Palauig", 2210, "III"],
+    ["Zambales", "San Antonio", 2206, "III"],
+    ["Zambales", "San Felipe", 2204, "III"],
+    ["Zambales", "San Marcelino", 2207, "III"],
+    ["Zambales", "San Narciso", 2205, "III"],
+    ["Zambales", "Sta. Cruz", 2213, "III"],
+    ["Zambales", "Subic", 2209, "III"],
+    ["Zamboanga del Norte", "Leon B. Postigo (Bacungan)", 7125, "IX"],
+    ["Zamboanga del Norte", "Liloy", 7115, "IX"],
+    ["Zamboanga del Norte", "Manukan", 7110, "IX"],
+    ["Zamboanga del Norte", "Mutia", 7107, "IX"],
+    ["Zamboanga del Norte", "Pinan", 7105, "IX"],
+    ["Zamboanga del Norte", "Polanco", 7106, "IX"],
+    ["Zamboanga del Norte", "Rizal", 7104, "IX"],
+    ["Zamboanga del Norte", "Roxas", 7102, "IX"],
+    ["Zamboanga del Norte", "Salug", 7114, "IX"],
+    ["Zamboanga del Norte", "Sergio Osmeña", 7108, "IX"],
+    ["Zamboanga del Norte", "Siayan", 7113, "IX"],
+    ["Zamboanga del Norte", "Sibuco", 7122, "IX"],
+    ["Zamboanga del Norte", "Sibutad", 7103, "IX"],
+    ["Zamboanga del Norte", "Sindangan", 7112, "IX"],
+    ["Zamboanga del Norte", "Siocon", 7120, "IX"],
+    ["Zamboanga del Norte", "Siraway", 7121, "IX"],
+    ["Zamboanga del Norte", "Tampilisan", 7116, "IX"],
+    ["Zamboanga del Sur", "Aurora", 7020, "IX"],
+    ["Zamboanga del Sur", "Bayog", 7011, "IX"],
+    ["Zamboanga del Sur", "Dimataling", 7032, "IX"],
+    ["Zamboanga del Sur", "Dinas", 7030, "IX"],
+    ["Zamboanga del Sur", "Don Mariano Marcos", 7022, "IX"],
+    ["Zamboanga del Sur", "Dumalinao", 7015, "IX"],
+    ["Zamboanga del Sur", "Dumingag", 7028, "IX"],
+    ["Zamboanga del Sur", "Guipos", 7042, "IX"],
+    ["Zamboanga del Sur", "Josefina", 7027, "IX"],
+    ["Zamboanga del Sur", "Kumalarang", 7013, "IX"],
+    ["Zamboanga del Sur", "Labangan", 7017, "IX"],
+    ["Zamboanga del Sur", "Lakewood", 7014, "IX"],
+    ["Zamboanga del Sur", "Lapuyan", 7037, "IX"],
+    ["Zamboanga del Sur", "Mahayag", 7026, "IX"],
+    ["Zamboanga del Sur", "Margo sa Tubig", 7035, "IX"],
+    ["Zamboanga del Sur", "Midsalip", 7021, "IX"],
+    ["Zamboanga del Sur", "Molave", 7023, "IX"],
+    ["Zamboanga del Sur", "Pagadian City", 7016, "IX"],
+    ["Zamboanga del Sur", "Pitogo", 7033, "IX"],
+    ["Zamboanga del Sur", "Ramon Magsaysay", 7024, "IX"],
+    ["Zamboanga del Sur", "San Miguel", 7029, "IX"],
+    ["Zamboanga del Sur", "San Pablo", 7031, "IX"],
+    ["Zamboanga del Sur", "Tabina", 7034, "IX"],
+    ["Zamboanga del Sur", "Tambulig", 7025, "IX"],
+    ["Zamboanga del Sur", "Tigbao", 7043, "IX"],
+    ["Zamboanga del Sur", "Tukuran", 7019, "IX"],
+    ["Zamboanga del Sur", "Vicencio Sagun", 7036, "IX"],
+    ["Zamboanga del Sur", "Zamboanga City", 7000, "IX"],
+    ["Zamboanga Sibugay", "Alicia", 7040, "IX"],
+    ["Zamboanga Sibugay", "Buug", 7009, "IX"],
+    ["Zamboanga Sibugay", "Diplahan", 7039, "IX"],
+    ["Zamboanga Sibugay", "Imelda", 7007, "IX"],
+    ["Zamboanga Sibugay", "Ipil", 7001, "IX"],
+    ["Zamboanga Sibugay", "Kabasalan", 7005, "IX"],
+    ["Zamboanga Sibugay", "Mabuhay", 7010, "IX"],
+    ["Zamboanga Sibugay", "Malangas", 7038, "IX"],
+    ["Zamboanga Sibugay", "Naga", 7004, "IX"],
+    ["Zamboanga Sibugay", "Olutanga", 7041, "IX"],
+    ["Zamboanga Sibugay", "Payao", 7008, "IX"],
+    ["Zamboanga Sibugay", "Roseller Lim", 7002, "IX"],
+    ["Zamboanga Sibugay", "Siay", 7006, "IX"],
+    ["Zamboanga Sibugay", "Talusan", 7012, "IX"],
+    ["Zamboanga Sibugay", "Titay", 7003, "IX"],
+    ["Zamboanga Sibugay", "Tungawan", 7018, "IX"]
+];
+    const data: PlaceProps[] = rawData.map(([location, municipality, post_code, region]) => ({location, municipality, post_code, region}));
     data.forEach((entry) => Object.freeze(entry));
     Object.freeze(data);
     const placeDataProvider = () => {
