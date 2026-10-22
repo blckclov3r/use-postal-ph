@@ -8,7 +8,7 @@ municipalities, locations, and regions. Moreover, searching within the library i
 [![npm version](https://img.shields.io/npm/v/use-postal-ph?style=flat-square&alt=use-postal-ph)](https://www.npmjs.com/package/use-postal-ph)
 [![Bundlephobia](https://img.shields.io/bundlephobia/min/use-postal-ph)](https://bundlephobia.com/result?p=use-postal-ph)
 [![Downloads](https://img.shields.io/npm/dt/use-postal-ph.svg?style=flat-square)](https://www.npmjs.com/package/use-postal-ph)
-[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/blckclov3r)
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/blckclov3r/use-postal-ph/blob/main/LICENSE)
 [![jsDocs.io](https://img.shields.io/badge/jsDocs.io-reference-blue)](https://www.jsdocs.io/package/use-postal-ph)
 [![Playwright Tests](https://github.com/blckclov3r/use-postal-ph/actions/workflows/playwright.yml/badge.svg)](https://github.com/blckclov3r/use-postal-ph/actions/workflows/playwright.yml)
 
@@ -22,7 +22,7 @@ municipalities, locations, and regions. Moreover, searching within the library i
 * [Query Options](#query-options)
 * [ECMAScript Module (ESM) Entry Point](#ecmascript-module-esm-entry-point)
 * [Contribution Guidelines](#contribution-guidelines)
-* [References](#references)
+* [Data Sources and Attribution](#data-sources-and-attribution)
 * [License](#license)
 
 ## Installation
@@ -212,17 +212,25 @@ postal code '6045'. It then logs the result to the console.
 Contributions are highly appreciated! To contribute, fork the repository, create a new branch for your changes, and
 submit a pull request. Please ensure your code adheres to the existing coding standards and conventions. While this
 library provides information, it may not be comprehensive. Contributions aimed at enhancing the comprehensiveness of the
-data are welcome.
+data are welcome. Data contributions must include a source reference (preferably PSA PSGC or PHLPost) and must not add
+content under a license incompatible with this project.
 
-## References
+## Data Sources and Attribution
 
-The `use-postal-ph` library utilizes data sourced from Wikipedia, including information on regions, provinces, and
-municipalities of the Philippines.
+The library's **source code** is MIT-licensed. The embedded **dataset** is compiled from official Philippine government
+sources.
 
-- [Wikipedia - Regions of the Philippines](http://en.wikipedia.org/wiki/Regions_of_the_Philippines)
-- [Wikipedia - Provinces of the Philippines](http://en.wikipedia.org/wiki/Provinces_of_the_Philippines)
-- [Wikipedia - List of Cities and Municipalities in the Philippines](http://en.wikipedia.org/wiki/List_of_cities_and_municipalities_in_the_Philippines)
+### Official sources
+
+- [Philippine Statistics Authority (PSA) — Philippine Standard Geographic Code (PSGC)](https://psa.gov.ph/classification/psgc)
+  — regions, provinces, cities, and municipalities. Accessed 2026-10-23.
+- [PHLPost — ZIP Code Locator](https://phlpost.gov.ph/zip-code-locator) — postal codes. Accessed 2026-10-23.
+
+### Accuracy and disclaimer
+
+This project is not affiliated with, endorsed by, or an official product of PSA, PHLPost, or the Philippine government.
+Postal codes and administrative boundaries change; verify critical information against the official sources.
 
 ## License
 
-MIT &copy; [blckclov3r](https://github.com/blckclov3r/use-postal-ph?tab=MIT-1-ov-file)
+MIT &copy; [blckclov3r](https://github.com/blckclov3r/use-postal-ph/blob/main/LICENSE)

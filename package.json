@@ -19,7 +19,8 @@
   },
   "sideEffects": false,
   "files": [
-    "dist"
+    "dist",
+    "DATA_SOURCES.md"
   ],
   "homepage": "https://github.com/blckclov3r/use-postal-ph#readme",
   "keywords": [
