@@ -23,14 +23,12 @@ export default function geographicDataFetcher() {
             array.push(value);
     };
 
-    const setUniqueArray = <T>(array: T[], key: keyof PlaceProps, limit?: number): void => {
+    const setUniqueArray = <T>(array: T[], key: keyof PlaceProps): void => {
         if (array.length > 0 || !key) return;
         data.forEach((entry) => {
             const value = entry[key] as T;
             if (value) {
-                if (!limit || array.length < limit) {
-                    addToUniqueArray(array, value);
-                }
+                addToUniqueArray(array, value);
             }
         });
     };
@@ -83,14 +81,22 @@ export default function geographicDataFetcher() {
                                 location,
                                 limit
                             }: PlaceListCriteriaProps = {}): FetchResult<PlaceProps> => {
-        const newData = data.filter(entry => {
-            const municipalityMatch = !municipality || createRegexPattern(municipality, true).test(entry.municipality || '');
-            const postCodeMatch = !post_code || (entry.post_code && entry.post_code.toString().startsWith(post_code.toString()));
-            const regionMatch = !region || createRegexPattern(region, true).test(entry.region || '');
-            const locationMatch = !location || createRegexPattern(location, true).test(entry.location || '');
+        const municipalityRegex = municipality ? createRegexPattern(municipality, true) : undefined;
+        const regionRegex = region ? createRegexPattern(region, true) : undefined;
+        const locationRegex = location ? createRegexPattern(location, true) : undefined;
+        const hasPostCode = post_code !== undefined && post_code !== '';
+        const postCodePrefix = hasPostCode ? post_code.toString() : undefined;
+        const hasFilters = Boolean(municipality) || hasPostCode || Boolean(region) || Boolean(location);
+        const newData = hasFilters ? data.filter(entry => {
+            const municipalityMatch = !municipalityRegex || municipalityRegex.test(toSearchableText(entry.municipality));
+            const postCodeMatch = postCodePrefix === undefined || (
+                entry.post_code !== undefined && entry.post_code.toString().startsWith(postCodePrefix)
+            );
+            const regionMatch = !regionRegex || regionRegex.test(toSearchableText(entry.region));
+            const locationMatch = !locationRegex || locationRegex.test(toSearchableText(entry.location));
             return municipalityMatch && postCodeMatch && regionMatch && locationMatch;
-        });
-        const limitedData = limit ? newData.slice(0, limit) : newData;
+        }) : data;
+        const limitedData = limit ? newData.slice(0, limit) : newData.slice();
         return {
             data: limitedData,
             count: limitedData.length,
@@ -102,7 +108,7 @@ export default function geographicDataFetcher() {
             if (search) {
                 return filterData('municipality', search, limit, true);
             } else {
-                setUniqueArray(municipalityList, 'municipality', limit);
+                setUniqueArray(municipalityList, 'municipality');
                 return {
                     data: municipalityList.slice(0, limit),
                     count: limit ? municipalityList.slice(0, limit).length : municipalityList.length,
@@ -118,7 +124,7 @@ export default function geographicDataFetcher() {
             if (search) {
                 return findData('post_code', search);
             } else {
-                setUniqueArray(postCodeList, 'post_code', limit);
+                setUniqueArray(postCodeList, 'post_code');
                 return {
                     data: postCodeList.slice(0, limit),
                     count: limit ? postCodeList.slice(0, limit).length : postCodeList.length,

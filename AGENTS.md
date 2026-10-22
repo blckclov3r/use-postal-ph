@@ -7,7 +7,7 @@ TypeScript library published on npm as `use-postal-ph`: Philippine postal codes,
 |------|---------|
 | Build CJS + ESM + types | `pnpm build` |
 | Type-check source, tests, and configs | `pnpm typecheck` |
-| Library tests (default, offline, 15 runs) | `pnpm test` |
+| Library tests (default, offline, 18 runs) | `pnpm test` |
 | One library test | `pnpm test -g "post-code"` |
 | Install Playwright browsers | `pnpm exec playwright install` |
 
@@ -15,8 +15,8 @@ TypeScript library published on npm as `use-postal-ph`: Philippine postal codes,
 - CI (`.github/workflows/playwright.yml`) uses **pnpm** (pinned via `packageManager`) with `--frozen-lockfile`, then `typecheck` → `build` → library tests.
 
 ## Architecture
-- `src/index.ts` — sole entry point; default export `usePostalPH()` returns `fetchMunicipalities`, `fetchPostCodes`, `fetchLocations`, `fetchRegions`, `fetchDataLists`.
-- `src/logic/placeDataArray.ts` — all 2,139 data entries, ~12.8k lines. Data changes happen here.
+- `src/index.ts` — sole entry point; default export `usePostalPH()` lazily creates one shared fetcher exposing `fetchMunicipalities`, `fetchPostCodes`, `fetchLocations`, `fetchRegions`, `fetchDataLists`.
+- `src/logic/placeDataArray.ts` — all 2,138 data entries, ~12.8k lines. Data changes happen here.
 - `src/logic/geographicDataFetcher.ts` — search, filtering, unique-value extraction.
 - `src/types/placeTypes.ts` — public types: `PlaceProps`, `SearchCriteriaProps`, `PlaceListCriteriaProps`, `FetchResult<T>`.
 
@@ -25,6 +25,7 @@ TypeScript library published on npm as `use-postal-ph`: Philippine postal codes,
 - Municipalities, locations, and `fetchDataLists` fields match by **prefix**; `fetchRegions` matches **exactly** (anchored `^...$`).
 - `fetchPostCodes({search})` returns a single `PlaceProps | undefined`; without `search` it returns `{data, count}`. `limit` is ignored in the search path.
 - `fetchDataLists` ANDs its municipality/post_code/region/location filters.
+- `limit` slices the returned list only; unique-value caches must stay complete or a limited first call would poison later unlimited calls.
 
 ## Build and release
 - `tsup.config.ts`: CJS + ESM + `.d.ts`, ES5 target, Terser-minified (strips console/debugger), single-file bundles.
@@ -35,6 +36,6 @@ TypeScript library published on npm as `use-postal-ph`: Philippine postal codes,
 
 ## Environment quirks
 - `tsconfig.json`: `declaration` + `declarationMap`, `strict`, `exactOptionalPropertyTypes`, `noUncheckedIndexedAccess`, `noUnusedLocals/Parameters`, `isolatedModules`, `skipLibCheck`; `target: ES5`, `module: ESNext`, `moduleResolution: Node`. Includes tests and configs, not just `src/`.
-- Playwright runs the library suite in chromium, firefox, and webkit (5 tests → 15 runs).
+- Playwright runs the library suite in chromium, firefox, and webkit (6 tests → 18 runs).
 - `engines` advertises Node `>=10` for consumers, but CI and dev tooling require current LTS (Playwright, tsup, TS 5.9). Avoid syntax that cannot compile to ES5.
 - `.agents/` and `skills-lock.json` are gitignored; the skill setup is local-only and should not be committed.

@@ -129,7 +129,7 @@ export default function placeDataArray() {
             "post_code": 1425
         },
         {
-            "location": "Caloocan area (North)",
+            "location": "Caloocan City (North)",
             "region": "NCR",
             "municipality": "Bagong Silang",
             "post_code": 1428
@@ -833,7 +833,7 @@ export default function placeDataArray() {
         {
             "location": "Navotas City",
             "region": "NCR",
-            "municipality": "Isla De Cocomo",
+            "municipality": "Isla de Cocomo",
             "post_code": 1412
         },
         {
@@ -2061,7 +2061,7 @@ export default function placeDataArray() {
         {
             "location": "Quezon City",
             "region": "NCR",
-            "municipality": "Sto. Nino",
+            "municipality": "Sto. Niño",
             "post_code": 1113
         },
         {
@@ -2152,7 +2152,7 @@ export default function placeDataArray() {
             "location": "Quezon City",
             "region": "NCR",
             "municipality": "Villa Maria Clara",
-            "post_code": 1109,
+            "post_code": 1109
         },
         {
             "location": "San Juan City",
@@ -7840,253 +7840,247 @@ export default function placeDataArray() {
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
-            "municipality": "Bacolod Grande",
+            "region": "BARMM",
+            "municipality": "Bacolod-Kalawi (formerly Bacolod Grande)",
             "post_code": 9316
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
+            "region": "BARMM",
             "municipality": "Balabagan",
             "post_code": 9302
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
+            "region": "BARMM",
             "municipality": "Bayang",
             "post_code": 9309
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
+            "region": "BARMM",
             "municipality": "Balindong",
             "post_code": 9318
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
+            "region": "BARMM",
             "municipality": "Binidayan",
             "post_code": 9310
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
-            "municipality": "Buadiposo Buntong",
+            "region": "BARMM",
+            "municipality": "Buadiposo-Buntong",
             "post_code": 9714
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
+            "region": "BARMM",
             "municipality": "Bubong",
             "post_code": 9708
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
-            "municipality": "Bumbaran",
+            "region": "BARMM",
+            "municipality": "Amai Manabilang (formerly Bumbaran)",
             "post_code": 9320
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
+            "region": "BARMM",
             "municipality": "Butig",
             "post_code": 9305
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
+            "region": "BARMM",
             "municipality": "Calanogas",
             "post_code": 9319
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
+            "region": "BARMM",
             "municipality": "Ganassi",
             "post_code": 9311
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
+            "region": "BARMM",
             "municipality": "Kapai",
             "post_code": 9709
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
+            "region": "BARMM",
             "municipality": "Kapatagan",
             "post_code": 9322
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
-            "municipality": "Lumba Bayabao",
+            "region": "BARMM",
+            "municipality": "Lumba-Bayabao",
             "post_code": 9703
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
-            "municipality": "Lumbaca Unayan",
+            "region": "BARMM",
+            "municipality": "Lumbaca-Unayan",
             "post_code": 9323
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
+            "region": "BARMM",
             "municipality": "Lumbatan",
             "post_code": 9307
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
+            "region": "BARMM",
             "municipality": "Lumbayanague",
             "post_code": 9306
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
+            "region": "BARMM",
             "municipality": "Macador Andong",
             "post_code": 9308
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
+            "region": "BARMM",
             "municipality": "Madalum",
             "post_code": 9315
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
+            "region": "BARMM",
             "municipality": "Madamba",
             "post_code": 9314
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
+            "region": "BARMM",
             "municipality": "Maguing",
             "post_code": 9715
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
+            "region": "BARMM",
             "municipality": "Malabang",
             "post_code": 9300
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
+            "region": "BARMM",
             "municipality": "Marantao",
             "post_code": 9711
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
+            "region": "BARMM",
             "municipality": "Marawi City",
             "post_code": 9700
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
+            "region": "BARMM",
             "municipality": "Marogong",
             "post_code": 9303
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
+            "region": "BARMM",
             "municipality": "Masiu",
             "post_code": 9706
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
+            "region": "BARMM",
             "municipality": "Mulondo",
             "post_code": 9702
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
+            "region": "BARMM",
             "municipality": "Pagayawan",
             "post_code": 9312
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
+            "region": "BARMM",
             "municipality": "Piagapo",
             "post_code": 9710
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
+            "region": "BARMM",
             "municipality": "Picong (formerly Sultan Gumander)",
             "post_code": 9301
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
+            "region": "BARMM",
             "municipality": "Poona Bayabao",
             "post_code": 9705
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
+            "region": "BARMM",
             "municipality": "Pualas",
             "post_code": 9313
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
-            "municipality": "Ramain-Ditsaan",
+            "region": "BARMM",
+            "municipality": "Ditsaan-Ramain",
             "post_code": 9713
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
+            "region": "BARMM",
             "municipality": "Saguiaran",
             "post_code": 9701
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
-            "municipality": "Sultan Domalondong",
+            "region": "BARMM",
+            "municipality": "Sultan Dumalondong",
             "post_code": 9324
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
-            "municipality": "Sultan Gumander",
-            "post_code": 9301
-        },
-        {
-            "location": "Lanao del Sur",
-            "region": "XII",
-            "municipality": "Tagoloan - II",
+            "region": "BARMM",
+            "municipality": "Tagoloan II",
             "post_code": 9321
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
+            "region": "BARMM",
             "municipality": "Tamparan",
             "post_code": 9704
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
+            "region": "BARMM",
             "municipality": "Taraka",
             "post_code": 9712
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
+            "region": "BARMM",
             "municipality": "Tubaran",
             "post_code": 9304
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
+            "region": "BARMM",
             "municipality": "Tugaya",
             "post_code": 9317
         },
         {
             "location": "Lanao del Sur",
-            "region": "XII",
+            "region": "BARMM",
             "municipality": "Wao",
             "post_code": 9716
         },
@@ -8349,224 +8343,224 @@ export default function placeDataArray() {
             "post_code": 6537
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
+            "location": "Maguindanao del Sur",
+            "region": "BARMM",
             "municipality": "Ampatuan",
             "post_code": 9609
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
+            "location": "Maguindanao del Norte",
+            "region": "BARMM",
             "municipality": "Barira",
             "post_code": 9614
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
+            "location": "Maguindanao del Norte",
+            "region": "BARMM",
             "municipality": "Buldon",
             "post_code": 9615
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
+            "location": "Maguindanao del Sur",
+            "region": "BARMM",
             "municipality": "Buluan",
             "post_code": 9616
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
+            "location": "Maguindanao del Norte",
+            "region": "BARMM",
             "municipality": "Cotabato City",
             "post_code": 9600
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
+            "location": "Maguindanao del Norte",
+            "region": "BARMM",
             "municipality": "Datu Odin Sinsuat (Dinaig)",
             "post_code": 9601
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
+            "location": "Maguindanao del Sur",
+            "region": "BARMM",
             "municipality": "Datu Paglas",
             "post_code": 9617
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
+            "location": "Maguindanao del Sur",
+            "region": "BARMM",
             "municipality": "Datu Piang",
             "post_code": 9607
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
+            "location": "Maguindanao del Sur",
+            "region": "BARMM",
             "municipality": "Datu Abdullah Sangki",
             "post_code": 9621
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
+            "location": "Maguindanao del Sur",
+            "region": "BARMM",
             "municipality": "Datu Anggal Midtimbang",
             "post_code": 9622
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
+            "location": "Maguindanao del Norte",
+            "region": "BARMM",
             "municipality": "Datu Blah T. Sinsuat",
             "post_code": 9623
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
+            "location": "Maguindanao del Sur",
+            "region": "BARMM",
             "municipality": "Datu Hoffer Ampatuan",
             "post_code": 9624
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
+            "location": "Maguindanao del Sur",
+            "region": "BARMM",
             "municipality": "Datu Montawal (formerly Pagagawan)",
             "post_code": 9631
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
+            "location": "Maguindanao del Sur",
+            "region": "BARMM",
             "municipality": "Datu Salibo",
             "post_code": 9625
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
-            "municipality": "Datu Saudi-Ampatuan",
+            "location": "Maguindanao del Sur",
+            "region": "BARMM",
+            "municipality": "Datu Saudi Ampatuan",
             "post_code": 9626
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
+            "location": "Maguindanao del Sur",
+            "region": "BARMM",
             "municipality": "Datu Unsay",
             "post_code": 9627
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
+            "location": "Maguindanao del Sur",
+            "region": "BARMM",
             "municipality": "General Salipada K. Pendatun",
             "post_code": 9618
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
+            "location": "Maguindanao del Sur",
+            "region": "BARMM",
             "municipality": "Guindulungan",
             "post_code": 9628
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
-            "municipality": "Kabuntulan",
+            "location": "Maguindanao del Norte",
+            "region": "BARMM",
+            "municipality": "Kabuntalan",
             "post_code": 9606
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
+            "location": "Maguindanao del Sur",
+            "region": "BARMM",
             "municipality": "Shariff Aguak (formerly Maganoy)",
             "post_code": 9608
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
+            "location": "Maguindanao del Sur",
+            "region": "BARMM",
             "municipality": "Mamasapano",
             "post_code": 9629
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
+            "location": "Maguindanao del Sur",
+            "region": "BARMM",
             "municipality": "Mangudadatu",
             "post_code": 9620
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
+            "location": "Maguindanao del Norte",
+            "region": "BARMM",
             "municipality": "Matanog",
             "post_code": 9613
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
+            "location": "Maguindanao del Norte",
+            "region": "BARMM",
             "municipality": "Northern Kabuntalan",
             "post_code": 9630
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
+            "location": "Maguindanao del Sur",
+            "region": "BARMM",
             "municipality": "Paglat",
             "post_code": 9632
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
+            "location": "Maguindanao del Sur",
+            "region": "BARMM",
             "municipality": "Pandag",
             "post_code": 9633
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
+            "location": "Maguindanao del Sur",
+            "region": "BARMM",
             "municipality": "Pagalungan",
             "post_code": 9610
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
+            "location": "Maguindanao del Norte",
+            "region": "BARMM",
             "municipality": "Parang",
             "post_code": 9604
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
+            "location": "Maguindanao del Sur",
+            "region": "BARMM",
             "municipality": "Rajah Buayan",
             "post_code": 9634
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
+            "location": "Maguindanao del Sur",
+            "region": "BARMM",
             "municipality": "Shariff Saydona Mustapha",
             "post_code": 9635
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
+            "location": "Maguindanao del Norte",
+            "region": "BARMM",
             "municipality": "Sultan Mastura",
             "post_code": 9636
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
+            "location": "Maguindanao del Norte",
+            "region": "BARMM",
             "municipality": "Sultan Sumagka (formerly Talitay)",
             "post_code": 9637
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
+            "location": "Maguindanao del Sur",
+            "region": "BARMM",
             "municipality": "South Upi",
             "post_code": 9603
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
+            "location": "Maguindanao del Norte",
+            "region": "BARMM",
             "municipality": "Sultan Kudarat",
             "post_code": 9605
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
-            "municipality": "Sultan Sa Barongis",
+            "location": "Maguindanao del Sur",
+            "region": "BARMM",
+            "municipality": "Sultan sa Barongis",
             "post_code": 9611
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
+            "location": "Maguindanao del Sur",
+            "region": "BARMM",
             "municipality": "Talayan",
             "post_code": 9612
         },
         {
-            "location": "Maguindanao",
-            "region": "XII",
+            "location": "Maguindanao del Norte",
+            "region": "BARMM",
             "municipality": "Upi",
             "post_code": 9602
         },
@@ -11213,7 +11207,7 @@ export default function placeDataArray() {
         {
             "location": "Romblon",
             "region": "MIMAROPA",
-            "municipality": "San fernando",
+            "municipality": "San Fernando",
             "post_code": 5513
         },
         {
@@ -11806,115 +11800,115 @@ export default function placeDataArray() {
         },
         {
             "location": "Sulu",
-            "region": "IX",
+            "region": "BARMM",
             "municipality": "Banguingui (formerly Tongkil)",
             "post_code": 7406
         },
         {
             "location": "Sulu",
-            "region": "IX",
+            "region": "BARMM",
             "municipality": "Hadji Panglima Tahil (formerly Marungas)",
             "post_code": 7413
         },
         {
             "location": "Sulu",
-            "region": "IX",
+            "region": "BARMM",
             "municipality": "Indanan",
             "post_code": 7407
         },
         {
             "location": "Sulu",
-            "region": "IX",
+            "region": "BARMM",
             "municipality": "Jolo",
             "post_code": 7400
         },
         {
             "location": "Sulu",
-            "region": "IX",
-            "municipality": "Kalingalan Kalauang",
+            "region": "BARMM",
+            "municipality": "Kalingalan Caluang",
             "post_code": 7416
         },
         {
             "location": "Sulu",
-            "region": "IX",
+            "region": "BARMM",
             "municipality": "Lugus",
             "post_code": 7411
         },
         {
             "location": "Sulu",
-            "region": "IX",
+            "region": "BARMM",
             "municipality": "Luuk",
             "post_code": 7404
         },
         {
             "location": "Sulu",
-            "region": "IX",
+            "region": "BARMM",
             "municipality": "Maimbung",
             "post_code": 7409
         },
         {
             "location": "Sulu",
-            "region": "IX",
+            "region": "BARMM",
             "municipality": "Omar",
             "post_code": 7417
         },
         {
             "location": "Sulu",
-            "region": "IX",
+            "region": "BARMM",
             "municipality": "Panamao",
             "post_code": 7402
         },
         {
             "location": "Sulu",
-            "region": "IX",
+            "region": "BARMM",
             "municipality": "Pandami",
             "post_code": 7418
         },
         {
             "location": "Sulu",
-            "region": "IX",
+            "region": "BARMM",
             "municipality": "Panglima Estino",
             "post_code": 7415
         },
         {
             "location": "Sulu",
-            "region": "IX",
-            "municipality": "Panguntaran",
+            "region": "BARMM",
+            "municipality": "Pangutaran",
             "post_code": 7414
         },
         {
             "location": "Sulu",
-            "region": "IX",
+            "region": "BARMM",
             "municipality": "Parang",
             "post_code": 7408
         },
         {
             "location": "Sulu",
-            "region": "IX",
+            "region": "BARMM",
             "municipality": "Pata",
             "post_code": 7405
         },
         {
             "location": "Sulu",
-            "region": "IX",
+            "region": "BARMM",
             "municipality": "Patikul",
             "post_code": 7401
         },
         {
             "location": "Sulu",
-            "region": "IX",
+            "region": "BARMM",
             "municipality": "Siasi",
             "post_code": 7412
         },
         {
             "location": "Sulu",
-            "region": "IX",
+            "region": "BARMM",
             "municipality": "Talipao",
             "post_code": 7403
         },
         {
             "location": "Sulu",
-            "region": "IX",
+            "region": "BARMM",
             "municipality": "Tapul",
             "post_code": 7410
         },
@@ -12335,13 +12329,13 @@ export default function placeDataArray() {
         {
             "location": "Tawi-Tawi",
             "region": "BARMM",
-            "municipality": "Turtle Island (Taganak)",
+            "municipality": "Turtle Islands (Taganak)",
             "post_code": 7507
         },
         {
             "location": "Tawi-Tawi",
             "region": "BARMM",
-            "municipality": "Tandu Bas",
+            "municipality": "Tandubas",
             "post_code": 7502
         },
         {
@@ -12795,6 +12789,8 @@ export default function placeDataArray() {
             "post_code": 7018
         }
     ];
+    data.forEach((entry) => Object.freeze(entry));
+    Object.freeze(data);
     const placeDataProvider = () => {
         return {data};
     };

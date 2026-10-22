@@ -1,5 +1,6 @@
 import {expect, test} from '@playwright/test';
 import usePostalPH from './../src/index';
+import geographicDataFetcher from './../src/logic/geographicDataFetcher';
 
 test.describe('index.ts', () => {
     const {fetchPostCodes, fetchMunicipalities, fetchRegions, fetchLocations, fetchDataLists} = usePostalPH();
@@ -105,6 +106,19 @@ test.describe('index.ts', () => {
                 const data = dataListWithLimit.data;
                 expect(data).toHaveLength(10)
             }
+        }
+    });
+    test('limit does not truncate cached lists', () => {
+        const {fetchMunicipalities} = geographicDataFetcher();
+        const limited = fetchMunicipalities({limit: 5});
+        const unlimited = fetchMunicipalities();
+        expect(limited).toBeDefined();
+        expect(unlimited).toBeDefined();
+        if (limited && 'data' in limited) {
+            expect(limited.data).toHaveLength(5);
+        }
+        if (unlimited && 'data' in unlimited) {
+            expect(unlimited.data.length).toBeGreaterThan(5);
         }
     });
 });
