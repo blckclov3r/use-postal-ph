@@ -56,7 +56,7 @@ test.describe('index.ts', () => {
     });
     test('region', () => {
         const regionSearch = fetchRegions({search: 'XII'});
-        const regionWithLimit = fetchMunicipalities({limit: 10});
+        const regionWithLimit = fetchRegions({limit: 10});
         if (regionSearch) {
             if ('data' in regionSearch) {
                 const data = regionSearch.data;

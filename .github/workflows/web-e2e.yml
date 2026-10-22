@@ -1,0 +1,37 @@
+name: Web E2E
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: web-e2e
+  cancel-in-progress: true
+
+jobs:
+  web:
+    timeout-minutes: 30
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: pnpm/action-setup@v4
+    - uses: actions/setup-node@v4
+      with:
+        node-version: lts/*
+        cache: pnpm
+    - name: Install dependencies
+      run: pnpm install --frozen-lockfile
+    - name: Install Playwright Browsers
+      run: pnpm exec playwright install --with-deps
+    - name: Run web e2e tests
+      run: pnpm test tests/web.spec.ts
+    - uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: playwright-report-web
+        path: playwright-report/
+        retention-days: 30

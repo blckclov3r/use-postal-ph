@@ -7,7 +7,7 @@ async function setup(page: Page) {
         await page.context().clearCookies();
         // Increase timeout and wait until the network is idle
         await page.goto(baseUrl, {timeout: 60000, waitUntil: 'networkidle'});
-        await expect(page).toHaveTitle(/use-postal-ph/ as unknown as string);
+        await expect(page).toHaveTitle(/use-postal-ph/);
     } catch (error) {
         throw error;
     }

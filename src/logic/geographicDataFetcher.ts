@@ -1,5 +1,5 @@
 import placeDataArray from "./placeDataArray";
-import {PlaceListCriteriaProps, PlaceProps, SearchCriteriaProps} from "../types/placeTypes";
+import type {FetchResult, PlaceListCriteriaProps, PlaceProps, SearchCriteriaProps} from "../types/placeTypes";
 
 /*
  * Author: blckclov3r
@@ -7,9 +7,12 @@ import {PlaceListCriteriaProps, PlaceProps, SearchCriteriaProps} from "../types/
  * GitHub: https://github.com/blckclov3r
  */
 
+const toSearchableText = (value: unknown): string =>
+    value === undefined || value === null ? '' : String(value);
+
 export default function geographicDataFetcher() {
     const {placeDataProvider} = placeDataArray();
-    const data = (placeDataProvider ? placeDataProvider().data : []) as PlaceProps[];
+    const data = placeDataProvider().data;
     let municipalityList: string[] = [];
     let postCodeList: number[] = [];
     let locationList: string[] = [];
@@ -32,28 +35,28 @@ export default function geographicDataFetcher() {
         });
     };
 
-    const findData = <T>(key: keyof PlaceProps, value: T) => {
+    const createRegexPattern = (value: string | undefined, autoComplete: boolean = false): RegExp => {
+        const pattern = (value ?? '').toString().trim()
+            .replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+            .replace(/[nñ]/gi, '[nñ]');
+        return new RegExp(autoComplete ? `^${pattern}` : `^${pattern}$`, 'i');
+    };
+
+    const findData = (key: keyof PlaceProps, value: string | number): PlaceProps | undefined => {
         if (!value || !key) return undefined;
-        const pattern = value.toString().trim();
-        const regex = new RegExp('^' + pattern, 'i');
-        return data.find((x) => regex.test((x[key] as unknown as string).toString() || ''));
+        const regex = createRegexPattern(value.toString(), true);
+        return data.find((x) => regex.test(toSearchableText(x[key])));
     };
 
-    const createRegexPattern = (value: string | undefined, autoComplete: boolean = false) => {
-        const pattern = (value || '').toString().trim();
-        const regexPattern = autoComplete ? '^' + pattern.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/[nñ]/gi, '[nñ]') : '^' + pattern.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/[nñ]/gi, '[nñ]') + '$';
-        return new RegExp(regexPattern, 'i');
-    };
-
-    const filterData = <T>(
+    const filterData = (
         key: keyof PlaceProps,
-        value: T,
+        value: string | number,
         limit?: number,
         autoComplete: boolean = false,
-    ) => {
+    ): FetchResult<PlaceProps> => {
         if (!value || !key) return {data: [], count: 0};
         const regex = createRegexPattern(value.toString(), autoComplete);
-        let filteredData = data.filter((x) => regex.test((x[key] as unknown as string).toString() || ''));
+        let filteredData = data.filter((x) => regex.test(toSearchableText(x[key])));
         let count = filteredData.length;
         if (limit && limit > 0) {
             filteredData = filteredData.slice(0, limit);
@@ -62,7 +65,7 @@ export default function geographicDataFetcher() {
         return {data: filteredData, count};
     };
 
-    const setError = (name: string, error: unknown) => {
+    const setError = (name: string, error: unknown): void => {
         if (error instanceof Error) {
             const errorMessage = `An error occurred in ${name}: ${error.message}`;
             console.error(errorMessage);
@@ -79,7 +82,7 @@ export default function geographicDataFetcher() {
                                 region,
                                 location,
                                 limit
-                            }: PlaceListCriteriaProps = {}) => {
+                            }: PlaceListCriteriaProps = {}): FetchResult<PlaceProps> => {
         const newData = data.filter(entry => {
             const municipalityMatch = !municipality || createRegexPattern(municipality, true).test(entry.municipality || '');
             const postCodeMatch = !post_code || (entry.post_code && entry.post_code.toString().startsWith(post_code.toString()));
@@ -94,7 +97,7 @@ export default function geographicDataFetcher() {
         };
     };
 
-    const fetchMunicipalities = ({search, limit}: SearchCriteriaProps = {search: ""}) => {
+    const fetchMunicipalities = ({search, limit}: SearchCriteriaProps = {search: ""}): FetchResult<PlaceProps> | FetchResult<string> | undefined => {
         try {
             if (search) {
                 return filterData('municipality', search, limit, true);
@@ -110,7 +113,7 @@ export default function geographicDataFetcher() {
         }
     };
 
-    const fetchPostCodes = ({search, limit}: SearchCriteriaProps = {search: ""}) => {
+    const fetchPostCodes = ({search, limit}: SearchCriteriaProps = {search: ""}): PlaceProps | FetchResult<number> | undefined => {
         try {
             if (search) {
                 return findData('post_code', search);
@@ -126,7 +129,7 @@ export default function geographicDataFetcher() {
         }
     };
 
-    const fetchLocations = ({search, limit}: SearchCriteriaProps = {search: ""}) => {
+    const fetchLocations = ({search, limit}: SearchCriteriaProps = {search: ""}): FetchResult<PlaceProps> | FetchResult<string> | undefined => {
         try {
             if (search) {
                 return filterData('location', search, limit, true);
@@ -142,7 +145,7 @@ export default function geographicDataFetcher() {
         }
     };
 
-    const fetchRegions = ({search, limit}: SearchCriteriaProps = {search: ""}) => {
+    const fetchRegions = ({search, limit}: SearchCriteriaProps = {search: ""}): FetchResult<PlaceProps> | FetchResult<string> | undefined => {
         try {
             if (search) {
                 return filterData('region', search, limit, false);
@@ -165,4 +168,4 @@ export default function geographicDataFetcher() {
         fetchRegions,
         fetchDataLists,
     };
-};
+}

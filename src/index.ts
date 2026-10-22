@@ -1,22 +1,8 @@
 import geographicDataFetcher from "./logic/geographicDataFetcher";
-import {PlaceListCriteriaProps, PlaceProps, SearchCriteriaProps} from "./types/placeTypes";
+import type {FetchResult, PlaceListCriteriaProps, PlaceProps, SearchCriteriaProps} from "./types/placeTypes";
 
-export default function usePostalPH() {
-    const {
-        fetchMunicipalities,
-        fetchPostCodes,
-        fetchLocations,
-        fetchRegions,
-        fetchDataLists,
-    } = geographicDataFetcher();
-
-    return {
-        fetchMunicipalities,
-        fetchPostCodes,
-        fetchLocations,
-        fetchRegions,
-        fetchDataLists,
-    };
+export default function usePostalPH(): ReturnType<typeof geographicDataFetcher> {
+    return geographicDataFetcher();
 }
 
-export type {PlaceProps, SearchCriteriaProps, PlaceListCriteriaProps};
+export type {FetchResult, PlaceProps, SearchCriteriaProps, PlaceListCriteriaProps};

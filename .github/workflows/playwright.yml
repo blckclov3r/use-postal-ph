@@ -1,27 +1,42 @@
-name: Playwright Tests
+name: CI
+
 on:
   push:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   test:
-    timeout-minutes: 60
+    timeout-minutes: 30
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
+    - uses: pnpm/action-setup@v4
     - uses: actions/setup-node@v4
       with:
         node-version: lts/*
+        cache: pnpm
     - name: Install dependencies
-      run: npm install -g yarn && yarn
+      run: pnpm install --frozen-lockfile
+    - name: Typecheck
+      run: pnpm typecheck
+    - name: Build
+      run: pnpm build
     - name: Install Playwright Browsers
-      run: yarn playwright install --with-deps
-    - name: Run Playwright tests
-      run: yarn playwright test
+      run: pnpm exec playwright install --with-deps
+    - name: Run core tests
+      run: pnpm test tests/index.spec.ts
     - uses: actions/upload-artifact@v4
       if: always()
       with:
-        name: playwright-report
+        name: playwright-report-core
         path: playwright-report/
         retention-days: 30

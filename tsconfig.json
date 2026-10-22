@@ -12,9 +12,15 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "skipLibCheck": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "forceConsistentCasingInFileNames": true,
     "outDir": "./dist",
     "target": "ES5",
     "removeComments": true,
+    "declaration": true,
     "declarationMap": true,
     "lib": [
       "ES5",
@@ -22,7 +28,10 @@
     ]
   },
   "include": [
-    "src/**/*.ts"
+    "src/**/*.ts",
+    "tests/**/*.ts",
+    "playwright.config.ts",
+    "tsup.config.ts"
   ],
   "exclude": [
     "node_modules"

@@ -4,9 +4,11 @@ dist
 node_modules
 .yarnrc.yml
 .yarn
-pnpm-lock.yaml
 /test-results/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
 playwright-report
+/.agents/
+/skills-lock.json
+/.agents

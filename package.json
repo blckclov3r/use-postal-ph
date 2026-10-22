@@ -1,10 +1,11 @@
 {
   "name": "use-postal-ph",
-  "version": "1.1.14",
+  "version": "1.1.15",
   "description": "This utility library is specifically designed for the Philippines, providing comprehensive information on postal codes,\nmunicipalities, locations, and regions. Moreover, searching within the library is case insensitive.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "sideEffects": false,
   "files": [
     "dist"
   ],
@@ -84,10 +85,19 @@
   "engines": {
     "node": ">=10"
   },
+  "packageManager": "pnpm@10.32.1",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@swc/core",
+      "esbuild"
+    ]
+  },
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
+    "prepublishOnly": "npm run build",
+    "typecheck": "tsc --noEmit",
     "test": "npx playwright test",
     "test-headed": "npx playwright test --headed",
     "test-web": "npx playwright test --ui web",

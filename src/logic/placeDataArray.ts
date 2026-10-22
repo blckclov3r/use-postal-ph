@@ -1,4 +1,4 @@
-import {PlaceProps} from "../types/placeTypes";
+import type {PlaceProps} from "../types/placeTypes";
 
 /*
  * Author: blckclov3r
