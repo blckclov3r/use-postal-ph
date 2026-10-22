@@ -1,19 +1,18 @@
 # use-postal-ph — Agent Instructions
 
-TypeScript library published on npm as `use-postal-ph`: Philippine postal codes, municipalities, locations, and regions. All data is embedded; no runtime dependencies.
+TypeScript library published on npm as `use-postal-ph`: Philippine postal codes, municipalities, locations, and regions. This repository is the package itself, not a web app; only `dist/` is published. All data is embedded; no runtime dependencies.
 
 ## Commands
 | Task | Command |
 |------|---------|
 | Build CJS + ESM + types | `pnpm build` |
 | Type-check source, tests, and configs | `pnpm typecheck` |
-| Core tests (offline, 15 runs) | `pnpm test tests/index.spec.ts` |
-| One core test | `pnpm test tests/index.spec.ts -g "post-code"` |
-| Full suite incl. live-site e2e | `pnpm test` |
+| Library tests (default, offline, 15 runs) | `pnpm test` |
+| One library test | `pnpm test -g "post-code"` |
 | Install Playwright browsers | `pnpm exec playwright install` |
 
-- Bare `pnpm test` also runs `tests/web.spec.ts` against `https://use-postal-ph.vercel.app/`; those 12 runs fail (not skip) when browsers are missing or the site is down.
-- CI (`.github/workflows/playwright.yml`) uses **pnpm** (pinned via `packageManager`) with `--frozen-lockfile`, then `typecheck` → `build` → core tests. The live-site suite runs nightly/manual in `.github/workflows/web-e2e.yml`, never on PRs.
+- This repo is the npm library, not the demo site. The demo at `https://use-postal-ph.vercel.app/` is deployed separately and has no tests here.
+- CI (`.github/workflows/playwright.yml`) uses **pnpm** (pinned via `packageManager`) with `--frozen-lockfile`, then `typecheck` → `build` → library tests.
 
 ## Architecture
 - `src/index.ts` — sole entry point; default export `usePostalPH()` returns `fetchMunicipalities`, `fetchPostCodes`, `fetchLocations`, `fetchRegions`, `fetchDataLists`.
@@ -29,12 +28,13 @@ TypeScript library published on npm as `use-postal-ph`: Philippine postal codes,
 
 ## Build and release
 - `tsup.config.ts`: CJS + ESM + `.d.ts`, ES5 target, Terser-minified (strips console/debugger), single-file bundles.
-- `dist/` is gitignored and not committed; only `dist` is packaged. `prepublishOnly` runs the build automatically, but run `pnpm build` manually to verify before publishing.
-- No lint script. `pnpm typecheck` covers `src/`, `tests/`, and config files. Other scripts: prepublishOnly, test, test-headed, test-web, codegen, debug-web, report, build, start.
-- Release step: update data/version in `package.json`, `pnpm build`, publish.
+- `dist/` is gitignored and not committed; only `dist` is packaged. `prepublishOnly` runs typecheck → tests → build.
+- `exports` maps `import` to `.mjs`/`.d.mts` and `require` to `.js`/`.d.ts`; keep the legacy `main`/`module`/`types` fields in sync.
+- No lint script. `pnpm typecheck` covers `src/`, `tests/`, and config files. Other scripts: prepublishOnly, test, test-headed, report, build, start.
+- Release step: update data/version in `package.json`, then publish (prepublishOnly verifies and builds).
 
 ## Environment quirks
 - `tsconfig.json`: `declaration` + `declarationMap`, `strict`, `exactOptionalPropertyTypes`, `noUncheckedIndexedAccess`, `noUnusedLocals/Parameters`, `isolatedModules`, `skipLibCheck`; `target: ES5`, `module: ESNext`, `moduleResolution: Node`. Includes tests and configs, not just `src/`.
-- Playwright runs every spec in chromium, firefox, and webkit (5 core tests → 15 runs, 4 web tests → 12 runs).
+- Playwright runs the library suite in chromium, firefox, and webkit (5 tests → 15 runs).
 - `engines` advertises Node `>=10` for consumers, but CI and dev tooling require current LTS (Playwright, tsup, TS 5.9). Avoid syntax that cannot compile to ES5.
 - `.agents/` and `skills-lock.json` are gitignored; the skill setup is local-only and should not be committed.

@@ -1,4 +1,4 @@
-name: CI
+name: Library CI
 
 on:
   push:
@@ -32,8 +32,8 @@ jobs:
       run: pnpm build
     - name: Install Playwright Browsers
       run: pnpm exec playwright install --with-deps
-    - name: Run core tests
-      run: pnpm test tests/index.spec.ts
+    - name: Run library tests
+      run: pnpm test
     - uses: actions/upload-artifact@v4
       if: always()
       with:

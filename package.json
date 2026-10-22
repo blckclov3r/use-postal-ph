@@ -5,6 +5,18 @@
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    }
+  },
   "sideEffects": false,
   "files": [
     "dist"
@@ -96,13 +108,10 @@
     "access": "public"
   },
   "scripts": {
-    "prepublishOnly": "npm run build",
+    "prepublishOnly": "pnpm typecheck && pnpm test && pnpm build",
     "typecheck": "tsc --noEmit",
-    "test": "npx playwright test",
-    "test-headed": "npx playwright test --headed",
-    "test-web": "npx playwright test --ui web",
-    "codegen": "npx playwright codegen",
-    "debug-web": "npx playwright test web --debug",
+    "test": "npx playwright test tests/index.spec.ts",
+    "test-headed": "npx playwright test tests/index.spec.ts --headed",
     "report": "playwright show-report",
     "build": "tsup",
     "start": "node dist/index.js"
