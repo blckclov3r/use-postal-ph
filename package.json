@@ -88,7 +88,7 @@
     "email": "blckclov3r@gmail.com"
   },
   "devDependencies": {
-    "@playwright/test": "^1.58.2",
+    "@playwright/test": "^1.64.1",
     "@swc/core": "^1.15.18",
     "@types/node": "^25.5.0",
     "terser": "^5.46.0",
