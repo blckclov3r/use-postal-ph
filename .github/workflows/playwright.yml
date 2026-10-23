@@ -2,9 +2,9 @@ name: Library CI
 
 on:
   push:
-    branches: [ main, master ]
+    branches: [main, master]
   pull_request:
-    branches: [ main, master ]
+    branches: [main, master]
 
 permissions:
   contents: read
@@ -15,28 +15,37 @@ concurrency:
 
 jobs:
   test:
-    timeout-minutes: 30
+    timeout-minutes: 40
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-    - uses: pnpm/action-setup@v4
-    - uses: actions/setup-node@v4
-      with:
-        node-version: lts/*
-        cache: pnpm
-    - name: Install dependencies
-      run: pnpm install --frozen-lockfile
-    - name: Typecheck
-      run: pnpm typecheck
-    - name: Build
-      run: pnpm build
-    - name: Install Playwright Browsers
-      run: pnpm exec playwright install --with-deps
-    - name: Run library tests
-      run: pnpm test
-    - uses: actions/upload-artifact@v4
-      if: always()
-      with:
-        name: playwright-report-core
-        path: playwright-report/
-        retention-days: 30
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: pnpm
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        id: playwright-cache
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}
+          restore-keys: |
+            playwright-${{ runner.os }}-
+      - name: Install Playwright browsers
+        run: pnpm exec playwright install --with-deps chromium firefox webkit
+        if: steps.playwright-cache.outputs.cache-hit != 'true'
+      - name: Typecheck
+        run: pnpm typecheck
+      - name: Build
+        run: pnpm build
+      - name: Run library tests
+        run: pnpm test
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: playwright-report-core
+          path: playwright-report/
+          retention-days: 30
